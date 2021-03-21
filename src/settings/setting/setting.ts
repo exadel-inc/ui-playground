@@ -1,6 +1,7 @@
 import {ESLBaseElement, attr} from '@exadel/esl/modules/esl-base-element/core';
 import {bind} from '@exadel/esl/modules/esl-utils/decorators/bind';
 import {EventUtils} from '@exadel/esl/modules/esl-utils/dom/events';
+import {UIPStateModel} from '../../utils/state-model/state-model';
 
 export abstract class UIPSetting extends ESLBaseElement {
   @attr({readonly: true}) public name: string;
@@ -45,4 +46,7 @@ export abstract class UIPSetting extends ESLBaseElement {
     super.disconnectedCallback();
     this.target.removeEventListener('change', this.onValueChange);
   }
+
+  public updateFrom(model: UIPStateModel) {}
+  public applyTo(model: UIPStateModel) {}
 }

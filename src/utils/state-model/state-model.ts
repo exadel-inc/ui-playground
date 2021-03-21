@@ -1,10 +1,18 @@
 import {TraversingQuery} from '@exadel/esl';
 
 export class UIPStateModel {
-  public html: string;
+  private html: string = '';
 
   protected get root(): Element {
     return new DOMParser().parseFromString(this.html, 'text/html').body;
+  }
+
+  public set state(html: string) {
+    this.html = html;
+  }
+
+  public get state() {
+    return this.html;
   }
 
   public getAttribute(target: string, name: string): (string | null)[] {
