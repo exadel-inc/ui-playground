@@ -5,14 +5,9 @@ import {UIPEditor} from '../editor/editor';
 
 export class UIPRoot extends ESLBaseElement {
   public static is = 'uip-root';
-  private _state: string;
 
   @attr({defaultValue: 'vertical'}) public mode: string;
   @attr({defaultValue: 'light'}) public theme: string;
-
-  public get state() {
-    return this._state;
-  }
 
   protected connectedCallback() {
     super.connectedCallback();
@@ -40,7 +35,6 @@ export class UIPRoot extends ESLBaseElement {
   }
 
   protected _onStateChange(e: CustomEvent) {
-    this._state = e.detail.markup;
     EventUtils.dispatch(this, 'state:change', {detail: e.detail});
   }
 
