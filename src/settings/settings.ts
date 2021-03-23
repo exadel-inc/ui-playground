@@ -1,18 +1,18 @@
 import {UIPCheckSetting} from './setting/check-setting/check-setting';
 import {UIPListSetting} from './setting/list-setting/list-setting';
 import {UIPTextSetting} from './setting/text-setting/text-setting';
-import {UIPClassSetting} from './setting/class-setting/class-setting';
 import {UIPSetting} from './setting/setting';
 import {bind} from '@exadel/esl/modules/esl-utils/decorators/bind';
-import {ESLBaseElement} from '@exadel/esl/modules/esl-base-element/core';
+import {attr, ESLBaseElement} from '@exadel/esl/modules/esl-base-element/core';
 import {UIPRoot} from '../core/root';
 import {EventUtils} from '@exadel/esl/modules/esl-utils/dom/events';
 import {UIPStateModel} from '../utils/state-model/state-model';
 
-// TODO: add target attribute
 export class UIPSettings extends ESLBaseElement {
   public static is = 'uip-settings';
   protected model: UIPStateModel;
+
+  @attr() public target: string;
 
   protected get playground(): UIPRoot {
     return this.closest(`${UIPRoot.is}`) as UIPRoot;
