@@ -4,6 +4,10 @@ uip-root {
   &.vertical-mode {
     &.settings-attached {
       grid-template-columns: 15% 3fr 1fr;
+
+      .editor-wrapper {
+        grid-column: 2 / 4;
+      }
     }
 
     grid-template-columns: 20% 80%;
@@ -31,7 +35,7 @@ uip-root {
       overflow: auto;
 
       .snippets-list-item {
-        border-bottom: 1px solid #dee2e6;
+        border-bottom: 1px solid @element-border;
 
         &:not(:first-child) {
           margin-top: 10px;
@@ -45,12 +49,12 @@ uip-root {
     }
 
     .settings-wrapper {
-      grid-column: 3 / 3;
+      grid-column: 3 / 4;
       grid-row: 2 / 3;
     }
 
     .editor-wrapper {
-      grid-column: 2 / 4;
+      grid-column: 2 / 3;
       grid-row: 3 / 4;
     }
   }
@@ -81,6 +85,8 @@ uip-root {
 
     uip-snippets {
       // add specificity
+      display: block;
+
       ul.snippets-list {
         margin-left: 5px;
       }
@@ -95,6 +101,7 @@ uip-root {
             height: 100%;
             font-weight: 400;
             margin: 0 20px;
+            color: @element-border;
           }
         }
       }
