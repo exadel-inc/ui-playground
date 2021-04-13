@@ -3,7 +3,7 @@
 uip-root {
   &.vertical-mode {
     &.settings-attached {
-      grid-template-columns: 15% auto 25%;
+      grid-template-columns: 15% 3fr 1fr;
     }
 
     grid-template-columns: 20% 80%;
@@ -26,12 +26,10 @@ uip-root {
       grid-row: 2 / 3;
     }
 
-    .snippets-section {
+    uip-snippets {
       height: 100%;
       overflow: auto;
-    }
 
-    uip-snippets {
       .snippets-list-item {
         border-bottom: 1px solid #dee2e6;
 
@@ -60,7 +58,7 @@ uip-root {
 
   &.horizontal-mode {
     &.settings-attached {
-      grid-template-columns: auto 25%;
+      grid-template-columns: 3fr 1fr;
     }
 
     grid-template-columns: 100%;
