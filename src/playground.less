@@ -10,7 +10,7 @@
 uip-root {
   display: grid;
   gap: 20px;
-  height: 100vh;
+  height: 100%;
   padding: 20px 80px;
 }
 
@@ -33,7 +33,7 @@ uip-options {
     display: flex;
     flex: 0 1 auto;
 
-    &:last-child {
+    &.theme {
       margin-left: auto;
     }
   }
@@ -73,7 +73,7 @@ uip-snippets, uip-preview, uip-settings {
   padding: 10px;
 }
 
-.preview-wrapper, .settings-wrapper {
+.settings-wrapper, .editor-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -85,8 +85,8 @@ uip-settings, uip-editor {
 }
 
 @media screen and (max-width: 992px) {
-  // Add specificity
-  uip-root {
+  // :not() raises specificity
+  uip-root:not(.specificity) {
     padding: 20px 60px;
   
     &.vertical-mode, &.horizontal-mode {
@@ -107,11 +107,6 @@ uip-settings, uip-editor {
       .snippets-wrapper {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
-      }
-
-      .preview-wrapper {
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
       }
 
       .settings-wrapper {
