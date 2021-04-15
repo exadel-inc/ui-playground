@@ -11,6 +11,11 @@ export class UIPPreview extends UIPPlugin {
     $inner.classList.add('uip-preview-inner');
     $inner.innerHTML = markup;
     this.innerHTML = $inner.outerHTML;
+    
+    const wrapperHeight = this.getAttribute('height');
+    if (wrapperHeight) {
+      this.style.maxHeight = wrapperHeight;
+    };
   }
 }
 

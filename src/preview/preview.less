@@ -1,9 +1,16 @@
 uip-preview {
   display: block;
+  max-width: 100%;
+  width: fit-content;
+  height: fit-content;
   .uip-preview-inner {
     display: block;
-    width: 100%;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     overflow: auto;
+    padding: 10px;
+    max-width: 100%;
+    max-height: inherit;
+    resize: both;
   }
 }
