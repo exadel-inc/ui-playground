@@ -32,6 +32,7 @@ export class UIPEditor extends ESLBaseElement {
   protected playground: UIPRoot;
 
   @attr({defaultValue: 'Editor'}) public label: string;
+  @attr() public height: string;
 
   protected connectedCallback(): void {
     super.connectedCallback();
@@ -87,11 +88,8 @@ export class UIPEditor extends ESLBaseElement {
         <span class="section-name">${this.label}</span>
         <uip-editor editor-config='{wrap: 70}'></uip-editor>`;
     this.parentElement?.replaceChild($wrapper, this);
-
-    const pluginHeight = this.getAttribute('height');
-    if (pluginHeight) {
-      $wrapper.style.height = pluginHeight;
-    }
+  
+    this.height && ($wrapper.style.height = this.height);
   }
 
   protected setEditorValue(value: string): void {
