@@ -12,9 +12,9 @@ export class UIPPreview extends UIPPlugin {
     $inner.innerHTML = markup;
     this.innerHTML = $inner.outerHTML;
 
-    const wrapperHeight = this.getAttribute('height');
-    if (wrapperHeight) {
-      this.style.maxHeight = wrapperHeight;
+    const pluginHeight = this.getAttribute('height');
+    if (pluginHeight) {
+      this.style.maxHeight = pluginHeight;
     }
   }
 }

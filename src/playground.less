@@ -2,6 +2,7 @@
 @import './core/variables';
 @import './core/theme';
 @import './core/mode';
+@import './editor/editor';
 @import './preview/preview';
 @import './snippets/snippets';
 @import './settings/setting/setting';
@@ -85,7 +86,7 @@ uip-settings, uip-editor {
 
       &.settings-attached {
         grid-template-columns: 100%;
-        grid-template-rows: auto auto auto 200px 350px;
+        grid-template-rows: auto auto auto 200px auto;
 
         .editor-wrapper {
           grid-column: 1 / 2;
@@ -94,7 +95,7 @@ uip-settings, uip-editor {
       }
 
       grid-template-columns: 100%;
-      grid-template-rows: auto auto auto 350px;
+      grid-template-rows: auto auto auto auto;
 
       .snippets-wrapper {
         grid-column: 1 / 2;
