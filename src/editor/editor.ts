@@ -47,9 +47,10 @@ export class UIPEditor extends UIPPlugin {
     const {markup} = e.detail;
     const $inner = document.createElement('div');
     $inner.classList.add('uip-editor-inner');
-    this.append($inner);
+    $inner.id = 'uip-editor';
+    this.innerHTML = $inner.outerHTML;
+    this.editor = ace.edit('uip-editor');
 
-    this.editor = ace.edit($inner);
     this.initEditorOptions();
     this.editor.$blockScrolling = Infinity;
     this.setEditorValue(markup);
