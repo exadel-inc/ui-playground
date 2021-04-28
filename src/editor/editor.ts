@@ -5,8 +5,9 @@ import 'brace/mode/html';
 import js_beautify from 'js-beautify';
 
 import {debounce} from '@exadel/esl/modules/esl-utils/async/debounce';
-import {jsonAttr, attr} from '@exadel/esl/modules/esl-base-element/core';
+import {jsonAttr} from '@exadel/esl/modules/esl-base-element/core';
 import {UIPPlugin} from '../core/plugin';
+import {bind} from '@exadel/esl';
 
 interface EditorConfig {
   theme: string;
@@ -28,54 +29,30 @@ export class UIPEditor extends UIPPlugin {
   public editorConfig: EditorConfig;
   protected editor: ace.Editor;
 
-  @attr({defaultValue: 'Editor'}) public label: string;
-
-  protected connectedCallback(): void {
-    super.connectedCallback();
-
-    this.editor = ace.edit(this);
-    this.initEditorOptions();
-
-    this.editor.$blockScrolling = Infinity;
-    this.editor.addEventListener('change', this.onChange);
-
-    this.setEditorValue(this.root?.state || '');
-  }
-
-  protected disconnectedCallback() {
-    this.editor.removeEventListener('change', this.onChange);
-    super.disconnectedCallback();
-  }
-
   protected get mergedEditorConfig() {
     const type = (this.constructor as typeof UIPEditor);
     return Object.assign({}, type.defaultOptions, this.editorConfig || {});
   }
 
   protected initEditorOptions(): void {
-    this.editor.setOptions(this.mergedEditorConfig);
+    this.editor && this.editor.setOptions(this.mergedEditorConfig);
   }
 
   protected onChange = debounce(() => {
     this.dispatchChange(this.editor.getValue());
   }, 1000);
 
+  @bind
   protected handleChange(e: CustomEvent) {
     const {markup} = e.detail;
+    const $inner = document.createElement('div');
+    $inner.classList.add('uip-editor-inner');
+    this.append($inner);
+
+    this.editor = ace.edit($inner);
+    this.initEditorOptions();
+    this.editor.$blockScrolling = Infinity;
     this.setEditorValue(markup);
-
-    if (!this.closest('.editor-wrapper')) {
-      this.renderWrapper();
-    }
-  }
-
-  protected renderWrapper() {
-    const $wrapper = document.createElement('div');
-    $wrapper.className = 'editor-wrapper';
-
-    if (this.label) $wrapper.innerHTML = `<span class="section-name">${this.label}</span>`;
-    $wrapper.innerHTML += '<uip-editor></uip-editor>';
-    this.parentElement?.replaceChild($wrapper, this);
   }
 
   protected setEditorValue(value: string): void {
