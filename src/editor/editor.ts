@@ -29,13 +29,13 @@ export class UIPEditor extends UIPPlugin {
   public editorConfig: EditorConfig;
   protected editor: ace.Editor;
 
-  protected get mergedEditorConfig() {
+  protected get mergedEditorConfig(): EditorConfig {
     const type = (this.constructor as typeof UIPEditor);
     return Object.assign({}, type.defaultOptions, this.editorConfig || {});
   }
 
   protected initEditorOptions(): void {
-    this.editor && this.editor.setOptions(this.mergedEditorConfig);
+    this.editor?.setOptions(this.mergedEditorConfig);
   }
 
   protected onChange = debounce(() => {
@@ -43,7 +43,7 @@ export class UIPEditor extends UIPPlugin {
   }, 1000);
 
   @bind
-  protected handleChange(e: CustomEvent) {
+  protected handleChange(e: CustomEvent): void {
     const {markup} = e.detail;
     const $inner = document.createElement('div');
     $inner.classList.add('uip-editor-inner');
@@ -62,7 +62,7 @@ export class UIPEditor extends UIPPlugin {
     this.editor.addEventListener('change', this.onChange);
   }
 
-  public setEditorConfig(editorConfig: EditorConfig) {
+  public setEditorConfig(editorConfig: EditorConfig): void {
     this.editorConfig = editorConfig;
     this.initEditorOptions();
   }
