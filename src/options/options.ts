@@ -1,21 +1,11 @@
 import {attr} from '@exadel/esl/modules/esl-base-element/core';
 import {bind} from '@exadel/esl/modules/esl-utils/decorators/bind';
 import {UIPEditor} from '../editor/editor';
-import {CSSUtil, ESLMediaQuery} from '@exadel/esl';
+import {CSSClassUtils, ESLMediaQuery} from '@exadel/esl';
 import {UIPPlugin} from '../core/plugin';
 
 export class UIPOptions extends UIPPlugin {
   static is = 'uip-options';
-  static optionsConfig = [
-    {
-      name: 'mode',
-      items: ['vertical', 'horizontal']
-    },
-    {
-      name: 'theme',
-      items: ['light', 'dark']
-    }
-  ];
 
   @attr({defaultValue: 'vertical'}) public mode: string;
   @attr({defaultValue: 'light'}) public theme: string;
@@ -57,22 +47,40 @@ export class UIPOptions extends UIPPlugin {
   }
 
   protected render() {
-    if (this.label) this.innerHTML = `<span class="section-name">${this.label}</span>`;
-    UIPOptions.optionsConfig.forEach( option => {
-      if ((!this.mode && option.name === 'mode') || (!this.theme && option.name === 'theme')) return;
+    if (this.mode) this.renderMode();
+    if (this.theme) this.renderTheme();
+  }
 
-      const $option = document.createElement('div');
-      $option.classList.add('uip-option', option.name);
-      option.items.forEach( item => {
-        $option.innerHTML += `
-          <div class="option-item">
-              <input type="radio" id="${item}-${option.name}" ${option.name}="${item}" class="option-radio-btn">
-              <label for="${item}-${option.name}" class="option-label">${item}</label>
-          </div>
-        `;
-      });
-      this.append($option);
-    });
+  protected renderMode() {
+    const $mode = document.createElement('div');
+    $mode.classList.add('uip-option');
+    $mode.classList.add('mode');
+    $mode.innerHTML = `
+        <div class="option-item">
+            <input type="radio" id="vertical-mode" mode="vertical" class="option-radio-btn">
+            <label for="vertical-mode" class="option-label">Vertical</label>
+        </div>
+        <div class="option-item">
+            <input type="radio" id="horizontal-mode" mode="horizontal" class="option-radio-btn">
+            <label for="horizontal-mode" class="option-label">Horizontal</label>
+        </div>`;
+    this.appendChild($mode);
+  }
+
+  protected renderTheme() {
+    const $theme = document.createElement('div');
+    $theme.classList.add('uip-option');
+    $theme.classList.add('theme');
+    $theme.innerHTML = `
+        <div class="option-item">
+            <input type="radio" id="light-theme" theme="light" class="option-radio-btn">
+            <label for="light-theme" class="option-label">Light</label>
+        </div>
+        <div class="option-item">
+            <input type="radio" id="dark-theme" theme="dark" class="option-radio-btn">
+            <label for="dark-theme" class="option-label">Dark</label>
+        </div>`;
+    this.appendChild($theme);
   }
 
   @bind
@@ -96,7 +104,7 @@ export class UIPOptions extends UIPPlugin {
   }
 
   protected changeEditorTheme(theme: string) {
-    const $editor = this.root?.querySelector('uip-editor') as UIPEditor;
+    const $editor = this.root?.querySelector(`${UIPEditor.is}`) as UIPEditor;
     if (!$editor) return;
     const editorConfig = $editor.editorConfig;
     editorConfig.theme = theme === 'dark' ? UIPOptions.darkEditorTheme : UIPOptions.lightEditorTheme;
@@ -104,13 +112,13 @@ export class UIPOptions extends UIPPlugin {
   }
 
   protected updateModeMarker(mode: string) {
-    this.root && CSSUtil.removeCls(this.root, 'vertical-mode horizontal-mode');
-    this.root && CSSUtil.addCls(this.root, `${mode}-mode`);
+    this.root && CSSClassUtils.remove(this.root, 'vertical-mode horizontal-mode');
+    this.root && CSSClassUtils.add(this.root, `${mode}-mode`);
   }
 
   protected updateThemeMarker(theme: string) {
-    this.root && CSSUtil.removeCls(this.root, 'light-theme dark-theme');
-    this.root && CSSUtil.addCls(this.root, `${theme}-theme`);
+    this.root && CSSClassUtils.remove(this.root, 'light-theme dark-theme');
+    this.root && CSSClassUtils.add(this.root, `${theme}-theme`);
     this.changeEditorTheme(theme);
   }
 
