@@ -15,7 +15,7 @@ export class UIPOptions extends UIPPlugin {
       name: 'theme',
       items: ['light', 'dark']
     }
-  ]
+  ];
 
   @attr({defaultValue: 'vertical'}) public mode: string;
   @attr({defaultValue: 'light'}) public theme: string;
@@ -69,10 +69,10 @@ export class UIPOptions extends UIPPlugin {
               <input type="radio" id="${item}-${option.name}" ${option.name}="${item}" class="option-radio-btn">
               <label for="${item}-${option.name}" class="option-label">${item}</label>
           </div>
-        `
-      })
+        `;
+      });
       this.append($option);
-    })
+    });
   }
 
   @bind
@@ -80,7 +80,7 @@ export class UIPOptions extends UIPPlugin {
     const target = e.target as HTMLElement;
 
     if (!target || target.classList.value !== 'option-radio-btn') return;
-  
+
     const mode = target.getAttribute('mode');
     const theme = target.getAttribute('theme');
 
