@@ -13,7 +13,7 @@ export class UIPOptions extends UIPPlugin {
   @attr({defaultValue: ''}) public target: string;
   @attr({defaultValue: 'Options:'}) public label: string;
 
-  private _conditionQuery: ESLMediaQuery | null = new ESLMediaQuery('@-MD');
+  private _conditionQuery: ESLMediaQuery | null = new ESLMediaQuery('@-SM');
 
   static darkEditorTheme = 'ace/theme/tomorrow_night';
   static lightEditorTheme = 'ace/theme/chrome';
