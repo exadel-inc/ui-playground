@@ -11,7 +11,6 @@ export class UIPOptions extends UIPPlugin {
   @attr({defaultValue: 'light'}) public theme: string;
 
   @attr({defaultValue: ''}) public target: string;
-  @attr({defaultValue: 'Options:'}) public label: string;
 
   private _conditionQuery: ESLMediaQuery | null = new ESLMediaQuery('@-SM');
 
