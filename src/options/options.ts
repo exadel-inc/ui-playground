@@ -10,9 +10,7 @@ export class UIPOptions extends UIPPlugin {
   @attr({defaultValue: 'vertical'}) public mode: string;
   @attr({defaultValue: 'light'}) public theme: string;
 
-  @attr({defaultValue: ''}) public target: string;
-
-  private _conditionQuery: ESLMediaQuery | null = new ESLMediaQuery('@-SM');
+  static _conditionQuery: ESLMediaQuery = new ESLMediaQuery('@-SM');
 
   static darkEditorTheme = 'ace/theme/tomorrow_night';
   static lightEditorTheme = 'ace/theme/chrome';
@@ -37,12 +35,12 @@ export class UIPOptions extends UIPPlugin {
 
   protected bindEvents() {
     this.addEventListener('click', this._onOptionChange);
-    window.addEventListener('resize', this._onResize);
+    UIPOptions._conditionQuery.addListener(this._onResize);
   }
 
   protected unbindEvents() {
     this.removeEventListener('click', this._onOptionChange);
-    window.removeEventListener('resize', this._onResize);
+    UIPOptions._conditionQuery.removeListener(this._onResize);
   }
 
   protected render() {
@@ -123,7 +121,7 @@ export class UIPOptions extends UIPPlugin {
 
   @bind
   protected _onResize() {
-    (this._conditionQuery?.matches)
+    (UIPOptions._conditionQuery.matches)
       ? this.updateModeMarker('horizontal')
       : this.updateModeMarker(this.mode);
   }
