@@ -8,7 +8,7 @@ export class UIPOptions extends UIPPlugin {
   static is = 'uip-options';
 
   @attr({defaultValue: 'vertical'}) public mode: string;
-  @attr({defaultValue: 'light'}) public theme: string;
+  @attr({defaultValue: 'uip-light'}) public theme: string;
 
   static _conditionQuery: ESLMediaQuery = new ESLMediaQuery('@-SM');
 
@@ -50,15 +50,16 @@ export class UIPOptions extends UIPPlugin {
 
   protected renderMode() {
     const $mode = document.createElement('div');
-    $mode.classList.add('uip-option');
-    $mode.classList.add('mode');
+    CSSClassUtils.add($mode, 'uip-option mode');
     $mode.innerHTML = `
         <div class="option-item">
-            <input type="radio" id="vertical-mode" mode="vertical" class="option-radio-btn">
+            <input type="radio" id="vertical-mode" name="mode" mode="vertical"
+            class="option-radio-btn" ${this.mode === 'vertical' ? 'checked' : ''}>
             <label for="vertical-mode" class="option-label">Vertical</label>
         </div>
         <div class="option-item">
-            <input type="radio" id="horizontal-mode" mode="horizontal" class="option-radio-btn">
+            <input type="radio" id="horizontal-mode" name="mode" mode="horizontal"
+            class="option-radio-btn" ${this.mode === 'horizontal' ? 'checked' : ''}>
             <label for="horizontal-mode" class="option-label">Horizontal</label>
         </div>`;
     this.appendChild($mode);
@@ -66,16 +67,17 @@ export class UIPOptions extends UIPPlugin {
 
   protected renderTheme() {
     const $theme = document.createElement('div');
-    $theme.classList.add('uip-option');
-    $theme.classList.add('theme');
+    CSSClassUtils.add($theme, 'uip-option theme');
     $theme.innerHTML = `
         <div class="option-item">
-            <input type="radio" id="light-theme" theme="light" class="option-radio-btn">
-            <label for="light-theme" class="option-label">Light</label>
+            <input type="radio" id="uip-light-theme" name="theme" theme="uip-light"
+            class="option-radio-btn" ${this.theme === 'uip-light' ? 'checked' : ''}>
+            <label for="uip-light-theme" class="option-label">Light</label>
         </div>
         <div class="option-item">
-            <input type="radio" id="dark-theme" theme="dark" class="option-radio-btn">
-            <label for="dark-theme" class="option-label">Dark</label>
+            <input type="radio" id="uip-dark-theme" name="theme" theme="uip-dark"
+            class="option-radio-btn" ${this.theme === 'uip-dark' ? 'checked' : ''}>
+            <label for="uip-dark-theme" class="option-label">Dark</label>
         </div>`;
     this.appendChild($theme);
   }
@@ -104,7 +106,7 @@ export class UIPOptions extends UIPPlugin {
     const $editor = this.root?.querySelector(`${UIPEditor.is}`) as UIPEditor;
     if (!$editor) return;
     const editorConfig = $editor.editorConfig;
-    editorConfig.theme = theme === 'dark' ? UIPOptions.darkEditorTheme : UIPOptions.lightEditorTheme;
+    editorConfig.theme = theme === 'uip-dark' ? UIPOptions.darkEditorTheme : UIPOptions.lightEditorTheme;
     $editor.setEditorConfig(editorConfig);
   }
 
@@ -114,7 +116,7 @@ export class UIPOptions extends UIPPlugin {
   }
 
   protected updateThemeMarker(theme: string) {
-    this.root && CSSClassUtils.remove(this.root, 'light-theme dark-theme');
+    this.root && CSSClassUtils.remove(this.root, 'uip-light-theme uip-dark-theme');
     this.root && CSSClassUtils.add(this.root, `${theme}-theme`);
     this.changeEditorTheme(theme);
   }
