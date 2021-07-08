@@ -15,6 +15,12 @@ export class UIPSettings extends UIPPlugin {
     super.connectedCallback();
     this.bindEvents();
     this.root && CSSClassUtils.add(this.root, this.rootClass);
+    const $inner = document.createElement('div');
+    $inner.classList.add('uip-settings-inner');
+    [...this.childNodes].forEach( (node: HTMLElement) => {
+      $inner.appendChild(node);
+    });
+    this.appendChild($inner);
   }
 
   protected disconnectedCallback(): void {
