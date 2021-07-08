@@ -5,6 +5,7 @@
     }
 
     & > .uip-snippets {
+      min-height: 500px;
       .snippets-list-item {
         border-bottom: 1px solid @element-border;
 
@@ -23,11 +24,8 @@
 
     & > .uip-snippets {
       width: 100%;
-      .snippets-list {
-        margin-left: 5px;
-      }
 
-      .snippets-list .snippets-list-item {
+      .snippets-list-item {
         display: inline-block;
 
         &:not(:last-child) {
@@ -38,10 +36,6 @@
             font-weight: 400;
             margin: 0 20px;
             color: @element-border;
-
-            &:hover {
-              opacity: 1;
-            }
           }
         }
       }

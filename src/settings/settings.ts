@@ -1,7 +1,7 @@
 import {UIPSetting} from './setting/setting';
 import {bind} from '@exadel/esl/modules/esl-utils/decorators/bind';
 import {attr} from '@exadel/esl/modules/esl-base-element/core';
-import {CSSClassUtils} from '@exadel/esl';
+import {CSSClassUtils, memoize} from '@exadel/esl';
 import {UIPPlugin} from '../core/plugin';
 
 export class UIPSettings extends UIPPlugin {
@@ -11,15 +11,26 @@ export class UIPSettings extends UIPPlugin {
   @attr({defaultValue: 'Settings'}) public label: string;
   @attr({defaultValue: 'settings-attached'}) public rootClass: string;
 
+  @memoize()
+  public get $scroll() {
+    const $scroll = document.createElement('esl-scrollbar');
+    $scroll.setAttribute('target', '::prev(.settings-list)');
+    return $scroll;
+  }
+
   protected connectedCallback() {
     super.connectedCallback();
     this.bindEvents();
     this.root && CSSClassUtils.add(this.root, this.rootClass);
     const $inner = document.createElement('div');
-    $inner.classList.add('uip-settings-inner');
+    $inner.className = 'uip-settings-inner ';
+    const $settingsList = document.createElement('div');
+    $settingsList.className = 'settings-list esl-scrollable-content';
     [...this.childNodes].forEach( (node: HTMLElement) => {
-      $inner.appendChild(node);
+      $settingsList.appendChild(node);
     });
+    $inner.appendChild($settingsList);
+    this.$scroll && $inner.appendChild(this.$scroll);
     this.appendChild($inner);
   }
 
