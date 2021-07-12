@@ -8,7 +8,7 @@ export class UIPPreview extends UIPPlugin {
   @memoize()
   get $inner() {
     const $inner = document.createElement('div');
-    $inner.classList.add('uip-preview-inner');
+    $inner.className = 'uip-preview-inner uip-plugin-inner';
     return $inner;
   }
 

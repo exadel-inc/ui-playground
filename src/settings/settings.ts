@@ -23,7 +23,7 @@ export class UIPSettings extends UIPPlugin {
     this.bindEvents();
     this.root && CSSClassUtils.add(this.root, this.rootClass);
     const $inner = document.createElement('div');
-    $inner.className = 'uip-settings-inner ';
+    $inner.className = 'uip-settings-inner uip-plugin-inner';
     const $settingsList = document.createElement('div');
     $settingsList.className = 'settings-list esl-scrollable-content';
     [...this.childNodes].forEach( (node: HTMLElement) => {

@@ -1,8 +1,9 @@
 .uip-snippets {
+  display: block;
   width: 20%;
   min-width: 200px;
 
-  .uip-snippets-inner {
+  &-inner {
     position: relative;
     height: 100%;
   }
@@ -12,16 +13,16 @@
     list-style-type: none;
     margin-right: 10px;
     overflow: auto;
-  }
 
-  .snippets-list-item {
-    &:hover {
-      cursor: pointer;
-      opacity: .7;
+    &-item {
+      &:hover {
+        cursor: pointer;
+        opacity: .7;
+      }
+  
+      &.active {
+        font-weight: 600;
+      }
     }
-  }
-
-  .snippets-list-item.active {
-    font-weight: 600;
   }
 }

@@ -61,7 +61,7 @@ export class UIPSnippets extends UIPPlugin {
       .forEach((item) => item && $ul.appendChild(item));
 
     const $inner = document.createElement('div');
-    $inner.className = 'uip-snippets-inner';
+    $inner.className = 'uip-snippets-inner uip-plugin-inner';
 
     $inner.appendChild($ul);
     this.$scroll && $inner.appendChild(this.$scroll);
