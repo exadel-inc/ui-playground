@@ -7,7 +7,6 @@ import 'ace-builds/src-min-noconflict/theme-tomorrow_night';
 import {bind} from '@exadel/esl/modules/esl-utils/decorators/bind';
 import {debounce} from '@exadel/esl/modules/esl-utils/async/debounce';
 import {jsonAttr} from '@exadel/esl/modules/esl-base-element/core';
-import {memoize} from '@exadel/esl';
 
 import {UIPPlugin} from '../core/plugin';
 
@@ -34,13 +33,6 @@ export class UIPEditor extends UIPPlugin {
   protected get mergedEditorConfig(): EditorConfig {
     const type = (this.constructor as typeof UIPEditor);
     return Object.assign({}, type.defaultOptions, this.editorConfig || {});
-  }
-
-  @memoize()
-  get $inner() {
-    const $inner = document.createElement('div');
-    $inner.className = 'uip-editor-inner uip-plugin-inner';
-    return $inner;
   }
 
   protected connectedCallback() {

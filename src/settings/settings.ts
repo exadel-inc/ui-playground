@@ -18,13 +18,6 @@ export class UIPSettings extends UIPPlugin {
     return $scroll;
   }
 
-  @memoize()
-  get $inner() {
-    const $inner = document.createElement('div');
-    $inner.className = 'uip-settings-inner uip-plugin-inner';
-    return $inner;
-  }
-
   protected connectedCallback() {
     super.connectedCallback();
     this.bindEvents();

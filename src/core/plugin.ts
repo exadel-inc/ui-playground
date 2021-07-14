@@ -1,3 +1,4 @@
+import {memoize} from '@exadel/esl';
 import {attr, ESLBaseElement} from '@exadel/esl/modules/esl-base-element/core';
 import {UIPRoot} from './root';
 import {UIPStateModel} from './state-model';
@@ -30,6 +31,14 @@ export abstract class UIPPlugin extends ESLBaseElement {
 
   protected get model(): UIPStateModel | null {
     return this.root ? this.root.model : null;
+  }
+
+  @memoize()
+  get $inner() {
+    const $inner = document.createElement('div');
+    const pluginType = <typeof UIPPlugin>this.constructor;
+    $inner.className = `${pluginType.is}-inner uip-plugin-inner`;
+    return $inner;
   }
 
   protected connectedCallback() {

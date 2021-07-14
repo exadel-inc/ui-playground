@@ -60,12 +60,9 @@ export class UIPSnippets extends UIPPlugin {
       .map((snippet: HTMLTemplateElement) => this.buildListItem(snippet))
       .forEach((item) => item && $ul.appendChild(item));
 
-    const $inner = document.createElement('div');
-    $inner.className = 'uip-snippets-inner uip-plugin-inner';
-
-    $inner.appendChild($ul);
-    this.$scroll && $inner.appendChild(this.$scroll);
-    this.appendChild($inner);
+    this.$inner.appendChild($ul);
+    this.$scroll && this.$inner.appendChild(this.$scroll);
+    this.appendChild(this.$inner);
   }
 
   protected buildListItem(snippet: HTMLTemplateElement) {
