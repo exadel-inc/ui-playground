@@ -18,20 +18,29 @@ export class UIPSettings extends UIPPlugin {
     return $scroll;
   }
 
+  @memoize()
+  get $inner() {
+    const $inner = document.createElement('div');
+    $inner.className = 'uip-settings-inner uip-plugin-inner';
+    return $inner;
+  }
+
   protected connectedCallback() {
     super.connectedCallback();
     this.bindEvents();
     this.root && CSSClassUtils.add(this.root, this.rootClass);
-    const $inner = document.createElement('div');
-    $inner.className = 'uip-settings-inner uip-plugin-inner';
+    this.updateInner();
+  }
+
+  protected updateInner() {
     const $settingsList = document.createElement('div');
     $settingsList.className = 'settings-list esl-scrollable-content';
     [...this.childNodes].forEach( (node: HTMLElement) => {
       $settingsList.appendChild(node);
     });
-    $inner.appendChild($settingsList);
-    this.$scroll && $inner.appendChild(this.$scroll);
-    this.appendChild($inner);
+    this.$inner.appendChild($settingsList);
+    this.$scroll && this.$inner.appendChild(this.$scroll);
+    this.appendChild(this.$inner);
   }
 
   protected disconnectedCallback(): void {

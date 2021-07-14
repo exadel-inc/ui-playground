@@ -21,6 +21,7 @@ export abstract class UIPPlugin extends ESLBaseElement {
   protected get root(): UIPRoot | null {
     return this._root;
   }
+
   protected set root(root: UIPRoot | null) {
     this._root?.removeStateListener(this._onRootStateChange);
     this._root = root;
@@ -37,6 +38,7 @@ export abstract class UIPPlugin extends ESLBaseElement {
     this.root = this.closest(`${UIPRoot.is}`) as UIPRoot;
     this.root && this._onRootStateChange();
   }
+
   protected disconnectedCallback() {
     this._root?.removeStateListener(this._onRootStateChange);
     this.root = null;

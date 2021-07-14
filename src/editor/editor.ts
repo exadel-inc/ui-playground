@@ -7,6 +7,7 @@ import 'ace-builds/src-min-noconflict/theme-tomorrow_night';
 import {bind} from '@exadel/esl/modules/esl-utils/decorators/bind';
 import {debounce} from '@exadel/esl/modules/esl-utils/async/debounce';
 import {jsonAttr} from '@exadel/esl/modules/esl-base-element/core';
+import {memoize} from '@exadel/esl';
 
 import {UIPPlugin} from '../core/plugin';
 
@@ -35,6 +36,28 @@ export class UIPEditor extends UIPPlugin {
     return Object.assign({}, type.defaultOptions, this.editorConfig || {});
   }
 
+  @memoize()
+  get $inner() {
+    const $inner = document.createElement('div');
+    $inner.className = 'uip-editor-inner uip-plugin-inner';
+    return $inner;
+  }
+
+  protected connectedCallback() {
+    super.connectedCallback();
+    this.initEditor();
+  }
+
+  protected initEditor() {
+    this.innerHTML = '';
+    this.appendChild(this.$inner);
+
+    this.editor = edit(this.$inner);
+    this.editor.setOption('useWorker', false);
+
+    this.initEditorOptions();
+  }
+
   protected initEditorOptions(): void {
     this.editor?.setOptions(this.mergedEditorConfig);
   }
@@ -48,17 +71,7 @@ export class UIPEditor extends UIPPlugin {
     if (this.model!.lastModifier === this) return;
 
     const markup = this.model!.html;
-    const $inner = document.createElement('div');
-    $inner.classList.add('uip-editor-inner');
-
-    this.innerHTML = '';
-    this.appendChild($inner);
-
-    this.editor = edit($inner);
-    this.editor.setOption('useWorker', false);
-
-    this.initEditorOptions();
-    this.setEditorValue(markup);
+    this.editor && this.setEditorValue(markup);
   }
 
   protected setEditorValue(value: string): void {
