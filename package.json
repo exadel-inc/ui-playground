@@ -72,7 +72,7 @@
     "@typescript-eslint/parser": "^4.28.1",
     "browser-sync": "^2.27.4",
     "concurrently": "^6.2.0",
-    "eslint": "^7.29.0",
+    "eslint": "^7.31.0",
     "husky": "^7.0.0",
     "less": "^4.1.1",
     "less-loader": "^10.0.1",
