@@ -29,7 +29,7 @@ export class UIPEditor extends UIPPlugin {
   static themeMap = new Map ([
     ['uip-dark', 'ace/theme/tomorrow_night'],
     ['uip-light', 'ace/theme/chrome']
-  ])
+  ]);
 
   @jsonAttr()
   public editorConfig: EditorConfig;
@@ -43,7 +43,7 @@ export class UIPEditor extends UIPPlugin {
   protected connectedCallback() {
     super.connectedCallback();
     this.initEditor();
-    this.bindEvents(); 
+    this.bindEvents();
   }
 
   protected disconnectedCallback() {
@@ -98,7 +98,7 @@ export class UIPEditor extends UIPPlugin {
 
   @bind
   protected _onThemeChanged(e: CustomEvent) {
-    e.stopPropagation()
+    e.stopPropagation();
     if (e.detail.attribute !== 'theme') return false;
     const theme = UIPEditor.themeMap.get(e.detail.value);
     this.editorConfig.theme = theme;

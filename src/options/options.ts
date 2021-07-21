@@ -100,11 +100,11 @@ export class UIPOptions extends UIPPlugin {
   }
 
   protected updateModeMarker(mode: string) {
-    this.root && this.root.setAttribute('mode', `${mode}`)
+    this.root && this.root.setAttribute('mode', `${mode}`);
   }
 
   protected updateThemeMarker(theme: string) {
-    this.root && this.root.setAttribute('theme', `${theme}`)
+    this.root && this.root.setAttribute('theme', `${theme}`);
   }
 
   @bind
