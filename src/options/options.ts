@@ -3,7 +3,6 @@ import {bind} from '@exadel/esl/modules/esl-utils/decorators/bind';
 import {CSSClassUtils, ESLMediaQuery} from '@exadel/esl';
 import {generateUId} from '@exadel/esl/modules/esl-utils/misc/uid';
 
-import {UIPEditor} from '../editor/editor';
 import {UIPPlugin} from '../core/plugin';
 
 export class UIPOptions extends UIPPlugin {
@@ -13,9 +12,6 @@ export class UIPOptions extends UIPPlugin {
   @attr({defaultValue: 'uip-light'}) public theme: string;
 
   static _conditionQuery: ESLMediaQuery = new ESLMediaQuery('@-SM');
-
-  static darkEditorTheme = 'ace/theme/tomorrow_night';
-  static lightEditorTheme = 'ace/theme/chrome';
 
   protected connectedCallback() {
     super.connectedCallback();
@@ -103,24 +99,12 @@ export class UIPOptions extends UIPPlugin {
     }
   }
 
-  protected changeEditorTheme(theme: string) {
-    const $editor = this.root?.querySelector(`:scope > ${UIPEditor.is}`) as UIPEditor;
-    const editorConfig = $editor?.editorConfig;
-    if (!$editor || !editorConfig) return;
-
-    editorConfig.theme = theme === 'uip-dark' ? UIPOptions.darkEditorTheme : UIPOptions.lightEditorTheme;
-    $editor.setEditorConfig(editorConfig);
-  }
-
   protected updateModeMarker(mode: string) {
-    this.root && CSSClassUtils.remove(this.root, 'vertical-mode horizontal-mode');
-    this.root && CSSClassUtils.add(this.root, `${mode}-mode`);
+    this.root && this.root.setAttribute('mode', `${mode}`)
   }
 
   protected updateThemeMarker(theme: string) {
-    this.root && CSSClassUtils.remove(this.root, 'uip-light-theme uip-dark-theme');
-    this.root && CSSClassUtils.add(this.root, `${theme}-theme`);
-    this.changeEditorTheme(theme);
+    this.root && this.root.setAttribute('theme', `${theme}`)
   }
 
   @bind

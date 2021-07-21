@@ -11,7 +11,7 @@ import {jsonAttr} from '@exadel/esl/modules/esl-base-element/core';
 import {UIPPlugin} from '../core/plugin';
 
 interface EditorConfig {
-  theme: string;
+  theme: string | undefined;
   mode: string;
   printMarginColumn: number;
   wrap: number;
@@ -26,6 +26,11 @@ export class UIPEditor extends UIPPlugin {
     wrap: true,
   };
 
+  static themeMap = new Map ([
+    ['uip-dark', 'ace/theme/tomorrow_night'],
+    ['uip-light', 'ace/theme/chrome']
+  ])
+
   @jsonAttr()
   public editorConfig: EditorConfig;
   protected editor: Ace.Editor;
@@ -38,6 +43,20 @@ export class UIPEditor extends UIPPlugin {
   protected connectedCallback() {
     super.connectedCallback();
     this.initEditor();
+    this.bindEvents(); 
+  }
+
+  protected disconnectedCallback() {
+    this.unbindEvents();
+    super.disconnectedCallback();
+  }
+
+  protected bindEvents() {
+    this.root?.addEventListener('uip:config_change', this._onThemeChanged);
+  }
+
+  protected unbindEvents() {
+    this.root?.removeEventListener('uip:config_change', this._onThemeChanged);
   }
 
   protected initEditor() {
@@ -74,6 +93,15 @@ export class UIPEditor extends UIPPlugin {
 
   public setEditorConfig(editorConfig: EditorConfig): void {
     this.editorConfig = editorConfig;
+    this.initEditorOptions();
+  }
+
+  @bind
+  protected _onThemeChanged(e: CustomEvent) {
+    e.stopPropagation()
+    if (e.detail.attribute !== 'theme') return false;
+    const theme = UIPEditor.themeMap.get(e.detail.value);
+    this.editorConfig.theme = theme;
     this.initEditorOptions();
   }
 }
