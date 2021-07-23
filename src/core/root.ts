@@ -26,7 +26,7 @@ export class UIPRoot extends ESLBaseElement {
     if (oldVal !== newVal) {
       this.classList.remove(`${oldVal}-${attrName}`);
       this.classList.add(`${newVal}-${attrName}`);
-      EventUtils.dispatch(this, 'uip:configchange', { 
+      EventUtils.dispatch(this, 'uip:configchange', {
         bubbles: false,
         detail: {
           attribute: attrName,
