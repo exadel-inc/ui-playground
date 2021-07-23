@@ -11,25 +11,25 @@ import {jsonAttr} from '@exadel/esl/modules/esl-base-element/core';
 import {UIPPlugin} from '../core/plugin';
 
 interface EditorConfig {
-  theme: string | undefined;
-  mode: string;
-  printMarginColumn: number;
-  wrap: number;
+  theme?: string;
+  mode?: string;
+  printMarginColumn?: number;
+  wrap?: number | boolean;
 }
 
 export class UIPEditor extends UIPPlugin {
   public static is = 'uip-editor';
-  public static defaultOptions = {
+  public static defaultOptions: EditorConfig = {
     theme: 'ace/theme/chrome',
     mode: 'ace/mode/html',
     printMarginColumn: -1,
     wrap: true,
   };
 
-  static themeMap = new Map ([
-    ['uip-dark', 'ace/theme/tomorrow_night'],
-    ['uip-light', 'ace/theme/chrome']
-  ]);
+  static themes = {
+    'uip-light': 'ace/theme/chrome',
+    'uip-dark': 'ace/theme/tomorrow_night'
+  };
 
   @jsonAttr()
   public editorConfig: EditorConfig;
@@ -52,11 +52,11 @@ export class UIPEditor extends UIPPlugin {
   }
 
   protected bindEvents() {
-    this.root?.addEventListener('uip:config_change', this._onThemeChanged);
+    this.root?.addEventListener('uip:configchange', this._onRootConfigChange);
   }
 
   protected unbindEvents() {
-    this.root?.removeEventListener('uip:config_change', this._onThemeChanged);
+    this.root?.removeEventListener('uip:configchange', this._onRootConfigChange);
   }
 
   protected initEditor() {
@@ -97,11 +97,18 @@ export class UIPEditor extends UIPPlugin {
   }
 
   @bind
-  protected _onThemeChanged(e: CustomEvent) {
-    e.stopPropagation();
+  protected _onRootConfigChange(e: CustomEvent) {
     if (e.detail.attribute !== 'theme') return false;
-    const theme = UIPEditor.themeMap.get(e.detail.value);
-    this.editorConfig.theme = theme;
-    this.initEditorOptions();
+    const theme = e.detail.value;
+    let aceTheme;
+
+    if (!Object.hasOwnProperty.call(UIPEditor.themes, theme)) {
+      aceTheme = UIPEditor.defaultOptions.theme;
+      this.setEditorConfig({theme: aceTheme});
+    }
+
+    const index = Object.keys(UIPEditor.themes).indexOf(theme);
+    aceTheme = Object.values(UIPEditor.themes)[index];
+    this.setEditorConfig({theme: aceTheme});
   }
 }
