@@ -17,6 +17,10 @@ interface EditorConfig {
   wrap?: number | boolean;
 }
 
+interface Theme {
+  [index: string]: string;
+}
+
 export class UIPEditor extends UIPPlugin {
   public static is = 'uip-editor';
   public static defaultOptions: EditorConfig = {
@@ -26,7 +30,7 @@ export class UIPEditor extends UIPPlugin {
     wrap: true,
   };
 
-  static themes = {
+  static themes: Theme = {
     'uip-light': 'ace/theme/chrome',
     'uip-dark': 'ace/theme/tomorrow_night'
   };
@@ -99,16 +103,12 @@ export class UIPEditor extends UIPPlugin {
   @bind
   protected _onRootConfigChange(e: CustomEvent) {
     if (e.detail.attribute !== 'theme') return false;
-    const theme = e.detail.value;
-    let aceTheme;
+    const theme = UIPEditor.themes[e.detail.value];
 
     if (!Object.hasOwnProperty.call(UIPEditor.themes, theme)) {
-      aceTheme = UIPEditor.defaultOptions.theme;
-      this.setEditorConfig({theme: aceTheme});
+      const defaultTheme = UIPEditor.defaultOptions.theme;
+      this.setEditorConfig({theme: defaultTheme});
     }
-
-    const index = Object.keys(UIPEditor.themes).indexOf(theme);
-    aceTheme = Object.values(UIPEditor.themes)[index];
-    this.setEditorConfig({theme: aceTheme});
+    this.setEditorConfig({theme: theme});
   }
 }
