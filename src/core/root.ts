@@ -1,10 +1,13 @@
 import {EventUtils, ObserverCallback} from '@exadel/esl';
-import {ESLBaseElement} from '@exadel/esl/modules/esl-base-element/core';
+import {attr, ESLBaseElement} from '@exadel/esl/modules/esl-base-element/core';
 import {UIPStateModel} from './state-model';
 
 export class UIPRoot extends ESLBaseElement {
   public static is = 'uip-root';
   private _model = new UIPStateModel();
+
+  @attr() public mode: string;
+  @attr() public theme: string;
 
   public get model(): UIPStateModel {
     return this._model;

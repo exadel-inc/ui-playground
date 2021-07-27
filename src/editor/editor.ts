@@ -30,7 +30,7 @@ export class UIPEditor extends UIPPlugin {
     wrap: true,
   };
 
-  static themes: Theme = {
+  static themesMapping: Theme = {
     'uip-light': 'ace/theme/chrome',
     'uip-dark': 'ace/theme/tomorrow_night'
   };
@@ -103,12 +103,13 @@ export class UIPEditor extends UIPPlugin {
   @bind
   protected _onRootConfigChange(e: CustomEvent) {
     if (e.detail.attribute !== 'theme') return false;
-    const theme = UIPEditor.themes[e.detail.value];
+    const value = e.detail.value;
+    const defaultTheme = UIPEditor.defaultOptions.theme;
 
-    if (!Object.hasOwnProperty.call(UIPEditor.themes, theme)) {
-      const defaultTheme = UIPEditor.defaultOptions.theme;
-      this.setEditorConfig({theme: defaultTheme});
-    }
-    this.setEditorConfig({theme: theme});
+    const theme = !Object.hasOwnProperty.call(UIPEditor.themesMapping, value)
+      ? defaultTheme
+      : UIPEditor.themesMapping[value];
+
+    this.setEditorConfig({theme});
   }
 }
