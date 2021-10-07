@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"  class="esl-scrollable-content" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Editor</title>
+
+  <link rel="icon" type="image/png" href="/assets/logo-64x64.png" />
+  <link rel="stylesheet" type="text/css" href="/bundles/playground.css" />
+
+    <!-- IE preview staff -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.2.8/es6-promise.min.js"></script>-->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.5.0/webcomponents-bundle.js"></script>-->
+  
+
+</head>
+<body>
+
+  <header class="header">
+    <span>UIPlayground</span>
+
+  </header>
+
+  <main class="main" role="main">
+    
+      <h2 class="main__title">
+        Editor
+      </h2>
+    
+    <div class="content">
+      
+<h1>UIP Editor</h1>
+<p><a href="README.md">UIPEditor</a> - custom element, code editor for changing current markup. It allows user to manually configure
+the component inside <a href="../preview/README.md">UIPPreview</a>. Extends <a href="../core/README.md#uip-plugin">UIPPlugin</a>.</p>
+<h2>Description</h2>
+<p><a href="README.md">UIPEditor</a> based on <a href="https://ace.c9.io/">ACE</a> editor, which means you can use this editor's API for
+customization. You can change theme, mode, shortcuts, etc.</p>
+<p>To see the full power of <a href="https://ace.c9.io/">ACE</a> editor you can click <a href="https://ace.c9.io/build/kitchen-sink.html">here</a>
+and play with its settings. <a href="https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts">Here</a> you can find the full list of shortcuts.</p>
+<h2>Customization</h2>
+<p>To make customization easier, we defined the following interface:</p>
+<pre><code class="language-typescript">interface EditorConfig {
+  theme: string;
+  mode: string;
+  printMarginColumn: number;
+  wrap: number;
+}
+</code></pre>
+<ol>
+<li><strong>Theme</strong> allows you to change editor's appearance. To see the full list you can use the same
+<a href="https://ace.c9.io/build/kitchen-sink.html">demo</a> page mentioned above.</li>
+<li><strong>Mode</strong> stands for the language (<em>html</em>, <em>js</em>, <em>css</em>, <em>xml</em>, etc.) you use inside the editor. Provides you with
+suitable syntax highlighting and other things. The full list of modes, again, can be found
+<a href="https://ace.c9.io/build/kitchen-sink.html">here</a>.</li>
+<li><strong>PrintMarginColumn</strong> is used for setting the position of the vertical line for wrapping. Set the value to <strong>-1</strong> to
+remove the line.</li>
+<li><strong>Wrap</strong> number sets the limit of characters before wrapping. Set to <strong>0</strong> to remove wrapping or <strong>true</strong> for wrapping
+on the container's width.</li>
+</ol>
+<p>We think that these options are the most common, so we made their configuration easier. All you need is to pass an object
+to the editor's attribute <em>editor-config</em>, like in the example below:</p>
+<pre><code class="language-html">&lt;uip-editor label=&quot;Editor&quot; editor-config=&quot;{wrap: 70}&quot;&gt;&lt;/uip-editor&gt;
+</code></pre>
+<p>If you don't specify it, the default one will be used:</p>
+<pre><code class="language-typescript">defaultOptions = {
+  theme: 'ace/theme/chrome',
+  mode: 'ace/mode/html',
+  printMarginColumn: -1,
+  wrap: true,
+};
+</code></pre>
+<p>You can set settings inside the code (in case you want to specify something special):</p>
+<pre><code class="language-typescript">this.editor.setOption('useSoftTabs', true);
+this.editor.setOption('theme', 'ace/theme/tomorrow-night');
+</code></pre>
+<h2>Example</h2>
+<pre><code class="language-html">&lt;uip-editor label=&quot;Editor&quot;&gt;&lt;/uip-editor&gt;
+</code></pre>
+
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>
+  <span>UIPlayground v1.0.0-beta.6 © 2021 Exadel, Inc</span>
+</div>
+<div>
+  <span>Core Team Contributors:</span>
+  <a href="mailto:yadamska@exadel.com">Yuliya Adamskaya</a>,
+  <a href="mailto:nharshunova@exadel.com">Harshunova Natallia</a>,
+  <a href="mailto:apalanevich@exadel.com">Palanevich Aliaksandr</a>,
+  <a href="mailto:pvalchetskaya@exadel.com">Valchetskaya Palina</a>,
+  <a href="mailto:abazukevich@exadel.com">Bazukevich Aliaksandr</a>
+</div>
+
+  </footer>
+
+  
+
+  <script src="/bundles/playground.js"></script>
+
+
+  <esl-scrollbar class="page-scrollbar" target="html"></esl-scrollbar>
+
+</body>
+</html>

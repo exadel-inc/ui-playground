@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"  class="esl-scrollable-content" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Options</title>
+
+  <link rel="icon" type="image/png" href="/assets/logo-64x64.png" />
+  <link rel="stylesheet" type="text/css" href="/bundles/playground.css" />
+
+    <!-- IE preview staff -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.2.8/es6-promise.min.js"></script>-->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.5.0/webcomponents-bundle.js"></script>-->
+  
+
+</head>
+<body>
+
+  <header class="header">
+    <span>UIPlayground</span>
+
+  </header>
+
+  <main class="main" role="main">
+    
+      <h2 class="main__title">
+        Options
+      </h2>
+    
+    <div class="content">
+      
+<h1>UIP Options</h1>
+<p><a href="README.md">UIPOptions</a> - custom element which provides visual controls for changing UIP visual appearance.
+Extends <a href="../core/README.md#uip-plugin">UIPPlugin</a>.</p>
+<h2>Description:</h2>
+<p><a href="README.md">UIPOptions</a> component supports two settings: <strong>theme</strong> and <strong>mode</strong>.</p>
+<ul>
+<li><strong>Theme</strong> option has two values: <em>light</em> (default) and <em>dark</em>. It sets color theme for other elements.</li>
+<li><strong>Mode</strong> option also has two values: <em>vertical</em> (default) and <em>horizontal</em>. It controls UIP container's layout.</li>
+</ul>
+<p>These options can be manually set (and observed) with corresponding <em>theme</em> and <em>mode</em> attributes:</p>
+<pre><code class="language-html">&lt;uip-options label=&quot;Options:&quot; mode=&quot;horizontal&quot; theme=&quot;dark&quot;&gt;&lt;/uip-options&gt;
+</code></pre>
+<p><a href="README.md">UIPOptions</a> element doesn't produce or observe UIPStateModel changes.</p>
+<h2>Example:</h2>
+<pre><code class="language-html">&lt;uip-options label=&quot;Options:&quot;&gt;&lt;/uip-options&gt;
+</code></pre>
+
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>
+  <span>UIPlayground v1.0.0-beta.6 © 2021 Exadel, Inc</span>
+</div>
+<div>
+  <span>Core Team Contributors:</span>
+  <a href="mailto:yadamska@exadel.com">Yuliya Adamskaya</a>,
+  <a href="mailto:nharshunova@exadel.com">Harshunova Natallia</a>,
+  <a href="mailto:apalanevich@exadel.com">Palanevich Aliaksandr</a>,
+  <a href="mailto:pvalchetskaya@exadel.com">Valchetskaya Palina</a>,
+  <a href="mailto:abazukevich@exadel.com">Bazukevich Aliaksandr</a>
+</div>
+
+  </footer>
+
+  
+
+  <script src="/bundles/playground.js"></script>
+
+
+  <esl-scrollbar class="page-scrollbar" target="html"></esl-scrollbar>
+
+</body>
+</html>
