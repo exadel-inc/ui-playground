@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en"  class="esl-scrollable-content" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Base</title>
+
+  <link rel="icon" type="image/png" href="/ui-playground/assets/logo-64x64.png" />
+  <link rel="stylesheet" type="text/css" href="/ui-playground/bundles/playground.css" />
+
+    <!-- IE preview staff -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.2.8/es6-promise.min.js"></script>-->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.5.0/webcomponents-bundle.js"></script>-->
+  
+
+</head>
+<body>
+
+  <header class="header">
+    <span>UIPlayground</span>
+
+  </header>
+
+  <main class="main" role="main">
+    
+      <h2 class="main__title">
+        Base
+      </h2>
+    
+    <div class="content">
+      
+<h1>UIP Plugin</h1>
+<p><a href="src/core/README.md#uip-plugin">UIPPlugin</a> - base class for all UIP elements. Extending it allows creating custom UIP
+components.</p>
+<h2>Description</h2>
+<p>All UIP elements are <a href="src/core/README.md#uip-plugin">UIPPlugin</a> instances. Plugin automatically sets <em>uip-plugin</em> class to its elements,
+provides access to <a href="src/core/README.md#uip-root">UIPRoot</a> and adds <strong>_onRootStateChange()</strong> method, which is a key part in components
+communication.</p>
+<p>After initialization <a href="src/core/README.md#uip-plugin">UIPPlugin</a> subscribes to <a href="src/core/README.md#uip-state-model">UIPStateModel</a> changes and, after
+destroying, automatically unsubscribes. <strong>_onRootStateChange()</strong> is called every time markup changes are detected.
+As you can see, the flow is quite similar to what we usually do in
+<a href="https://en.wikipedia.org/wiki/Observer_pattern">Observable</a> pattern.</p>
+<h2>Processing markup changes</h2>
+<p><strong>_onRootStateChange()</strong> method does nothing by default. So if you want your custom component to react on markup
+changes, you need to implement it. This callback has the following signature:</p>
+<pre><code class="language-typescript">import {UIPPlugin} from &quot;./plugin&quot;;
+
+class UIPComponent extends UIPPlugin {
+  protected _onRootStateChange(): void {
+      //...;
+  }
+}
+</code></pre>
+<p>You can find a way of getting current markup in <a href="src/core/README.md#uip-state-model">UIPStateModel</a> section.</p>
+<p>To make the long story shorter: we implement &quot;reaction&quot; callback in <strong>_onRootStateChange()</strong> (using markup's getter
+mentioned earlier) and every time <a href="src/core/README.md#uip-state-model">UIPStateModel</a> produces markup updates, we &quot;react&quot; to them!</p>
+<h2>Example</h2>
+<pre><code class="language-typescript">import {UIPPlugin} from &quot;./plugin&quot;;
+
+class UIPPreview extends UIPPlugin {
+  protected _onRootStateChange(): void {
+    this.$inner.innerHTML = this.model!.html;
+    this.innerHTML = '';
+    this.appendChild(this.$inner);
+  }
+}
+</code></pre>
+<hr>
+<h1>UIP Root</h1>
+<p><a href="src/core/README.md#uip-root">UIPRoot</a> - container for <a href="src/core/README.md#uip-plugin">UIPPlugin</a> components.</p>
+<h2>Description:</h2>
+<p><a href="src/core/README.md#uip-plugin">UIPRoot</a> contains <a href="src/core/README.md#uip-state-model">UIPStateModel</a> getter. It also allows <a href="src/core/README.md#uip-plugin">UIPPlugin</a> elements
+subscribing to model changes (or unsubscribing from them). More details can be found in <a href="src/core/README.md#uip-plugin">UIPPlugin</a> section.</p>
+<h2>Example:</h2>
+<pre><code class="language-html">&lt;uip-root&gt;&lt;/uip-root&gt;
+</code></pre>
+<hr>
+<h1>UIP State Model</h1>
+<p><a href="src/core/README.md#uip-state-model">UIPStateModel</a> - state manager which contains current markup and provides methods for changing it.
+Implements <a href="https://en.wikipedia.org/wiki/Observer_pattern">Observable</a> pattern through extending
+ESL's <a href="https://github.com/exadel-inc/esl/blob/main/src/modules/esl-utils/abstract/observable.ts">Observable</a> class.</p>
+<h2>Description</h2>
+<p>As we already mentioned, <a href="src/core/README.md#uip-state-model">UIPStateModel</a> is an observable. It's fired every time we produce markup
+changes. To trigger the observable you need to change model's markup:</p>
+<pre><code class="language-typescript">import {UIPPlugin} from &quot;./plugin&quot;;
+
+class UIPComponent extends UIPPlugin {
+    protected _onComponentChange() {
+        //...
+        this.model!.setHtml('New markup here!', this);
+        //...
+    }
+}
+</code></pre>
+<p>Markup's setter takes two arguments: <em>markup</em> and <em>modifier</em>. <em>Markup</em> stands for, surprisingly, new markup, and
+<em>modifier</em> is a <a href="src/core/README.md#uip-plugin">UIPPlugin</a> instance which triggers changes (it is needed to prevent extra triggers of
+<a href="src/core/README.md#uip-state-model">UIPStateModel</a>).</p>
+<p><a href="src/core/README.md#uip-state-model">UIPStateModel</a> also has a getter for current markup:</p>
+<pre><code class="language-typescript">import {UIPPlugin} from &quot;./plugin&quot;;
+
+class UIPComponent extends UIPPlugin {
+    protected processMarkup() {
+        //...
+        const currentMarkup = this.model!.html;
+        //...
+    }
+}
+</code></pre>
+<h2>Markup processing methods</h2>
+<p><a href="src/core/README.md#uip-state-model">UIPStateModel</a> has some methods to make markup processing easier. They are used inside
+<a href="src/plugins/settings/settings/README.md">UIPSettings</a> and <a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a> plugins. These methods have the
+following signatures:</p>
+<pre><code class="language-typescript">import {Observable} from &quot;@exadel/esl&quot;;
+
+class UIPStateModel extends Observable {
+  public getAttribute(target: string, attr: string): (string | null)[] {};
+  public changeAttribute(cfg: ChangeAttrConfig) {};
+}
+</code></pre>
+<p><strong>getAttribute()</strong> method returns attributes (<em>attr</em> field) values from targets.</p>
+<p><strong>changeAttribute()</strong> callback is used for changing elements attributes. As you can see, it takes <em>ChangeAttrConfig</em> as
+a parameter. This type looks like this:</p>
+<pre><code class="language-typescript">export type TransformSignature = (current: string | null) =&gt; string | boolean | null;
+
+export type ChangeAttrConfig = {
+  target: string,
+  attribute: string,
+  modifier: UIPPlugin
+} &amp; ({
+  value: string | boolean
+} | {
+  transform: TransformSignature
+});
+
+</code></pre>
+<p>Here <em>attribute</em> stands for attribute name and <em>target</em> - for target elements. <em>Modifier</em> field represents the
+<a href="src/core/README.md#uip-plugin">UIPPlugin</a> instance which triggers attribute's changes.</p>
+<p>The last field can either be <em>value</em> (this value replaces current <em>attribute</em>'s value) or <em>transform</em> function (it maps
+current attribute value to the new one).</p>
+<p>Again, the examples of using this API can be found in <a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a>
+implementations (e.g. <a href="src/plugins/settings/settings/setting/bool-setting/README.md">UIPBoolSetting</a>).</p>
+
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>
+  <span>UIPlayground v1.0.0-beta.6 © 2021 Exadel, Inc</span>
+</div>
+<div>
+  <span>Core Team Contributors:</span>
+  <a href="mailto:yadamska@exadel.com">Yuliya Adamskaya</a>,
+  <a href="mailto:nharshunova@exadel.com">Harshunova Natallia</a>,
+  <a href="mailto:apalanevich@exadel.com">Palanevich Aliaksandr</a>,
+  <a href="mailto:pvalchetskaya@exadel.com">Valchetskaya Palina</a>,
+  <a href="mailto:abazukevich@exadel.com">Bazukevich Aliaksandr</a>
+</div>
+
+  </footer>
+
+  
+
+  <script src="/ui-playground/bundles/playground.js"></script>
+
+
+  <esl-scrollbar class="page-scrollbar" target="html"></esl-scrollbar>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"  class="esl-scrollable-content" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Boolean setting</title>
+
+  <link rel="icon" type="image/png" href="/ui-playground/assets/logo-64x64.png" />
+  <link rel="stylesheet" type="text/css" href="/ui-playground/bundles/playground.css" />
+
+    <!-- IE preview staff -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.2.8/es6-promise.min.js"></script>-->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.5.0/webcomponents-bundle.js"></script>-->
+  
+
+</head>
+<body>
+
+  <header class="header">
+    <span>UIPlayground</span>
+
+  </header>
+
+  <main class="main" role="main">
+    
+      <h2 class="main__title">
+        Boolean setting
+      </h2>
+    
+    <div class="content">
+      
+<h1>UIP Bool Setting</h1>
+<p><a href="src/plugins/settings/settings/setting/bool-setting/README.md">UIPBoolSetting</a> - custom setting for adding/removing attributes or appending values to attribute.
+Extends <a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a>.</p>
+<h2>Description:</h2>
+<p><a href="src/plugins/settings/settings/setting/bool-setting/README.md">UIPBoolSetting</a> represents a checkbox. It has <strong>value</strong> attribute for adding/removing this <strong>value</strong>
+from attributes.</p>
+<p>This setting can exist in two modes: <strong>replace</strong> and <strong>append</strong>.</p>
+<p><strong>replace</strong> mode is used by default. There are two ways to interpret it: when there is a <strong>value</strong> attribute
+specified and when it's not. When it's not specified, the setting adds/removes attribute specified in <strong>attribute</strong>.
+If we define <strong>value</strong>, the setting sets <strong>attribute</strong> value to it.</p>
+<p>The idea of <strong>append</strong> mode is to add/discard <strong>value</strong> (must be specified for this mode) to the <strong>attribute</strong>.
+For example, it can be useful for adding css classes (see example below).</p>
+<h3>Example:</h3>
+<pre><code class="language-html">&lt;uip-settings label=&quot;Settings&quot; target=&quot;.demo-img&quot;&gt;
+  &lt;!--  Replace mode --&gt;
+  &lt;uip-bool-setting label=&quot;Linked image&quot; attribute=&quot;linked&quot;&gt;&lt;/uip-bool-setting&gt;
+  &lt;!--  Append mode --&gt;
+  &lt;uip-bool-setting label=&quot;Save ratio&quot; attribute=&quot;class&quot; value=&quot;save-ratio-class&quot;&gt;&lt;/uip-bool-setting&gt;
+&lt;/uip-settings&gt;
+</code></pre>
+
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>
+  <span>UIPlayground v1.0.0-beta.6 © 2021 Exadel, Inc</span>
+</div>
+<div>
+  <span>Core Team Contributors:</span>
+  <a href="mailto:yadamska@exadel.com">Yuliya Adamskaya</a>,
+  <a href="mailto:nharshunova@exadel.com">Harshunova Natallia</a>,
+  <a href="mailto:apalanevich@exadel.com">Palanevich Aliaksandr</a>,
+  <a href="mailto:pvalchetskaya@exadel.com">Valchetskaya Palina</a>,
+  <a href="mailto:abazukevich@exadel.com">Bazukevich Aliaksandr</a>
+</div>
+
+  </footer>
+
+  
+
+  <script src="/ui-playground/bundles/playground.js"></script>
+
+
+  <esl-scrollbar class="page-scrollbar" target="html"></esl-scrollbar>
+
+</body>
+</html>

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Options</title>
+  <title>Text setting</title>
 
   <link rel="icon" type="image/png" href="/ui-playground/assets/logo-64x64.png" />
   <link rel="stylesheet" type="text/css" href="/ui-playground/bundles/playground.css" />
@@ -25,26 +25,19 @@
   <main class="main" role="main">
     
       <h2 class="main__title">
-        Options
+        Text setting
       </h2>
     
     <div class="content">
       
-<h1>UIP Options</h1>
-<p><a href="src/plugins/options/README.md">UIPOptions</a> - custom element which provides visual controls for changing UIP visual appearance.
-Extends <a href="src/core/README.md#uip-plugin">UIPPlugin</a>.</p>
+<h1>UIP Text Setting</h1>
+<p><a href="src/plugins/settings/settings/setting/text-setting/README.md">UIPTextSetting</a> - custom setting for inputting attribute's value. Extends <a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a></p>
 <h2>Description:</h2>
-<p><a href="src/plugins/options/README.md">UIPOptions</a> component supports two settings: <strong>theme</strong> and <strong>mode</strong>.</p>
-<ul>
-<li><strong>Theme</strong> option has two values: <em>light</em> (default) and <em>dark</em>. It sets color theme for other elements.</li>
-<li><strong>Mode</strong> option also has two values: <em>vertical</em> (default) and <em>horizontal</em>. It controls UIP container's layout.</li>
-</ul>
-<p>These options can be manually set (and observed) with corresponding <em>theme</em> and <em>mode</em> attributes:</p>
-<pre><code class="language-html">&lt;uip-options label=&quot;Options:&quot; mode=&quot;horizontal&quot; theme=&quot;dark&quot;&gt;&lt;/uip-options&gt;
-</code></pre>
-<p><a href="src/plugins/options/README.md">UIPOptions</a> element doesn't produce or observe UIPStateModel changes.</p>
+<p>This setting represents a text input for changing attribute's value.</p>
 <h2>Example:</h2>
-<pre><code class="language-html">&lt;uip-options label=&quot;Options:&quot;&gt;&lt;/uip-options&gt;
+<pre><code class="language-html">&lt;uip-settings label=&quot;Settings&quot;&gt;
+  &lt;uip-text-setting label=&quot;Link&quot; attribute=&quot;href&quot; target=&quot;.img-link&quot;&gt;&lt;/uip-text-setting&gt;
+&lt;/uip-settings&gt;
 </code></pre>
 
 

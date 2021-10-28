@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Options</title>
+  <title>Snippets</title>
 
   <link rel="icon" type="image/png" href="/ui-playground/assets/logo-64x64.png" />
   <link rel="stylesheet" type="text/css" href="/ui-playground/bundles/playground.css" />
@@ -25,26 +25,38 @@
   <main class="main" role="main">
     
       <h2 class="main__title">
-        Options
+        Snippets
       </h2>
     
     <div class="content">
       
-<h1>UIP Options</h1>
-<p><a href="src/plugins/options/README.md">UIPOptions</a> - custom element which provides visual controls for changing UIP visual appearance.
+<h1>UIP Snippets</h1>
+<p><a href="src/core/snippets/README.md">UIPSnippets</a> - custom element which contain snippets (component's templates).
 Extends <a href="src/core/README.md#uip-plugin">UIPPlugin</a>.</p>
 <h2>Description:</h2>
-<p><a href="src/plugins/options/README.md">UIPOptions</a> component supports two settings: <strong>theme</strong> and <strong>mode</strong>.</p>
 <ul>
-<li><strong>Theme</strong> option has two values: <em>light</em> (default) and <em>dark</em>. It sets color theme for other elements.</li>
-<li><strong>Mode</strong> option also has two values: <em>vertical</em> (default) and <em>horizontal</em>. It controls UIP container's layout.</li>
+<li>Component's markup should be placed in <strong>template</strong> tags.</li>
+<li>Templates should have <em>uip-snippet</em>, <em>label</em> attributes.</li>
+<li>An active element can be chosen by adding class <strong>active</strong> to template, otherwise first template becomes active.</li>
 </ul>
-<p>These options can be manually set (and observed) with corresponding <em>theme</em> and <em>mode</em> attributes:</p>
-<pre><code class="language-html">&lt;uip-options label=&quot;Options:&quot; mode=&quot;horizontal&quot; theme=&quot;dark&quot;&gt;&lt;/uip-options&gt;
-</code></pre>
-<p><a href="src/plugins/options/README.md">UIPOptions</a> element doesn't produce or observe UIPStateModel changes.</p>
+<p><a href="src/core/snippets/README.md">UIPSnippets</a> component produces UIPStateModel changes, but it doesn't observe them.</p>
 <h2>Example:</h2>
-<pre><code class="language-html">&lt;uip-options label=&quot;Options:&quot;&gt;&lt;/uip-options&gt;
+<pre><code class="language-html">&lt;uip-snippets label=&quot;Snippets&quot;&gt;
+  &lt;template uip-snippet label='Image Mode: save-ratio'&gt;
+    &lt;esl-image mode=&quot;save-ratio&quot;
+               data-alt=&quot;Alt Text Test&quot;
+               data-src=&quot;img-3-carousel-9-6.jpg&quot;
+               data-src-base=&quot;/images/&quot;&gt;&lt;/esl-image&gt;
+  &lt;/template&gt;
+  &lt;template uip-snippet label='Image Mode: cover (additional classes: vertical alignment)'&gt;
+    &lt;div class=&quot;img-container m-auto&quot; style=&quot;width: 400px; height: 200px; border: 1px solid gray;&quot;&gt;
+      &lt;esl-image mode=&quot;cover&quot;
+                 data-alt=&quot;Alt Text&quot;
+                 data-src=&quot;img-1-carousel-9-6.jpg | @2x =&gt; img-1-carousel-9-6.jpg&quot;
+                 data-src-base=&quot;/images/&quot;&gt;&lt;/esl-image&gt;
+    &lt;/div&gt;
+  &lt;/template&gt;
+&lt;/uip-snippets&gt;
 </code></pre>
 
 

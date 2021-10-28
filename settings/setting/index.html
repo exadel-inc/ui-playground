@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Settings</title>
+  <title>Setting</title>
 
   <link rel="icon" type="image/png" href="/ui-playground/assets/logo-64x64.png" />
   <link rel="stylesheet" type="text/css" href="/ui-playground/bundles/playground.css" />
@@ -25,25 +25,39 @@
   <main class="main" role="main">
     
       <h2 class="main__title">
-        Settings
+        Setting
       </h2>
     
     <div class="content">
       
-<h1>UIP Settings</h1>
-<p><a href="src/plugins/settings/settings/README.md">UIPSettings</a> - custom element which stores settings (<a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a>).
-Extends <a href="src/core/README.md#uip-plugin">UIPPlugin</a>.</p>
+<h1>UIP Setting</h1>
+<p><a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a> - custom element for manipulating with elements attributes. Custom settings should extend
+<em>UIPSetting</em> class if you want them to be connected with <a href="src/plugins/settings/settings/README.md">UIPSettings</a> properly.</p>
 <h2>Description:</h2>
-<p>We use <a href="src/plugins/settings/settings/README.md">UIPSettings</a> as a container for <a href="setting/README.md">UIPSetting</a> elements. It serves as a link between
-our standard UIP flow for change detection and settings updates.</p>
-<p><a href="src/plugins/settings/settings/README.md">UIPSettings</a> updates settings using current state (<a href="src/core/README.md#uip-state-model">UIPStateModel</a>)
-and vice versa (more info can be found in <a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a> docs)</p>
-<p>To get updates from inner settings we listen for <em>uip:change</em> event, then pass markup updates to <a href="src/core/README.md#uip-root">UIPRoot</a>.</p>
-<p><a href="src/plugins/settings/settings/README.md">UIPSettings</a> component has the following attributes:</p>
 <ul>
-<li><strong>label</strong> - settings section displayed name.</li>
-<li><strong>target</strong> - sets <strong>target</strong> attribute for all inner <a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a> elements (can be overwritten
-by own attribute value).</li>
+<li>Processes markup to update own value via <strong>updateFrom()</strong> (uses <a href="src/core/README.md#uip-state-model">UIPStateModel</a> by default).</li>
+<li>Updates markup with <strong>applyTo()</strong> (uses <a href="src/core/README.md#uip-state-model">UIPStateModel</a> by default).</li>
+<li>Dispatches <strong>uip:change</strong> event to let <em>UIPSettings</em> know about setting changes.</li>
+</ul>
+<p>These things have default implementation. Also, there are <strong>isValid()</strong> and <strong>setInconsistency()</strong> methods to deal with
+incorrect setting states. <strong>isValid()</strong> can be used to add custom validation and <strong>setInconsistency()</strong> is used to somehow
+let user know about inconsistent state (when there are multiple setting values, no target, etc.).</p>
+<p>Methods needed to be implemented:</p>
+<ul>
+<li><strong>getDisplayedValue()</strong> for getting value from custom setting.</li>
+<li><strong>setValue()</strong> for setting setting value.</li>
+</ul>
+<p>The following attributes used:</p>
+<ul>
+<li><strong>label</strong> - setting displayed name.</li>
+<li><strong>target</strong> - sets target to which the setting is attached.</li>
+<li><strong>attribute</strong> - attribute of the <strong>target</strong> which is changed by the setting.</li>
+</ul>
+<p>You can see the examples of custom settings here (these are distributed together with other <em>UIP</em> elements):</p>
+<ul>
+<li><a href="src/plugins/settings/settings/setting/text-setting/README.md">UIPTextSetting</a></li>
+<li><a href="src/plugins/settings/settings/setting/bool-setting/README.md">UIPBoolSetting</a></li>
+<li><a href="src/plugins/settings/settings/setting/select-setting/README.md">UIPSelectSetting</a></li>
 </ul>
 <h2>Example:</h2>
 <pre><code class="language-html">&lt;uip-settings label=&quot;Settings&quot; target=&quot;.esl-media&quot;&gt;

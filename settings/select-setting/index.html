@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"  class="esl-scrollable-content" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Select setting</title>
+
+  <link rel="icon" type="image/png" href="/ui-playground/assets/logo-64x64.png" />
+  <link rel="stylesheet" type="text/css" href="/ui-playground/bundles/playground.css" />
+
+    <!-- IE preview staff -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.2.8/es6-promise.min.js"></script>-->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.5.0/webcomponents-bundle.js"></script>-->
+  
+
+</head>
+<body>
+
+  <header class="header">
+    <span>UIPlayground</span>
+
+  </header>
+
+  <main class="main" role="main">
+    
+      <h2 class="main__title">
+        Select setting
+      </h2>
+    
+    <div class="content">
+      
+<h1>UIP Select Setting</h1>
+<p><a href="src/plugins/settings/settings/setting/select-setting/README.md">UIPSelectSetting</a> - custom setting for selecting attribute's value. Extends <a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a>.</p>
+<h2>Description:</h2>
+<p>We render <a href="src/plugins/settings/settings/setting/select-setting/README.md">UIPSelectSetting</a> as <a href="https://github.com/exadel-inc/esl/tree/main/src/modules/esl-forms/esl-select">ESLSelect</a>
+element.</p>
+<p>Select setting has two modes: <strong>replace</strong> and <strong>append</strong>. The first one (is used by default) replaces the attribute
+value with selected, and the second one appends selected value to the attribute.</p>
+<p><a href="src/plugins/settings/settings/setting/select-setting/README.md">UIPSelectSetting</a> also supports <strong>multiple</strong> attribute to allow selecting multiple values.</p>
+<h2>Example:</h2>
+<pre><code class="language-html">&lt;uip-settings label=&quot;Settings&quot;&gt;
+  &lt;uip-select-setting label=&quot;Resolution&quot; attribute=&quot;class&quot; mode=&quot;append&quot;&gt;
+    &lt;option value=&quot;img-64&quot;&gt;64x64&lt;/option&gt;
+    &lt;option value=&quot;img-128&quot;&gt;128x128&lt;/option&gt;
+    &lt;option value=&quot;img-256&quot;&gt;256x256&lt;/option&gt;
+    &lt;option value=&quot;&quot;&gt;None&lt;/option&gt;
+  &lt;/uip-select-setting&gt;
+  &lt;uip-select-setting label=&quot;Items orientation&quot; attribute=&quot;direction&quot;&gt;
+    &lt;option value=&quot;vertical&quot;&gt;Vertical&lt;/option&gt;
+    &lt;option value=&quot;horizontal&quot;&gt;Horizontal&lt;/option&gt;
+  &lt;/uip-select-setting&gt;
+  &lt;uip-select-setting label=&quot;Display modifiers&quot; attribute=&quot;class&quot; mode=&quot;append&quot; multiple&gt;
+    &lt;option value=&quot;items-aligned-class&quot;&gt;Align items&lt;/option&gt;
+    &lt;option value=&quot;centered-content-class&quot;&gt;Center content&lt;/option&gt;
+    &lt;option value=&quot;wrap-class&quot;&gt;Wrap items&lt;/option&gt;
+  &lt;/uip-select-setting&gt;
+&lt;/uip-settings&gt;
+</code></pre>
+
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>
+  <span>UIPlayground v1.0.0-beta.6 © 2021 Exadel, Inc</span>
+</div>
+<div>
+  <span>Core Team Contributors:</span>
+  <a href="mailto:yadamska@exadel.com">Yuliya Adamskaya</a>,
+  <a href="mailto:nharshunova@exadel.com">Harshunova Natallia</a>,
+  <a href="mailto:apalanevich@exadel.com">Palanevich Aliaksandr</a>,
+  <a href="mailto:pvalchetskaya@exadel.com">Valchetskaya Palina</a>,
+  <a href="mailto:abazukevich@exadel.com">Bazukevich Aliaksandr</a>
+</div>
+
+  </footer>
+
+  
+
+  <script src="/ui-playground/bundles/playground.js"></script>
+
+
+  <esl-scrollbar class="page-scrollbar" target="html"></esl-scrollbar>
+
+</body>
+</html>

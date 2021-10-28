@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"  class="esl-scrollable-content" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Getting started</title>
+
+  <link rel="icon" type="image/png" href="/ui-playground/assets/logo-64x64.png" />
+  <link rel="stylesheet" type="text/css" href="/ui-playground/bundles/playground.css" />
+
+    <!-- IE preview staff -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.2.8/es6-promise.min.js"></script>-->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.5.0/webcomponents-bundle.js"></script>-->
+  
+
+</head>
+<body>
+
+  <header class="header">
+    <span>UIPlayground</span>
+
+  </header>
+
+  <main class="main" role="main">
+    
+      <h2 class="main__title">
+        Getting started
+      </h2>
+    
+    <div class="content">
+      
+<h1>Installation</h1>
+<p>TBD</p>
+<h1>Project structure</h1>
+<p>UIP components are organized in the following way:</p>
+<ol>
+<li>Core components
+<ul>
+<li>Base components
+<ul>
+<li><a href="src/core/README.md#uip-root">UIPRoot</a></li>
+</ul>
+</li>
+<li><a href="src/core/preview/README.md">UIPPreview</a></li>
+<li><a href="src/core/snippets/README.md">UIPSnippets</a></li>
+</ul>
+</li>
+<li>Plugins
+<ul>
+<li><a href="src/plugins/editor/README.md">UIPEditor</a></li>
+<li><a href="src/plugins/options/README.md">UIPOptions</a></li>
+<li><a href="src/plugins/settings/settings/README.md">UIPSettings</a>
+<ul>
+<li><a href="src/plugins/settings/settings/setting/bool-setting/README.md">UIPBoolSetting</a></li>
+<li><a href="src/plugins/settings/settings/setting/select-setting/README.md">UIPSelectSetting</a></li>
+<li><a href="src/plugins/settings/settings/setting/text-setting/README.md">UIPTextSetting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>Any playground must have at least <strong>core</strong> components. <strong>Plugins</strong> are
+optional, you can add them on your own free will.</p>
+<p>To implement custom UIPPlayground components, see <a href="src/core/README.md#uip-plugin">UIPPlugin</a>.</p>
+<h1>Modules/components imports</h1>
+<p>Module's main parts lay inside modules folders. So importing the required
+module is really straightforward:</p>
+<pre><code class="language-typescript">import {UIPRoot} from './root';
+import {UIPEditor} from './editor';
+import {UIPBoolSetting} from './bool-setting';
+</code></pre>
+<p>Every module has two versions of styles: <em>css</em> and <em>less</em>. If you want
+to import styles for all UIP component, you can import either
+<em>registration.less</em> or <em>registration.css</em> file.</p>
+<p>Before using UIP components, you also need to <em>register</em> them. For example,
+if you want to use <a href="src/core/README.md#uip-root">UIPRoot</a> component, register it like that:</p>
+<pre><code class="language-typescript">import {UIPRoot} from './root';
+UIPRoot.reguster();
+</code></pre>
+<h1>Browser support</h1>
+<p>UIPPlayground supports all modern browsers.</p>
+
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>
+  <span>UIPlayground v1.0.0-beta.6 © 2021 Exadel, Inc</span>
+</div>
+<div>
+  <span>Core Team Contributors:</span>
+  <a href="mailto:yadamska@exadel.com">Yuliya Adamskaya</a>,
+  <a href="mailto:nharshunova@exadel.com">Harshunova Natallia</a>,
+  <a href="mailto:apalanevich@exadel.com">Palanevich Aliaksandr</a>,
+  <a href="mailto:pvalchetskaya@exadel.com">Valchetskaya Palina</a>,
+  <a href="mailto:abazukevich@exadel.com">Bazukevich Aliaksandr</a>
+</div>
+
+  </footer>
+
+  
+
+  <script src="/ui-playground/bundles/playground.js"></script>
+
+
+  <esl-scrollbar class="page-scrollbar" target="html"></esl-scrollbar>
+
+</body>
+</html>
