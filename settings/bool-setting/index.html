@@ -31,10 +31,10 @@
     <div class="content">
       
 <h1>UIP Bool Setting</h1>
-<p><a href="src/plugins/settings/settings/setting/bool-setting/README.md">UIPBoolSetting</a> - custom setting for adding/removing attributes or appending values to attribute.
+<p><strong>UIPBoolSetting</strong> - custom setting for adding/removing attributes or appending values to attribute.
 Extends <a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a>.</p>
 <h2>Description:</h2>
-<p><a href="src/plugins/settings/settings/setting/bool-setting/README.md">UIPBoolSetting</a> represents a checkbox. It has <strong>value</strong> attribute for adding/removing this <strong>value</strong>
+<p><strong>UIPBoolSetting</strong> represents a checkbox. It has <strong>value</strong> attribute for adding/removing this <strong>value</strong>
 from attributes.</p>
 <p>This setting can exist in two modes: <strong>replace</strong> and <strong>append</strong>.</p>
 <p><strong>replace</strong> mode is used by default. There are two ways to interpret it: when there is a <strong>value</strong> attribute
@@ -43,12 +43,12 @@ If we define <strong>value</strong>, the setting sets <strong>attribute</strong>
 <p>The idea of <strong>append</strong> mode is to add/discard <strong>value</strong> (must be specified for this mode) to the <strong>attribute</strong>.
 For example, it can be useful for adding css classes (see example below).</p>
 <h3>Example:</h3>
-<pre><code class="language-html">&lt;uip-settings label=&quot;Settings&quot; target=&quot;.demo-img&quot;&gt;
-  &lt;!--  Replace mode --&gt;
-  &lt;uip-bool-setting label=&quot;Linked image&quot; attribute=&quot;linked&quot;&gt;&lt;/uip-bool-setting&gt;
-  &lt;!--  Append mode --&gt;
-  &lt;uip-bool-setting label=&quot;Save ratio&quot; attribute=&quot;class&quot; value=&quot;save-ratio-class&quot;&gt;&lt;/uip-bool-setting&gt;
-&lt;/uip-settings&gt;
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-settings</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Settings<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>.demo-img<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--  Replace mode --></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-bool-setting</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Linked image<span class="token punctuation">"</span></span> <span class="token attr-name">attribute</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>linked<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-bool-setting</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--  Append mode --></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-bool-setting</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Save ratio<span class="token punctuation">"</span></span> <span class="token attr-name">attribute</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>class<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>save-ratio-class<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-bool-setting</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-settings</span><span class="token punctuation">></span></span>
 </code></pre>
 
 

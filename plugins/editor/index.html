@@ -31,22 +31,16 @@
     <div class="content">
       
 <h1>UIP Editor</h1>
-<p><a href="src/plugins/editor/README.md">UIPEditor</a> - custom element, code editor for changing current markup. It allows user to manually configure
+<p><strong>UIPEditor</strong> - custom element, code editor for changing current markup. It allows user to manually configure
 the component inside <a href="src/core/preview/README.md">UIPPreview</a>. Extends <a href="src/core/README.md#uip-plugin">UIPPlugin</a>.</p>
 <h2>Description</h2>
-<p><a href="src/plugins/editor/README.md">UIPEditor</a> based on <a href="https://ace.c9.io/">ACE</a> editor, which means you can use this editor's API for
+<p><strong>UIPEditor</strong> based on <a href="https://ace.c9.io/">ACE</a> editor, which means you can use this editor's API for
 customization. You can change theme, mode, shortcuts, etc.</p>
 <p>To see the full power of <a href="https://ace.c9.io/">ACE</a> editor you can click <a href="https://ace.c9.io/build/kitchen-sink.html">here</a>
 and play with its settings. <a href="https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts">Here</a> you can find the full list of shortcuts.</p>
 <h2>Customization</h2>
 <p>To make customization easier, we defined the following interface:</p>
-<pre><code class="language-typescript">interface EditorConfig {
-  theme: string;
-  mode: string;
-  printMarginColumn: number;
-  wrap: number;
-}
-</code></pre>
+<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
 <ol>
 <li><strong>Theme</strong> allows you to change editor's appearance. To see the full list you can use the same
 <a href="https://ace.c9.io/build/kitchen-sink.html">demo</a> page mentioned above.</li>
@@ -60,22 +54,14 @@ on the container's width.</li>
 </ol>
 <p>We think that these options are the most common, so we made their configuration easier. All you need is to pass an object
 to the editor's attribute <em>editor-config</em>, like in the example below:</p>
-<pre><code class="language-html">&lt;uip-editor label=&quot;Editor&quot; editor-config=&quot;{wrap: 70}&quot;&gt;&lt;/uip-editor&gt;
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-editor</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Editor<span class="token punctuation">"</span></span> <span class="token attr-name">editor-config</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{wrap: 70}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-editor</span><span class="token punctuation">></span></span>
 </code></pre>
 <p>If you don't specify it, the default one will be used:</p>
-<pre><code class="language-typescript">defaultOptions = {
-  theme: 'ace/theme/chrome',
-  mode: 'ace/mode/html',
-  printMarginColumn: -1,
-  wrap: true,
-};
-</code></pre>
+<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
 <p>You can set settings inside the code (in case you want to specify something special):</p>
-<pre><code class="language-typescript">this.editor.setOption('useSoftTabs', true);
-this.editor.setOption('theme', 'ace/theme/tomorrow-night');
-</code></pre>
+<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
 <h2>Example</h2>
-<pre><code class="language-html">&lt;uip-editor label=&quot;Editor&quot;&gt;&lt;/uip-editor&gt;
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-editor</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Editor<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-editor</span><span class="token punctuation">></span></span>
 </code></pre>
 
 

@@ -31,37 +31,37 @@
     <div class="content">
       
 <h1>UIP Settings</h1>
-<p><a href="src/plugins/settings/settings/README.md">UIPSettings</a> - custom element which stores settings (<a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a>).
+<p><strong>UIPSettings</strong> - custom element which stores settings (<a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a>).
 Extends <a href="src/core/README.md#uip-plugin">UIPPlugin</a>.</p>
 <h2>Description:</h2>
-<p>We use <a href="src/plugins/settings/settings/README.md">UIPSettings</a> as a container for <a href="setting/README.md">UIPSetting</a> elements. It serves as a link between
+<p>We use <strong>UIPSettings</strong> as a container for <a href="setting/README.md">UIPSetting</a> elements. It serves as a link between
 our standard UIP flow for change detection and settings updates.</p>
-<p><a href="src/plugins/settings/settings/README.md">UIPSettings</a> updates settings using current state (<a href="src/core/README.md#uip-state-model">UIPStateModel</a>)
+<p><strong>UIPSettings</strong> updates settings using current state (<a href="src/core/README.md#uip-state-model">UIPStateModel</a>)
 and vice versa (more info can be found in <a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a> docs)</p>
 <p>To get updates from inner settings we listen for <em>uip:change</em> event, then pass markup updates to <a href="src/core/README.md#uip-root">UIPRoot</a>.</p>
-<p><a href="src/plugins/settings/settings/README.md">UIPSettings</a> component has the following attributes:</p>
+<p><strong>UIPSettings</strong> component has the following attributes:</p>
 <ul>
 <li><strong>label</strong> - settings section displayed name.</li>
 <li><strong>target</strong> - sets <strong>target</strong> attribute for all inner <a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a> elements (can be overwritten
 by own attribute value).</li>
 </ul>
 <h2>Example:</h2>
-<pre><code class="language-html">&lt;uip-settings label=&quot;Settings&quot; target=&quot;.esl-media&quot;&gt;
-  &lt;!--  Bool Setting--&gt;
-  &lt;uip-bool-setting label=&quot;Controls&quot; attribute=&quot;controls&quot;&gt;&lt;/uip-bool-setting&gt;
-  &lt;!--  Text Setting--&gt;
-  &lt;uip-text-setting label=&quot;Media id&quot; attribute=&quot;media-id&quot;&gt;&lt;/uip-text-setting&gt;
-  &lt;!--  List Setting--&gt;
-  &lt;uip-select-setting label=&quot;Fill mode&quot; attribute=&quot;fill-mode&quot;&gt;
-    &lt;option value=&quot;auto&quot;&gt;Auto mode&lt;/option&gt;
-    &lt;option value=&quot;cover&quot;&gt;Cover mode&lt;/option&gt;
-    &lt;option value=&quot;inscribe&quot;&gt;Inscribe mode&lt;/option&gt;
-  &lt;/uip-select-setting&gt;
-  &lt;uip-select-setting label=&quot;Font&quot; target=&quot;.card&quot; attribute=&quot;class&quot; mode=&quot;append&quot;&gt;
-    &lt;option value=&quot;italic-class&quot;&gt;Italic&lt;/option&gt;
-    &lt;option value=&quot;bold-class&quot;&gt;Bold&lt;/option&gt;
-  &lt;/uip-select-setting&gt;
-&lt;/uip-settings&gt;
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-settings</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Settings<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>.esl-media<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--  Bool Setting--></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-bool-setting</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Controls<span class="token punctuation">"</span></span> <span class="token attr-name">attribute</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>controls<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-bool-setting</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--  Text Setting--></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-text-setting</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Media id<span class="token punctuation">"</span></span> <span class="token attr-name">attribute</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>media-id<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-text-setting</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--  List Setting--></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-select-setting</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Fill mode<span class="token punctuation">"</span></span> <span class="token attr-name">attribute</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fill-mode<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>auto<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Auto mode<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>cover<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Cover mode<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inscribe<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Inscribe mode<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-select-setting</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-select-setting</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Font<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>.card<span class="token punctuation">"</span></span> <span class="token attr-name">attribute</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>class<span class="token punctuation">"</span></span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>append<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>italic-class<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Italic<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bold-class<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Bold<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-select-setting</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-settings</span><span class="token punctuation">></span></span>
 </code></pre>
 
 

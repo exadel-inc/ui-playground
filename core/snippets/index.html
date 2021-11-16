@@ -31,7 +31,7 @@
     <div class="content">
       
 <h1>UIP Snippets</h1>
-<p><a href="src/core/snippets/README.md">UIPSnippets</a> - custom element which contain snippets (component's templates).
+<p><strong>UIPSnippets</strong> - custom element which contain snippets (component's templates).
 Extends <a href="src/core/README.md#uip-plugin">UIPPlugin</a>.</p>
 <h2>Description:</h2>
 <ul>
@@ -39,24 +39,24 @@ Extends <a href="src/core/README.md#uip-plugin">UIPPlugin</a>.</p>
 <li>Templates should have <em>uip-snippet</em>, <em>label</em> attributes.</li>
 <li>An active element can be chosen by adding class <strong>active</strong> to template, otherwise first template becomes active.</li>
 </ul>
-<p><a href="src/core/snippets/README.md">UIPSnippets</a> component produces UIPStateModel changes, but it doesn't observe them.</p>
+<p><strong>UIPSnippets</strong> component produces <a href="src/core/README.md#uip-state-model">UIPStateModel</a> changes, but it doesn't observe them.</p>
 <h2>Example:</h2>
-<pre><code class="language-html">&lt;uip-snippets label=&quot;Snippets&quot;&gt;
-  &lt;template uip-snippet label='Image Mode: save-ratio'&gt;
-    &lt;esl-image mode=&quot;save-ratio&quot;
-               data-alt=&quot;Alt Text Test&quot;
-               data-src=&quot;img-3-carousel-9-6.jpg&quot;
-               data-src-base=&quot;/images/&quot;&gt;&lt;/esl-image&gt;
-  &lt;/template&gt;
-  &lt;template uip-snippet label='Image Mode: cover (additional classes: vertical alignment)'&gt;
-    &lt;div class=&quot;img-container m-auto&quot; style=&quot;width: 400px; height: 200px; border: 1px solid gray;&quot;&gt;
-      &lt;esl-image mode=&quot;cover&quot;
-                 data-alt=&quot;Alt Text&quot;
-                 data-src=&quot;img-1-carousel-9-6.jpg | @2x =&gt; img-1-carousel-9-6.jpg&quot;
-                 data-src-base=&quot;/images/&quot;&gt;&lt;/esl-image&gt;
-    &lt;/div&gt;
-  &lt;/template&gt;
-&lt;/uip-snippets&gt;
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-snippets</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Snippets<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">uip-snippet</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">'</span>Image Mode: save-ratio<span class="token punctuation">'</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>esl-image</span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>save-ratio<span class="token punctuation">"</span></span>
+               <span class="token attr-name">data-alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Alt Text Test<span class="token punctuation">"</span></span>
+               <span class="token attr-name">data-src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>img-3-carousel-9-6.jpg<span class="token punctuation">"</span></span>
+               <span class="token attr-name">data-src-base</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/images/<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>esl-image</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">uip-snippet</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">'</span>Image Mode: cover (additional classes: vertical alignment)<span class="token punctuation">'</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>img-container m-auto<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span> <span class="token property">border</span><span class="token punctuation">:</span> 1px solid gray<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>esl-image</span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>cover<span class="token punctuation">"</span></span>
+                 <span class="token attr-name">data-alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Alt Text<span class="token punctuation">"</span></span>
+                 <span class="token attr-name">data-src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>img-1-carousel-9-6.jpg | @2x => img-1-carousel-9-6.jpg<span class="token punctuation">"</span></span>
+                 <span class="token attr-name">data-src-base</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/images/<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>esl-image</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-snippets</span><span class="token punctuation">></span></span>
 </code></pre>
 
 
