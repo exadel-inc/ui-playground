@@ -90,7 +90,7 @@
     "foreach-cli": "^1.8.1",
     "prismjs": "^1.25.0",
     "husky": "^7.0.2",
-    "less": "^4.1.1",
+    "less": "^4.1.2",
     "less-loader": "^10.0.1",
     "less-plugin-npm-import": "^2.1.0",
     "markdown-it": "^12.2.0",
