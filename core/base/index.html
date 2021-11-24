@@ -36,9 +36,9 @@
 components.</p>
 <h2>Description</h2>
 <p>All UIP elements are <strong>UIPPlugin</strong> instances. Plugin automatically sets <em>uip-plugin</em> class to its elements,
-provides access to <a href="#uip-root">UIPRoot</a> and adds <strong>_onRootStateChange()</strong> method, which is a key part in components
+provides access to <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-root">UIPRoot</a> and adds <strong>_onRootStateChange()</strong> method, which is a key part in components
 communication.</p>
-<p>After initialization <strong>UIPPlugin</strong> subscribes to <a href="#uip-state-model">UIPStateModel</a> changes and, after
+<p>After initialization <strong>UIPPlugin</strong> subscribes to <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-state-model">UIPStateModel</a> changes and, after
 destroying, automatically unsubscribes. <strong>_onRootStateChange()</strong> is called every time markup changes are detected.
 As you can see, the flow is quite similar to what we usually do in
 <a href="https://en.wikipedia.org/wiki/Observer_pattern">Observable</a> pattern.</p>
@@ -46,7 +46,7 @@ As you can see, the flow is quite similar to what we usually do in
 <p><strong>_onRootStateChange()</strong> method does nothing by default. So if you want your custom component to react on markup
 changes, you need to implement it. This callback has the following signature:</p>
 <pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
-<p>You can find a way of getting current markup in <a href="#uip-state-model">UIPStateModel</a> section.</p>
+<p>You can find a way of getting current markup in <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-state-model">UIPStateModel</a> section.</p>
 <p>To make the long story shorter: we implement &quot;reaction&quot; callback in <strong>_onRootStateChange()</strong> (using markup's getter
 mentioned earlier) and every time <strong>UIPStateModel</strong> produces markup updates, we &quot;react&quot; to them!</p>
 <h2>Example</h2>
@@ -56,8 +56,8 @@ mentioned earlier) and every time <strong>UIPStateModel</strong> produces markup
 <h1>UIP Root</h1>
 <p><strong>UIPRoot</strong> - container for <strong>UIPPlugin</strong> components.</p>
 <h2>Description:</h2>
-<p><strong>UIPRoot</strong> contains <a href="#uip-state-model">UIPStateModel</a> getter. It also allows <strong>UIPPlugin</strong> elements
-subscribing to model changes (or unsubscribing from them). More details can be found in <a href="#uip-plugin">UIPPlugin</a> section.</p>
+<p><strong>UIPRoot</strong> contains <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-state-model">UIPStateModel</a> getter. It also allows <strong>UIPPlugin</strong> elements
+subscribing to model changes (or unsubscribing from them). More details can be found in <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-plugin">UIPPlugin</a> section.</p>
 <h2>Example:</h2>
 <pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-root</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-root</span><span class="token punctuation">></span></span>
 </code></pre>
@@ -78,7 +78,7 @@ changes. To trigger the observable you need to change model's markup:</p>
 <pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
 <h2>Markup processing methods</h2>
 <p><strong>UIPStateModel</strong> has some methods to make markup processing easier. They are used inside
-<a href="src/plugins/settings/settings/README.md">UIPSettings</a> and <a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a> plugins. These methods have the
+<a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSettings</a> and <a href="https://exadel-inc.github.io/ui-playground/settings/setting/">UIPSetting</a> plugins. These methods have the
 following signatures:</p>
 <pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
 <p><strong>getAttribute()</strong> method returns attributes (<em>attr</em> field) values from targets.</p>
@@ -86,11 +86,11 @@ following signatures:</p>
 a parameter. This type looks like this:</p>
 <pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
 <p>Here <em>attribute</em> stands for attribute name and <em>target</em> - for target elements. <em>Modifier</em> field represents the
-<a href="#uip-plugin">UIPPlugin</a> instance which triggers attribute's changes.</p>
+<a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-plugin">UIPPlugin</a> instance which triggers attribute's changes.</p>
 <p>The last field can either be <em>value</em> (this value replaces current <em>attribute</em>'s value) or <em>transform</em> function (it maps
 current attribute value to the new one).</p>
-<p>Again, the examples of using this API can be found in <a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a>
-implementations (e.g. <a href="src/plugins/settings/settings/setting/bool-setting/README.md">UIPBoolSetting</a>).</p>
+<p>Again, the examples of using this API can be found in <a href="https://exadel-inc.github.io/ui-playground/settings/setting/">UIPSetting</a>
+implementations (e.g. <a href="https://exadel-inc.github.io/ui-playground/settings/bool-setting/">UIPBoolSetting</a>).</p>
 
 
     </div>

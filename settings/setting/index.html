@@ -31,12 +31,12 @@
     <div class="content">
       
 <h1>UIP Setting</h1>
-<p><a href="src/plugins/settings/settings/setting/README.md">UIPSetting</a> - custom element for manipulating with elements attributes. Custom settings should extend
-<em>UIPSetting</em> class if you want them to be connected with <a href="src/plugins/settings/settings/README.md">UIPSettings</a> properly.</p>
+<p><a href="https://exadel-inc.github.io/ui-playground/settings/setting/">UIPSetting</a> - custom element for manipulating with elements attributes. Custom settings should extend
+<em>UIPSetting</em> class if you want them to be connected with <a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSettings</a> properly.</p>
 <h2>Description:</h2>
 <ul>
-<li>Processes markup to update own value via <strong>updateFrom()</strong> (uses <a href="src/core/README.md#uip-state-model">UIPStateModel</a> by default).</li>
-<li>Updates markup with <strong>applyTo()</strong> (uses <a href="src/core/README.md#uip-state-model">UIPStateModel</a> by default).</li>
+<li>Processes markup to update own value via <strong>updateFrom()</strong> (uses <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-state-model">UIPStateModel</a> by default).</li>
+<li>Updates markup with <strong>applyTo()</strong> (uses <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-state-model">UIPStateModel</a> by default).</li>
 <li>Dispatches <strong>uip:change</strong> event to let <em>UIPSettings</em> know about setting changes.</li>
 </ul>
 <p>These things have default implementation. Also, there are <strong>isValid()</strong> and <strong>setInconsistency()</strong> methods to deal with
@@ -55,9 +55,9 @@ let user know about inconsistent state (when there are multiple setting values, 
 </ul>
 <p>You can see the examples of custom settings here (these are distributed together with other <em>UIP</em> elements):</p>
 <ul>
-<li><a href="src/plugins/settings/settings/setting/text-setting/README.md">UIPTextSetting</a></li>
-<li><a href="src/plugins/settings/settings/setting/bool-setting/README.md">UIPBoolSetting</a></li>
-<li><a href="src/plugins/settings/settings/setting/select-setting/README.md">UIPSelectSetting</a></li>
+<li><a href="https://exadel-inc.github.io/ui-playground/settings/text-setting/">UIPTextSetting</a></li>
+<li><a href="https://exadel-inc.github.io/ui-playground/settings/bool-setting/">UIPBoolSetting</a></li>
+<li><a href="https://exadel-inc.github.io/ui-playground/settings/select-setting/">UIPSelectSetting</a></li>
 </ul>
 <h2>Example:</h2>
 <pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-settings</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Settings<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>.esl-media<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
