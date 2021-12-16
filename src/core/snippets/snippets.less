@@ -1,9 +1,10 @@
 @import '~@exadel/esl/modules/esl-scrollbar/core';
 
 .uip-snippets {
-  display: block;
-  width: 20%;
-  min-width: 200px;
+  display: none;
+  position: absolute;
+  top: 30px;
+  width: 200px;
 
   &-inner {
     position: relative;
@@ -26,5 +27,9 @@
         font-weight: @active-font-weight;
       }
     }
+  }
+
+  &.hide-snippets {
+    display: none;
   }
 }

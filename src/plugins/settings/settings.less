@@ -1,0 +1,22 @@
+@import "../../variables.less";
+
+.uip-settings {
+  width: 250px;
+  grid-area: settings;
+  // grid-column-start: 2;
+  // grid-row-start: 2;
+  // grid-row-end: span 3;
+  overflow: hidden;
+
+  &-inner {
+    position: relative;
+    height: 100%;
+    width: 250px;
+    border-left: 1px solid @section-border;
+  }
+
+  .settings-list {
+    height: 100%;
+    margin-right: 10px;
+  }
+}

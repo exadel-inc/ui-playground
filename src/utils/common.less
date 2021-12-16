@@ -1,0 +1,19 @@
+.collapse() {
+    esl-scrollbar,
+    & > :first-child {
+        visibility: hidden;
+        transition:  visibility 0s .5s;
+    }
+}
+
+.collapsed {
+    &-h {
+        .collapse();
+        width: 0;
+    }
+
+    &-v {
+        .collapse();
+        height: 0;
+    }
+}
