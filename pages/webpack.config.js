@@ -13,16 +13,18 @@ module.exports = {
   },
   module: {
     rules: [
-    {
-      test: /\.ts$/,
-      loader: 'ts-loader',
-      options: {
-        compilerOptions: {
-          target: 'ES6',
-          declaration: true
-        },
+      {
+        exclude: /node_modules\/(?!@exadel\/esl)/,
+        test: /\.(ts|js)$/,
+        loader: 'ts-loader',
+        options: {
+          compilerOptions: {
+            target: 'ES6',
+            declaration: false
+          }
+        }
       }
-    },]
+    ]
   },
   output: {
     path: path.resolve(__dirname, 'dist/bundles'),
