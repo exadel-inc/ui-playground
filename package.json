@@ -84,7 +84,7 @@
     "browser-sync": "^2.27.7",
     "chokidar-cli": "^3.0.0",
     "clean-css-cli": "^5.5.0",
-    "concurrently": "^6.4.0",
+    "concurrently": "^6.5.1",
     "copyfiles": "^2.4.1",
     "eslint": "^8.4.1",
     "foreach-cli": "^1.8.1",
