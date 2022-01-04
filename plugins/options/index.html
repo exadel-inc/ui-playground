@@ -34,13 +34,14 @@
 <p><strong>UIPOptions</strong> - custom element which provides visual controls for changing UIP visual appearance.
 Extends <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-plugin">UIPPlugin</a>.</p>
 <h2>Description:</h2>
-<p><strong>UIPOptions</strong> component supports two settings: <strong>theme</strong> and <strong>mode</strong>.</p>
+<p><strong>UIPOptions</strong> component supports three settings: <strong>theme</strong>, <strong>mode</strong> and <strong>direction</strong>.</p>
 <ul>
-<li><strong>Theme</strong> option has two values: <em>light</em> (default) and <em>dark</em>. It sets color theme for other elements.</li>
-<li><strong>Mode</strong> option also has two values: <em>vertical</em> (default) and <em>horizontal</em>. It controls UIP container's layout.</li>
+<li><strong>Theme</strong> can be <em>light</em> (default) and <em>dark</em>. It sets color theme for other elements.</li>
+<li><strong>Mode</strong> can be <em>vertical</em> (default) and <em>horizontal</em>. It controls UIP container's layout.</li>
+<li><strong>Direction</strong> can be <em>ltr</em> (default) and <em>rtl</em>. It changes the direction of preview's content.</li>
 </ul>
-<p>These options can be manually set (and observed) with corresponding <em>theme</em> and <em>mode</em> attributes:</p>
-<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-options</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Options:<span class="token punctuation">"</span></span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>horizontal<span class="token punctuation">"</span></span> <span class="token attr-name">theme</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dark<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-options</span><span class="token punctuation">></span></span>
+<p>These options can be manually set (and observed) with corresponding attributes:</p>
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-root</span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>horizontal<span class="token punctuation">"</span></span> <span class="token attr-name">theme</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dark<span class="token punctuation">"</span></span> <span class="token attr-name">direction</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>rtl<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-root</span><span class="token punctuation">></span></span>
 </code></pre>
 <p><strong>UIPOptions</strong> element doesn't produce or observe UIPStateModel changes.</p>
 <h2>Example:</h2>
