@@ -79,7 +79,7 @@
     "@semantic-release/github": "^8.0.2",
     "@semantic-release/npm": "^8.0.3",
     "@semantic-release/release-notes-generator": "^10.0.3",
-    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
     "@typescript-eslint/parser": "^5.7.0",
     "browser-sync": "^2.27.7",
     "chokidar-cli": "^3.0.0",
