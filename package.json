@@ -97,7 +97,7 @@
     "postcss": "^8.4.5",
     "postcss-less": "^5.0.0",
     "postcss-loader": "^6.2.1",
-    "postcss-preset-env": "^7.0.1",
+    "postcss-preset-env": "^7.4.1",
     "prismjs": "^1.25.0",
     "rimraf": "^3.0.2",
     "semantic-release": "^18.0.1",
