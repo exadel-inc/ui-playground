@@ -34,18 +34,22 @@
 <p><strong>UIPOptions</strong> - custom element which provides visual controls for changing UIP visual appearance.
 Extends <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-plugin">UIPPlugin</a>.</p>
 <h2>Description:</h2>
-<p><strong>UIPOptions</strong> component supports three settings: <strong>theme</strong>, <strong>mode</strong> and <strong>direction</strong>.</p>
+<p><strong>UIPOptions</strong> component supports four options:</p>
 <ul>
-<li><strong>Theme</strong> can be <em>light</em> (default) and <em>dark</em>. It sets color theme for other elements.</li>
-<li><strong>Mode</strong> can be <em>vertical</em> (default) and <em>horizontal</em>. It controls UIP container's layout.</li>
-<li><strong>Direction</strong> can be <em>ltr</em> (default) and <em>rtl</em>. It changes the direction of preview's content.</li>
+<li><strong>Theme</strong> option toggles <em>light/dark</em> theme for UIP components. It uses root's <em>dark-theme</em> attribute and
+can be hidden with <em>hide-theme</em> options' attribute.</li>
+<li><strong>Direction</strong> option is used to change <a href="https://exadel-inc.github.io/ui-playground/core/preview/">UIPPreview</a> content direction (<em>rtl/ltr</em>). It uses root's <em>rtl-direction</em> attribute and can be hidden with <em>hide-direction</em> options' attribute.</li>
+<li><strong>Settings</strong> option collapses/expands <a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSettings</a> plugin. It uses root's <em>settings-collapsed</em>
+attribute and can be hidden with <em>hide-settings</em> options' attribute.</li>
+<li><strong>Editor</strong> option collapses/expands <a href="https://exadel-inc.github.io/ui-playground/plugins/editor/">UIPEditor</a> plugin. It uses root's <em>editor-collapsed</em>
+attribute and can be hidden with <em>hide-editor</em> options' attribute.</li>
 </ul>
 <p>These options can be manually set (and observed) with corresponding attributes:</p>
-<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-root</span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>horizontal<span class="token punctuation">"</span></span> <span class="token attr-name">theme</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dark<span class="token punctuation">"</span></span> <span class="token attr-name">direction</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>rtl<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-root</span><span class="token punctuation">></span></span>
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-root</span> <span class="token attr-name">rtl-direction</span> <span class="token attr-name">dark-theme</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-root</span><span class="token punctuation">></span></span>
 </code></pre>
 <p><strong>UIPOptions</strong> element doesn't produce or observe UIPStateModel changes.</p>
 <h2>Example:</h2>
-<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-options</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Options:<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-options</span><span class="token punctuation">></span></span>
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-options</span> <span class="token attr-name">hide-theme</span> <span class="token attr-name">hide-settings</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-options</span><span class="token punctuation">></span></span>
 </code></pre>
 
 
