@@ -94,7 +94,7 @@
     "less-plugin-npm-import": "^2.1.0",
     "markdown-it": "^12.3.2",
     "markdown-it-replace-link": "^1.1.0",
-    "postcss": "^8.4.12",
+    "postcss": "^8.4.13",
     "postcss-less": "^6.0.0",
     "postcss-loader": "^6.2.1",
     "postcss-preset-env": "^7.4.3",
