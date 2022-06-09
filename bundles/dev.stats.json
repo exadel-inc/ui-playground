@@ -1,8 +1,8 @@
 {
   "hash": "5d2f9bbcc8b7001c1359",
   "version": "5.72.0",
-  "time": 12147,
-  "builtAt": 1654755684206,
+  "time": 13766,
+  "builtAt": 1654768934096,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -8396,23 +8396,18 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-                  "name": "../src/registration.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-                  "name": "../src/core/registration.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-                  "name": "../src/core/base/root.ts",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
                   "id": null
                 },
                 {
@@ -12695,23 +12690,18 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-                  "name": "../src/registration.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-                  "name": "../src/core/registration.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-                  "name": "../src/core/base/root.ts",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
                   "id": null
                 },
                 {
@@ -13035,23 +13025,18 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-                  "name": "../src/registration.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-                  "name": "../src/core/registration.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-                  "name": "../src/core/base/root.ts",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
                   "id": null
                 },
                 {
@@ -13154,23 +13139,18 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-                  "name": "../src/registration.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-                  "name": "../src/core/registration.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-                  "name": "../src/core/base/root.ts",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
                   "id": null
                 },
                 {
@@ -22402,23 +22382,18 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-              "name": "../src/registration.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-              "name": "../src/core/registration.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-              "name": "../src/core/base/root.ts",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
               "id": null
             },
             {
@@ -26673,23 +26648,18 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-              "name": "../src/registration.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-              "name": "../src/core/registration.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-              "name": "../src/core/base/root.ts",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
               "id": null
             },
             {
@@ -27010,23 +26980,18 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-              "name": "../src/registration.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-              "name": "../src/core/registration.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-              "name": "../src/core/base/root.ts",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
               "id": null
             },
             {
@@ -27128,23 +27093,18 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-              "name": "../src/registration.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-              "name": "../src/core/registration.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-              "name": "../src/core/base/root.ts",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
               "id": null
             },
             {
@@ -39483,23 +39443,18 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-          "name": "../src/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-          "name": "../src/core/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-          "name": "../src/core/base/root.ts",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
           "id": null
         },
         {
@@ -43890,8 +43845,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -43899,23 +43854,18 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-          "name": "../src/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-          "name": "../src/core/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-          "name": "../src/core/base/root.ts",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
           "id": null
         }
       ],
@@ -44460,23 +44410,18 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-          "name": "../src/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-          "name": "../src/core/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-          "name": "../src/core/base/root.ts",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
           "id": null
         },
         {
@@ -44797,23 +44742,18 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-          "name": "../src/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-          "name": "../src/core/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-          "name": "../src/core/base/root.ts",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
           "id": null
         },
         {
@@ -44915,23 +44855,18 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-          "name": "../src/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-          "name": "../src/core/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-          "name": "../src/core/base/root.ts",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
           "id": null
         },
         {
@@ -47708,23 +47643,18 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-          "name": "../src/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-          "name": "../src/core/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-          "name": "../src/core/base/root.ts",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
           "id": null
         },
         {
@@ -47810,23 +47740,18 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-          "name": "../src/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
-          "name": "../src/core/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
-          "name": "../src/core/base/root.ts",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-utils/decorators/memoize.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/format.js",
           "id": null
         },
         {
