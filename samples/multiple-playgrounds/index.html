@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en"  class="esl-scrollable-content" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Example with multiple playgrounds</title>
+
+  <link rel="icon" type="image/png" href="/ui-playground/assets/logo-64x64.png" />
+  <link rel="stylesheet" type="text/css" href="/ui-playground/bundles/playground.css" />
+
+    <!-- IE preview staff -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.2.8/es6-promise.min.js"></script>-->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.5.0/webcomponents-bundle.js"></script>-->
+  
+
+</head>
+<body>
+
+  <header class="header">
+    <span>UIPlayground</span>
+
+  </header>
+
+  <main class="main" role="main">
+    
+      <h2 class="main__title">
+        Example with multiple playgrounds
+      </h2>
+    
+    <div class="content">
+      <div>
+  <section class="component-section">
+    <h1 class="component-title">USER CARD</h1>
+    <p class="component-description">
+      User card is a component for displaying user's info.
+      Can be in rectangle/rounded styles with multiple
+      colors supported.
+    </p>
+  </section>
+
+  <uip-root>
+    <uip-header>
+      <uip-snippets></uip-snippets>
+      <uip-options></uip-options>
+    </uip-header>
+    <script  type="text/html" uip-snippet label="Rectangle user card">
+        <div class="user-card user-block aqua-user">Alexander</div>
+    </script>
+    <script  type="text/html" uip-snippet label="Circle user card" wrap-items>
+        <div class="user-card user-circle aqua-user">Alexander</div>
+    </script>
+    <uip-preview></uip-preview>
+    <uip-settings target=".user-card">
+      <uip-select-setting label="User color" attribute="class" mode="append">
+        <option value="red-user">Red</option>
+        <option value="aqua-user">Aqua</option>
+        <option value="green-user">Green</option>
+      </uip-select-setting>
+    </uip-settings>
+    <uip-editor></uip-editor>
+  </uip-root>
+
+  <section class="component-section">
+    <h1 class="component-title">USER LIST</h1>
+    <p class="component-description">
+      User list is a component for displaying multiple users' info.
+      Can manually wrap list items on new lines.
+    </p>
+  </section>
+
+  <uip-root>
+    <uip-header>
+      <uip-snippets></uip-snippets>
+      <uip-options></uip-options>
+    </uip-header>
+    <script  type="text/html" uip-snippet label="Users aqua list">
+      <div class="user-list">
+        <div class="user-card aqua-user">Alexander</div>
+        <div class="user-card user-circle aqua-user">Alexey</div>
+        <div class="user-card aqua-user">Marina</div>
+      </div>
+    </script>
+    <script  type="text/html" uip-snippet label="Long red users list containing seven items" wrap-items>
+      <div class="user-list">
+        <div class="user-card red-user">Anton</div>
+        <div class="user-card red-user">Dmitri</div>
+        <div class="user-card red-user">Alexandra</div>
+        <div class="user-card red-user">Artem</div>
+        <div class="user-card red-user">Marina</div>
+        <div class="user-card red-user">Alexander</div>
+        <div class="user-card red-user">Alexander</div>
+      </div>
+    </script>
+    <uip-preview></uip-preview>
+    <uip-settings target=".user-list">
+      <uip-select-setting label="User color" target=".user-card" attribute="class" mode="append">
+        <option value="red-user">Red</option>
+        <option value="aqua-user">Aqua</option>
+        <option value="green-user">Green</option>
+      </uip-select-setting>
+      <uip-bool-setting label="Wrap items" attribute="wrap-items"></uip-bool-setting>
+    </uip-settings>
+    <uip-editor></uip-editor>
+  </uip-root>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>
+  <span>UIPlayground v1.0.0-beta.6 © 2021 Exadel, Inc</span>
+</div>
+<div>
+  <span>Core Team Contributors:</span>
+  <a href="mailto:yadamska@exadel.com">Yuliya Adamskaya</a>,
+  <a href="mailto:nharshunova@exadel.com">Harshunova Natallia</a>,
+  <a href="mailto:apalanevich@exadel.com">Palanevich Aliaksandr</a>,
+  <a href="mailto:pvalchetskaya@exadel.com">Valchetskaya Palina</a>,
+  <a href="mailto:abazukevich@exadel.com">Bazukevich Aliaksandr</a>
+</div>
+
+  </footer>
+
+  
+
+  <script src="/ui-playground/bundles/playground.js"></script>
+
+
+  <esl-scrollbar class="page-scrollbar" target="html"></esl-scrollbar>
+
+</body>
+</html>
