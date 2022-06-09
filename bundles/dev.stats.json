@@ -1,8 +1,8 @@
 {
-  "hash": "5d2f9bbcc8b7001c1359",
-  "version": "5.72.0",
-  "time": 13766,
-  "builtAt": 1654768934096,
+  "hash": "8228a1984cfdbd6f1ba3",
+  "version": "5.73.0",
+  "time": 13855,
+  "builtAt": 1654774904863,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 659125,
+      "size": 660880,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -24,7 +24,7 @@
         "related": {
           "sourceMap": "playground.js.map"
         },
-        "size": 659125
+        "size": 660880
       },
       "chunkNames": [
         "playground"
@@ -37,13 +37,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 2110611,
+          "size": 2117193,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 2110611
+            "size": 2117193
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -490,9 +490,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1308072,
+      "size": 1311848,
       "sizes": {
-        "javascript": 1306910,
+        "javascript": 1310686,
         "runtime": 1162
       },
       "names": [
@@ -508,7 +508,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "994c8a64c41b9f1587a2",
+      "hash": "fb04c65460c2b20e92ac",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -888,9 +888,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 720565,
+          "size": 724341,
           "sizes": {
-            "javascript": 720565
+            "javascript": 724341
           },
           "built": true,
           "codeGenerated": true,
@@ -951,7 +951,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "21397:83-89",
+              "loc": "21530:83-89",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -965,7 +965,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "21398:24-38",
+              "loc": "21531:24-38",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -1029,7 +1029,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 21398:24-38",
+            "CommonJS bailout: module.exports is used directly at 21531:24-38",
             "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
@@ -46070,9 +46070,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 720565,
+      "size": 724341,
       "sizes": {
-        "javascript": 720565
+        "javascript": 724341
       },
       "built": true,
       "codeGenerated": true,
@@ -46132,7 +46132,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "21397:83-89",
+          "loc": "21530:83-89",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -46146,7 +46146,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "21398:24-38",
+          "loc": "21531:24-38",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -46210,7 +46210,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 21398:24-38",
+        "CommonJS bailout: module.exports is used directly at 21531:24-38",
         "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
@@ -48436,19 +48436,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 659125
+          "size": 660880
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 659125,
+      "assetsSize": 660880,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2110611
+          "size": 2117193
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2110611,
+      "auxiliaryAssetsSize": 2117193,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -48463,19 +48463,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 659125
+          "size": 660880
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 659125,
+      "assetsSize": 660880,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2110611
+          "size": 2117193
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2110611,
+      "auxiliaryAssetsSize": 2117193,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -48485,12 +48485,12 @@
   "errorsCount": 0,
   "warnings": [
     {
-      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (644 KiB)",
-      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (644 KiB)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:134:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
+      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (645 KiB)",
+      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (645 KiB)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:134:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
     },
     {
-      "message": "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (644 KiB)\n      playground.js\n",
-      "stack": "EntrypointsOverSizeLimitWarning: entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (644 KiB)\n      playground.js\n\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:139:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
+      "message": "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (645 KiB)\n      playground.js\n",
+      "stack": "EntrypointsOverSizeLimitWarning: entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (645 KiB)\n      playground.js\n\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:139:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
     },
     {
       "message": "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/",
