@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Getting started</title>
+  <title>Components</title>
 
   <link rel="icon" type="image/png" href="/ui-playground/assets/logo-64x64.png" />
   <link rel="stylesheet" type="text/css" href="/ui-playground/bundles/playground.css" />
@@ -46,57 +46,59 @@
   <main class="main" role="main">
     
       <h2 class="main__title">
-        Getting started
+        Components
       </h2>
     
     <div class="content">
       
-<h1>Installation</h1>
-<p>TBD</p>
-<h1>Project structure</h1>
-<p>UIP components are organized in the following way:</p>
-<ol>
-<li>Core components
-<ul>
-<li>Base components
-<ul>
-<li><a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-root">UIPRoot</a></li>
+<ul class="uip-demo__list">
+  <h3 class="uip-demo__list-title">Core</h3>
+  
+    <li class="uip-demo__list-item">
+      <a href="/ui-playground/core/base/">Base</a>
+    </li>
+    <li class="uip-demo__list-item">
+      <a href="/ui-playground/core/preview/">Preview</a>
+    </li>
+    <li class="uip-demo__list-item">
+      <a href="/ui-playground/core/snippets/">Snippets</a>
+    </li>
 </ul>
-</li>
-<li><a href="https://exadel-inc.github.io/ui-playground/core/preview/">UIPPreview</a></li>
-<li><a href="https://exadel-inc.github.io/ui-playground/plugins/header/snippets/">UIPSnippets</a></li>
-</ul>
-</li>
-<li>Plugins
-<ul>
-<li><a href="https://exadel-inc.github.io/ui-playground/plugins/editor/">UIPEditor</a></li>
-<li><a href="https://exadel-inc.github.io/ui-playground/plugins/header/options/">UIPOptions</a></li>
-<li><a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSettings</a>
-<ul>
-<li><a href="https://exadel-inc.github.io/ui-playground/settings/bool-setting/">UIPBoolSetting</a></li>
-<li><a href="https://exadel-inc.github.io/ui-playground/settings/select-setting/">UIPSelectSetting</a></li>
-<li><a href="https://exadel-inc.github.io/ui-playground/settings/text-setting/">UIPTextSetting</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-<p>Any playground must have at least <strong>core</strong> components. <strong>Plugins</strong> are
-optional, you can add them on your own free will.</p>
-<p>To implement custom UIPPlayground components, see <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-plugin">UIPPlugin</a>.</p>
-<h1>Modules/components imports</h1>
-<p>Module's main parts lay inside modules folders. So importing the required
-module is really straightforward:</p>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
-<p>Every module has two versions of styles: <em>css</em> and <em>less</em>. If you want
-to import styles for all UIP component, you can import either
-<em>registration.less</em> or <em>registration.css</em> file.</p>
-<p>Before using UIP components, you also need to <em>register</em> them. For example,
-if you want to use <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-root">UIPRoot</a> component, register it like that:</p>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
-<h1>Browser support</h1>
-<p>UIPPlayground supports all modern browsers.</p>
 
+<ul class="uip-demo__list">
+  <h3 class="uip-demo__list-title">Plugins</h3>
+
+  <li class="uip-demo__list-item">
+    <a href="/ui-playground/plugins/editor/">Editor</a>
+  </li>
+  
+  <li class="uip-demo__list-item">
+    <a href="/ui-playground/plugins/options/">Options</a>
+  </li>
+  
+  <li class="uip-demo__list-item">
+    <a href="/ui-playground/plugins/settings/">Settings</a>
+  </li>
+  
+    <ul class="uip-demo__sublist">
+      
+        <li class="uip-demo__list-item">
+          <a href="/ui-playground/settings/bool-setting/">Boolean setting</a>
+        </li>
+        <li class="uip-demo__list-item">
+          <a href="/ui-playground/settings/select-setting/">Select setting</a>
+        </li>
+        <li class="uip-demo__list-item">
+          <a href="/ui-playground/settings/setting/">Setting</a>
+        </li>
+        <li class="uip-demo__list-item">
+          <a href="/ui-playground/settings/slider-setting/">Slider setting</a>
+        </li>
+        <li class="uip-demo__list-item">
+          <a href="/ui-playground/settings/text-setting/">Text setting</a>
+        </li>
+    </ul>
+</ul>
 
     </div>
   </main>

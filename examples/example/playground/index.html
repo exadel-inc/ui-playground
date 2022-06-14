@@ -18,9 +18,30 @@
 <body>
 
   <header class="header">
-    <span>UIPlayground</span>
+    <a class="uip-title" href="/ui-playground/">
+  <img alt="logo" src="/ui-playground/assets/uip-logo.svg">
+  <span class="uip-title-text">UIPlayground</span>
+</a>
+<div class="header-nav">
+  <a class="header-nav-link" href="/ui-playground/examples/">Examples</a>
+  <a class="header-nav-link" href="/ui-playground/components/">Components</a>
+  <a class="header-nav-link icon-link" href="https://github.com/exadel-inc/ui-playground" target="_blank">
+    <img alt="github" src="/ui-playground/assets/github.svg">
+  </a>
+  <a class="header-nav-link get-started" href="/ui-playground/general/getting-started/">Get Started</a>
+  <esl-trigger class="header-nav-menu" target="#sidebar" aria-label="Navigation Menu"></esl-trigger>
+</div>
 
   </header>
+  <esl-toggleable id="sidebar" class="sidebar" close-on-outside-action close-on-esc>
+  <li class="sidebar-nav-item">
+    <a href="/ui-playground/examples/" class="sidebar-nav-item-link">Examples</a>
+  </li>
+  <li class="sidebar-nav-item">
+    <a href="/ui-playground/components/" class="sidebar-nav-item-link">Components</a>
+  </li>
+</esl-toggleable>
+
 
   <main class="main" role="main">
     
@@ -94,10 +115,10 @@
 <div>
   <span>Core Team Contributors:</span>
   <a href="mailto:yadamska@exadel.com">Yuliya Adamskaya</a>,
-  <a href="mailto:nharshunova@exadel.com">Harshunova Natallia</a>,
-  <a href="mailto:apalanevich@exadel.com">Palanevich Aliaksandr</a>,
-  <a href="mailto:pvalchetskaya@exadel.com">Valchetskaya Palina</a>,
-  <a href="mailto:abazukevich@exadel.com">Bazukevich Aliaksandr</a>
+  <a href="mailto:nharshunova@exadel.com">Natallia Harshunova</a>,
+  <a href="mailto:apalanevich@exadel.com">Aliaksandr Palanevich</a>,
+  <a href="mailto:pvalchetskaya@exadel.com">Palina Valchetskaya</a>,
+  <a href="mailto:abazukevich@exadel.com">Aliaksandr Bazukevich</a>
 </div>
 
   </footer>
