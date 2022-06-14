@@ -1,8 +1,8 @@
 {
-  "hash": "8228a1984cfdbd6f1ba3",
+  "hash": "7de7381ca5050572bdc0",
   "version": "5.73.0",
-  "time": 13855,
-  "builtAt": 1654774904863,
+  "time": 11779,
+  "builtAt": 1655188971525,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 660880,
+      "size": 660633,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -24,7 +24,7 @@
         "related": {
           "sourceMap": "playground.js.map"
         },
-        "size": 660880
+        "size": 660633
       },
       "chunkNames": [
         "playground"
@@ -37,13 +37,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 2117193,
+          "size": 2116211,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 2117193
+            "size": 2116211
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -200,13 +200,13 @@
     },
     {
       "type": "asset",
-      "name": "../../../esm/src/plugins/header/options/option/option.d.ts",
-      "size": 1069,
+      "name": "../../../esm/src/plugins/settings/settings.d.ts",
+      "size": 939,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1069
+        "size": 939
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -219,13 +219,13 @@
     },
     {
       "type": "asset",
-      "name": "../../../esm/src/plugins/settings/settings.d.ts",
-      "size": 939,
+      "name": "../../../esm/src/plugins/header/options/option/option.d.ts",
+      "size": 887,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 939
+        "size": 887
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -490,9 +490,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1311848,
+      "size": 1311369,
       "sizes": {
-        "javascript": 1310686,
+        "javascript": 1310207,
         "runtime": 1162
       },
       "names": [
@@ -508,7 +508,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "fb04c65460c2b20e92ac",
+      "hash": "c9139acc847a4080badf",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -1467,9 +1467,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 205929,
+          "size": 205450,
           "sizes": {
-            "javascript": 205929
+            "javascript": 205450
           },
           "built": true,
           "codeGenerated": true,
@@ -2417,7 +2417,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "13:31-45",
+                  "loc": "11:31-45",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3046,48 +3046,6 @@
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
                   "loc": "46:12-31",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-                  "module": "../src/plugins/header/options/option/option.ts",
-                  "moduleName": "../src/plugins/header/options/option/option.ts",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-                  "resolvedModule": "../src/plugins/header/options/option/option.ts",
-                  "type": "harmony side effect evaluation",
-                  "active": false,
-                  "explanation": "",
-                  "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-                  "loc": "10:0-70",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-                  "module": "../src/plugins/header/options/option/option.ts",
-                  "moduleName": "../src/plugins/header/options/option/option.ts",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-                  "resolvedModule": "../src/plugins/header/options/option/option.ts",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-                  "loc": "38:8-27",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-                  "module": "../src/plugins/header/options/option/option.ts",
-                  "moduleName": "../src/plugins/header/options/option/option.ts",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-                  "resolvedModule": "../src/plugins/header/options/option/option.ts",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-                  "loc": "44:8-27",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3805,7 +3763,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-                  "loc": "9:0-69",
+                  "loc": "8:0-69",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3819,7 +3777,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-                  "loc": "66:4-8",
+                  "loc": "58:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3833,7 +3791,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-                  "loc": "69:4-8",
+                  "loc": "61:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3861,7 +3819,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-                  "loc": "89:4-8",
+                  "loc": "85:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3875,7 +3833,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-                  "loc": "92:4-8",
+                  "loc": "88:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -4786,7 +4744,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "60:4-8",
+                  "loc": "52:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -5453,7 +5411,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "63:4-12",
+                  "loc": "55:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6291,7 +6249,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
-                  "loc": "11:0-63",
+                  "loc": "9:0-70",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6305,7 +6263,21 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
-                  "loc": "41:12-17",
+                  "loc": "32:12-17",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
+                  "module": "../src/plugins/header/options/option/option.ts",
+                  "moduleName": "../src/plugins/header/options/option/option.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
+                  "resolvedModule": "../src/plugins/header/options/option/option.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
+                  "loc": "32:31-36",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -11676,9 +11648,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 3820,
+              "size": 3636,
               "sizes": {
-                "javascript": 3820
+                "javascript": 3636
               },
               "built": true,
               "codeGenerated": false,
@@ -14331,9 +14303,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2666,
+              "size": 2371,
               "sizes": {
-                "javascript": 2666
+                "javascript": 2371
               },
               "built": true,
               "codeGenerated": false,
@@ -15485,9 +15457,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 205929,
+      "size": 205450,
       "sizes": {
-        "javascript": 205929
+        "javascript": 205450
       },
       "built": true,
       "codeGenerated": true,
@@ -16427,7 +16399,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "13:31-45",
+              "loc": "11:31-45",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -17054,48 +17026,6 @@
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
               "loc": "46:12-31",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-              "module": "../src/plugins/header/options/option/option.ts",
-              "moduleName": "../src/plugins/header/options/option/option.ts",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-              "resolvedModule": "../src/plugins/header/options/option/option.ts",
-              "type": "harmony side effect evaluation",
-              "active": false,
-              "explanation": "",
-              "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-              "loc": "10:0-70",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-              "module": "../src/plugins/header/options/option/option.ts",
-              "moduleName": "../src/plugins/header/options/option/option.ts",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-              "resolvedModule": "../src/plugins/header/options/option/option.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-              "loc": "38:8-27",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-              "module": "../src/plugins/header/options/option/option.ts",
-              "moduleName": "../src/plugins/header/options/option/option.ts",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-              "resolvedModule": "../src/plugins/header/options/option/option.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-              "loc": "44:8-27",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -17812,7 +17742,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "9:0-69",
+              "loc": "8:0-69",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -17826,7 +17756,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "66:4-8",
+              "loc": "58:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -17840,7 +17770,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "69:4-8",
+              "loc": "61:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -17868,7 +17798,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "89:4-8",
+              "loc": "85:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -17882,7 +17812,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "92:4-8",
+              "loc": "88:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -18790,7 +18720,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "60:4-8",
+              "loc": "52:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -19456,7 +19386,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "63:4-12",
+              "loc": "55:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -20291,7 +20221,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
-              "loc": "11:0-63",
+              "loc": "9:0-70",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -20305,7 +20235,21 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
-              "loc": "41:12-17",
+              "loc": "32:12-17",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
+              "module": "../src/plugins/header/options/option/option.ts",
+              "moduleName": "../src/plugins/header/options/option/option.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
+              "resolvedModule": "../src/plugins/header/options/option/option.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
+              "loc": "32:31-36",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -25643,9 +25587,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3820,
+          "size": 3636,
           "sizes": {
-            "javascript": 3820
+            "javascript": 3636
           },
           "built": true,
           "codeGenerated": false,
@@ -28279,9 +28223,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2666,
+          "size": 2371,
           "sizes": {
-            "javascript": 2666
+            "javascript": 2371
           },
           "built": true,
           "codeGenerated": false,
@@ -30334,7 +30278,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "13:31-45",
+          "loc": "11:31-45",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -30961,48 +30905,6 @@
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
           "loc": "46:12-31",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-          "module": "../src/plugins/header/options/option/option.ts",
-          "moduleName": "../src/plugins/header/options/option/option.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-          "resolvedModule": "../src/plugins/header/options/option/option.ts",
-          "type": "harmony side effect evaluation",
-          "active": false,
-          "explanation": "",
-          "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "10:0-70",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-          "module": "../src/plugins/header/options/option/option.ts",
-          "moduleName": "../src/plugins/header/options/option/option.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-          "resolvedModule": "../src/plugins/header/options/option/option.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "38:8-27",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-          "module": "../src/plugins/header/options/option/option.ts",
-          "moduleName": "../src/plugins/header/options/option/option.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-          "resolvedModule": "../src/plugins/header/options/option/option.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "44:8-27",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -31719,7 +31621,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "9:0-69",
+          "loc": "8:0-69",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -31733,7 +31635,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "66:4-8",
+          "loc": "58:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -31747,7 +31649,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "69:4-8",
+          "loc": "61:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -31775,7 +31677,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "89:4-8",
+          "loc": "85:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -31789,7 +31691,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "92:4-8",
+          "loc": "88:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -32697,7 +32599,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "60:4-8",
+          "loc": "52:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -33363,7 +33265,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "63:4-12",
+          "loc": "55:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -34198,7 +34100,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
-          "loc": "11:0-63",
+          "loc": "9:0-70",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -34212,7 +34114,21 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
-          "loc": "41:12-17",
+          "loc": "32:12-17",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
+          "module": "../src/plugins/header/options/option/option.ts",
+          "moduleName": "../src/plugins/header/options/option/option.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
+          "resolvedModule": "../src/plugins/header/options/option/option.ts",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
+          "loc": "32:31-36",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -37504,7 +37420,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "8:0-91",
+          "loc": "7:0-91",
           "moduleId": 176,
           "resolvedModuleId": null
         },
@@ -37518,7 +37434,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "13:31-45",
+          "loc": "11:31-45",
           "moduleId": 176,
           "resolvedModuleId": null
         },
@@ -37532,7 +37448,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "60:4-8",
+          "loc": "52:4-8",
           "moduleId": 176,
           "resolvedModuleId": null
         },
@@ -37546,7 +37462,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "63:4-12",
+          "loc": "55:4-12",
           "moduleId": 176,
           "resolvedModuleId": null
         },
@@ -38022,7 +37938,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "8:0-91",
+          "loc": "7:0-91",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -38036,7 +37952,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "13:31-45",
+          "loc": "11:31-45",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -38050,7 +37966,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "60:4-8",
+          "loc": "52:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -38064,7 +37980,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "63:4-12",
+          "loc": "55:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -42704,9 +42620,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3820,
+      "size": 3636,
       "sizes": {
-        "javascript": 3820
+        "javascript": 3636
       },
       "built": true,
       "codeGenerated": false,
@@ -46678,9 +46594,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2666,
+      "size": 2371,
       "sizes": {
-        "javascript": 2666
+        "javascript": 2371
       },
       "built": true,
       "codeGenerated": false,
@@ -48436,19 +48352,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 660880
+          "size": 660633
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 660880,
+      "assetsSize": 660633,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2117193
+          "size": 2116211
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2117193,
+      "auxiliaryAssetsSize": 2116211,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -48463,19 +48379,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 660880
+          "size": 660633
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 660880,
+      "assetsSize": 660633,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2117193
+          "size": 2116211
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2117193,
+      "auxiliaryAssetsSize": 2116211,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
