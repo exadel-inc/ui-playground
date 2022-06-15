@@ -1,8 +1,8 @@
 {
-  "hash": "77dc4c88b04bb79ddb6f",
+  "hash": "0f12dc2f89bcecf3721f",
   "version": "5.73.0",
-  "time": 12068,
-  "builtAt": 1655200322989,
+  "time": 12078,
+  "builtAt": 1655291052352,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 666866,
+      "size": 666909,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -24,7 +24,7 @@
         "related": {
           "sourceMap": "playground.js.map"
         },
-        "size": 666866
+        "size": 666909
       },
       "chunkNames": [
         "playground"
@@ -37,13 +37,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 2136577,
+          "size": 2136850,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 2136577
+            "size": 2136850
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -490,9 +490,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1324159,
+      "size": 1324341,
       "sizes": {
-        "javascript": 1322997,
+        "javascript": 1323179,
         "runtime": 1162
       },
       "names": [
@@ -508,7 +508,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "2ca7574b18c75868b9e3",
+      "hash": "f35a201cb0e72da0b8f6",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -888,9 +888,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 724341,
+          "size": 724523,
           "sizes": {
-            "javascript": 724341
+            "javascript": 724523
           },
           "built": true,
           "codeGenerated": true,
@@ -951,7 +951,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "21530:83-89",
+              "loc": "21539:83-89",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -965,7 +965,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "21531:24-38",
+              "loc": "21540:24-38",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -1029,7 +1029,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 21531:24-38",
+            "CommonJS bailout: module.exports is used directly at 21540:24-38",
             "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
@@ -50209,9 +50209,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 724341,
+      "size": 724523,
       "sizes": {
-        "javascript": 724341
+        "javascript": 724523
       },
       "built": true,
       "codeGenerated": true,
@@ -50271,7 +50271,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "21530:83-89",
+          "loc": "21539:83-89",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -50285,7 +50285,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "21531:24-38",
+          "loc": "21540:24-38",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -50349,7 +50349,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 21531:24-38",
+        "CommonJS bailout: module.exports is used directly at 21540:24-38",
         "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
@@ -52381,19 +52381,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 666866
+          "size": 666909
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 666866,
+      "assetsSize": 666909,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2136577
+          "size": 2136850
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2136577,
+      "auxiliaryAssetsSize": 2136850,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -52408,19 +52408,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 666866
+          "size": 666909
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 666866,
+      "assetsSize": 666909,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2136577
+          "size": 2136850
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2136577,
+      "auxiliaryAssetsSize": 2136850,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
