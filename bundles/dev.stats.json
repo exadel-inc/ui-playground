@@ -1,8 +1,8 @@
 {
   "hash": "6b770e7c0ff3bb87ace3",
   "version": "5.73.0",
-  "time": 12317,
-  "builtAt": 1655990098768,
+  "time": 13646,
+  "builtAt": 1656005305594,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -10474,8 +10474,8 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
-              "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+              "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
               "issuerPath": [
                 {
                   "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -10498,8 +10498,8 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
                   "id": null
                 }
               ],
@@ -25520,8 +25520,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
-          "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+          "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
           "issuerPath": [
             {
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -25544,8 +25544,8 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
               "id": null
             }
           ],
@@ -45166,8 +45166,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -45190,8 +45190,8 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
           "id": null
         }
       ],
