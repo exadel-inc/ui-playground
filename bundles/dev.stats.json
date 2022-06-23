@@ -1,8 +1,8 @@
 {
-  "hash": "0f12dc2f89bcecf3721f",
+  "hash": "6b770e7c0ff3bb87ace3",
   "version": "5.73.0",
-  "time": 12078,
-  "builtAt": 1655291052352,
+  "time": 12317,
+  "builtAt": 1655990098768,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 666909,
+      "size": 667257,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -24,7 +24,7 @@
         "related": {
           "sourceMap": "playground.js.map"
         },
-        "size": 666909
+        "size": 667257
       },
       "chunkNames": [
         "playground"
@@ -37,13 +37,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 2136850,
+          "size": 2137708,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 2136850
+            "size": 2137708
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -68,12 +68,12 @@
     {
       "type": "asset",
       "name": "../../../esm/src/core/base/model.d.ts",
-      "size": 2388,
+      "size": 2462,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 2388
+        "size": 2462
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -162,13 +162,13 @@
     },
     {
       "type": "asset",
-      "name": "../../../esm/src/plugins/header/snippets/snippets.d.ts",
-      "size": 1559,
+      "name": "../../../esm/src/core/base/root.d.ts",
+      "size": 1594,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1559
+        "size": 1594
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -181,13 +181,13 @@
     },
     {
       "type": "asset",
-      "name": "../../../esm/src/core/base/root.d.ts",
-      "size": 1558,
+      "name": "../../../esm/src/plugins/header/snippets/snippets.d.ts",
+      "size": 1535,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1558
+        "size": 1535
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -371,6 +371,25 @@
     },
     {
       "type": "asset",
+      "name": "../../../esm/src/plugins/header/header.d.ts",
+      "size": 353,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 353
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "../../../esm/src/core/registration.d.ts",
       "size": 317,
       "emitted": true,
@@ -428,25 +447,6 @@
     },
     {
       "type": "asset",
-      "name": "../../../esm/src/plugins/header/header.d.ts",
-      "size": 205,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 205
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "../../../esm/src/registration.d.ts",
       "size": 156,
       "emitted": true,
@@ -490,9 +490,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1324341,
+      "size": 1325020,
       "sizes": {
-        "javascript": 1323179,
+        "javascript": 1323858,
         "runtime": 1162
       },
       "names": [
@@ -508,7 +508,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "f35a201cb0e72da0b8f6",
+      "hash": "3353472c4e146bb67ac1",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -1467,9 +1467,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 218240,
+          "size": 218919,
           "sizes": {
-            "javascript": 218240
+            "javascript": 218919
           },
           "built": true,
           "codeGenerated": true,
@@ -3439,7 +3439,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-                  "loc": "46:12-31",
+                  "loc": "50:12-31",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -4409,7 +4409,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-                  "loc": "178:4-8",
+                  "loc": "177:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -4423,7 +4423,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-                  "loc": "181:4-8",
+                  "loc": "180:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -4437,7 +4437,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-                  "loc": "184:4-8",
+                  "loc": "183:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6465,7 +6465,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "61:4-12",
+                  "loc": "65:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6479,7 +6479,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "64:4-12",
+                  "loc": "68:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6493,7 +6493,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "67:4-12",
+                  "loc": "71:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6507,7 +6507,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "70:4-12",
+                  "loc": "74:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9982,6 +9982,48 @@
               "assets": [],
               "reasons": [
                 {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+                  "module": "../src/plugins/header/header.ts",
+                  "moduleName": "../src/plugins/header/header.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+                  "resolvedModule": "../src/plugins/header/header.ts",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "../registration",
+                  "loc": "2:0-58",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+                  "module": "../src/plugins/header/header.ts",
+                  "moduleName": "../src/plugins/header/header.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+                  "resolvedModule": "../src/plugins/header/header.ts",
+                  "type": "harmony import specifier",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "../registration",
+                  "loc": "19:54-68",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+                  "module": "../src/plugins/header/header.ts",
+                  "moduleName": "../src/plugins/header/header.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+                  "resolvedModule": "../src/plugins/header/header.ts",
+                  "type": "harmony import specifier",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "../registration",
+                  "loc": "24:49-62",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
                   "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
                   "module": "../src/registration.ts",
                   "moduleName": "../src/registration.ts",
@@ -10432,8 +10474,8 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
-              "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+              "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
               "issuerPath": [
                 {
                   "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -10456,8 +10498,8 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
                   "id": null
                 }
               ],
@@ -11341,7 +11383,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "73:4-11",
+                  "loc": "77:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11369,7 +11411,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "157:4-11",
+                  "loc": "156:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11383,7 +11425,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "160:4-11",
+                  "loc": "159:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11397,7 +11439,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "163:4-11",
+                  "loc": "162:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11411,7 +11453,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "166:4-11",
+                  "loc": "165:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11425,7 +11467,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "169:4-11",
+                  "loc": "168:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11439,7 +11481,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "172:4-11",
+                  "loc": "171:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11453,7 +11495,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "175:4-11",
+                  "loc": "174:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13140,9 +13182,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2948,
+              "size": 3067,
               "sizes": {
-                "javascript": 2948
+                "javascript": 3067
               },
               "built": true,
               "codeGenerated": false,
@@ -13272,9 +13314,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2949,
+              "size": 2991,
               "sizes": {
-                "javascript": 2949
+                "javascript": 2991
               },
               "built": true,
               "codeGenerated": false,
@@ -13632,7 +13674,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../core/base/plugin",
-                  "loc": "6:31-40",
+                  "loc": "7:31-40",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13840,9 +13882,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 203,
+              "size": 842,
               "sizes": {
-                "javascript": 203
+                "javascript": 842
               },
               "built": true,
               "codeGenerated": false,
@@ -13853,8 +13895,8 @@
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
               "index": 70,
               "preOrderIndex": 70,
-              "index2": 67,
-              "postOrderIndex": 67,
+              "index2": 70,
+              "postOrderIndex": 70,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -13936,7 +13978,7 @@
                 "UIPHeader"
               ],
               "optimizationBailout": [
-                "Statement (ExpressionStatement) with side effects in source code at 8:0-28"
+                "Statement (ExpressionStatement) with side effects in source code at 28:0-28"
               ],
               "depth": 3
             },
@@ -13944,113 +13986,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 3636,
+              "size": 6461,
               "sizes": {
-                "javascript": 3636
-              },
-              "built": true,
-              "codeGenerated": false,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/options.ts",
-              "name": "../src/plugins/header/options/options.ts",
-              "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/options.ts",
-              "index": 71,
-              "preOrderIndex": 71,
-              "index2": 69,
-              "postOrderIndex": 69,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-              "issuerName": "../src/plugins/registration.ts",
-              "issuerPath": [
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
-                  "name": "./src/playground.ts",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-                  "name": "../src/registration.ts",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-                  "name": "../src/plugins/registration.ts",
-                  "id": null
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": null,
-              "issuerId": null,
-              "chunks": [],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-                  "module": "../src/plugins/registration.ts",
-                  "moduleName": "../src/plugins/registration.ts",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-                  "resolvedModule": "../src/plugins/registration.ts",
-                  "type": "harmony side effect evaluation",
-                  "active": false,
-                  "explanation": "",
-                  "userRequest": "./header/options/options",
-                  "loc": "3:0-54",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-                  "module": "../src/plugins/registration.ts",
-                  "moduleName": "../src/plugins/registration.ts",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-                  "resolvedModule": "../src/plugins/registration.ts",
-                  "type": "harmony export imported specifier",
-                  "active": false,
-                  "explanation": "",
-                  "userRequest": "./header/options/options",
-                  "loc": "6:0-70",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-                  "module": "../src/plugins/registration.ts",
-                  "moduleName": "../src/plugins/registration.ts",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-                  "resolvedModule": "../src/plugins/registration.ts",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./header/options/options",
-                  "loc": "10:4-23",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": [
-                "UIPOptions"
-              ],
-              "providedExports": [
-                "UIPOptions"
-              ],
-              "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 1:0-6:2"
-              ],
-              "depth": 3
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "layer": null,
-              "size": 6582,
-              "sizes": {
-                "javascript": 6582
+                "javascript": 6461
               },
               "built": true,
               "codeGenerated": false,
@@ -14059,10 +13997,10 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/snippets/snippets.ts",
               "name": "../src/plugins/header/snippets/snippets.ts",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/snippets/snippets.ts",
-              "index": 73,
-              "preOrderIndex": 73,
-              "index2": 70,
-              "postOrderIndex": 70,
+              "index": 71,
+              "preOrderIndex": 71,
+              "index2": 67,
+              "postOrderIndex": 67,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -14094,6 +14032,20 @@
               "chunks": [],
               "assets": [],
               "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+                  "module": "../src/plugins/header/header.ts",
+                  "moduleName": "../src/plugins/header/header.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+                  "resolvedModule": "../src/plugins/header/header.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "(skipped side-effect-free modules)",
+                  "userRequest": "../registration",
+                  "loc": "19:54-68",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
                 {
                   "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
                   "module": "../src/plugins/registration.ts",
@@ -14142,6 +14094,124 @@
               ],
               "providedExports": [
                 "UIPSnippets"
+              ],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 1:0-6:2"
+              ],
+              "depth": 3
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 3636,
+              "sizes": {
+                "javascript": 3636
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/options.ts",
+              "name": "../src/plugins/header/options/options.ts",
+              "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/options.ts",
+              "index": 72,
+              "preOrderIndex": 72,
+              "index2": 69,
+              "postOrderIndex": 69,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+              "issuerName": "../src/plugins/registration.ts",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
+                  "name": "./src/playground.ts",
+                  "id": null
+                },
+                {
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
+                  "name": "../src/registration.ts",
+                  "id": null
+                },
+                {
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+                  "name": "../src/plugins/registration.ts",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+                  "module": "../src/plugins/header/header.ts",
+                  "moduleName": "../src/plugins/header/header.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+                  "resolvedModule": "../src/plugins/header/header.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "(skipped side-effect-free modules)",
+                  "userRequest": "../registration",
+                  "loc": "24:49-62",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+                  "module": "../src/plugins/registration.ts",
+                  "moduleName": "../src/plugins/registration.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+                  "resolvedModule": "../src/plugins/registration.ts",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./header/options/options",
+                  "loc": "3:0-54",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+                  "module": "../src/plugins/registration.ts",
+                  "moduleName": "../src/plugins/registration.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+                  "resolvedModule": "../src/plugins/registration.ts",
+                  "type": "harmony export imported specifier",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./header/options/options",
+                  "loc": "6:0-70",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+                  "module": "../src/plugins/registration.ts",
+                  "moduleName": "../src/plugins/registration.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+                  "resolvedModule": "../src/plugins/registration.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./header/options/options",
+                  "loc": "10:4-23",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "UIPOptions"
+              ],
+              "providedExports": [
+                "UIPOptions"
               ],
               "optimizationBailout": [
                 "Statement (VariableDeclaration) with side effects in source code at 1:0-6:2"
@@ -15341,8 +15411,8 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
               "name": "../src/plugins/header/options/option/option.ts",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-              "index": 72,
-              "preOrderIndex": 72,
+              "index": 73,
+              "preOrderIndex": 73,
               "index2": 68,
               "postOrderIndex": 68,
               "cacheable": true,
@@ -16484,9 +16554,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 218240,
+      "size": 218919,
       "sizes": {
-        "javascript": 218240
+        "javascript": 218919
       },
       "built": true,
       "codeGenerated": true,
@@ -18444,7 +18514,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-              "loc": "46:12-31",
+              "loc": "50:12-31",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -19413,7 +19483,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "178:4-8",
+              "loc": "177:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -19427,7 +19497,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "181:4-8",
+              "loc": "180:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -19441,7 +19511,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "184:4-8",
+              "loc": "183:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -21464,7 +21534,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "61:4-12",
+              "loc": "65:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -21478,7 +21548,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "64:4-12",
+              "loc": "68:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -21492,7 +21562,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "67:4-12",
+              "loc": "71:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -21506,7 +21576,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "70:4-12",
+              "loc": "74:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24961,6 +25031,48 @@
           "assets": [],
           "reasons": [
             {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+              "module": "../src/plugins/header/header.ts",
+              "moduleName": "../src/plugins/header/header.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+              "resolvedModule": "../src/plugins/header/header.ts",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "../registration",
+              "loc": "2:0-58",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+              "module": "../src/plugins/header/header.ts",
+              "moduleName": "../src/plugins/header/header.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+              "resolvedModule": "../src/plugins/header/header.ts",
+              "type": "harmony import specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "../registration",
+              "loc": "19:54-68",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+              "module": "../src/plugins/header/header.ts",
+              "moduleName": "../src/plugins/header/header.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+              "resolvedModule": "../src/plugins/header/header.ts",
+              "type": "harmony import specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "../registration",
+              "loc": "24:49-62",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
               "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
               "module": "../src/registration.ts",
               "moduleName": "../src/registration.ts",
@@ -25408,8 +25520,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
-          "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+          "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
           "issuerPath": [
             {
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -25432,8 +25544,8 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
               "id": null
             }
           ],
@@ -26313,7 +26425,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "73:4-11",
+              "loc": "77:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26341,7 +26453,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "157:4-11",
+              "loc": "156:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26355,7 +26467,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "160:4-11",
+              "loc": "159:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26369,7 +26481,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "163:4-11",
+              "loc": "162:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26383,7 +26495,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "166:4-11",
+              "loc": "165:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26397,7 +26509,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "169:4-11",
+              "loc": "168:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26411,7 +26523,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "172:4-11",
+              "loc": "171:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26425,7 +26537,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "175:4-11",
+              "loc": "174:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28102,9 +28214,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2948,
+          "size": 3067,
           "sizes": {
-            "javascript": 2948
+            "javascript": 3067
           },
           "built": true,
           "codeGenerated": false,
@@ -28233,9 +28345,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2949,
+          "size": 2991,
           "sizes": {
-            "javascript": 2949
+            "javascript": 2991
           },
           "built": true,
           "codeGenerated": false,
@@ -28590,7 +28702,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../core/base/plugin",
-              "loc": "6:31-40",
+              "loc": "7:31-40",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28797,9 +28909,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 203,
+          "size": 842,
           "sizes": {
-            "javascript": 203
+            "javascript": 842
           },
           "built": true,
           "codeGenerated": false,
@@ -28810,8 +28922,8 @@
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
           "index": 70,
           "preOrderIndex": 70,
-          "index2": 67,
-          "postOrderIndex": 67,
+          "index2": 70,
+          "postOrderIndex": 70,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -28892,7 +29004,7 @@
             "UIPHeader"
           ],
           "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 8:0-28"
+            "Statement (ExpressionStatement) with side effects in source code at 28:0-28"
           ],
           "depth": 3
         },
@@ -28900,112 +29012,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3636,
+          "size": 6461,
           "sizes": {
-            "javascript": 3636
-          },
-          "built": true,
-          "codeGenerated": false,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/options.ts",
-          "name": "../src/plugins/header/options/options.ts",
-          "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/options.ts",
-          "index": 71,
-          "preOrderIndex": 71,
-          "index2": 69,
-          "postOrderIndex": 69,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-          "issuerName": "../src/plugins/registration.ts",
-          "issuerPath": [
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
-              "name": "./src/playground.ts",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-              "name": "../src/registration.ts",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-              "name": "../src/plugins/registration.ts",
-              "id": null
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": null,
-          "issuerId": null,
-          "chunks": [],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-              "module": "../src/plugins/registration.ts",
-              "moduleName": "../src/plugins/registration.ts",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-              "resolvedModule": "../src/plugins/registration.ts",
-              "type": "harmony side effect evaluation",
-              "active": false,
-              "explanation": "",
-              "userRequest": "./header/options/options",
-              "loc": "3:0-54",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-              "module": "../src/plugins/registration.ts",
-              "moduleName": "../src/plugins/registration.ts",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-              "resolvedModule": "../src/plugins/registration.ts",
-              "type": "harmony export imported specifier",
-              "active": false,
-              "explanation": "",
-              "userRequest": "./header/options/options",
-              "loc": "6:0-70",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-              "module": "../src/plugins/registration.ts",
-              "moduleName": "../src/plugins/registration.ts",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-              "resolvedModule": "../src/plugins/registration.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./header/options/options",
-              "loc": "10:4-23",
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": [
-            "UIPOptions"
-          ],
-          "providedExports": [
-            "UIPOptions"
-          ],
-          "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 1:0-6:2"
-          ],
-          "depth": 3
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 6582,
-          "sizes": {
-            "javascript": 6582
+            "javascript": 6461
           },
           "built": true,
           "codeGenerated": false,
@@ -29014,10 +29023,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/snippets/snippets.ts",
           "name": "../src/plugins/header/snippets/snippets.ts",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/snippets/snippets.ts",
-          "index": 73,
-          "preOrderIndex": 73,
-          "index2": 70,
-          "postOrderIndex": 70,
+          "index": 71,
+          "preOrderIndex": 71,
+          "index2": 67,
+          "postOrderIndex": 67,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -29048,6 +29057,20 @@
           "chunks": [],
           "assets": [],
           "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+              "module": "../src/plugins/header/header.ts",
+              "moduleName": "../src/plugins/header/header.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+              "resolvedModule": "../src/plugins/header/header.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "(skipped side-effect-free modules)",
+              "userRequest": "../registration",
+              "loc": "19:54-68",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
             {
               "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
               "module": "../src/plugins/registration.ts",
@@ -29096,6 +29119,123 @@
           ],
           "providedExports": [
             "UIPSnippets"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 1:0-6:2"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 3636,
+          "sizes": {
+            "javascript": 3636
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/options.ts",
+          "name": "../src/plugins/header/options/options.ts",
+          "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/options.ts",
+          "index": 72,
+          "preOrderIndex": 72,
+          "index2": 69,
+          "postOrderIndex": 69,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+          "issuerName": "../src/plugins/registration.ts",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
+              "name": "./src/playground.ts",
+              "id": null
+            },
+            {
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
+              "name": "../src/registration.ts",
+              "id": null
+            },
+            {
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+              "name": "../src/plugins/registration.ts",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+              "module": "../src/plugins/header/header.ts",
+              "moduleName": "../src/plugins/header/header.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+              "resolvedModule": "../src/plugins/header/header.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "(skipped side-effect-free modules)",
+              "userRequest": "../registration",
+              "loc": "24:49-62",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+              "module": "../src/plugins/registration.ts",
+              "moduleName": "../src/plugins/registration.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+              "resolvedModule": "../src/plugins/registration.ts",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./header/options/options",
+              "loc": "3:0-54",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+              "module": "../src/plugins/registration.ts",
+              "moduleName": "../src/plugins/registration.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+              "resolvedModule": "../src/plugins/registration.ts",
+              "type": "harmony export imported specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./header/options/options",
+              "loc": "6:0-70",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+              "module": "../src/plugins/registration.ts",
+              "moduleName": "../src/plugins/registration.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+              "resolvedModule": "../src/plugins/registration.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./header/options/options",
+              "loc": "10:4-23",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "UIPOptions"
+          ],
+          "providedExports": [
+            "UIPOptions"
           ],
           "optimizationBailout": [
             "Statement (VariableDeclaration) with side effects in source code at 1:0-6:2"
@@ -30286,8 +30426,8 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
           "name": "../src/plugins/header/options/option/option.ts",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-          "index": 72,
-          "preOrderIndex": 72,
+          "index": 73,
+          "preOrderIndex": 73,
           "index2": 68,
           "postOrderIndex": 68,
           "cacheable": true,
@@ -33560,7 +33700,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "46:12-31",
+          "loc": "50:12-31",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -34529,7 +34669,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "178:4-8",
+          "loc": "177:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -34543,7 +34683,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "181:4-8",
+          "loc": "180:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -34557,7 +34697,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "184:4-8",
+          "loc": "183:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -36580,7 +36720,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "61:4-12",
+          "loc": "65:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -36594,7 +36734,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "64:4-12",
+          "loc": "68:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -36608,7 +36748,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "67:4-12",
+          "loc": "71:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -36622,7 +36762,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "70:4-12",
+          "loc": "74:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -40077,6 +40217,48 @@
       "assets": [],
       "reasons": [
         {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+          "module": "../src/plugins/header/header.ts",
+          "moduleName": "../src/plugins/header/header.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+          "resolvedModule": "../src/plugins/header/header.ts",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../registration",
+          "loc": "2:0-58",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+          "module": "../src/plugins/header/header.ts",
+          "moduleName": "../src/plugins/header/header.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+          "resolvedModule": "../src/plugins/header/header.ts",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../registration",
+          "loc": "19:54-68",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+          "module": "../src/plugins/header/header.ts",
+          "moduleName": "../src/plugins/header/header.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+          "resolvedModule": "../src/plugins/header/header.ts",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../registration",
+          "loc": "24:49-62",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
           "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
           "module": "../src/registration.ts",
           "moduleName": "../src/registration.ts",
@@ -42687,7 +42869,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "61:4-12",
+          "loc": "65:4-12",
           "moduleId": 127,
           "resolvedModuleId": null
         },
@@ -42701,7 +42883,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "64:4-12",
+          "loc": "68:4-12",
           "moduleId": 127,
           "resolvedModuleId": null
         },
@@ -42715,7 +42897,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "67:4-12",
+          "loc": "71:4-12",
           "moduleId": 127,
           "resolvedModuleId": null
         },
@@ -42729,7 +42911,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "70:4-12",
+          "loc": "74:4-12",
           "moduleId": 127,
           "resolvedModuleId": null
         },
@@ -43205,7 +43387,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "61:4-12",
+          "loc": "65:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43219,7 +43401,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "64:4-12",
+          "loc": "68:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43233,7 +43415,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "67:4-12",
+          "loc": "71:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43247,7 +43429,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "70:4-12",
+          "loc": "74:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -44984,8 +45166,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -45008,8 +45190,8 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
           "id": null
         }
       ],
@@ -45889,7 +46071,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "73:4-11",
+          "loc": "77:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45917,7 +46099,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "157:4-11",
+          "loc": "156:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45931,7 +46113,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "160:4-11",
+          "loc": "159:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45945,7 +46127,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "163:4-11",
+          "loc": "162:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45959,7 +46141,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "166:4-11",
+          "loc": "165:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45973,7 +46155,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "169:4-11",
+          "loc": "168:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45987,7 +46169,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "172:4-11",
+          "loc": "171:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46001,7 +46183,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "175:4-11",
+          "loc": "174:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47678,9 +47860,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2948,
+      "size": 3067,
       "sizes": {
-        "javascript": 2948
+        "javascript": 3067
       },
       "built": true,
       "codeGenerated": false,
@@ -47809,9 +47991,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2949,
+      "size": 2991,
       "sizes": {
-        "javascript": 2949
+        "javascript": 2991
       },
       "built": true,
       "codeGenerated": false,
@@ -48166,7 +48348,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../core/base/plugin",
-          "loc": "6:31-40",
+          "loc": "7:31-40",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -48373,9 +48555,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 203,
+      "size": 842,
       "sizes": {
-        "javascript": 203
+        "javascript": 842
       },
       "built": true,
       "codeGenerated": false,
@@ -48386,8 +48568,8 @@
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
       "index": 70,
       "preOrderIndex": 70,
-      "index2": 67,
-      "postOrderIndex": 67,
+      "index2": 70,
+      "postOrderIndex": 70,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -48468,7 +48650,7 @@
         "UIPHeader"
       ],
       "optimizationBailout": [
-        "Statement (ExpressionStatement) with side effects in source code at 8:0-28"
+        "Statement (ExpressionStatement) with side effects in source code at 28:0-28"
       ],
       "depth": 3
     },
@@ -48476,112 +48658,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3636,
+      "size": 6461,
       "sizes": {
-        "javascript": 3636
-      },
-      "built": true,
-      "codeGenerated": false,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/options.ts",
-      "name": "../src/plugins/header/options/options.ts",
-      "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/options.ts",
-      "index": 71,
-      "preOrderIndex": 71,
-      "index2": 69,
-      "postOrderIndex": 69,
-      "cacheable": true,
-      "optional": false,
-      "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-      "issuerName": "../src/plugins/registration.ts",
-      "issuerPath": [
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
-          "name": "./src/playground.ts",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
-          "name": "../src/registration.ts",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-          "name": "../src/plugins/registration.ts",
-          "id": null
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": null,
-      "issuerId": null,
-      "chunks": [],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-          "module": "../src/plugins/registration.ts",
-          "moduleName": "../src/plugins/registration.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-          "resolvedModule": "../src/plugins/registration.ts",
-          "type": "harmony side effect evaluation",
-          "active": false,
-          "explanation": "",
-          "userRequest": "./header/options/options",
-          "loc": "3:0-54",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-          "module": "../src/plugins/registration.ts",
-          "moduleName": "../src/plugins/registration.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-          "resolvedModule": "../src/plugins/registration.ts",
-          "type": "harmony export imported specifier",
-          "active": false,
-          "explanation": "",
-          "userRequest": "./header/options/options",
-          "loc": "6:0-70",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-          "module": "../src/plugins/registration.ts",
-          "moduleName": "../src/plugins/registration.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-          "resolvedModule": "../src/plugins/registration.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./header/options/options",
-          "loc": "10:4-23",
-          "moduleId": null,
-          "resolvedModuleId": null
-        }
-      ],
-      "usedExports": [
-        "UIPOptions"
-      ],
-      "providedExports": [
-        "UIPOptions"
-      ],
-      "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 1:0-6:2"
-      ],
-      "depth": 3
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 6582,
-      "sizes": {
-        "javascript": 6582
+        "javascript": 6461
       },
       "built": true,
       "codeGenerated": false,
@@ -48590,10 +48669,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/snippets/snippets.ts",
       "name": "../src/plugins/header/snippets/snippets.ts",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/snippets/snippets.ts",
-      "index": 73,
-      "preOrderIndex": 73,
-      "index2": 70,
-      "postOrderIndex": 70,
+      "index": 71,
+      "preOrderIndex": 71,
+      "index2": 67,
+      "postOrderIndex": 67,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -48624,6 +48703,20 @@
       "chunks": [],
       "assets": [],
       "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+          "module": "../src/plugins/header/header.ts",
+          "moduleName": "../src/plugins/header/header.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+          "resolvedModule": "../src/plugins/header/header.ts",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "(skipped side-effect-free modules)",
+          "userRequest": "../registration",
+          "loc": "19:54-68",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
         {
           "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
           "module": "../src/plugins/registration.ts",
@@ -48672,6 +48765,123 @@
       ],
       "providedExports": [
         "UIPSnippets"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 1:0-6:2"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 3636,
+      "sizes": {
+        "javascript": 3636
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/options.ts",
+      "name": "../src/plugins/header/options/options.ts",
+      "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/options.ts",
+      "index": 72,
+      "preOrderIndex": 72,
+      "index2": 69,
+      "postOrderIndex": 69,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+      "issuerName": "../src/plugins/registration.ts",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
+          "name": "./src/playground.ts",
+          "id": null
+        },
+        {
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/registration.ts",
+          "name": "../src/registration.ts",
+          "id": null
+        },
+        {
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+          "name": "../src/plugins/registration.ts",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+          "module": "../src/plugins/header/header.ts",
+          "moduleName": "../src/plugins/header/header.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+          "resolvedModule": "../src/plugins/header/header.ts",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "(skipped side-effect-free modules)",
+          "userRequest": "../registration",
+          "loc": "24:49-62",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+          "module": "../src/plugins/registration.ts",
+          "moduleName": "../src/plugins/registration.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+          "resolvedModule": "../src/plugins/registration.ts",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./header/options/options",
+          "loc": "3:0-54",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+          "module": "../src/plugins/registration.ts",
+          "moduleName": "../src/plugins/registration.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+          "resolvedModule": "../src/plugins/registration.ts",
+          "type": "harmony export imported specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./header/options/options",
+          "loc": "6:0-70",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+          "module": "../src/plugins/registration.ts",
+          "moduleName": "../src/plugins/registration.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
+          "resolvedModule": "../src/plugins/registration.ts",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./header/options/options",
+          "loc": "10:4-23",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "UIPOptions"
+      ],
+      "providedExports": [
+        "UIPOptions"
       ],
       "optimizationBailout": [
         "Statement (VariableDeclaration) with side effects in source code at 1:0-6:2"
@@ -50828,8 +51038,8 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
       "name": "../src/plugins/header/options/option/option.ts",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/src/plugins/header/options/option/option.ts",
-      "index": 72,
-      "preOrderIndex": 72,
+      "index": 73,
+      "preOrderIndex": 73,
       "index2": 68,
       "postOrderIndex": 68,
       "cacheable": true,
@@ -52381,19 +52591,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 666909
+          "size": 667257
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 666909,
+      "assetsSize": 667257,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2136850
+          "size": 2137708
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2136850,
+      "auxiliaryAssetsSize": 2137708,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -52408,19 +52618,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 666909
+          "size": 667257
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 666909,
+      "assetsSize": 667257,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2136850
+          "size": 2137708
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2136850,
+      "auxiliaryAssetsSize": 2137708,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -52430,12 +52640,12 @@
   "errorsCount": 0,
   "warnings": [
     {
-      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (651 KiB)",
-      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (651 KiB)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:134:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
+      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (652 KiB)",
+      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (652 KiB)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:134:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
     },
     {
-      "message": "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (651 KiB)\n      playground.js\n",
-      "stack": "EntrypointsOverSizeLimitWarning: entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (651 KiB)\n      playground.js\n\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:139:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
+      "message": "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (652 KiB)\n      playground.js\n",
+      "stack": "EntrypointsOverSizeLimitWarning: entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (652 KiB)\n      playground.js\n\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:139:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
     },
     {
       "message": "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/",
