@@ -1,8 +1,8 @@
 {
-  "hash": "6b770e7c0ff3bb87ace3",
+  "hash": "5b88e8080202c9cd1db8",
   "version": "5.73.0",
-  "time": 13646,
-  "builtAt": 1656005305594,
+  "time": 11522,
+  "builtAt": 1656006029153,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 667257,
+      "size": 667981,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -24,7 +24,7 @@
         "related": {
           "sourceMap": "playground.js.map"
         },
-        "size": 667257
+        "size": 667981
       },
       "chunkNames": [
         "playground"
@@ -37,13 +37,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 2137708,
+          "size": 2140152,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 2137708
+            "size": 2140152
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -490,9 +490,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1325020,
+      "size": 1326512,
       "sizes": {
-        "javascript": 1323858,
+        "javascript": 1325350,
         "runtime": 1162
       },
       "names": [
@@ -508,7 +508,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "3353472c4e146bb67ac1",
+      "hash": "9a69da8358acc007ac62",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -1161,9 +1161,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 53422,
+          "size": 53796,
           "sizes": {
-            "javascript": 53422
+            "javascript": 53796
           },
           "built": true,
           "codeGenerated": true,
@@ -1242,7 +1242,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./beautify-css",
-              "loc": "3094:27-55",
+              "loc": "3107:27-55",
               "moduleId": 706,
               "resolvedModuleId": 706
             },
@@ -1263,7 +1263,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 65:0-1668:5",
+            "Statement (ExpressionStatement) with side effects in source code at 65:0-1675:5",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 5
@@ -1272,9 +1272,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 109194,
+          "size": 109694,
           "sizes": {
-            "javascript": 109194
+            "javascript": 109694
           },
           "built": true,
           "codeGenerated": true,
@@ -1347,7 +1347,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 75:0-3123:5",
+            "Statement (ExpressionStatement) with side effects in source code at 75:0-3136:5",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 5
@@ -1356,9 +1356,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 147812,
+          "size": 148430,
           "sizes": {
-            "javascript": 147812
+            "javascript": 148430
           },
           "built": true,
           "codeGenerated": true,
@@ -1437,7 +1437,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./beautify",
-              "loc": "3093:26-50",
+              "loc": "3106:26-50",
               "moduleId": 706,
               "resolvedModuleId": 706
             },
@@ -1458,7 +1458,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 88:0-4008:5",
+            "Statement (ExpressionStatement) with side effects in source code at 88:0-4019:5",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 5
@@ -51965,9 +51965,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 147812,
+      "size": 148430,
       "sizes": {
-        "javascript": 147812
+        "javascript": 148430
       },
       "built": true,
       "codeGenerated": true,
@@ -52045,7 +52045,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./beautify",
-          "loc": "3093:26-50",
+          "loc": "3106:26-50",
           "moduleId": 706,
           "resolvedModuleId": 706
         },
@@ -52066,7 +52066,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "Statement (ExpressionStatement) with side effects in source code at 88:0-4008:5",
+        "Statement (ExpressionStatement) with side effects in source code at 88:0-4019:5",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 5
@@ -52075,9 +52075,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 53422,
+      "size": 53796,
       "sizes": {
-        "javascript": 53422
+        "javascript": 53796
       },
       "built": true,
       "codeGenerated": true,
@@ -52155,7 +52155,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./beautify-css",
-          "loc": "3094:27-55",
+          "loc": "3107:27-55",
           "moduleId": 706,
           "resolvedModuleId": 706
         },
@@ -52176,7 +52176,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "Statement (ExpressionStatement) with side effects in source code at 65:0-1668:5",
+        "Statement (ExpressionStatement) with side effects in source code at 65:0-1675:5",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 5
@@ -52185,9 +52185,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 109194,
+      "size": 109694,
       "sizes": {
-        "javascript": 109194
+        "javascript": 109694
       },
       "built": true,
       "codeGenerated": true,
@@ -52259,7 +52259,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "Statement (ExpressionStatement) with side effects in source code at 75:0-3123:5",
+        "Statement (ExpressionStatement) with side effects in source code at 75:0-3136:5",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 5
@@ -52591,19 +52591,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 667257
+          "size": 667981
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 667257,
+      "assetsSize": 667981,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2137708
+          "size": 2140152
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2137708,
+      "auxiliaryAssetsSize": 2140152,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -52618,19 +52618,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 667257
+          "size": 667981
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 667257,
+      "assetsSize": 667981,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2137708
+          "size": 2140152
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2137708,
+      "auxiliaryAssetsSize": 2140152,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
