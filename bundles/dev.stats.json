@@ -1,8 +1,8 @@
 {
-  "hash": "5b88e8080202c9cd1db8",
+  "hash": "bb46864572dea170dbf4",
   "version": "5.73.0",
-  "time": 11964,
-  "builtAt": 1656409262254,
+  "time": 15233,
+  "builtAt": 1656411321630,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -508,7 +508,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "9a69da8358acc007ac62",
+      "hash": "fb302cbab28ec7ca0820",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
