@@ -1,8 +1,8 @@
 {
-  "hash": "bb46864572dea170dbf4",
+  "hash": "d263b5a5d1e0837f1feb",
   "version": "5.73.0",
-  "time": 12055,
-  "builtAt": 1657781722886,
+  "time": 15589,
+  "builtAt": 1657899982936,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 667981,
+      "size": 668014,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -24,7 +24,7 @@
         "related": {
           "sourceMap": "playground.js.map"
         },
-        "size": 667981
+        "size": 668014
       },
       "chunkNames": [
         "playground"
@@ -37,13 +37,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 2140152,
+          "size": 2140351,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 2140152
+            "size": 2140351
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -490,9 +490,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1326512,
+      "size": 1326648,
       "sizes": {
-        "javascript": 1325350,
+        "javascript": 1325486,
         "runtime": 1162
       },
       "names": [
@@ -508,7 +508,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "fb302cbab28ec7ca0820",
+      "hash": "1f68dcacc304d3b4b80c",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -888,9 +888,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 724523,
+          "size": 724659,
           "sizes": {
-            "javascript": 724523
+            "javascript": 724659
           },
           "built": true,
           "codeGenerated": true,
@@ -951,7 +951,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "21539:83-89",
+              "loc": "21542:83-89",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -965,7 +965,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "21540:24-38",
+              "loc": "21543:24-38",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -1029,7 +1029,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 21540:24-38",
+            "CommonJS bailout: module.exports is used directly at 21543:24-38",
             "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
@@ -10474,8 +10474,8 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
-              "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+              "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
               "issuerPath": [
                 {
                   "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -10498,8 +10498,8 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
                   "id": null
                 }
               ],
@@ -11215,8 +11215,8 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-              "issuerName": "../src/plugins/settings/settings.ts",
+              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
+              "issuerName": "../src/core/base/root.ts",
               "issuerPath": [
                 {
                   "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -11229,13 +11229,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-                  "name": "../src/plugins/registration.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
+                  "name": "../src/core/registration.ts",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-                  "name": "../src/plugins/settings/settings.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
+                  "name": "../src/core/base/root.ts",
                   "id": null
                 }
               ],
@@ -15033,13 +15033,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-                  "name": "../src/plugins/registration.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
+                  "name": "../src/core/registration.ts",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-                  "name": "../src/plugins/settings/settings.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
+                  "name": "../src/core/base/root.ts",
                   "id": null
                 },
                 {
@@ -25520,8 +25520,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
-          "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+          "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
           "issuerPath": [
             {
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -25544,8 +25544,8 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
               "id": null
             }
           ],
@@ -26257,8 +26257,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-          "issuerName": "../src/plugins/settings/settings.ts",
+          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
+          "issuerName": "../src/core/base/root.ts",
           "issuerPath": [
             {
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -26271,13 +26271,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-              "name": "../src/plugins/registration.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
+              "name": "../src/core/registration.ts",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-              "name": "../src/plugins/settings/settings.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
+              "name": "../src/core/base/root.ts",
               "id": null
             }
           ],
@@ -30050,13 +30050,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-              "name": "../src/plugins/registration.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
+              "name": "../src/core/registration.ts",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-              "name": "../src/plugins/settings/settings.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
+              "name": "../src/core/base/root.ts",
               "id": null
             },
             {
@@ -45166,8 +45166,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -45190,8 +45190,8 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-base-element/decorators/attr.js",
           "id": null
         }
       ],
@@ -45903,8 +45903,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-      "issuerName": "../src/plugins/settings/settings.ts",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
+      "issuerName": "../src/core/base/root.ts",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -45917,13 +45917,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-          "name": "../src/plugins/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
+          "name": "../src/core/registration.ts",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-          "name": "../src/plugins/settings/settings.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
+          "name": "../src/core/base/root.ts",
           "id": null
         }
       ],
@@ -50025,13 +50025,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/registration.ts",
-          "name": "../src/plugins/registration.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/registration.ts",
+          "name": "../src/core/registration.ts",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-          "name": "../src/plugins/settings/settings.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/core/base/root.ts",
+          "name": "../src/core/base/root.ts",
           "id": null
         },
         {
@@ -50419,9 +50419,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 724523,
+      "size": 724659,
       "sizes": {
-        "javascript": 724523
+        "javascript": 724659
       },
       "built": true,
       "codeGenerated": true,
@@ -50481,7 +50481,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "21539:83-89",
+          "loc": "21542:83-89",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -50495,7 +50495,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "21540:24-38",
+          "loc": "21543:24-38",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -50559,7 +50559,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 21540:24-38",
+        "CommonJS bailout: module.exports is used directly at 21543:24-38",
         "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
@@ -52591,19 +52591,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 667981
+          "size": 668014
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 667981,
+      "assetsSize": 668014,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2140152
+          "size": 2140351
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2140152,
+      "auxiliaryAssetsSize": 2140351,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -52618,19 +52618,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 667981
+          "size": 668014
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 667981,
+      "assetsSize": 668014,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2140152
+          "size": 2140351
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2140152,
+      "auxiliaryAssetsSize": 2140351,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
