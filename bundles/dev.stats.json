@@ -1,8 +1,8 @@
 {
-  "hash": "992b73d9a49275f552de",
-  "version": "5.73.0",
-  "time": 13036,
-  "builtAt": 1660573271815,
+  "hash": "30cd8f611be2872af789",
+  "version": "5.74.0",
+  "time": 15291,
+  "builtAt": 1660580234561,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 675931,
+      "size": 682445,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -22,9 +22,10 @@
         "javascriptModule": false,
         "minimized": true,
         "related": {
+          "license": "playground.js.LICENSE.txt",
           "sourceMap": "playground.js.map"
         },
-        "size": 675931
+        "size": 682445
       },
       "chunkNames": [
         "playground"
@@ -37,13 +38,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 2173858,
+          "size": 2187428,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 2173858
+            "size": 2187428
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -56,6 +57,26 @@
           "auxiliaryChunks": [
             271
           ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "playground.js.LICENSE.txt",
+          "size": 1701,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 1701
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
           "isOverSizeLimit": false
         }
       ],
@@ -490,9 +511,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1348333,
+      "size": 1362698,
       "sizes": {
-        "javascript": 1347171,
+        "javascript": 1361536,
         "runtime": 1162
       },
       "names": [
@@ -508,7 +529,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "e5ee62c59d584fe39931",
+      "hash": "b30873d0203b70d1593c",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -642,9 +663,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3043,
+          "size": 3571,
           "sizes": {
-            "javascript": 3043
+            "javascript": 3571
           },
           "built": true,
           "codeGenerated": true,
@@ -756,7 +777,7 @@
           "providedExports": null,
           "optimizationBailout": [
             "CommonJS bailout: module.exports is used directly at 4:28-42",
-            "Statement (ExpressionStatement) with side effects in source code at 1:0-2716",
+            "Statement (ExpressionStatement) with side effects in source code at 1:0-3244",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4
@@ -765,9 +786,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3159,
+          "size": 3627,
           "sizes": {
-            "javascript": 3159
+            "javascript": 3627
           },
           "built": true,
           "codeGenerated": true,
@@ -879,7 +900,7 @@
           "providedExports": null,
           "optimizationBailout": [
             "CommonJS bailout: module.exports is used directly at 4:28-42",
-            "Statement (ExpressionStatement) with side effects in source code at 1:0-2824",
+            "Statement (ExpressionStatement) with side effects in source code at 1:0-3292",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4
@@ -888,9 +909,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 724659,
+          "size": 735407,
           "sizes": {
-            "javascript": 724659
+            "javascript": 735407
           },
           "built": true,
           "codeGenerated": true,
@@ -951,7 +972,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "21542:83-89",
+              "loc": "18918:83-89",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -965,7 +986,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "21543:24-38",
+              "loc": "18919:24-38",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -1029,7 +1050,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 21543:24-38",
+            "CommonJS bailout: module.exports is used directly at 18919:24-38",
             "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
@@ -1467,9 +1488,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 240604,
+          "size": 243225,
           "sizes": {
-            "javascript": 240604
+            "javascript": 243225
           },
           "built": true,
           "codeGenerated": true,
@@ -1961,9 +1982,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 10840,
+              "size": 10836,
               "sizes": {
-                "javascript": 10840
+                "javascript": 10836
               },
               "built": true,
               "codeGenerated": false,
@@ -2130,9 +2151,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 10942,
+              "size": 11090,
               "sizes": {
-                "javascript": 10942
+                "javascript": 11090
               },
               "built": true,
               "codeGenerated": false,
@@ -2832,13 +2853,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
                   "id": null
                 },
                 {
@@ -3005,7 +3026,21 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../dom/events",
-                  "loc": "9:12-26",
+                  "loc": "6:61-75",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "(skipped side-effect-free modules)",
+                  "userRequest": "../dom/events",
+                  "loc": "10:12-26",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3260,13 +3295,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
                   "id": null
                 },
                 {
@@ -3573,9 +3608,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 6055,
+              "size": 7160,
               "sizes": {
-                "javascript": 6055
+                "javascript": 7160
               },
               "built": true,
               "codeGenerated": false,
@@ -3943,7 +3978,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/misc/format",
-                  "loc": "182:22-33",
+                  "loc": "186:22-33",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3957,7 +3992,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/misc/format",
-                  "loc": "192:22-33",
+                  "loc": "196:22-33",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -4163,8 +4198,8 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-              "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
+              "issuerName": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
               "issuerPath": [
                 {
                   "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -4172,13 +4207,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
                   "id": null
                 }
               ],
@@ -4270,7 +4305,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/dom/traversing",
-                  "loc": "100:14-21",
+                  "loc": "129:14-21",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -4284,7 +4319,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/dom/traversing",
-                  "loc": "101:14-22",
+                  "loc": "130:14-22",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -4298,7 +4333,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/dom/traversing",
-                  "loc": "102:14-22",
+                  "loc": "131:14-22",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -4312,7 +4347,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/dom/traversing",
-                  "loc": "103:15-27",
+                  "loc": "132:15-27",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -4326,7 +4361,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/dom/traversing",
-                  "loc": "104:16-26",
+                  "loc": "133:16-26",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -4340,7 +4375,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/dom/traversing",
-                  "loc": "105:17-28",
+                  "loc": "134:17-28",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -4811,7 +4846,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/environment/export-ns",
-                  "loc": "118:4-12",
+                  "loc": "147:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -4839,7 +4874,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/environment/export-ns",
-                  "loc": "289:4-12",
+                  "loc": "296:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -5465,35 +5500,35 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/dom/attr",
-                  "loc": "212:12-19",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-                  "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-                  "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../esl-utils/dom/attr",
-                  "loc": "214:8-15",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-                  "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-                  "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../esl-utils/dom/attr",
                   "loc": "216:12-19",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../esl-utils/dom/attr",
+                  "loc": "218:8-15",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../esl-utils/dom/attr",
+                  "loc": "220:12-19",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -5713,6 +5748,34 @@
               "chunks": [],
               "assets": [],
               "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "../esl-utils/decorators/prop",
+                  "loc": "2:0-45",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+                  "type": "harmony export imported specifier",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "../esl-utils/decorators/prop",
+                  "loc": "2:0-45",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
                 {
                   "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
                   "module": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
@@ -6539,7 +6602,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/decorators/bind",
-                  "loc": "274:4-8",
+                  "loc": "281:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6553,7 +6616,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/decorators/bind",
-                  "loc": "277:4-8",
+                  "loc": "284:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6567,7 +6630,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/decorators/bind",
-                  "loc": "280:4-8",
+                  "loc": "287:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6581,7 +6644,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/decorators/bind",
-                  "loc": "283:4-8",
+                  "loc": "290:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6595,7 +6658,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/decorators/bind",
-                  "loc": "286:4-8",
+                  "loc": "293:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7067,8 +7130,8 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-              "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+              "issuerName": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
               "issuerPath": [
                 {
                   "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -7076,13 +7139,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
                   "id": null
                 }
               ],
@@ -7268,7 +7331,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../esl-utils/decorators/attr",
-                  "loc": "2:0-45",
+                  "loc": "3:0-45",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7282,7 +7345,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../esl-utils/decorators/attr",
-                  "loc": "2:0-45",
+                  "loc": "3:0-45",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7660,7 +7723,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "226:4-8",
+                  "loc": "230:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7674,7 +7737,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "229:4-8",
+                  "loc": "233:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7688,7 +7751,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "232:4-8",
+                  "loc": "236:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7702,7 +7765,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "235:4-8",
+                  "loc": "239:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7716,7 +7779,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "238:4-8",
+                  "loc": "242:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7730,7 +7793,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "241:4-8",
+                  "loc": "245:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7744,7 +7807,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "244:4-8",
+                  "loc": "248:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7758,7 +7821,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "247:4-8",
+                  "loc": "251:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7772,7 +7835,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "250:4-8",
+                  "loc": "254:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7786,7 +7849,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "253:4-8",
+                  "loc": "257:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7800,7 +7863,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "256:4-8",
+                  "loc": "260:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7814,7 +7877,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "259:4-8",
+                  "loc": "263:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7828,7 +7891,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "262:4-8",
+                  "loc": "266:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7842,7 +7905,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "265:4-8",
+                  "loc": "269:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -8131,7 +8194,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../esl-utils/decorators/bool-attr",
-                  "loc": "3:0-50",
+                  "loc": "4:0-50",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -8145,7 +8208,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../esl-utils/decorators/bool-attr",
-                  "loc": "3:0-50",
+                  "loc": "4:0-50",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -8467,7 +8530,21 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-base-element/core",
-                  "loc": "223:4-12",
+                  "loc": "227:4-12",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "(skipped side-effect-free modules)",
+                  "userRequest": "../../esl-base-element/core",
+                  "loc": "272:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9551,7 +9628,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../../esl-utils/dom/keys",
-                  "loc": "14:0-56",
+                  "loc": "14:0-61",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9565,7 +9642,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/dom/keys",
-                  "loc": "166:14-19",
+                  "loc": "159:14-19",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9579,7 +9656,35 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/dom/keys",
-                  "loc": "166:21-26",
+                  "loc": "159:21-26",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../esl-utils/dom/keys",
+                  "loc": "159:28-31",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../esl-utils/dom/keys",
+                  "loc": "162:26-29",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9726,7 +9831,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../esl-utils/decorators/json-attr",
-                  "loc": "4:0-50",
+                  "loc": "5:0-50",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9740,7 +9845,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../esl-utils/decorators/json-attr",
-                  "loc": "4:0-50",
+                  "loc": "5:0-50",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9951,8 +10056,8 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-              "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "issuerName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
               "issuerPath": [
                 {
                   "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -9960,13 +10065,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-trigger/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
                   "id": null
                 }
               ],
@@ -10044,7 +10149,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/decorators/ready",
-                  "loc": "268:4-9",
+                  "loc": "275:4-9",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -10058,7 +10163,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/decorators/ready",
-                  "loc": "271:4-9",
+                  "loc": "278:4-9",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -10296,9 +10401,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 5186,
+              "size": 5192,
               "sizes": {
-                "javascript": 5186
+                "javascript": 5192
               },
               "built": true,
               "codeGenerated": false,
@@ -11103,9 +11208,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 5477,
+              "size": 5769,
               "sizes": {
-                "javascript": 5477
+                "javascript": 5769
               },
               "built": true,
               "codeGenerated": false,
@@ -11131,13 +11236,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
                   "id": null
                 },
                 {
@@ -11376,7 +11481,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../misc/functions",
-                  "loc": "104:23-38",
+                  "loc": "110:23-38",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11404,7 +11509,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "./functions",
-                  "loc": "31:34-42",
+                  "loc": "33:34-42",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -11831,9 +11936,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 1456,
+              "size": 1509,
               "sizes": {
-                "javascript": 1456
+                "javascript": 1509
               },
               "built": true,
               "codeGenerated": false,
@@ -11948,7 +12053,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/misc/array",
-                  "loc": "88:43-48",
+                  "loc": "110:15-19",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11962,7 +12067,21 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/misc/array",
-                  "loc": "112:15-19",
+                  "loc": "117:43-48",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../esl-utils/misc/array",
+                  "loc": "141:15-19",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -12313,7 +12432,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../decorators/memoize",
-                  "loc": "82:8-21",
+                  "loc": "85:8-21",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -12327,7 +12446,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../decorators/memoize",
-                  "loc": "123:4-11",
+                  "loc": "132:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -12960,13 +13079,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-trigger/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
                   "id": null
                 },
                 {
@@ -13118,9 +13237,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 1557,
+              "size": 2442,
               "sizes": {
-                "javascript": 1557
+                "javascript": 2442
               },
               "built": true,
               "codeGenerated": false,
@@ -13146,13 +13265,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
                   "id": null
                 },
                 {
@@ -13388,9 +13507,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2874,
+              "size": 2877,
               "sizes": {
-                "javascript": 2874
+                "javascript": 2877
               },
               "built": true,
               "codeGenerated": false,
@@ -13926,9 +14045,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2137,
+              "size": 2140,
               "sizes": {
-                "javascript": 2137
+                "javascript": 2140
               },
               "built": true,
               "codeGenerated": false,
@@ -16271,9 +16390,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 787,
+              "size": 917,
               "sizes": {
-                "javascript": 787
+                "javascript": 917
               },
               "built": true,
               "codeGenerated": false,
@@ -16332,7 +16451,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../esl-utils/decorators/listen",
-                  "loc": "5:0-47",
+                  "loc": "6:0-47",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16346,7 +16465,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../esl-utils/decorators/listen",
-                  "loc": "5:0-47",
+                  "loc": "6:0-47",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18290,9 +18409,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 240604,
+      "size": 243225,
       "sizes": {
-        "javascript": 240604
+        "javascript": 243225
       },
       "built": true,
       "codeGenerated": true,
@@ -18779,9 +18898,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 10840,
+          "size": 10836,
           "sizes": {
-            "javascript": 10840
+            "javascript": 10836
           },
           "built": true,
           "codeGenerated": false,
@@ -18947,9 +19066,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 10942,
+          "size": 11090,
           "sizes": {
-            "javascript": 10942
+            "javascript": 11090
           },
           "built": true,
           "codeGenerated": false,
@@ -19644,13 +19763,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
               "id": null
             },
             {
@@ -19817,7 +19936,21 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../dom/events",
-              "loc": "9:12-26",
+              "loc": "6:61-75",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "(skipped side-effect-free modules)",
+              "userRequest": "../dom/events",
+              "loc": "10:12-26",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -20070,13 +20203,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
               "id": null
             },
             {
@@ -20383,9 +20516,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 6055,
+          "size": 7160,
           "sizes": {
-            "javascript": 6055
+            "javascript": 7160
           },
           "built": true,
           "codeGenerated": false,
@@ -20751,7 +20884,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/misc/format",
-              "loc": "182:22-33",
+              "loc": "186:22-33",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -20765,7 +20898,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/misc/format",
-              "loc": "192:22-33",
+              "loc": "196:22-33",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -20970,8 +21103,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
+          "issuerName": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
           "issuerPath": [
             {
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -20979,13 +21112,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
               "id": null
             }
           ],
@@ -21077,7 +21210,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/dom/traversing",
-              "loc": "100:14-21",
+              "loc": "129:14-21",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -21091,7 +21224,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/dom/traversing",
-              "loc": "101:14-22",
+              "loc": "130:14-22",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -21105,7 +21238,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/dom/traversing",
-              "loc": "102:14-22",
+              "loc": "131:14-22",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -21119,7 +21252,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/dom/traversing",
-              "loc": "103:15-27",
+              "loc": "132:15-27",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -21133,7 +21266,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/dom/traversing",
-              "loc": "104:16-26",
+              "loc": "133:16-26",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -21147,7 +21280,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/dom/traversing",
-              "loc": "105:17-28",
+              "loc": "134:17-28",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -21617,7 +21750,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/environment/export-ns",
-              "loc": "118:4-12",
+              "loc": "147:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -21645,7 +21778,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/environment/export-ns",
-              "loc": "289:4-12",
+              "loc": "296:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -22268,35 +22401,35 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/dom/attr",
-              "loc": "212:12-19",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-              "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-              "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../esl-utils/dom/attr",
-              "loc": "214:8-15",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-              "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-              "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../esl-utils/dom/attr",
               "loc": "216:12-19",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../esl-utils/dom/attr",
+              "loc": "218:8-15",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../esl-utils/dom/attr",
+              "loc": "220:12-19",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -22515,6 +22648,34 @@
           "chunks": [],
           "assets": [],
           "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "../esl-utils/decorators/prop",
+              "loc": "2:0-45",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+              "type": "harmony export imported specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "../esl-utils/decorators/prop",
+              "loc": "2:0-45",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
             {
               "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
               "module": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
@@ -23340,7 +23501,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/decorators/bind",
-              "loc": "274:4-8",
+              "loc": "281:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -23354,7 +23515,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/decorators/bind",
-              "loc": "277:4-8",
+              "loc": "284:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -23368,7 +23529,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/decorators/bind",
-              "loc": "280:4-8",
+              "loc": "287:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -23382,7 +23543,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/decorators/bind",
-              "loc": "283:4-8",
+              "loc": "290:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -23396,7 +23557,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/decorators/bind",
-              "loc": "286:4-8",
+              "loc": "293:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -23866,8 +24027,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+          "issuerName": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
           "issuerPath": [
             {
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -23875,13 +24036,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
               "id": null
             }
           ],
@@ -24066,7 +24227,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../esl-utils/decorators/attr",
-              "loc": "2:0-45",
+              "loc": "3:0-45",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24080,7 +24241,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../esl-utils/decorators/attr",
-              "loc": "2:0-45",
+              "loc": "3:0-45",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24458,7 +24619,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "226:4-8",
+              "loc": "230:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24472,7 +24633,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "229:4-8",
+              "loc": "233:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24486,7 +24647,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "232:4-8",
+              "loc": "236:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24500,7 +24661,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "235:4-8",
+              "loc": "239:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24514,7 +24675,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "238:4-8",
+              "loc": "242:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24528,7 +24689,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "241:4-8",
+              "loc": "245:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24542,7 +24703,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "244:4-8",
+              "loc": "248:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24556,7 +24717,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "247:4-8",
+              "loc": "251:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24570,7 +24731,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "250:4-8",
+              "loc": "254:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24584,7 +24745,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "253:4-8",
+              "loc": "257:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24598,7 +24759,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "256:4-8",
+              "loc": "260:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24612,7 +24773,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "259:4-8",
+              "loc": "263:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24626,7 +24787,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "262:4-8",
+              "loc": "266:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24640,7 +24801,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "265:4-8",
+              "loc": "269:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24928,7 +25089,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../esl-utils/decorators/bool-attr",
-              "loc": "3:0-50",
+              "loc": "4:0-50",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24942,7 +25103,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../esl-utils/decorators/bool-attr",
-              "loc": "3:0-50",
+              "loc": "4:0-50",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25264,7 +25425,21 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-base-element/core",
-              "loc": "223:4-12",
+              "loc": "227:4-12",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "(skipped side-effect-free modules)",
+              "userRequest": "../../esl-base-element/core",
+              "loc": "272:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26343,7 +26518,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../../esl-utils/dom/keys",
-              "loc": "14:0-56",
+              "loc": "14:0-61",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26357,7 +26532,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/dom/keys",
-              "loc": "166:14-19",
+              "loc": "159:14-19",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26371,7 +26546,35 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/dom/keys",
-              "loc": "166:21-26",
+              "loc": "159:21-26",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../esl-utils/dom/keys",
+              "loc": "159:28-31",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../esl-utils/dom/keys",
+              "loc": "162:26-29",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26517,7 +26720,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../esl-utils/decorators/json-attr",
-              "loc": "4:0-50",
+              "loc": "5:0-50",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26531,7 +26734,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../esl-utils/decorators/json-attr",
-              "loc": "4:0-50",
+              "loc": "5:0-50",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26740,8 +26943,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "issuerName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
           "issuerPath": [
             {
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -26749,13 +26952,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-trigger/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
               "id": null
             }
           ],
@@ -26833,7 +27036,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/decorators/ready",
-              "loc": "268:4-9",
+              "loc": "275:4-9",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26847,7 +27050,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/decorators/ready",
-              "loc": "271:4-9",
+              "loc": "278:4-9",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -27083,9 +27286,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 5186,
+          "size": 5192,
           "sizes": {
-            "javascript": 5186
+            "javascript": 5192
           },
           "built": true,
           "codeGenerated": false,
@@ -27884,9 +28087,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 5477,
+          "size": 5769,
           "sizes": {
-            "javascript": 5477
+            "javascript": 5769
           },
           "built": true,
           "codeGenerated": false,
@@ -27911,13 +28114,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
               "id": null
             },
             {
@@ -28155,7 +28358,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../misc/functions",
-              "loc": "104:23-38",
+              "loc": "110:23-38",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28183,7 +28386,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "./functions",
-              "loc": "31:34-42",
+              "loc": "33:34-42",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -28608,9 +28811,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1456,
+          "size": 1509,
           "sizes": {
-            "javascript": 1456
+            "javascript": 1509
           },
           "built": true,
           "codeGenerated": false,
@@ -28724,7 +28927,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/misc/array",
-              "loc": "88:43-48",
+              "loc": "110:15-19",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28738,7 +28941,21 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/misc/array",
-              "loc": "112:15-19",
+              "loc": "117:43-48",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../esl-utils/misc/array",
+              "loc": "141:15-19",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -29087,7 +29304,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../decorators/memoize",
-              "loc": "82:8-21",
+              "loc": "85:8-21",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -29101,7 +29318,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../decorators/memoize",
-              "loc": "123:4-11",
+              "loc": "132:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -29732,13 +29949,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-trigger/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
               "id": null
             },
             {
@@ -29889,9 +30106,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1557,
+          "size": 2442,
           "sizes": {
-            "javascript": 1557
+            "javascript": 2442
           },
           "built": true,
           "codeGenerated": false,
@@ -29916,13 +30133,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
               "id": null
             },
             {
@@ -30157,9 +30374,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2874,
+          "size": 2877,
           "sizes": {
-            "javascript": 2874
+            "javascript": 2877
           },
           "built": true,
           "codeGenerated": false,
@@ -30693,9 +30910,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2137,
+          "size": 2140,
           "sizes": {
-            "javascript": 2137
+            "javascript": 2140
           },
           "built": true,
           "codeGenerated": false,
@@ -33020,9 +33237,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 787,
+          "size": 917,
           "sizes": {
-            "javascript": 787
+            "javascript": 917
           },
           "built": true,
           "codeGenerated": false,
@@ -33080,7 +33297,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../esl-utils/decorators/listen",
-              "loc": "5:0-47",
+              "loc": "6:0-47",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -33094,7 +33311,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../esl-utils/decorators/listen",
-              "loc": "5:0-47",
+              "loc": "6:0-47",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -35191,9 +35408,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 10840,
+      "size": 10836,
       "sizes": {
-        "javascript": 10840
+        "javascript": 10836
       },
       "built": true,
       "codeGenerated": false,
@@ -35359,9 +35576,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 10942,
+      "size": 11090,
       "sizes": {
-        "javascript": 10942
+        "javascript": 11090
       },
       "built": true,
       "codeGenerated": false,
@@ -36557,13 +36774,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
           "id": null
         },
         {
@@ -36730,7 +36947,21 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../dom/events",
-          "loc": "9:12-26",
+          "loc": "6:61-75",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "(skipped side-effect-free modules)",
+          "userRequest": "../dom/events",
+          "loc": "10:12-26",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -36983,13 +37214,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
           "id": null
         },
         {
@@ -37296,9 +37527,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 6055,
+      "size": 7160,
       "sizes": {
-        "javascript": 6055
+        "javascript": 7160
       },
       "built": true,
       "codeGenerated": false,
@@ -37664,7 +37895,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/misc/format",
-          "loc": "182:22-33",
+          "loc": "186:22-33",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -37678,7 +37909,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/misc/format",
-          "loc": "192:22-33",
+          "loc": "196:22-33",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -37883,8 +38114,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -37892,13 +38123,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
           "id": null
         }
       ],
@@ -37990,7 +38221,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/dom/traversing",
-          "loc": "100:14-21",
+          "loc": "129:14-21",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -38004,7 +38235,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/dom/traversing",
-          "loc": "101:14-22",
+          "loc": "130:14-22",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -38018,7 +38249,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/dom/traversing",
-          "loc": "102:14-22",
+          "loc": "131:14-22",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -38032,7 +38263,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/dom/traversing",
-          "loc": "103:15-27",
+          "loc": "132:15-27",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -38046,7 +38277,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/dom/traversing",
-          "loc": "104:16-26",
+          "loc": "133:16-26",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -38060,7 +38291,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/dom/traversing",
-          "loc": "105:17-28",
+          "loc": "134:17-28",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -38530,7 +38761,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/environment/export-ns",
-          "loc": "118:4-12",
+          "loc": "147:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -38558,7 +38789,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/environment/export-ns",
-          "loc": "289:4-12",
+          "loc": "296:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -39181,35 +39412,35 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/dom/attr",
-          "loc": "212:12-19",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-          "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-          "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../../esl-utils/dom/attr",
-          "loc": "214:8-15",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-          "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-          "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../../esl-utils/dom/attr",
           "loc": "216:12-19",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../esl-utils/dom/attr",
+          "loc": "218:8-15",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../esl-utils/dom/attr",
+          "loc": "220:12-19",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -39428,6 +39659,34 @@
       "chunks": [],
       "assets": [],
       "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../esl-utils/decorators/prop",
+          "loc": "2:0-45",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-base-element/core.js",
+          "type": "harmony export imported specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../esl-utils/decorators/prop",
+          "loc": "2:0-45",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
         {
           "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
           "module": "../node_modules/@exadel/esl/modules/esl-base-element/core/esl-base-element.js",
@@ -40253,7 +40512,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators/bind",
-          "loc": "274:4-8",
+          "loc": "281:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -40267,7 +40526,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators/bind",
-          "loc": "277:4-8",
+          "loc": "284:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -40281,7 +40540,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators/bind",
-          "loc": "280:4-8",
+          "loc": "287:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -40295,7 +40554,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators/bind",
-          "loc": "283:4-8",
+          "loc": "290:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -40309,7 +40568,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators/bind",
-          "loc": "286:4-8",
+          "loc": "293:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -40779,8 +41038,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -40788,13 +41047,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-forms/esl-select/core/esl-select-renderer.js",
           "id": null
         }
       ],
@@ -40979,7 +41238,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../esl-utils/decorators/attr",
-          "loc": "2:0-45",
+          "loc": "3:0-45",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -40993,7 +41252,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../esl-utils/decorators/attr",
-          "loc": "2:0-45",
+          "loc": "3:0-45",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41371,7 +41630,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "226:4-8",
+          "loc": "230:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41385,7 +41644,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "229:4-8",
+          "loc": "233:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41399,7 +41658,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "232:4-8",
+          "loc": "236:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41413,7 +41672,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "235:4-8",
+          "loc": "239:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41427,7 +41686,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "238:4-8",
+          "loc": "242:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41441,7 +41700,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "241:4-8",
+          "loc": "245:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41455,7 +41714,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "244:4-8",
+          "loc": "248:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41469,7 +41728,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "247:4-8",
+          "loc": "251:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41483,7 +41742,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "250:4-8",
+          "loc": "254:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41497,7 +41756,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "253:4-8",
+          "loc": "257:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41511,7 +41770,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "256:4-8",
+          "loc": "260:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41525,7 +41784,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "259:4-8",
+          "loc": "263:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41539,7 +41798,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "262:4-8",
+          "loc": "266:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41553,7 +41812,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "265:4-8",
+          "loc": "269:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41841,7 +42100,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../esl-utils/decorators/bool-attr",
-          "loc": "3:0-50",
+          "loc": "4:0-50",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -41855,7 +42114,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../esl-utils/decorators/bool-attr",
-          "loc": "3:0-50",
+          "loc": "4:0-50",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -42177,7 +42436,21 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-base-element/core",
-          "loc": "223:4-12",
+          "loc": "227:4-12",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "(skipped side-effect-free modules)",
+          "userRequest": "../../esl-base-element/core",
+          "loc": "272:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43256,7 +43529,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/dom/keys",
-          "loc": "14:0-56",
+          "loc": "14:0-61",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43270,7 +43543,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/dom/keys",
-          "loc": "166:14-19",
+          "loc": "159:14-19",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43284,7 +43557,35 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/dom/keys",
-          "loc": "166:21-26",
+          "loc": "159:21-26",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../esl-utils/dom/keys",
+          "loc": "159:28-31",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../esl-utils/dom/keys",
+          "loc": "162:26-29",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43430,7 +43731,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../esl-utils/decorators/json-attr",
-          "loc": "4:0-50",
+          "loc": "5:0-50",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43444,7 +43745,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../esl-utils/decorators/json-attr",
-          "loc": "4:0-50",
+          "loc": "5:0-50",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43653,8 +43954,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -43662,13 +43963,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-trigger/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
           "id": null
         }
       ],
@@ -43746,7 +44047,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators/ready",
-          "loc": "268:4-9",
+          "loc": "275:4-9",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43760,7 +44061,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators/ready",
-          "loc": "271:4-9",
+          "loc": "278:4-9",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -43996,9 +44297,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 5186,
+      "size": 5192,
       "sizes": {
-        "javascript": 5186
+        "javascript": 5192
       },
       "built": true,
       "codeGenerated": false,
@@ -44797,9 +45098,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 237,
+      "size": 283,
       "sizes": {
-        "javascript": 237
+        "javascript": 283
       },
       "built": true,
       "codeGenerated": false,
@@ -45846,7 +46147,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "223:4-12",
+          "loc": "227:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45860,7 +46161,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "226:4-8",
+          "loc": "230:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45874,7 +46175,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "229:4-8",
+          "loc": "233:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45888,7 +46189,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "232:4-8",
+          "loc": "236:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45902,7 +46203,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "235:4-8",
+          "loc": "239:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45916,7 +46217,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "238:4-8",
+          "loc": "242:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45930,7 +46231,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "241:4-8",
+          "loc": "245:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45944,7 +46245,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "244:4-8",
+          "loc": "248:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45958,7 +46259,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "247:4-8",
+          "loc": "251:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45972,7 +46273,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "250:4-8",
+          "loc": "254:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45986,7 +46287,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "253:4-8",
+          "loc": "257:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46000,7 +46301,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "256:4-8",
+          "loc": "260:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46014,7 +46315,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "259:4-8",
+          "loc": "263:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46028,7 +46329,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "262:4-8",
+          "loc": "266:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46042,7 +46343,21 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "265:4-8",
+          "loc": "269:4-8",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../../esl-base-element/core",
+          "loc": "272:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47022,7 +47337,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "223:4-12",
+          "loc": "227:4-12",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47036,7 +47351,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "226:4-8",
+          "loc": "230:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47050,7 +47365,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "229:4-8",
+          "loc": "233:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47064,7 +47379,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "232:4-8",
+          "loc": "236:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47078,7 +47393,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "235:4-8",
+          "loc": "239:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47092,7 +47407,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "238:4-8",
+          "loc": "242:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47106,7 +47421,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "241:4-8",
+          "loc": "245:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47120,7 +47435,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "244:4-8",
+          "loc": "248:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47134,7 +47449,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "247:4-8",
+          "loc": "251:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47148,7 +47463,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "250:4-8",
+          "loc": "254:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47162,7 +47477,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "253:4-8",
+          "loc": "257:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47176,7 +47491,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "256:4-8",
+          "loc": "260:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47190,7 +47505,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "259:4-8",
+          "loc": "263:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47204,7 +47519,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "262:4-8",
+          "loc": "266:4-8",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -47218,7 +47533,21 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-base-element/core",
-          "loc": "265:4-8",
+          "loc": "269:4-8",
+          "moduleId": 412,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts|d655eef58f0832e415eb3f1714762445",
+          "module": "./src/playground.ts + 83 modules",
+          "moduleName": "./src/playground.ts + 83 modules",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../../esl-base-element/core",
+          "loc": "272:4-12",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -48293,7 +48622,8 @@
         "attr",
         "boolAttr",
         "jsonAttr",
-        "listen"
+        "listen",
+        "prop"
       ],
       "optimizationBailout": [
         "ModuleConcatenation bailout: Module is not in any chunk"
@@ -48639,8 +48969,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -48648,13 +48978,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-trigger/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
           "id": null
         }
       ],
@@ -48894,8 +49224,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -48903,13 +49233,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
           "id": null
         }
       ],
@@ -49449,7 +49779,21 @@
           "active": false,
           "explanation": "",
           "userRequest": "../dom/events",
-          "loc": "9:12-26",
+          "loc": "6:61-75",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../dom/events",
+          "loc": "10:12-26",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -49911,7 +50255,21 @@
           "active": false,
           "explanation": "",
           "userRequest": "../dom/events",
-          "loc": "9:12-26",
+          "loc": "6:61-75",
+          "moduleId": 412,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts|d655eef58f0832e415eb3f1714762445",
+          "module": "./src/playground.ts + 83 modules",
+          "moduleName": "./src/playground.ts + 83 modules",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-utils/decorators/listen.js",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../dom/events",
+          "loc": "10:12-26",
           "moduleId": 412,
           "resolvedModuleId": null
         },
@@ -50604,9 +50962,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 5477,
+      "size": 5769,
       "sizes": {
-        "javascript": 5477
+        "javascript": 5769
       },
       "built": true,
       "codeGenerated": false,
@@ -50631,13 +50989,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
           "id": null
         },
         {
@@ -50875,7 +51233,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../misc/functions",
-          "loc": "104:23-38",
+          "loc": "110:23-38",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50903,7 +51261,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "./functions",
-          "loc": "31:34-42",
+          "loc": "33:34-42",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -51328,9 +51686,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1456,
+      "size": 1509,
       "sizes": {
-        "javascript": 1456
+        "javascript": 1509
       },
       "built": true,
       "codeGenerated": false,
@@ -51444,7 +51802,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/misc/array",
-          "loc": "88:43-48",
+          "loc": "110:15-19",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -51458,7 +51816,21 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/misc/array",
-          "loc": "112:15-19",
+          "loc": "117:43-48",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-traversing-query/core/esl-traversing-query.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../esl-utils/misc/array",
+          "loc": "141:15-19",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -51807,7 +52179,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../decorators/memoize",
-          "loc": "82:8-21",
+          "loc": "85:8-21",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -51821,7 +52193,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../decorators/memoize",
-          "loc": "123:4-11",
+          "loc": "132:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -52452,13 +52824,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-trigger/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
           "id": null
         },
         {
@@ -52609,9 +52981,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1557,
+      "size": 2442,
       "sizes": {
-        "javascript": 1557
+        "javascript": 2442
       },
       "built": true,
       "codeGenerated": false,
@@ -52636,13 +53008,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
           "id": null
         },
         {
@@ -52877,9 +53249,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2874,
+      "size": 2877,
       "sizes": {
-        "javascript": 2874
+        "javascript": 2877
       },
       "built": true,
       "codeGenerated": false,
@@ -53413,9 +53785,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2137,
+      "size": 2140,
       "sizes": {
-        "javascript": 2137
+        "javascript": 2140
       },
       "built": true,
       "codeGenerated": false,
@@ -55740,9 +56112,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 787,
+      "size": 917,
       "sizes": {
-        "javascript": 787
+        "javascript": 917
       },
       "built": true,
       "codeGenerated": false,
@@ -55800,7 +56172,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../esl-utils/decorators/listen",
-          "loc": "5:0-47",
+          "loc": "6:0-47",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -55814,7 +56186,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../esl-utils/decorators/listen",
-          "loc": "5:0-47",
+          "loc": "6:0-47",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -56772,9 +57144,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 724659,
+      "size": 735407,
       "sizes": {
-        "javascript": 724659
+        "javascript": 735407
       },
       "built": true,
       "codeGenerated": true,
@@ -56834,7 +57206,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "21542:83-89",
+          "loc": "18918:83-89",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -56848,7 +57220,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "21543:24-38",
+          "loc": "18919:24-38",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -56912,7 +57284,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 21543:24-38",
+        "CommonJS bailout: module.exports is used directly at 18919:24-38",
         "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
@@ -57044,9 +57416,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3043,
+      "size": 3571,
       "sizes": {
-        "javascript": 3043
+        "javascript": 3571
       },
       "built": true,
       "codeGenerated": true,
@@ -57157,7 +57529,7 @@
       "providedExports": null,
       "optimizationBailout": [
         "CommonJS bailout: module.exports is used directly at 4:28-42",
-        "Statement (ExpressionStatement) with side effects in source code at 1:0-2716",
+        "Statement (ExpressionStatement) with side effects in source code at 1:0-3244",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4
@@ -57166,9 +57538,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3159,
+      "size": 3627,
       "sizes": {
-        "javascript": 3159
+        "javascript": 3627
       },
       "built": true,
       "codeGenerated": true,
@@ -57279,7 +57651,7 @@
       "providedExports": null,
       "optimizationBailout": [
         "CommonJS bailout: module.exports is used directly at 4:28-42",
-        "Statement (ExpressionStatement) with side effects in source code at 1:0-2824",
+        "Statement (ExpressionStatement) with side effects in source code at 1:0-3292",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4
@@ -58818,19 +59190,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 675931
+          "size": 682445
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 675931,
+      "assetsSize": 682445,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2173858
+          "size": 2187428
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2173858,
+      "auxiliaryAssetsSize": 2187428,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -58845,19 +59217,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 675931
+          "size": 682445
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 675931,
+      "assetsSize": 682445,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2173858
+          "size": 2187428
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2173858,
+      "auxiliaryAssetsSize": 2187428,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -58867,12 +59239,12 @@
   "errorsCount": 0,
   "warnings": [
     {
-      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (660 KiB)",
-      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (660 KiB)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:134:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
+      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (666 KiB)",
+      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (666 KiB)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:134:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
     },
     {
-      "message": "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (660 KiB)\n      playground.js\n",
-      "stack": "EntrypointsOverSizeLimitWarning: entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (660 KiB)\n      playground.js\n\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:139:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
+      "message": "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (666 KiB)\n      playground.js\n",
+      "stack": "EntrypointsOverSizeLimitWarning: entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (666 KiB)\n      playground.js\n\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:139:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
     },
     {
       "message": "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/",
