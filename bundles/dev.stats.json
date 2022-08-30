@@ -1,8 +1,8 @@
 {
-  "hash": "904235f50c402f162c76",
+  "hash": "1cccf35994732d8365f6",
   "version": "5.74.0",
-  "time": 12139,
-  "builtAt": 1661841730719,
+  "time": 12704,
+  "builtAt": 1661869281221,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 681133,
+      "size": 681199,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -25,7 +25,7 @@
           "license": "playground.js.LICENSE.txt",
           "sourceMap": "playground.js.map"
         },
-        "size": 681133
+        "size": 681199
       },
       "chunkNames": [
         "playground"
@@ -38,13 +38,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 2204985,
+          "size": 2204953,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 2204985
+            "size": 2204953
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -529,7 +529,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "05e786b89d15ec74cc6f",
+      "hash": "5d5ff200b035d67a3378",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -972,7 +972,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "18918:83-89",
+              "loc": "18885:83-89",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -986,7 +986,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "18919:24-38",
+              "loc": "18886:24-38",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -1050,7 +1050,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 18919:24-38",
+            "CommonJS bailout: module.exports is used directly at 18886:24-38",
             "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
@@ -57416,7 +57416,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "18918:83-89",
+          "loc": "18885:83-89",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -57430,7 +57430,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "18919:24-38",
+          "loc": "18886:24-38",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -57494,7 +57494,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 18919:24-38",
+        "CommonJS bailout: module.exports is used directly at 18886:24-38",
         "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
@@ -59400,19 +59400,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 681133
+          "size": 681199
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 681133,
+      "assetsSize": 681199,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2204985
+          "size": 2204953
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2204985,
+      "auxiliaryAssetsSize": 2204953,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -59427,19 +59427,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 681133
+          "size": 681199
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 681133,
+      "assetsSize": 681199,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2204985
+          "size": 2204953
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2204985,
+      "auxiliaryAssetsSize": 2204953,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
