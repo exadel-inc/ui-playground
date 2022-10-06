@@ -1,5 +1,6 @@
 import {attr} from '@exadel/esl/modules/esl-base-element/core';
 import {memoize} from '@exadel/esl/modules/esl-utils/decorators/memoize';
+import { randUID } from '@exadel/esl/modules/esl-utils/misc/uid';
 
 import {UIPSetting} from '../../plugins/settings/setting';
 import {WARNING_MSG} from '../../utils/warning-msg';
@@ -19,6 +20,8 @@ export class UIPTextSetting extends UIPSetting {
   protected get $field(): HTMLInputElement {
     const $field = document.createElement('input');
     $field.type = 'text';
+    $field.autocomplete = 'on';
+    $field.id = this.label;
     $field.name = this.label;
     return $field;
   }
@@ -28,10 +31,10 @@ export class UIPTextSetting extends UIPSetting {
 
     const label = document.createElement('label');
     label.innerText = this.label;
-    label.appendChild(this.$field);
+    label.htmlFor = this.$field.id;
 
     this.innerHTML = '';
-    this.appendChild(label);
+    this.append(label, this.$field);
   }
 
   protected getDisplayedValue(): string {

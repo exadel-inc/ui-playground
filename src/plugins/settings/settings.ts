@@ -34,12 +34,19 @@ export class UIPSettings extends UIPPlugin {
 
   /** Initialize settings layout. */
   protected updateInner() {
-    const $settingsList = document.createElement('div');
+    const $settingsList = document.createElement('form');
     $settingsList.className = 'settings-list esl-scrollable-content';
     [...this.childNodes].forEach( (node: HTMLElement) => {
       $settingsList.appendChild(node);
     });
-    this.$inner.appendChild($settingsList);
+    const btn = document.createElement('input');
+    btn.type = 'submit';
+    btn.textContent = 'SUBMIT';
+    $settingsList.append(btn);
+    $settingsList.addEventListener('submit', (e: Event) => {
+      e.preventDefault();
+    });
+    this.$inner.append($settingsList);
     this.$scroll && this.$inner.appendChild(this.$scroll);
     this.appendChild(this.$inner);
   }
