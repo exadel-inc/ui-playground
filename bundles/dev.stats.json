@@ -1,8 +1,8 @@
 {
-  "hash": "522cfd6cf40e98852490",
+  "hash": "7ff05bff1ea3ab75fb12",
   "version": "5.74.0",
-  "time": 15219,
-  "builtAt": 1665393124173,
+  "time": 14749,
+  "builtAt": 1666255609753,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 697380,
+      "size": 697587,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -25,7 +25,7 @@
           "license": "playground.js.LICENSE.txt",
           "sourceMap": "playground.js.map"
         },
-        "size": 697380
+        "size": 697587
       },
       "chunkNames": [
         "playground"
@@ -38,13 +38,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 2258573,
+          "size": 2261874,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 2258573
+            "size": 2261874
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -511,9 +511,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1394523,
+      "size": 1397214,
       "sizes": {
-        "javascript": 1393361,
+        "javascript": 1396052,
         "runtime": 1162
       },
       "names": [
@@ -529,7 +529,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "f1f726febabcab3339f3",
+      "hash": "a432914d77f511f1e963",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -540,9 +540,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 60985,
+          "size": 59017,
           "sizes": {
-            "javascript": 60985
+            "javascript": 59017
           },
           "built": true,
           "codeGenerated": true,
@@ -654,7 +654,7 @@
           "providedExports": null,
           "optimizationBailout": [
             "CommonJS bailout: module.exports is used directly at 4:28-42",
-            "Statement (ExpressionStatement) with side effects in source code at 1:0-60661",
+            "Statement (ExpressionStatement) with side effects in source code at 1:0-58693",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4
@@ -909,9 +909,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 759910,
+          "size": 764569,
           "sizes": {
-            "javascript": 759910
+            "javascript": 764569
           },
           "built": true,
           "codeGenerated": true,
@@ -972,7 +972,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "19450:83-89",
+              "loc": "19514:83-89",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -986,7 +986,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "19451:24-38",
+              "loc": "19515:24-38",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -1050,7 +1050,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 19451:24-38",
+            "CommonJS bailout: module.exports is used directly at 19515:24-38",
             "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
@@ -14691,6 +14691,157 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
+              "size": 340,
+              "sizes": {
+                "javascript": 340
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
+              "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
+              "index": 50,
+              "preOrderIndex": 50,
+              "index2": 44,
+              "postOrderIndex": 44,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "issuerName": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
+                  "name": "./src/playground.ts",
+                  "id": null
+                },
+                {
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-image/core.js",
+                  "id": null
+                },
+                {
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "id": null
+                },
+                {
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./core/conditions/media-query-base",
+                  "loc": "7:0-73",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+                  "type": "harmony export imported specifier",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./core/conditions/media-query-base",
+                  "loc": "7:0-73",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./media-query-base",
+                  "loc": "3:0-57",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./media-query-base",
+                  "loc": "58:31-50",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./media-query-base",
+                  "loc": "2:0-57",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./media-query-base",
+                  "loc": "40:31-50",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "ESLMediaChangeEvent"
+              ],
+              "providedExports": [
+                "ESLMediaChangeEvent"
+              ],
+              "optimizationBailout": [
+                "Statement (ExportNamedDeclaration) with side effects in source code at 2:0-11:1"
+              ],
+              "depth": 3
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
               "size": 905,
               "sizes": {
                 "javascript": 905
@@ -17971,139 +18122,6 @@
               ],
               "optimizationBailout": [
                 "Statement (VariableDeclaration) with side effects in source code at 1:0-6:2"
-              ],
-              "depth": 4
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "layer": null,
-              "size": 340,
-              "sizes": {
-                "javascript": 340
-              },
-              "built": true,
-              "codeGenerated": false,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
-              "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
-              "index": 50,
-              "preOrderIndex": 50,
-              "index2": 44,
-              "postOrderIndex": 44,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "issuerName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "issuerPath": [
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
-                  "name": "./src/playground.ts",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-image/core.js",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-                  "id": null
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": null,
-              "issuerId": null,
-              "chunks": [],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-                  "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-                  "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-                  "type": "harmony side effect evaluation",
-                  "active": false,
-                  "explanation": "",
-                  "userRequest": "./media-query-base",
-                  "loc": "3:0-57",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-                  "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-                  "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./media-query-base",
-                  "loc": "58:31-50",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-                  "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-                  "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-                  "type": "harmony side effect evaluation",
-                  "active": false,
-                  "explanation": "",
-                  "userRequest": "./media-query-base",
-                  "loc": "2:0-57",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-                  "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-                  "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./media-query-base",
-                  "loc": "40:31-50",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": [
-                "ESLMediaChangeEvent"
-              ],
-              "providedExports": [
-                "ESLMediaChangeEvent"
-              ],
-              "optimizationBailout": [
-                "Statement (ExportNamedDeclaration) with side effects in source code at 2:0-11:1"
               ],
               "depth": 4
             },
@@ -32596,6 +32614,156 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
+          "size": 340,
+          "sizes": {
+            "javascript": 340
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
+          "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
+          "index": 50,
+          "preOrderIndex": 50,
+          "index2": 44,
+          "postOrderIndex": 44,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "issuerName": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
+              "name": "./src/playground.ts",
+              "id": null
+            },
+            {
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-image/core.js",
+              "id": null
+            },
+            {
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "id": null
+            },
+            {
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./core/conditions/media-query-base",
+              "loc": "7:0-73",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+              "type": "harmony export imported specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./core/conditions/media-query-base",
+              "loc": "7:0-73",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./media-query-base",
+              "loc": "3:0-57",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./media-query-base",
+              "loc": "58:31-50",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./media-query-base",
+              "loc": "2:0-57",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./media-query-base",
+              "loc": "40:31-50",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "ESLMediaChangeEvent"
+          ],
+          "providedExports": [
+            "ESLMediaChangeEvent"
+          ],
+          "optimizationBailout": [
+            "Statement (ExportNamedDeclaration) with side effects in source code at 2:0-11:1"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
           "size": 905,
           "sizes": {
             "javascript": 905
@@ -35853,138 +36021,6 @@
           ],
           "optimizationBailout": [
             "Statement (VariableDeclaration) with side effects in source code at 1:0-6:2"
-          ],
-          "depth": 4
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 340,
-          "sizes": {
-            "javascript": 340
-          },
-          "built": true,
-          "codeGenerated": false,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
-          "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
-          "index": 50,
-          "preOrderIndex": 50,
-          "index2": 44,
-          "postOrderIndex": 44,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "issuerName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "issuerPath": [
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
-              "name": "./src/playground.ts",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-image/core.js",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "id": null
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": null,
-          "issuerId": null,
-          "chunks": [],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "type": "harmony side effect evaluation",
-              "active": false,
-              "explanation": "",
-              "userRequest": "./media-query-base",
-              "loc": "3:0-57",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./media-query-base",
-              "loc": "58:31-50",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-              "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-              "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-              "type": "harmony side effect evaluation",
-              "active": false,
-              "explanation": "",
-              "userRequest": "./media-query-base",
-              "loc": "2:0-57",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-              "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-              "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./media-query-base",
-              "loc": "40:31-50",
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": [
-            "ESLMediaChangeEvent"
-          ],
-          "providedExports": [
-            "ESLMediaChangeEvent"
-          ],
-          "optimizationBailout": [
-            "Statement (ExportNamedDeclaration) with side effects in source code at 2:0-11:1"
           ],
           "depth": 4
         },
@@ -49897,9 +49933,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 259,
+      "size": 333,
       "sizes": {
-        "javascript": 259
+        "javascript": 333
       },
       "built": true,
       "codeGenerated": false,
@@ -50114,6 +50150,7 @@
       "usedExports": false,
       "providedExports": [
         "ESLEnvShortcuts",
+        "ESLMediaChangeEvent",
         "ESLMediaQuery",
         "ESLMediaRule",
         "ESLMediaRuleList",
@@ -58966,6 +59003,156 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 340,
+      "sizes": {
+        "javascript": 340
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
+      "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
+      "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
+      "index": 50,
+      "preOrderIndex": 50,
+      "index2": 44,
+      "postOrderIndex": 44,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
+          "name": "./src/playground.ts",
+          "id": null
+        },
+        {
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-image/core.js",
+          "id": null
+        },
+        {
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "id": null
+        },
+        {
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./core/conditions/media-query-base",
+          "loc": "7:0-73",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
+          "type": "harmony export imported specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./core/conditions/media-query-base",
+          "loc": "7:0-73",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./media-query-base",
+          "loc": "3:0-57",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./media-query-base",
+          "loc": "58:31-50",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./media-query-base",
+          "loc": "2:0-57",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./media-query-base",
+          "loc": "40:31-50",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "ESLMediaChangeEvent"
+      ],
+      "providedExports": [
+        "ESLMediaChangeEvent"
+      ],
+      "optimizationBailout": [
+        "Statement (ExportNamedDeclaration) with side effects in source code at 2:0-11:1"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 905,
       "sizes": {
         "javascript": 905
@@ -62552,138 +62739,6 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 340,
-      "sizes": {
-        "javascript": 340
-      },
-      "built": true,
-      "codeGenerated": false,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
-      "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
-      "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
-      "index": 50,
-      "preOrderIndex": 50,
-      "index2": 44,
-      "postOrderIndex": 44,
-      "cacheable": true,
-      "optional": false,
-      "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
-          "name": "./src/playground.ts",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-image/core.js",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-media-query/core.js",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "id": null
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": null,
-      "issuerId": null,
-      "chunks": [],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "type": "harmony side effect evaluation",
-          "active": false,
-          "explanation": "",
-          "userRequest": "./media-query-base",
-          "loc": "3:0-57",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./media-query-base",
-          "loc": "58:31-50",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-          "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-          "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-          "type": "harmony side effect evaluation",
-          "active": false,
-          "explanation": "",
-          "userRequest": "./media-query-base",
-          "loc": "2:0-57",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-          "module": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-          "moduleName": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./media-query-base",
-          "loc": "40:31-50",
-          "moduleId": null,
-          "resolvedModuleId": null
-        }
-      ],
-      "usedExports": [
-        "ESLMediaChangeEvent"
-      ],
-      "providedExports": [
-        "ESLMediaChangeEvent"
-      ],
-      "optimizationBailout": [
-        "Statement (ExportNamedDeclaration) with side effects in source code at 2:0-11:1"
-      ],
-      "depth": 4
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
       "size": 551,
       "sizes": {
         "javascript": 551
@@ -62897,9 +62952,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 759910,
+      "size": 764569,
       "sizes": {
-        "javascript": 759910
+        "javascript": 764569
       },
       "built": true,
       "codeGenerated": true,
@@ -62959,7 +63014,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "19450:83-89",
+          "loc": "19514:83-89",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -62973,7 +63028,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "19451:24-38",
+          "loc": "19515:24-38",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -63037,7 +63092,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 19451:24-38",
+        "CommonJS bailout: module.exports is used directly at 19515:24-38",
         "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
@@ -63047,9 +63102,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 60985,
+      "size": 59017,
       "sizes": {
-        "javascript": 60985
+        "javascript": 59017
       },
       "built": true,
       "codeGenerated": true,
@@ -63160,7 +63215,7 @@
       "providedExports": null,
       "optimizationBailout": [
         "CommonJS bailout: module.exports is used directly at 4:28-42",
-        "Statement (ExpressionStatement) with side effects in source code at 1:0-60661",
+        "Statement (ExpressionStatement) with side effects in source code at 1:0-58693",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4
@@ -64943,19 +64998,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 697380
+          "size": 697587
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 697380,
+      "assetsSize": 697587,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2258573
+          "size": 2261874
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2258573,
+      "auxiliaryAssetsSize": 2261874,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -64970,19 +65025,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 697380
+          "size": 697587
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 697380,
+      "assetsSize": 697587,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2258573
+          "size": 2261874
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2258573,
+      "auxiliaryAssetsSize": 2261874,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
