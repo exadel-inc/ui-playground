@@ -1,8 +1,8 @@
 {
-  "hash": "7ff05bff1ea3ab75fb12",
+  "hash": "5343804a3d8680560ae3",
   "version": "5.74.0",
-  "time": 14749,
-  "builtAt": 1666255609753,
+  "time": 15585,
+  "builtAt": 1669624395817,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 697587,
+      "size": 697923,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -25,7 +25,7 @@
           "license": "playground.js.LICENSE.txt",
           "sourceMap": "playground.js.map"
         },
-        "size": 697587
+        "size": 697923
       },
       "chunkNames": [
         "playground"
@@ -38,13 +38,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 2261874,
+          "size": 2262523,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 2261874
+            "size": 2262523
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -108,12 +108,12 @@
     {
       "type": "asset",
       "name": "../../../esm/src/plugins/editor/editor.d.ts",
-      "size": 2051,
+      "size": 2061,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 2051
+        "size": 2061
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -259,6 +259,25 @@
     },
     {
       "type": "asset",
+      "name": "../../../esm/src/plugins/settings/settings.d.ts",
+      "size": 869,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 869
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "../../../esm/src/core/base/plugin.d.ts",
       "size": 843,
       "emitted": true,
@@ -285,25 +304,6 @@
       "cached": false,
       "info": {
         "size": 833
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "../../../esm/src/plugins/settings/settings.d.ts",
-      "size": 799,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 799
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -511,9 +511,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1397214,
+      "size": 1397698,
       "sizes": {
-        "javascript": 1396052,
+        "javascript": 1396536,
         "runtime": 1162
       },
       "names": [
@@ -529,7 +529,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "a432914d77f511f1e963",
+      "hash": "8d4129987b16ee82a7c5",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -1488,9 +1488,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 249827,
+          "size": 250311,
           "sizes": {
-            "javascript": 249827
+            "javascript": 250311
           },
           "built": true,
           "codeGenerated": true,
@@ -6924,7 +6924,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "100:4-10",
+                  "loc": "103:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7148,7 +7148,21 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "65:4-10",
+                  "loc": "70:4-10",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
+                  "module": "../src/plugins/settings/settings.ts",
+                  "moduleName": "../src/plugins/settings/settings.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
+                  "resolvedModule": "../src/plugins/settings/settings.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
+                  "loc": "76:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -8082,7 +8096,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "56:4-8",
+                  "loc": "61:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -8096,7 +8110,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "59:4-8",
+                  "loc": "64:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -10387,7 +10401,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "94:4-12",
+                  "loc": "97:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -10901,7 +10915,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-                  "loc": "97:4-8",
+                  "loc": "100:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -10929,7 +10943,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-                  "loc": "68:4-8",
+                  "loc": "73:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -13749,7 +13763,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "62:4-11",
+                  "loc": "67:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16544,9 +16558,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 4041,
+              "size": 4196,
               "sizes": {
-                "javascript": 4041
+                "javascript": 4196
               },
               "built": true,
               "codeGenerated": false,
@@ -17336,9 +17350,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2683,
+              "size": 3012,
               "sizes": {
-                "javascript": 2683
+                "javascript": 3012
               },
               "built": true,
               "codeGenerated": false,
@@ -19469,9 +19483,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 249827,
+      "size": 250311,
       "sizes": {
-        "javascript": 249827
+        "javascript": 250311
       },
       "built": true,
       "codeGenerated": true,
@@ -24883,7 +24897,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "100:4-10",
+              "loc": "103:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25107,7 +25121,21 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "65:4-10",
+              "loc": "70:4-10",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
+              "module": "../src/plugins/settings/settings.ts",
+              "moduleName": "../src/plugins/settings/settings.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
+              "resolvedModule": "../src/plugins/settings/settings.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
+              "loc": "76:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26039,7 +26067,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "56:4-8",
+              "loc": "61:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26053,7 +26081,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "59:4-8",
+              "loc": "64:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28335,7 +28363,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "94:4-12",
+              "loc": "97:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -28846,7 +28874,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "97:4-8",
+              "loc": "100:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28874,7 +28902,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "68:4-8",
+              "loc": "73:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -31678,7 +31706,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "62:4-11",
+              "loc": "67:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -34455,9 +34483,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 4041,
+          "size": 4196,
           "sizes": {
-            "javascript": 4041
+            "javascript": 4196
           },
           "built": true,
           "codeGenerated": false,
@@ -35241,9 +35269,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2683,
+          "size": 3012,
           "sizes": {
-            "javascript": 2683
+            "javascript": 3012
           },
           "built": true,
           "codeGenerated": false,
@@ -43098,7 +43126,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "100:4-10",
+          "loc": "103:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43322,7 +43350,21 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "65:4-10",
+          "loc": "70:4-10",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
+          "module": "../src/plugins/settings/settings.ts",
+          "moduleName": "../src/plugins/settings/settings.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
+          "resolvedModule": "../src/plugins/settings/settings.ts",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
+          "loc": "76:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -44254,7 +44296,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "56:4-8",
+          "loc": "61:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -44268,7 +44310,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "59:4-8",
+          "loc": "64:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46550,7 +46592,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "94:4-12",
+          "loc": "97:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -47061,7 +47103,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "97:4-8",
+          "loc": "100:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47089,7 +47131,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "68:4-8",
+          "loc": "73:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -49028,7 +49070,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "94:4-12",
+          "loc": "97:4-12",
           "moduleId": 392,
           "resolvedModuleId": null
         },
@@ -49140,7 +49182,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "56:4-8",
+          "loc": "61:4-8",
           "moduleId": 392,
           "resolvedModuleId": null
         },
@@ -49154,7 +49196,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "59:4-8",
+          "loc": "64:4-8",
           "moduleId": 392,
           "resolvedModuleId": null
         },
@@ -49546,7 +49588,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "94:4-12",
+          "loc": "97:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -49658,7 +49700,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "56:4-8",
+          "loc": "61:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -49672,7 +49714,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "59:4-8",
+          "loc": "64:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58067,7 +58109,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "62:4-11",
+          "loc": "67:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -60844,9 +60886,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 4041,
+      "size": 4196,
       "sizes": {
-        "javascript": 4041
+        "javascript": 4196
       },
       "built": true,
       "codeGenerated": false,
@@ -61630,9 +61672,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2683,
+      "size": 3012,
       "sizes": {
-        "javascript": 2683
+        "javascript": 3012
       },
       "built": true,
       "codeGenerated": false,
@@ -64998,19 +65040,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 697587
+          "size": 697923
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 697587,
+      "assetsSize": 697923,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2261874
+          "size": 2262523
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2261874,
+      "auxiliaryAssetsSize": 2262523,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -65025,19 +65067,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 697587
+          "size": 697923
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 697587,
+      "assetsSize": 697923,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2261874
+          "size": 2262523
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2261874,
+      "auxiliaryAssetsSize": 2262523,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -65047,12 +65089,12 @@
   "errorsCount": 0,
   "warnings": [
     {
-      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (681 KiB)",
-      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (681 KiB)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:134:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
+      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (682 KiB)",
+      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  playground.js (682 KiB)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:134:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
     },
     {
-      "message": "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (681 KiB)\n      playground.js\n",
-      "stack": "EntrypointsOverSizeLimitWarning: entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (681 KiB)\n      playground.js\n\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:139:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
+      "message": "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (682 KiB)\n      playground.js\n",
+      "stack": "EntrypointsOverSizeLimitWarning: entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  playground (682 KiB)\n      playground.js\n\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:139:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
     },
     {
       "message": "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/",
