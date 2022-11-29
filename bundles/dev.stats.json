@@ -1,8 +1,8 @@
 {
-  "hash": "605b85c11eca6a90026e",
+  "hash": "8501fa21cf1eab2fc3c8",
   "version": "5.75.0",
-  "time": 13571,
-  "builtAt": 1669626338070,
+  "time": 18595,
+  "builtAt": 1669714348251,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 699533,
+      "size": 699836,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -25,7 +25,7 @@
           "license": "playground.js.LICENSE.txt",
           "sourceMap": "playground.js.map"
         },
-        "size": 699533
+        "size": 699836
       },
       "chunkNames": [
         "playground"
@@ -38,13 +38,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 2268696,
+          "size": 2269487,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 2268696
+            "size": 2269487
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -373,6 +373,25 @@
     },
     {
       "type": "asset",
+      "name": "../../../esm/src/core/preview/preview.d.ts",
+      "size": 460,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 460
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "../../../esm/src/plugins/header/header.d.ts",
       "size": 423,
       "emitted": true,
@@ -418,25 +437,6 @@
       "cached": false,
       "info": {
         "size": 317
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "../../../esm/src/core/preview/preview.d.ts",
-      "size": 284,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 284
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -511,9 +511,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1401339,
+      "size": 1401819,
       "sizes": {
-        "javascript": 1400177,
+        "javascript": 1400657,
         "runtime": 1162
       },
       "names": [
@@ -529,7 +529,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "bf95950ed0d46b209185",
+      "hash": "7bc8f1d52d6ae2df5398",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -1488,9 +1488,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 250311,
+          "size": 250791,
           "sizes": {
-            "javascript": 250311
+            "javascript": 250791
           },
           "built": true,
           "codeGenerated": true,
@@ -10887,7 +10887,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-                  "loc": "28:4-8",
+                  "loc": "42:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16210,9 +16210,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 1292,
+              "size": 1772,
               "sizes": {
-                "javascript": 1292
+                "javascript": 1772
               },
               "built": true,
               "codeGenerated": false,
@@ -19483,9 +19483,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 250311,
+      "size": 250791,
       "sizes": {
-        "javascript": 250311
+        "javascript": 250791
       },
       "built": true,
       "codeGenerated": true,
@@ -28846,7 +28846,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "28:4-8",
+              "loc": "42:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -34137,9 +34137,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1292,
+          "size": 1772,
           "sizes": {
-            "javascript": 1292
+            "javascript": 1772
           },
           "built": true,
           "codeGenerated": false,
@@ -47075,7 +47075,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "28:4-8",
+          "loc": "42:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -60540,9 +60540,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1292,
+      "size": 1772,
       "sizes": {
-        "javascript": 1292
+        "javascript": 1772
       },
       "built": true,
       "codeGenerated": false,
@@ -65040,19 +65040,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 699533
+          "size": 699836
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 699533,
+      "assetsSize": 699836,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2268696
+          "size": 2269487
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2268696,
+      "auxiliaryAssetsSize": 2269487,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
@@ -65067,19 +65067,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 699533
+          "size": 699836
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 699533,
+      "assetsSize": 699836,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 2268696
+          "size": 2269487
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2268696,
+      "auxiliaryAssetsSize": 2269487,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": true
