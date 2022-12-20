@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"  class="esl-scrollable-content" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,13 +43,13 @@
 </esl-toggleable>
 
 
-  <main class="main" role="main">
-    
-      <h2 class="main__title">
-        Settings
-      </h2>
-    
+  <main class="main esl-scrollable-content" role="main">
     <div class="content">
+      
+        <h2 class="main__title">
+          Settings
+        </h2>
+      
       
 <h1>UIP Settings</h1>
 <p><strong>UIPSettings</strong> - custom element which stores settings (<a href="https://exadel-inc.github.io/ui-playground/settings/setting/">UIPSetting</a>).
@@ -117,7 +117,7 @@ let user know about inconsistent state (when there are multiple setting values, 
 
     </div>
   </main>
-
+  <esl-scrollbar target="::prev" class="page-scrollbar"></esl-scrollbar>
   <footer class="footer">
     <div>
   <span>UIPlayground v1.0.0-beta.13 © 2021 Exadel, Inc</span>
@@ -136,9 +136,6 @@ let user know about inconsistent state (when there are multiple setting values, 
   
 
   <script src="/ui-playground/bundles/playground.js"></script>
-
-
-  <esl-scrollbar class="page-scrollbar" target="html"></esl-scrollbar>
 
 </body>
 </html>
