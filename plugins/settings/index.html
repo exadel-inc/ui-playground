@@ -51,27 +51,27 @@
         <div class="container">
           
 <h1>UIP Settings</h1>
-<p><strong>UIPSettings</strong> - custom element which stores settings (<a href="https://exadel-inc.github.io/ui-playground/settings/setting/">UIPSetting</a>).
-Extends <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-plugin">UIPPlugin</a>.</p>
+<p><strong>UIPSettings</strong> - custom element which stores settings (<strong>UIPSetting</strong>).
+Extends <a href="https://exadel-inc.github.io/ui-playground/core/#uip-plugin">UIPPlugin</a>.</p>
 <h2>Description:</h2>
-<p>We use <strong>UIPSettings</strong> as a container for <a href="https://exadel-inc.github.io/ui-playground/settings/setting/">UIPSetting</a> elements. It serves as a link between
+<p>We use <strong>UIPSettings</strong> as a container for <strong>UIPSetting</strong> elements. It serves as a link between
 our standard UIP flow for change detection and settings updates.</p>
-<p><strong>UIPSettings</strong> updates settings using current state (<a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-state-model">UIPStateModel</a>)
-and vice versa (more info can be found in <a href="https://exadel-inc.github.io/ui-playground/settings/setting/">UIPSetting</a> docs)</p>
-<p>To get updates from inner settings we listen for <em>uip:change</em> event, then pass markup updates to <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-root">UIPRoot</a>.</p>
+<p><strong>UIPSettings</strong> updates settings using current state (<a href="https://exadel-inc.github.io/ui-playground/core/#uip-state-model">UIPStateModel</a>)
+and vice versa (more info can be found in <strong>UIPSetting</strong> docs)</p>
+<p>To get updates from inner settings we listen for <em>uip:change</em> event, then pass markup updates to <a href="https://exadel-inc.github.io/ui-playground/core/#uip-root">UIPRoot</a>.</p>
 <p><strong>UIPSettings</strong> component has the following attributes:</p>
 <ul>
 <li><strong>label</strong> - settings section displayed name.</li>
-<li><strong>target</strong> - sets <strong>target</strong> attribute for all inner <a href="https://exadel-inc.github.io/ui-playground/settings/setting/">UIPSetting</a> elements (can be overwritten
+<li><strong>target</strong> - sets <strong>target</strong> attribute for all inner <strong>UIPSetting</strong> elements (can be overwritten
 by own attribute value).</li>
 </ul>
 <h1>UIP Setting</h1>
-<p><a href="https://exadel-inc.github.io/ui-playground/settings/setting/">UIPSetting</a> - custom element for manipulating with elements attributes. Custom settings should extend
+<p><strong>UIPSetting</strong> - custom element for manipulating with elements attributes. Custom settings should extend
 <em>UIPSetting</em> class if you want them to be connected with <a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSettings</a> properly.</p>
 <h2>Description:</h2>
 <ul>
-<li>Processes markup to update own value via <strong>updateFrom()</strong> (uses <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-state-model">UIPStateModel</a> by default).</li>
-<li>Updates markup with <strong>applyTo()</strong> (uses <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-state-model">UIPStateModel</a> by default).</li>
+<li>Processes markup to update own value via <strong>updateFrom()</strong> (uses <a href="https://exadel-inc.github.io/ui-playground/core/#uip-state-model">UIPStateModel</a> by default).</li>
+<li>Updates markup with <strong>applyTo()</strong> (uses <a href="https://exadel-inc.github.io/ui-playground/core/#uip-state-model">UIPStateModel</a> by default).</li>
 <li>Dispatches <strong>uip:change</strong> event to let <em>UIPSettings</em> know about setting changes.</li>
 </ul>
 <p>These things have default implementation. Also, there are <strong>isValid()</strong> and <strong>setInconsistency()</strong> methods to deal with
