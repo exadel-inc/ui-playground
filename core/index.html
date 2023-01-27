@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Base elements</title>
+  <title>Core Elements</title>
 
   <link rel="icon" type="image/png" href="/ui-playground/assets/uip-logo.png" />
   <link rel="stylesheet" type="text/css" href="/ui-playground/bundles/playground.css" />
@@ -111,6 +111,13 @@ a parameter. This type looks like this:</p>
 current attribute value to the new one).</p>
 <p>Again, the examples of using this API can be found in <a href="https://exadel-inc.github.io/ui-playground/settings/setting/">UIPSetting</a>
 implementations (e.g. <a href="https://exadel-inc.github.io/ui-playground/settings/bool-setting/">UIPBoolSetting</a>).</p>
+
+<h1>UIP Preview</h1>
+<p><strong>UIPPreview</strong> - custom element, that displays active markup. Extends <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-plugin">UIPPlugin</a>.</p>
+<p><strong>UIPPreview</strong> element observes <a href="https://exadel-inc.github.io/ui-playground/core/base/#uip-state-model">UIPStateModel</a> changes, but it doesn't produce them.</p>
+<h2>Example:</h2>
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-preview</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-preview</span><span class="token punctuation">></span></span>
+</code></pre>
 
 
         </div>
