@@ -54,9 +54,8 @@
 <p>TBD</p>
 <h1>Project structure</h1>
 <p>UIP components are organized in the following way:</p>
-<ul>
-<li><a href="https://exadel-inc.github.io/ui-playground/core/#uip-root">Core Elements</a></li>
-<li>Plugins
+<p><a href="https://exadel-inc.github.io/ui-playground/core/#uip-root">Core Elements</a></p>
+<p>Plugins:</p>
 <ul>
 <li><a href="https://exadel-inc.github.io/ui-playground/plugins/editor/">UIPEditor</a></li>
 <li><a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSettings</a>
@@ -64,6 +63,7 @@
 <li><a href="https://exadel-inc.github.io/ui-playground/settings/bool-setting/">UIPBoolSetting</a></li>
 <li><a href="https://exadel-inc.github.io/ui-playground/settings/select-setting/">UIPSelectSetting</a></li>
 <li><a href="https://exadel-inc.github.io/ui-playground/settings/text-setting/">UIPTextSetting</a></li>
+<li><a href="https://exadel-inc.github.io/ui-playground/settings/slider-setting/">UIPSliderSetting</a></li>
 </ul>
 </li>
 <li><a href="https://exadel-inc.github.io/ui-playground/plugins/header/">UIPHeader</a>
@@ -73,21 +73,24 @@
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<p>Any playground must have at least <strong>core</strong> components. <strong>Plugins</strong> are
+<p>Any playground must have at least <strong>Сore</strong> components. <strong>Plugins</strong> are
 optional, you can add them on your own free will.</p>
 <p>To implement custom UIPPlayground components, see <a href="https://exadel-inc.github.io/ui-playground/core/#uip-plugin">UIPPlugin</a>.</p>
 <h1>Modules/components imports</h1>
 <p>Module's main parts lay inside modules folders. So importing the required
 module is really straightforward:</p>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
+<pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>UIPRoot<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./root'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span>UIPEditor<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./editor'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span>UIPBoolSetting<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./bool-setting'</span><span class="token punctuation">;</span>
+</code></pre>
 <p>Every module has two versions of styles: <em>css</em> and <em>less</em>. If you want
 to import styles for all UIP component, you can import either
 <em>registration.less</em> or <em>registration.css</em> file.</p>
 <p>Before using UIP components, you also need to <em>register</em> them. For example,
 if you want to use <a href="https://exadel-inc.github.io/ui-playground/core/#uip-root">UIPRoot</a> component, register it like that:</p>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
+<pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>UIPRoot<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./root'</span><span class="token punctuation">;</span>
+UIPRoot<span class="token punctuation">.</span><span class="token function">reguster</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
 <h1>Browser support</h1>
 <p>UIPPlayground supports all modern browsers.</p>
 

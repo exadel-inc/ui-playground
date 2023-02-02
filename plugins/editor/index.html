@@ -60,8 +60,15 @@ customization. You can change theme, mode, shortcuts, etc.</p>
 and play with its settings. <a href="https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts">Here</a> you can find the full list of shortcuts.</p>
 <h2>Customization</h2>
 <p>To make customization easier, we defined the following interface:</p>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
-<ol>
+<pre><code class="language-typescript"><span class="token keyword">interface</span> <span class="token class-name">EditorConfig</span> <span class="token punctuation">{</span>
+  theme<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  mode<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  printMarginColumn<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+  wrap<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre>
+<ul>
 <li><strong>Theme</strong> allows you to change editor's appearance. To see the full list you can use the same
 <a href="https://ace.c9.io/build/kitchen-sink.html">demo</a> page mentioned above.</li>
 <li><strong>Mode</strong> stands for the language (<em>html</em>, <em>js</em>, <em>css</em>, <em>xml</em>, etc.) you use inside the editor. Provides you with
@@ -71,15 +78,26 @@ suitable syntax highlighting and other things. The full list of modes, again, ca
 remove the line.</li>
 <li><strong>Wrap</strong> number sets the limit of characters before wrapping. Set to <strong>0</strong> to remove wrapping or <strong>true</strong> for wrapping
 on the container's width.</li>
-</ol>
+</ul>
 <p>We think that these options are the most common, so we made their configuration easier. All you need is to pass an object
 to the editor's attribute <em>editor-config</em>, like in the example below:</p>
 <pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-editor</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Editor<span class="token punctuation">"</span></span> <span class="token attr-name">editor-config</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{wrap: 70}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-editor</span><span class="token punctuation">></span></span>
+
 </code></pre>
 <p>If you don't specify it, the default one will be used:</p>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
+<pre><code class="language-typescript">defaultOptions <span class="token operator">=</span> <span class="token punctuation">{</span>
+  theme<span class="token operator">:</span> <span class="token string">'ace/theme/chrome'</span><span class="token punctuation">,</span>
+  mode<span class="token operator">:</span> <span class="token string">'ace/mode/html'</span><span class="token punctuation">,</span>
+  printMarginColumn<span class="token operator">:</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span>
+  wrap<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+
+</code></pre>
 <p>You can set settings inside the code (in case you want to specify something special):</p>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
+<pre><code class="language-typescript"><span class="token keyword">this</span><span class="token punctuation">.</span>editor<span class="token punctuation">.</span><span class="token function">setOption</span><span class="token punctuation">(</span><span class="token string">'useSoftTabs'</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>editor<span class="token punctuation">.</span><span class="token function">setOption</span><span class="token punctuation">(</span><span class="token string">'theme'</span><span class="token punctuation">,</span> <span class="token string">'ace/theme/tomorrow-night'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+</code></pre>
 <h2>Example</h2>
 <pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-editor</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Editor<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-editor</span><span class="token punctuation">></span></span>
 </code></pre>

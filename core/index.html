@@ -52,33 +52,49 @@
           
 <p><a href="#uip-plugin" id="uip-plugin"></a></p>
 <h1>UIP Plugin</h1>
-<p>UIPPlugin - base class for all UIP elements. Extending it allows creating custom UIP
-components.</p>
+<p><strong>UIPPlugin</strong> - base class for all UIP elements. Extending it allows creating custom UIP components.</p>
 <h2>Description</h2>
 <p>All UIP elements are <strong>UIPPlugin</strong> instances. Plugin automatically sets <em>uip-plugin</em> class to its elements,
-provides access to <a href="https://exadel-inc.github.io/ui-playground/core/#uip-root">UIPRoot</a> and adds <strong>_onRootStateChange()</strong> method, which is a key part in components
+provides access to <a href="https://exadel-inc.github.io/ui-playground/core/#uip-root">UIPRoot</a> and adds <em>_onRootStateChange()</em> method, which is a key part in components
 communication.</p>
 <p>After initialization <strong>UIPPlugin</strong> subscribes to <a href="https://exadel-inc.github.io/ui-playground/core/#uip-state-model">UIPStateModel</a> changes and, after
-destroying, automatically unsubscribes. <strong>_onRootStateChange()</strong> is called every time markup changes are detected.
+destroying, automatically unsubscribes. <em>_onRootStateChange()</em> is called every time markup changes are detected.
 As you can see, the flow is quite similar to what we usually do in
 <a href="https://en.wikipedia.org/wiki/Observer_pattern">Observable</a> pattern.</p>
 <h2>Processing markup changes</h2>
-<p><strong>_onRootStateChange()</strong> method does nothing by default. So if you want your custom component to react on markup
+<p><em>_onRootStateChange()</em> method does nothing by default. So if you want your custom component to react on markup
 changes, you need to implement it. This callback has the following signature:</p>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
+<pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>UIPPlugin<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"./plugin"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">UIPComponent</span> <span class="token keyword">extends</span> <span class="token class-name">UIPPlugin</span> <span class="token punctuation">{</span>
+  <span class="token keyword">protected</span> <span class="token function">_onRootStateChange</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+      <span class="token comment">// ...</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre>
 <p>You can find a way of getting current markup in <a href="https://exadel-inc.github.io/ui-playground/core/#uip-state-model">UIPStateModel</a> section.</p>
-<p>To make the long story shorter: we implement &quot;reaction&quot; callback in <strong>_onRootStateChange()</strong> (using markup's getter
+<p>To make the long story shorter: we implement &quot;reaction&quot; callback in <em>_onRootStateChange()</em> (using markup's getter
 mentioned earlier) and every time <strong>UIPStateModel</strong> produces markup updates, we &quot;react&quot; to them!</p>
 <h2>Example</h2>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
+<pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>UIPPlugin<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"./plugin"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">UIPPreview</span> <span class="token keyword">extends</span> <span class="token class-name">UIPPlugin</span> <span class="token punctuation">{</span>
+  <span class="token keyword">protected</span> <span class="token function">_onRootStateChange</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>$inner<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>model<span class="token operator">!</span><span class="token punctuation">.</span>html<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>$inner<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
 <hr>
 <p><a href="#uip-root" id="uip-root"></a></p>
 <h1>UIP Root</h1>
 <p><strong>UIPRoot</strong> - container for <strong>UIPPlugin</strong> components.</p>
-<h2>Description:</h2>
+<h2>Description</h2>
 <p><strong>UIPRoot</strong> contains <a href="https://exadel-inc.github.io/ui-playground/core/#uip-state-model">UIPStateModel</a> getter. It also allows <strong>UIPPlugin</strong> elements
 subscribing to model changes (or unsubscribing from them). More details can be found in <a href="https://exadel-inc.github.io/ui-playground/core/#uip-plugin">UIPPlugin</a> section.</p>
-<h2>Example:</h2>
+<h2>Example</h2>
 <pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-root</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-root</span><span class="token punctuation">></span></span>
 </code></pre>
 <hr>
@@ -90,23 +106,62 @@ ESL's <a href="https://github.com/exadel-inc/esl/blob/main/src/modules/esl-utils
 <h2>Description</h2>
 <p>As we already mentioned, <strong>UIPStateModel</strong> is an observable. It's fired every time we produce markup
 changes. To trigger the observable you need to change model's markup:</p>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
+<pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>UIPPlugin<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"./plugin"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">UIPComponent</span> <span class="token keyword">extends</span> <span class="token class-name">UIPPlugin</span> <span class="token punctuation">{</span>
+    <span class="token keyword">protected</span> <span class="token function">_onComponentChange</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// ...</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>model<span class="token operator">!</span><span class="token punctuation">.</span><span class="token function">setHtml</span><span class="token punctuation">(</span><span class="token string">'New markup here!'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// ...</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre>
 <p>Markup's setter takes two arguments: <em>markup</em> and <em>modifier</em>. <em>Markup</em> stands for, surprisingly, new markup, and
 <em>modifier</em> is a <strong>UIPPlugin</strong> instance which triggers changes (it is needed to prevent extra triggers of
-<strong>UIPStateModel</strong>.</p>
+<strong>UIPStateModel</strong>).</p>
 <p><strong>UIPStateModel</strong> also has a getter for current markup:</p>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
+<pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>UIPPlugin<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"./plugin"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">UIPComponent</span> <span class="token keyword">extends</span> <span class="token class-name">UIPPlugin</span> <span class="token punctuation">{</span>
+    <span class="token keyword">protected</span> <span class="token function">processMarkup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// ...</span>
+        <span class="token keyword">const</span> currentMarkup <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>model<span class="token operator">!</span><span class="token punctuation">.</span>html<span class="token punctuation">;</span>
+        <span class="token comment">// ...</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre>
 <h2>Markup processing methods</h2>
 <p><strong>UIPStateModel</strong> has some methods to make markup processing easier. They are used inside
 <a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSettings</a> and <a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSetting</a> plugins. These methods have the
 following signatures:</p>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
-<p><strong>getAttribute()</strong> method returns attributes (<em>attr</em> field) values from targets.</p>
-<p><strong>changeAttribute()</strong> callback is used for changing elements attributes. As you can see, it takes <em>ChangeAttrConfig</em> as
+<pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>Observable<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@exadel/esl"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">UIPStateModel</span> <span class="token keyword">extends</span> <span class="token class-name">Observable</span> <span class="token punctuation">{</span>
+  <span class="token keyword">public</span> <span class="token function">getAttribute</span><span class="token punctuation">(</span>target<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span> attr<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token builtin">string</span> <span class="token operator">|</span> <span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token keyword">public</span> <span class="token function">changeAttribute</span><span class="token punctuation">(</span>cfg<span class="token operator">:</span> ChangeAttrConfig<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre>
+<p><em>getAttribute()</em> method returns attributes (<em>attr</em> field) values from targets.</p>
+<p><em>changeAttribute()</em> callback is used for changing elements attributes. As you can see, it takes <em>ChangeAttrConfig</em> as
 a parameter. This type looks like this:</p>
-<pre><code class="language-typescript"><!-- Error: Unsupported language 'typescript' --></code></pre>
+<pre><code class="language-typescript"><span class="token keyword">export</span> <span class="token keyword">type</span> <span class="token class-name">TransformSignature</span> <span class="token operator">=</span> <span class="token punctuation">(</span>current<span class="token operator">:</span> <span class="token builtin">string</span> <span class="token operator">|</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token builtin">string</span> <span class="token operator">|</span> <span class="token builtin">boolean</span> <span class="token operator">|</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">type</span> <span class="token class-name">ChangeAttrConfig</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  target<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span>
+  attribute<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span>
+  modifier<span class="token operator">:</span> UIPPlugin
+<span class="token punctuation">}</span> <span class="token operator">&amp;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+  value<span class="token operator">:</span> <span class="token builtin">string</span> <span class="token operator">|</span> <span class="token builtin">boolean</span>
+<span class="token punctuation">}</span> <span class="token operator">|</span> <span class="token punctuation">{</span>
+  transform<span class="token operator">:</span> TransformSignature
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+</code></pre>
 <p>Here <em>attribute</em> stands for attribute name and <em>target</em> - for target elements. <em>Modifier</em> field represents the
-<a href="https://exadel-inc.github.io/ui-playground/core/#uip-plugin">UIPPlugin</a> instance which triggers attribute's changes.</p>
+<strong>UIPPlugin</strong> instance which triggers attribute's changes.</p>
 <p>The last field can either be <em>value</em> (this value replaces current <em>attribute</em>'s value) or <em>transform</em> function (it maps
 current attribute value to the new one).</p>
 <p>Again, the examples of using this API can be found in <a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSetting</a>
@@ -115,7 +170,7 @@ implementations (e.g. <a href="https://exadel-inc.github.io/ui-playground/settin
 <h1>UIP Preview</h1>
 <p><strong>UIPPreview</strong> - custom element, that displays active markup. Extends <a href="https://exadel-inc.github.io/ui-playground/core/#uip-plugin">UIPPlugin</a>.</p>
 <p><strong>UIPPreview</strong> element observes <a href="https://exadel-inc.github.io/ui-playground/core/#uip-state-model">UIPStateModel</a> changes, but it doesn't produce them.</p>
-<h2>Example:</h2>
+<h2>Example</h2>
 <pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-preview</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-preview</span><span class="token punctuation">></span></span>
 </code></pre>
 

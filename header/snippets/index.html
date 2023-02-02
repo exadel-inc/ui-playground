@@ -53,14 +53,14 @@
 <h1>UIP Snippets</h1>
 <p><strong>UIPSnippets</strong> - custom element which contain snippets (component's templates).
 Extends <a href="https://exadel-inc.github.io/ui-playground/core/#uip-plugin">UIPPlugin</a>.</p>
-<h2>Description:</h2>
+<h2>Description</h2>
 <ul>
-<li>Component's markup should be placed in <strong>template</strong> tags.</li>
+<li>Component's markup should be placed in <em>template</em> tags.</li>
 <li>Templates should have <em>uip-snippet</em>, <em>label</em> attributes.</li>
-<li>An active element can be chosen by adding class <strong>active</strong> to template, otherwise first template becomes active.</li>
+<li>An active element can be chosen by adding class <em>active</em> to template, otherwise first template becomes active.</li>
 </ul>
 <p><strong>UIPSnippets</strong> component produces <a href="https://exadel-inc.github.io/ui-playground/core/#uip-state-model">UIPStateModel</a> changes, but it doesn't observe them.</p>
-<h2>Example:</h2>
+<h2>Example</h2>
 <pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-snippets</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Snippets<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">uip-snippet</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">'</span>Image Mode: save-ratio<span class="token punctuation">'</span></span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>esl-image</span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>save-ratio<span class="token punctuation">"</span></span>

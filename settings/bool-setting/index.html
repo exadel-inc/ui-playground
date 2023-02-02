@@ -53,16 +53,16 @@
 <h1>UIP Bool Setting</h1>
 <p><strong>UIPBoolSetting</strong> - custom setting for adding/removing attributes or appending values to attribute.
 Extends <a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSetting</a>.</p>
-<h2>Description:</h2>
-<p><strong>UIPBoolSetting</strong> represents a checkbox. It has <strong>value</strong> attribute for adding/removing this <strong>value</strong>
+<h2>Description</h2>
+<p><strong>UIPBoolSetting</strong> represents a checkbox. It has <em>value</em> attribute for adding/removing this <em>value</em>
 from attributes.</p>
 <p>This setting can exist in two modes: <strong>replace</strong> and <strong>append</strong>.</p>
-<p><strong>replace</strong> mode is used by default. There are two ways to interpret it: when there is a <strong>value</strong> attribute
-specified and when it's not. When it's not specified, the setting adds/removes attribute specified in <strong>attribute</strong>.
-If we define <strong>value</strong>, the setting sets <strong>attribute</strong> value to it.</p>
-<p>The idea of <strong>append</strong> mode is to add/discard <strong>value</strong> (must be specified for this mode) to the <strong>attribute</strong>.
-For example, it can be useful for adding css classes (see example below).</p>
-<h3>Example:</h3>
+<p><strong>replace</strong> mode is used by default. There are two ways to interpret it: when there is a <em>value</em> attribute
+specified and when it's not. When it's not specified, the setting adds/removes attribute specified in <em>attribute</em>.
+If we define <em>value</em>, the setting sets <em>attribute</em> value to it.</p>
+<p>The idea of <strong>append</strong> mode is to add/discard <em>value</em> (must be specified for this mode) to the <em>attribute</em>.
+For example, it can be useful for adding <em>css</em> classes (see example below).</p>
+<h2>Example</h2>
 <pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-settings</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Settings<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>.demo-img<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
   <span class="token comment">&lt;!--  Replace mode --></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-bool-setting</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Linked image<span class="token punctuation">"</span></span> <span class="token attr-name">attribute</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>linked<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-bool-setting</span><span class="token punctuation">></span></span>
