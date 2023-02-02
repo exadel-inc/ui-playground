@@ -1,8 +1,8 @@
 {
-  "hash": "5f2ca442edcb3ee32504",
+  "hash": "a50778a4e2251ccb49e9",
   "version": "5.75.0",
-  "time": 16022,
-  "builtAt": 1675324268628,
+  "time": 13113,
+  "builtAt": 1675328689192,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -92,7 +92,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 107730,
+      "size": 107681,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -102,7 +102,7 @@
         "related": {
           "sourceMap": "playground.js.map"
         },
-        "size": 107730
+        "size": 107681
       },
       "chunkNames": [
         "playground"
@@ -115,13 +115,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 394901,
+          "size": 399205,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 394901
+            "size": 399205
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -146,12 +146,12 @@
     {
       "type": "asset",
       "name": "../../../esm/src/core/base/model.d.ts",
-      "size": 2438,
+      "size": 3133,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 2438
+        "size": 3133
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -165,12 +165,31 @@
     {
       "type": "asset",
       "name": "../../../esm/src/settings/select-setting/select-setting.d.ts",
-      "size": 2047,
+      "size": 2382,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 2047
+        "size": 2382
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "../../../esm/src/plugins/header/snippets/snippets.d.ts",
+      "size": 2353,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 2353
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -184,12 +203,12 @@
     {
       "type": "asset",
       "name": "../../../esm/src/plugins/settings/setting.d.ts",
-      "size": 1839,
+      "size": 2027,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1839
+        "size": 2027
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -203,12 +222,12 @@
     {
       "type": "asset",
       "name": "../../../esm/src/settings/bool-setting/bool-setting.d.ts",
-      "size": 1682,
+      "size": 1832,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1682
+        "size": 1832
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -222,12 +241,12 @@
     {
       "type": "asset",
       "name": "../../../esm/src/core/base/root.d.ts",
-      "size": 1594,
+      "size": 1630,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1594
+        "size": 1630
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -259,13 +278,13 @@
     },
     {
       "type": "asset",
-      "name": "../../../esm/src/plugins/header/snippets/snippets.d.ts",
-      "size": 1465,
+      "name": "../../../esm/src/plugins/header/options/option/option.d.ts",
+      "size": 1441,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1465
+        "size": 1441
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -332,6 +351,25 @@
     },
     {
       "type": "asset",
+      "name": "../../../esm/src/plugins/header/options/options.d.ts",
+      "size": 1345,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 1345
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "../../../esm/src/plugins/editor/ace/ace-editor.d.ts",
       "size": 1305,
       "emitted": true,
@@ -351,70 +389,13 @@
     },
     {
       "type": "asset",
-      "name": "../../../esm/src/plugins/header/options/option/option.d.ts",
-      "size": 1052,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 1052
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "../../../esm/src/plugins/header/options/options.d.ts",
-      "size": 871,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 871
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "../../../esm/src/plugins/settings/settings.d.ts",
-      "size": 869,
+      "size": 1268,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 869
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "../../../esm/src/core/base/plugin.d.ts",
-      "size": 843,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 843
+        "size": 1268
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -428,12 +409,50 @@
     {
       "type": "asset",
       "name": "../../../esm/src/settings/slider-setting/slider-setting.d.ts",
-      "size": 833,
+      "size": 975,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 833
+        "size": 975
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "../../../esm/src/core/base/plugin.d.ts",
+      "size": 957,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 957
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "../../../esm/src/utils/token-list-utils.d.ts",
+      "size": 911,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 911
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -465,13 +484,32 @@
     },
     {
       "type": "asset",
-      "name": "../../../esm/src/utils/token-list-utils.d.ts",
-      "size": 747,
+      "name": "../../../esm/src/plugins/header/header.d.ts",
+      "size": 699,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 747
+        "size": 699
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "../../../esm/src/core/preview/preview.d.ts",
+      "size": 626,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 626
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -504,50 +542,12 @@
     {
       "type": "asset",
       "name": "../../../esm/src/settings/text-setting/text-setting.d.ts",
-      "size": 596,
+      "size": 593,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 596
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "../../../esm/src/core/preview/preview.d.ts",
-      "size": 460,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 460
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "../../../esm/src/plugins/header/header.d.ts",
-      "size": 423,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 423
+        "size": 593
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -599,12 +599,12 @@
     {
       "type": "asset",
       "name": "../../../esm/src/utils/warning-msg.d.ts",
-      "size": 224,
+      "size": 223,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 224
+        "size": 223
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -660,9 +660,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 258817,
+      "size": 262886,
       "sizes": {
-        "javascript": 251402,
+        "javascript": 255471,
         "runtime": 7415
       },
       "names": [
@@ -678,7 +678,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "eccf33394a0efa553aaa",
+      "hash": "fca98c3a4ac3076b8e0d",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -1021,7 +1021,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "42:4-8",
+              "loc": "45:4-8",
               "moduleId": 761,
               "resolvedModuleId": null
             },
@@ -1063,7 +1063,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "73:4-8",
+              "loc": "85:4-8",
               "moduleId": 761,
               "resolvedModuleId": null
             },
@@ -1091,7 +1091,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "42:4-8",
+              "loc": "45:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1161,7 +1161,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-              "loc": "73:4-8",
+              "loc": "85:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1948,9 +1948,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 246762,
+          "size": 250831,
           "sizes": {
-            "javascript": 246762
+            "javascript": 250831
           },
           "built": true,
           "codeGenerated": true,
@@ -2910,7 +2910,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../../registration",
-                  "loc": "171:61-71",
+                  "loc": "180:61-71",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -3307,7 +3307,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "15:31-45",
+                  "loc": "14:31-45",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3631,7 +3631,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-                  "loc": "50:12-31",
+                  "loc": "51:12-31",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3645,7 +3645,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-                  "loc": "44:12-31",
+                  "loc": "50:12-31",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -3659,7 +3659,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-                  "loc": "39:8-27",
+                  "loc": "45:8-27",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -6074,7 +6074,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/dom/attr",
-                  "loc": "25:8-15",
+                  "loc": "26:8-15",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -6502,8 +6502,8 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-              "issuerName": "../src/plugins/settings/settings.ts",
+              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+              "issuerName": "../src/plugins/header/header.ts",
               "issuerPath": [
                 {
                   "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -6521,8 +6521,8 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-                  "name": "../src/plugins/settings/settings.ts",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+                  "name": "../src/plugins/header/header.ts",
                   "id": null
                 }
               ],
@@ -7146,7 +7146,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "55:4-10",
+                  "loc": "61:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7174,7 +7174,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "50:4-10",
+                  "loc": "56:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7188,7 +7188,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "53:4-10",
+                  "loc": "59:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7216,7 +7216,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "97:4-10",
+                  "loc": "111:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7230,7 +7230,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "100:4-10",
+                  "loc": "114:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7258,7 +7258,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "161:4-10",
+                  "loc": "183:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7272,7 +7272,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "164:4-10",
+                  "loc": "186:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7286,7 +7286,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "167:4-10",
+                  "loc": "189:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7314,7 +7314,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "102:4-10",
+                  "loc": "108:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7328,7 +7328,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "12:0-73",
+                  "loc": "10:0-73",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7342,7 +7342,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "70:4-10",
+                  "loc": "82:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7356,7 +7356,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "76:4-10",
+                  "loc": "88:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7370,7 +7370,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "168:4-10",
+                  "loc": "177:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7384,7 +7384,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "171:4-10",
+                  "loc": "180:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7412,7 +7412,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "86:4-10",
+                  "loc": "87:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -7743,7 +7743,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/misc/uid",
-                  "loc": "41:46-53",
+                  "loc": "43:46-53",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -8645,7 +8645,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
-                  "loc": "36:12-17",
+                  "loc": "41:12-17",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -8659,7 +8659,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
-                  "loc": "36:31-36",
+                  "loc": "41:31-36",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -9394,7 +9394,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "51:4-8",
+                  "loc": "52:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9408,7 +9408,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "47:4-8",
+                  "loc": "53:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9422,7 +9422,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "96:4-8",
+                  "loc": "102:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9436,7 +9436,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "61:4-8",
+                  "loc": "73:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9450,21 +9450,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "64:4-8",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-                  "module": "../src/settings/bool-setting/bool-setting.ts",
-                  "moduleName": "../src/settings/bool-setting/bool-setting.ts",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-                  "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "(skipped side-effect-free modules)",
-                  "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "109:4-8",
+                  "loc": "76:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9497,16 +9483,16 @@
                   "resolvedModuleId": null
                 },
                 {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-                  "module": "../src/settings/select-setting/select-setting.ts",
-                  "moduleName": "../src/settings/select-setting/select-setting.ts",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-                  "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+                  "module": "../src/settings/bool-setting/bool-setting.ts",
+                  "moduleName": "../src/settings/bool-setting/bool-setting.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+                  "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
                   "type": "harmony import specifier",
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "147:4-8",
+                  "loc": "118:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9520,7 +9506,21 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "150:4-8",
+                  "loc": "156:4-8",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+                  "module": "../src/settings/select-setting/select-setting.ts",
+                  "moduleName": "../src/settings/select-setting/select-setting.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+                  "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "(skipped side-effect-free modules)",
+                  "userRequest": "@exadel/esl/modules/esl-base-element/core",
+                  "loc": "159:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9534,7 +9534,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "65:4-8",
+                  "loc": "66:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9548,7 +9548,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "68:4-8",
+                  "loc": "69:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9562,7 +9562,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "71:4-8",
+                  "loc": "72:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9576,7 +9576,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "74:4-8",
+                  "loc": "75:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -10061,7 +10061,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "65:4-12",
+                  "loc": "66:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -10075,7 +10075,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "68:4-12",
+                  "loc": "69:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -10089,7 +10089,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "71:4-12",
+                  "loc": "72:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -10103,7 +10103,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "74:4-12",
+                  "loc": "75:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -10117,7 +10117,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "153:4-12",
+                  "loc": "162:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -11788,7 +11788,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../registration",
-                  "loc": "28:54-68",
+                  "loc": "31:54-68",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11802,7 +11802,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../registration",
-                  "loc": "33:49-62",
+                  "loc": "37:49-62",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13444,7 +13444,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "40:8-21",
+                  "loc": "41:8-21",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13458,7 +13458,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "54:4-11",
+                  "loc": "55:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13472,7 +13472,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "57:4-11",
+                  "loc": "58:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13500,7 +13500,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "77:4-11",
+                  "loc": "78:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13542,7 +13542,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "140:4-11",
+                  "loc": "162:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13556,7 +13556,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "143:4-11",
+                  "loc": "165:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13570,7 +13570,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "146:4-11",
+                  "loc": "168:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13584,7 +13584,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "149:4-11",
+                  "loc": "171:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13598,7 +13598,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "152:4-11",
+                  "loc": "174:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13612,7 +13612,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "155:4-11",
+                  "loc": "177:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13626,7 +13626,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "158:4-11",
+                  "loc": "180:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13654,7 +13654,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "99:4-11",
+                  "loc": "105:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13682,7 +13682,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "67:4-11",
+                  "loc": "79:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13697,20 +13697,6 @@
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
                   "loc": "8:0-75",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-                  "module": "../src/settings/bool-setting/bool-setting.ts",
-                  "moduleName": "../src/settings/bool-setting/bool-setting.ts",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-                  "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "118:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13743,6 +13729,20 @@
                   "resolvedModuleId": null
                 },
                 {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+                  "module": "../src/settings/bool-setting/bool-setting.ts",
+                  "moduleName": "../src/settings/bool-setting/bool-setting.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+                  "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
+                  "loc": "127:4-11",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
                   "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
                   "module": "../src/settings/select-setting/select-setting.ts",
                   "moduleName": "../src/settings/select-setting/select-setting.ts",
@@ -13766,49 +13766,49 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "156:4-11",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-                  "module": "../src/settings/select-setting/select-setting.ts",
-                  "moduleName": "../src/settings/select-setting/select-setting.ts",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-                  "resolvedModule": "../src/settings/select-setting/select-setting.ts",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "159:4-11",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-                  "module": "../src/settings/select-setting/select-setting.ts",
-                  "moduleName": "../src/settings/select-setting/select-setting.ts",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-                  "resolvedModule": "../src/settings/select-setting/select-setting.ts",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "162:4-11",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-                  "module": "../src/settings/select-setting/select-setting.ts",
-                  "moduleName": "../src/settings/select-setting/select-setting.ts",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-                  "resolvedModule": "../src/settings/select-setting/select-setting.ts",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
                   "loc": "165:4-11",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+                  "module": "../src/settings/select-setting/select-setting.ts",
+                  "moduleName": "../src/settings/select-setting/select-setting.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+                  "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
+                  "loc": "168:4-11",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+                  "module": "../src/settings/select-setting/select-setting.ts",
+                  "moduleName": "../src/settings/select-setting/select-setting.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+                  "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
+                  "loc": "171:4-11",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+                  "module": "../src/settings/select-setting/select-setting.ts",
+                  "moduleName": "../src/settings/select-setting/select-setting.ts",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+                  "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
+                  "loc": "174:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13836,7 +13836,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "77:4-11",
+                  "loc": "78:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13850,7 +13850,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "80:4-11",
+                  "loc": "81:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13864,7 +13864,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "83:4-11",
+                  "loc": "84:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -15746,9 +15746,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 3067,
+              "size": 3107,
               "sizes": {
-                "javascript": 3067
+                "javascript": 3107
               },
               "built": true,
               "codeGenerated": false,
@@ -15816,7 +15816,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./root",
-                  "loc": "18:31-41",
+                  "loc": "17:31-41",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -15872,7 +15872,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../registration",
-                  "loc": "171:61-71",
+                  "loc": "180:61-71",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -15892,9 +15892,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2991,
+              "size": 3558,
               "sizes": {
-                "javascript": 2991
+                "javascript": 3558
               },
               "built": true,
               "codeGenerated": false,
@@ -16008,9 +16008,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 1772,
+              "size": 1938,
               "sizes": {
-                "javascript": 1772
+                "javascript": 1938
               },
               "built": true,
               "codeGenerated": false,
@@ -16112,9 +16112,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2296,
+              "size": 2410,
               "sizes": {
-                "javascript": 2296
+                "javascript": 2410
               },
               "built": true,
               "codeGenerated": false,
@@ -16182,7 +16182,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../base/plugin",
-                  "loc": "13:32-41",
+                  "loc": "14:32-41",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16252,7 +16252,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../core/base/plugin",
-                  "loc": "15:31-40",
+                  "loc": "16:31-40",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16280,7 +16280,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../../core/base/plugin",
-                  "loc": "14:32-41",
+                  "loc": "15:32-41",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16308,7 +16308,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../../core/base/plugin",
-                  "loc": "14:33-42",
+                  "loc": "15:33-42",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16322,7 +16322,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "../../core/base/plugin",
-                  "loc": "10:0-51",
+                  "loc": "11:0-51",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16336,7 +16336,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../core/base/plugin",
-                  "loc": "17:33-42",
+                  "loc": "18:33-42",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -16356,9 +16356,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2195,
+              "size": 2471,
               "sizes": {
-                "javascript": 2195
+                "javascript": 2471
               },
               "built": true,
               "codeGenerated": false,
@@ -16460,9 +16460,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 5913,
+              "size": 6734,
               "sizes": {
-                "javascript": 5913
+                "javascript": 6734
               },
               "built": true,
               "codeGenerated": false,
@@ -16516,7 +16516,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../registration",
-                  "loc": "28:54-68",
+                  "loc": "31:54-68",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16578,9 +16578,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 4073,
+              "size": 4576,
               "sizes": {
-                "javascript": 4073
+                "javascript": 4576
               },
               "built": true,
               "codeGenerated": false,
@@ -16634,7 +16634,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../registration",
-                  "loc": "33:49-62",
+                  "loc": "37:49-62",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16800,9 +16800,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 4868,
+              "size": 5024,
               "sizes": {
-                "javascript": 4868
+                "javascript": 5024
               },
               "built": true,
               "codeGenerated": false,
@@ -16918,9 +16918,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 3543,
+              "size": 3742,
               "sizes": {
-                "javascript": 3543
+                "javascript": 3742
               },
               "built": true,
               "codeGenerated": false,
@@ -16974,7 +16974,7 @@
                   "active": false,
                   "explanation": "",
                   "userRequest": "./setting",
-                  "loc": "11:0-39",
+                  "loc": "12:0-39",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16988,7 +16988,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./setting",
-                  "loc": "48:54-67",
+                  "loc": "55:54-67",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -17148,9 +17148,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 3012,
+              "size": 3373,
               "sizes": {
-                "javascript": 3012
+                "javascript": 3373
               },
               "built": true,
               "codeGenerated": false,
@@ -17260,7 +17260,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./settings",
-                  "loc": "28:28-42",
+                  "loc": "30:28-42",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -17280,9 +17280,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2039,
+              "size": 2037,
               "sizes": {
-                "javascript": 2039
+                "javascript": 2037
               },
               "built": true,
               "codeGenerated": false,
@@ -17398,9 +17398,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 7302,
+              "size": 7638,
               "sizes": {
-                "javascript": 7302
+                "javascript": 7638
               },
               "built": true,
               "codeGenerated": false,
@@ -17516,9 +17516,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 3175,
+              "size": 3290,
               "sizes": {
-                "javascript": 3175
+                "javascript": 3290
               },
               "built": true,
               "codeGenerated": false,
@@ -18016,7 +18016,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/abstract/observable",
-                  "loc": "8:35-45",
+                  "loc": "7:35-45",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -18034,9 +18034,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2147,
+              "size": 2419,
               "sizes": {
-                "javascript": 2147
+                "javascript": 2419
               },
               "built": true,
               "codeGenerated": false,
@@ -18109,7 +18109,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./option/option",
-                  "loc": "45:73-91",
+                  "loc": "51:76-94",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18123,7 +18123,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./option/option",
-                  "loc": "59:8-26",
+                  "loc": "73:8-26",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18137,7 +18137,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./option/option",
-                  "loc": "60:8-33",
+                  "loc": "74:8-33",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -18264,9 +18264,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 282,
+              "size": 281,
               "sizes": {
-                "javascript": 282
+                "javascript": 281
               },
               "built": true,
               "codeGenerated": false,
@@ -18339,7 +18339,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "52:76-95",
+                  "loc": "58:76-95",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18353,7 +18353,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "63:34-54",
+                  "loc": "69:34-54",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18367,7 +18367,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "66:34-54",
+                  "loc": "72:34-54",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18381,7 +18381,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "83:27-51",
+                  "loc": "89:27-51",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18409,7 +18409,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "62:41-61",
+                  "loc": "65:41-61",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18423,7 +18423,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "69:41-61",
+                  "loc": "72:41-61",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18437,7 +18437,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "80:37-57",
+                  "loc": "83:37-57",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18451,7 +18451,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "97:27-51",
+                  "loc": "100:27-51",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18479,7 +18479,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "75:41-61",
+                  "loc": "78:41-61",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18493,7 +18493,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "82:41-61",
+                  "loc": "85:41-61",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18507,7 +18507,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "87:73-92",
+                  "loc": "90:73-92",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18521,7 +18521,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "102:12-31",
+                  "loc": "105:12-31",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18535,7 +18535,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "102:34-54",
+                  "loc": "105:34-54",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18549,7 +18549,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "112:27-51",
+                  "loc": "115:27-51",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18577,7 +18577,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/warning-msg",
-                  "loc": "54:27-51",
+                  "loc": "55:27-51",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18625,9 +18625,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 1201,
+              "size": 1347,
               "sizes": {
-                "javascript": 1201
+                "javascript": 1347
               },
               "built": true,
               "codeGenerated": false,
@@ -18700,7 +18700,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "53:27-48",
+                  "loc": "56:27-48",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18714,7 +18714,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "53:49-69",
+                  "loc": "56:49-69",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18728,7 +18728,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "55:15-34",
+                  "loc": "58:15-34",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18742,7 +18742,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "68:13-43",
+                  "loc": "71:13-43",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18756,7 +18756,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "75:42-65",
+                  "loc": "78:42-65",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18770,7 +18770,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "75:66-86",
+                  "loc": "78:66-86",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18798,7 +18798,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "66:74-95",
+                  "loc": "69:74-95",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18812,7 +18812,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "66:113-133",
+                  "loc": "69:113-133",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18826,7 +18826,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "68:15-34",
+                  "loc": "71:15-34",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18840,7 +18840,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "81:13-43",
+                  "loc": "84:13-43",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18854,7 +18854,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "84:12-35",
+                  "loc": "87:12-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18868,7 +18868,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "84:57-77",
+                  "loc": "87:57-77",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18882,7 +18882,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "92:52-79",
+                  "loc": "95:52-79",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18896,7 +18896,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "92:101-121",
+                  "loc": "95:101-121",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18910,7 +18910,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "98:30-57",
+                  "loc": "101:30-57",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18924,7 +18924,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "100:33-52",
+                  "loc": "103:33-52",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18938,7 +18938,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../utils/token-list-utils",
-                  "loc": "101:37-67",
+                  "loc": "104:37-67",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -20595,9 +20595,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 246762,
+      "size": 250831,
       "sizes": {
-        "javascript": 246762
+        "javascript": 250831
       },
       "built": true,
       "codeGenerated": true,
@@ -21548,7 +21548,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../../registration",
-              "loc": "171:61-71",
+              "loc": "180:61-71",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -21943,7 +21943,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "15:31-45",
+              "loc": "14:31-45",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -22266,7 +22266,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-              "loc": "50:12-31",
+              "loc": "51:12-31",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -22280,7 +22280,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-              "loc": "44:12-31",
+              "loc": "50:12-31",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -22294,7 +22294,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-              "loc": "39:8-27",
+              "loc": "45:8-27",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -24702,7 +24702,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/dom/attr",
-              "loc": "25:8-15",
+              "loc": "26:8-15",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -25128,8 +25128,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-          "issuerName": "../src/plugins/settings/settings.ts",
+          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+          "issuerName": "../src/plugins/header/header.ts",
           "issuerPath": [
             {
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -25147,8 +25147,8 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-              "name": "../src/plugins/settings/settings.ts",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+              "name": "../src/plugins/header/header.ts",
               "id": null
             }
           ],
@@ -25772,7 +25772,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "55:4-10",
+              "loc": "61:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25800,7 +25800,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "50:4-10",
+              "loc": "56:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25814,7 +25814,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "53:4-10",
+              "loc": "59:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25842,7 +25842,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "97:4-10",
+              "loc": "111:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25856,7 +25856,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "100:4-10",
+              "loc": "114:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25884,7 +25884,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "161:4-10",
+              "loc": "183:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25898,7 +25898,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "164:4-10",
+              "loc": "186:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25912,7 +25912,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "167:4-10",
+              "loc": "189:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25940,7 +25940,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "102:4-10",
+              "loc": "108:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25954,7 +25954,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "12:0-73",
+              "loc": "10:0-73",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25968,7 +25968,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "70:4-10",
+              "loc": "82:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25982,7 +25982,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "76:4-10",
+              "loc": "88:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25996,7 +25996,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "168:4-10",
+              "loc": "177:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26010,7 +26010,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "171:4-10",
+              "loc": "180:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26038,7 +26038,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "86:4-10",
+              "loc": "87:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -26366,7 +26366,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/misc/uid",
-              "loc": "41:46-53",
+              "loc": "43:46-53",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -27265,7 +27265,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
-              "loc": "36:12-17",
+              "loc": "41:12-17",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -27279,7 +27279,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
-              "loc": "36:31-36",
+              "loc": "41:31-36",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -28013,7 +28013,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "51:4-8",
+              "loc": "52:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28027,7 +28027,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "47:4-8",
+              "loc": "53:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28041,7 +28041,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "96:4-8",
+              "loc": "102:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28055,7 +28055,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "61:4-8",
+              "loc": "73:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28069,21 +28069,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "64:4-8",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-              "module": "../src/settings/bool-setting/bool-setting.ts",
-              "moduleName": "../src/settings/bool-setting/bool-setting.ts",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-              "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "(skipped side-effect-free modules)",
-              "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "109:4-8",
+              "loc": "76:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28116,16 +28102,16 @@
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-              "module": "../src/settings/select-setting/select-setting.ts",
-              "moduleName": "../src/settings/select-setting/select-setting.ts",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-              "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+              "module": "../src/settings/bool-setting/bool-setting.ts",
+              "moduleName": "../src/settings/bool-setting/bool-setting.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+              "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "147:4-8",
+              "loc": "118:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28139,7 +28125,21 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "150:4-8",
+              "loc": "156:4-8",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+              "module": "../src/settings/select-setting/select-setting.ts",
+              "moduleName": "../src/settings/select-setting/select-setting.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+              "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "(skipped side-effect-free modules)",
+              "userRequest": "@exadel/esl/modules/esl-base-element/core",
+              "loc": "159:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28153,7 +28153,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "65:4-8",
+              "loc": "66:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28167,7 +28167,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "68:4-8",
+              "loc": "69:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28181,7 +28181,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "71:4-8",
+              "loc": "72:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28195,7 +28195,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "74:4-8",
+              "loc": "75:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28679,7 +28679,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "65:4-12",
+              "loc": "66:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28693,7 +28693,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "68:4-12",
+              "loc": "69:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28707,7 +28707,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "71:4-12",
+              "loc": "72:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28721,7 +28721,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "74:4-12",
+              "loc": "75:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28735,7 +28735,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "153:4-12",
+              "loc": "162:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -30393,7 +30393,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../registration",
-              "loc": "28:54-68",
+              "loc": "31:54-68",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -30407,7 +30407,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../registration",
-              "loc": "33:49-62",
+              "loc": "37:49-62",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32041,7 +32041,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "40:8-21",
+              "loc": "41:8-21",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32055,7 +32055,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "54:4-11",
+              "loc": "55:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32069,7 +32069,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "57:4-11",
+              "loc": "58:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32097,7 +32097,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "77:4-11",
+              "loc": "78:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32139,7 +32139,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "140:4-11",
+              "loc": "162:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32153,7 +32153,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "143:4-11",
+              "loc": "165:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32167,7 +32167,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "146:4-11",
+              "loc": "168:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32181,7 +32181,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "149:4-11",
+              "loc": "171:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32195,7 +32195,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "152:4-11",
+              "loc": "174:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32209,7 +32209,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "155:4-11",
+              "loc": "177:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32223,7 +32223,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "158:4-11",
+              "loc": "180:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32251,7 +32251,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "99:4-11",
+              "loc": "105:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32279,7 +32279,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "67:4-11",
+              "loc": "79:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32294,20 +32294,6 @@
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
               "loc": "8:0-75",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-              "module": "../src/settings/bool-setting/bool-setting.ts",
-              "moduleName": "../src/settings/bool-setting/bool-setting.ts",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-              "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "118:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32340,6 +32326,20 @@
               "resolvedModuleId": null
             },
             {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+              "module": "../src/settings/bool-setting/bool-setting.ts",
+              "moduleName": "../src/settings/bool-setting/bool-setting.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+              "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
+              "loc": "127:4-11",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
               "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
               "module": "../src/settings/select-setting/select-setting.ts",
               "moduleName": "../src/settings/select-setting/select-setting.ts",
@@ -32363,49 +32363,49 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "156:4-11",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-              "module": "../src/settings/select-setting/select-setting.ts",
-              "moduleName": "../src/settings/select-setting/select-setting.ts",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-              "resolvedModule": "../src/settings/select-setting/select-setting.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "159:4-11",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-              "module": "../src/settings/select-setting/select-setting.ts",
-              "moduleName": "../src/settings/select-setting/select-setting.ts",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-              "resolvedModule": "../src/settings/select-setting/select-setting.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "162:4-11",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-              "module": "../src/settings/select-setting/select-setting.ts",
-              "moduleName": "../src/settings/select-setting/select-setting.ts",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-              "resolvedModule": "../src/settings/select-setting/select-setting.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
               "loc": "165:4-11",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+              "module": "../src/settings/select-setting/select-setting.ts",
+              "moduleName": "../src/settings/select-setting/select-setting.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+              "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
+              "loc": "168:4-11",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+              "module": "../src/settings/select-setting/select-setting.ts",
+              "moduleName": "../src/settings/select-setting/select-setting.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+              "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
+              "loc": "171:4-11",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+              "module": "../src/settings/select-setting/select-setting.ts",
+              "moduleName": "../src/settings/select-setting/select-setting.ts",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+              "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
+              "loc": "174:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32433,7 +32433,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "77:4-11",
+              "loc": "78:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32447,7 +32447,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "80:4-11",
+              "loc": "81:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32461,7 +32461,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "83:4-11",
+              "loc": "84:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -34330,9 +34330,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3067,
+          "size": 3107,
           "sizes": {
-            "javascript": 3067
+            "javascript": 3107
           },
           "built": true,
           "codeGenerated": false,
@@ -34399,7 +34399,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./root",
-              "loc": "18:31-41",
+              "loc": "17:31-41",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -34455,7 +34455,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../registration",
-              "loc": "171:61-71",
+              "loc": "180:61-71",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -34475,9 +34475,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2991,
+          "size": 3558,
           "sizes": {
-            "javascript": 2991
+            "javascript": 3558
           },
           "built": true,
           "codeGenerated": false,
@@ -34590,9 +34590,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1772,
+          "size": 1938,
           "sizes": {
-            "javascript": 1772
+            "javascript": 1938
           },
           "built": true,
           "codeGenerated": false,
@@ -34693,9 +34693,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2296,
+          "size": 2410,
           "sizes": {
-            "javascript": 2296
+            "javascript": 2410
           },
           "built": true,
           "codeGenerated": false,
@@ -34762,7 +34762,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../base/plugin",
-              "loc": "13:32-41",
+              "loc": "14:32-41",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -34832,7 +34832,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../core/base/plugin",
-              "loc": "15:31-40",
+              "loc": "16:31-40",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -34860,7 +34860,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../../core/base/plugin",
-              "loc": "14:32-41",
+              "loc": "15:32-41",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -34888,7 +34888,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../../core/base/plugin",
-              "loc": "14:33-42",
+              "loc": "15:33-42",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -34902,7 +34902,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "../../core/base/plugin",
-              "loc": "10:0-51",
+              "loc": "11:0-51",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -34916,7 +34916,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../core/base/plugin",
-              "loc": "17:33-42",
+              "loc": "18:33-42",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -34936,9 +34936,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2195,
+          "size": 2471,
           "sizes": {
-            "javascript": 2195
+            "javascript": 2471
           },
           "built": true,
           "codeGenerated": false,
@@ -35039,9 +35039,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 5913,
+          "size": 6734,
           "sizes": {
-            "javascript": 5913
+            "javascript": 6734
           },
           "built": true,
           "codeGenerated": false,
@@ -35094,7 +35094,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../registration",
-              "loc": "28:54-68",
+              "loc": "31:54-68",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -35156,9 +35156,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 4073,
+          "size": 4576,
           "sizes": {
-            "javascript": 4073
+            "javascript": 4576
           },
           "built": true,
           "codeGenerated": false,
@@ -35211,7 +35211,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../registration",
-              "loc": "33:49-62",
+              "loc": "37:49-62",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -35376,9 +35376,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 4868,
+          "size": 5024,
           "sizes": {
-            "javascript": 4868
+            "javascript": 5024
           },
           "built": true,
           "codeGenerated": false,
@@ -35493,9 +35493,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3543,
+          "size": 3742,
           "sizes": {
-            "javascript": 3543
+            "javascript": 3742
           },
           "built": true,
           "codeGenerated": false,
@@ -35548,7 +35548,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "./setting",
-              "loc": "11:0-39",
+              "loc": "12:0-39",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -35562,7 +35562,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./setting",
-              "loc": "48:54-67",
+              "loc": "55:54-67",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -35722,9 +35722,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3012,
+          "size": 3373,
           "sizes": {
-            "javascript": 3012
+            "javascript": 3373
           },
           "built": true,
           "codeGenerated": false,
@@ -35833,7 +35833,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./settings",
-              "loc": "28:28-42",
+              "loc": "30:28-42",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -35853,9 +35853,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2039,
+          "size": 2037,
           "sizes": {
-            "javascript": 2039
+            "javascript": 2037
           },
           "built": true,
           "codeGenerated": false,
@@ -35970,9 +35970,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 7302,
+          "size": 7638,
           "sizes": {
-            "javascript": 7302
+            "javascript": 7638
           },
           "built": true,
           "codeGenerated": false,
@@ -36087,9 +36087,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3175,
+          "size": 3290,
           "sizes": {
-            "javascript": 3175
+            "javascript": 3290
           },
           "built": true,
           "codeGenerated": false,
@@ -36583,7 +36583,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/abstract/observable",
-              "loc": "8:35-45",
+              "loc": "7:35-45",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -36601,9 +36601,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2147,
+          "size": 2419,
           "sizes": {
-            "javascript": 2147
+            "javascript": 2419
           },
           "built": true,
           "codeGenerated": false,
@@ -36675,7 +36675,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./option/option",
-              "loc": "45:73-91",
+              "loc": "51:76-94",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -36689,7 +36689,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./option/option",
-              "loc": "59:8-26",
+              "loc": "73:8-26",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -36703,7 +36703,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./option/option",
-              "loc": "60:8-33",
+              "loc": "74:8-33",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -36829,9 +36829,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 282,
+          "size": 281,
           "sizes": {
-            "javascript": 282
+            "javascript": 281
           },
           "built": true,
           "codeGenerated": false,
@@ -36903,7 +36903,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "52:76-95",
+              "loc": "58:76-95",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -36917,7 +36917,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "63:34-54",
+              "loc": "69:34-54",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -36931,7 +36931,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "66:34-54",
+              "loc": "72:34-54",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -36945,7 +36945,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "83:27-51",
+              "loc": "89:27-51",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -36973,7 +36973,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "62:41-61",
+              "loc": "65:41-61",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -36987,7 +36987,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "69:41-61",
+              "loc": "72:41-61",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37001,7 +37001,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "80:37-57",
+              "loc": "83:37-57",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37015,7 +37015,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "97:27-51",
+              "loc": "100:27-51",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37043,7 +37043,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "75:41-61",
+              "loc": "78:41-61",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37057,7 +37057,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "82:41-61",
+              "loc": "85:41-61",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37071,7 +37071,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "87:73-92",
+              "loc": "90:73-92",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37085,7 +37085,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "102:12-31",
+              "loc": "105:12-31",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37099,7 +37099,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "102:34-54",
+              "loc": "105:34-54",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37113,7 +37113,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "112:27-51",
+              "loc": "115:27-51",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37141,7 +37141,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/warning-msg",
-              "loc": "54:27-51",
+              "loc": "55:27-51",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37189,9 +37189,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1201,
+          "size": 1347,
           "sizes": {
-            "javascript": 1201
+            "javascript": 1347
           },
           "built": true,
           "codeGenerated": false,
@@ -37263,7 +37263,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "53:27-48",
+              "loc": "56:27-48",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37277,7 +37277,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "53:49-69",
+              "loc": "56:49-69",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37291,7 +37291,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "55:15-34",
+              "loc": "58:15-34",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37305,7 +37305,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "68:13-43",
+              "loc": "71:13-43",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37319,7 +37319,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "75:42-65",
+              "loc": "78:42-65",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37333,7 +37333,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "75:66-86",
+              "loc": "78:66-86",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37361,7 +37361,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "66:74-95",
+              "loc": "69:74-95",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37375,7 +37375,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "66:113-133",
+              "loc": "69:113-133",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37389,7 +37389,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "68:15-34",
+              "loc": "71:15-34",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37403,7 +37403,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "81:13-43",
+              "loc": "84:13-43",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37417,7 +37417,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "84:12-35",
+              "loc": "87:12-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37431,7 +37431,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "84:57-77",
+              "loc": "87:57-77",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37445,7 +37445,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "92:52-79",
+              "loc": "95:52-79",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37459,7 +37459,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "92:101-121",
+              "loc": "95:101-121",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37473,7 +37473,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "98:30-57",
+              "loc": "101:30-57",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37487,7 +37487,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "100:33-52",
+              "loc": "103:33-52",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -37501,7 +37501,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/token-list-utils",
-              "loc": "101:37-67",
+              "loc": "104:37-67",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -38485,7 +38485,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../registration",
-          "loc": "171:61-71",
+          "loc": "180:61-71",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -39528,7 +39528,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "15:31-45",
+          "loc": "14:31-45",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -39851,7 +39851,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "50:12-31",
+          "loc": "51:12-31",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -39865,7 +39865,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "44:12-31",
+          "loc": "50:12-31",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -39879,7 +39879,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "39:8-27",
+          "loc": "45:8-27",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -42665,7 +42665,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/attr",
-          "loc": "25:8-15",
+          "loc": "26:8-15",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -43091,8 +43091,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-      "issuerName": "../src/plugins/settings/settings.ts",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+      "issuerName": "../src/plugins/header/header.ts",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -43110,8 +43110,8 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/settings/settings.ts",
-          "name": "../src/plugins/settings/settings.ts",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/plugins/header/header.ts",
+          "name": "../src/plugins/header/header.ts",
           "id": null
         }
       ],
@@ -43735,7 +43735,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "55:4-10",
+          "loc": "61:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43763,7 +43763,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "50:4-10",
+          "loc": "56:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43777,7 +43777,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "53:4-10",
+          "loc": "59:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43805,7 +43805,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "97:4-10",
+          "loc": "111:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43819,7 +43819,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "100:4-10",
+          "loc": "114:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43847,7 +43847,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "161:4-10",
+          "loc": "183:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43861,7 +43861,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "164:4-10",
+          "loc": "186:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43875,7 +43875,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "167:4-10",
+          "loc": "189:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43903,7 +43903,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "102:4-10",
+          "loc": "108:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43917,7 +43917,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "12:0-73",
+          "loc": "10:0-73",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43931,7 +43931,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "70:4-10",
+          "loc": "82:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43945,7 +43945,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "76:4-10",
+          "loc": "88:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43959,7 +43959,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "168:4-10",
+          "loc": "177:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43973,7 +43973,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "171:4-10",
+          "loc": "180:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -44001,7 +44001,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "86:4-10",
+          "loc": "87:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -44329,7 +44329,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/misc/uid",
-          "loc": "41:46-53",
+          "loc": "43:46-53",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -45228,7 +45228,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
-          "loc": "36:12-17",
+          "loc": "41:12-17",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45242,7 +45242,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/keys",
-          "loc": "36:31-36",
+          "loc": "41:31-36",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -45976,7 +45976,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "51:4-8",
+          "loc": "52:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45990,7 +45990,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "47:4-8",
+          "loc": "53:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46004,7 +46004,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "96:4-8",
+          "loc": "102:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46018,7 +46018,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "61:4-8",
+          "loc": "73:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46032,21 +46032,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "64:4-8",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-          "module": "../src/settings/bool-setting/bool-setting.ts",
-          "moduleName": "../src/settings/bool-setting/bool-setting.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-          "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "(skipped side-effect-free modules)",
-          "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "109:4-8",
+          "loc": "76:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46079,16 +46065,16 @@
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-          "module": "../src/settings/select-setting/select-setting.ts",
-          "moduleName": "../src/settings/select-setting/select-setting.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-          "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+          "module": "../src/settings/bool-setting/bool-setting.ts",
+          "moduleName": "../src/settings/bool-setting/bool-setting.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+          "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
           "type": "harmony import specifier",
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "147:4-8",
+          "loc": "118:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46102,7 +46088,21 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "150:4-8",
+          "loc": "156:4-8",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+          "module": "../src/settings/select-setting/select-setting.ts",
+          "moduleName": "../src/settings/select-setting/select-setting.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+          "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "(skipped side-effect-free modules)",
+          "userRequest": "@exadel/esl/modules/esl-base-element/core",
+          "loc": "159:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46116,7 +46116,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "65:4-8",
+          "loc": "66:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46130,7 +46130,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "68:4-8",
+          "loc": "69:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46144,7 +46144,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "71:4-8",
+          "loc": "72:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46158,7 +46158,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "74:4-8",
+          "loc": "75:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46642,7 +46642,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "65:4-12",
+          "loc": "66:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46656,7 +46656,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "68:4-12",
+          "loc": "69:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46670,7 +46670,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "71:4-12",
+          "loc": "72:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46684,7 +46684,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "74:4-12",
+          "loc": "75:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46698,7 +46698,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "153:4-12",
+          "loc": "162:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -47644,7 +47644,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "42:4-8",
+          "loc": "45:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -47686,7 +47686,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "73:4-8",
+          "loc": "85:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -47714,7 +47714,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "42:4-8",
+          "loc": "45:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47784,7 +47784,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/bind",
-          "loc": "73:4-8",
+          "loc": "85:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -48844,7 +48844,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../registration",
-          "loc": "28:54-68",
+          "loc": "31:54-68",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -48858,7 +48858,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../registration",
-          "loc": "33:49-62",
+          "loc": "37:49-62",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -49725,7 +49725,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "15:31-45",
+          "loc": "14:31-45",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -49739,7 +49739,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "51:4-8",
+          "loc": "52:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -49781,7 +49781,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "65:4-12",
+          "loc": "66:4-12",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -49795,7 +49795,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "68:4-12",
+          "loc": "69:4-12",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -49809,7 +49809,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "71:4-12",
+          "loc": "72:4-12",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -49823,7 +49823,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "74:4-12",
+          "loc": "75:4-12",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -49893,7 +49893,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "47:4-8",
+          "loc": "53:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -49935,7 +49935,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "96:4-8",
+          "loc": "102:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -49963,7 +49963,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "61:4-8",
+          "loc": "73:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -49977,7 +49977,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "64:4-8",
+          "loc": "76:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -49992,20 +49992,6 @@
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
           "loc": "7:0-65",
-          "moduleId": 761,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts|5c0f7f44d706026b93e9bafaecc384cb",
-          "module": "./src/playground.ts + 83 modules",
-          "moduleName": "./src/playground.ts + 83 modules",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-          "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
-          "type": "harmony import specifier",
-          "active": false,
-          "explanation": "",
-          "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "109:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -50041,6 +50027,20 @@
           "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts|5c0f7f44d706026b93e9bafaecc384cb",
           "module": "./src/playground.ts + 83 modules",
           "moduleName": "./src/playground.ts + 83 modules",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+          "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "@exadel/esl/modules/esl-base-element/core",
+          "loc": "118:4-8",
+          "moduleId": 761,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts|5c0f7f44d706026b93e9bafaecc384cb",
+          "module": "./src/playground.ts + 83 modules",
+          "moduleName": "./src/playground.ts + 83 modules",
           "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
           "resolvedModule": "../src/settings/select-setting/select-setting.ts",
           "type": "harmony side effect evaluation",
@@ -50061,7 +50061,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "147:4-8",
+          "loc": "156:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -50075,7 +50075,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "150:4-8",
+          "loc": "159:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -50089,7 +50089,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "153:4-12",
+          "loc": "162:4-12",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -50103,7 +50103,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "168:4-10",
+          "loc": "177:4-10",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -50117,7 +50117,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "171:4-10",
+          "loc": "180:4-10",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -50145,7 +50145,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "65:4-8",
+          "loc": "66:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -50159,7 +50159,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "68:4-8",
+          "loc": "69:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -50173,7 +50173,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "71:4-8",
+          "loc": "72:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -50187,7 +50187,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "74:4-8",
+          "loc": "75:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -50243,7 +50243,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "15:31-45",
+          "loc": "14:31-45",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50257,7 +50257,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "51:4-8",
+          "loc": "52:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50299,7 +50299,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "65:4-12",
+          "loc": "66:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50313,7 +50313,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "68:4-12",
+          "loc": "69:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50327,7 +50327,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "71:4-12",
+          "loc": "72:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50341,7 +50341,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "74:4-12",
+          "loc": "75:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50411,7 +50411,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "47:4-8",
+          "loc": "53:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50453,7 +50453,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "96:4-8",
+          "loc": "102:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50481,7 +50481,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "61:4-8",
+          "loc": "73:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50495,7 +50495,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "64:4-8",
+          "loc": "76:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50510,20 +50510,6 @@
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
           "loc": "7:0-65",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-          "module": "../src/settings/bool-setting/bool-setting.ts",
-          "moduleName": "../src/settings/bool-setting/bool-setting.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-          "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
-          "type": "harmony import specifier",
-          "active": false,
-          "explanation": "",
-          "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "109:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50556,6 +50542,20 @@
           "resolvedModuleId": null
         },
         {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+          "module": "../src/settings/bool-setting/bool-setting.ts",
+          "moduleName": "../src/settings/bool-setting/bool-setting.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+          "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "@exadel/esl/modules/esl-base-element/core",
+          "loc": "118:4-8",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
           "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
           "module": "../src/settings/select-setting/select-setting.ts",
           "moduleName": "../src/settings/select-setting/select-setting.ts",
@@ -50579,7 +50579,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "147:4-8",
+          "loc": "156:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50593,7 +50593,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "150:4-8",
+          "loc": "159:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50607,7 +50607,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "153:4-12",
+          "loc": "162:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50621,7 +50621,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "168:4-10",
+          "loc": "177:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50635,7 +50635,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "171:4-10",
+          "loc": "180:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50663,7 +50663,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "65:4-8",
+          "loc": "66:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50677,7 +50677,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "68:4-8",
+          "loc": "69:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50691,7 +50691,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "71:4-8",
+          "loc": "72:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50705,7 +50705,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "74:4-8",
+          "loc": "75:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -56604,7 +56604,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "50:12-31",
+          "loc": "51:12-31",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -56632,7 +56632,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "44:12-31",
+          "loc": "50:12-31",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -56660,7 +56660,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "39:8-27",
+          "loc": "45:8-27",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -56688,7 +56688,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "50:12-31",
+          "loc": "51:12-31",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -56716,7 +56716,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "44:12-31",
+          "loc": "50:12-31",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -56744,7 +56744,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/dom/events",
-          "loc": "39:8-27",
+          "loc": "45:8-27",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -58806,7 +58806,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "40:8-21",
+          "loc": "41:8-21",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58820,7 +58820,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "54:4-11",
+          "loc": "55:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58834,7 +58834,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "57:4-11",
+          "loc": "58:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58862,7 +58862,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "77:4-11",
+          "loc": "78:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58904,7 +58904,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "140:4-11",
+          "loc": "162:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58918,7 +58918,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "143:4-11",
+          "loc": "165:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58932,7 +58932,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "146:4-11",
+          "loc": "168:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58946,7 +58946,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "149:4-11",
+          "loc": "171:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58960,7 +58960,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "152:4-11",
+          "loc": "174:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58974,7 +58974,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "155:4-11",
+          "loc": "177:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58988,7 +58988,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "158:4-11",
+          "loc": "180:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -59016,7 +59016,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "99:4-11",
+          "loc": "105:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -59044,7 +59044,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "67:4-11",
+          "loc": "79:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -59059,20 +59059,6 @@
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
           "loc": "8:0-75",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-          "module": "../src/settings/bool-setting/bool-setting.ts",
-          "moduleName": "../src/settings/bool-setting/bool-setting.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
-          "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "118:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -59105,6 +59091,20 @@
           "resolvedModuleId": null
         },
         {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+          "module": "../src/settings/bool-setting/bool-setting.ts",
+          "moduleName": "../src/settings/bool-setting/bool-setting.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/bool-setting/bool-setting.ts",
+          "resolvedModule": "../src/settings/bool-setting/bool-setting.ts",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
+          "loc": "127:4-11",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
           "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
           "module": "../src/settings/select-setting/select-setting.ts",
           "moduleName": "../src/settings/select-setting/select-setting.ts",
@@ -59128,49 +59128,49 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "156:4-11",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-          "module": "../src/settings/select-setting/select-setting.ts",
-          "moduleName": "../src/settings/select-setting/select-setting.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-          "resolvedModule": "../src/settings/select-setting/select-setting.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "159:4-11",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-          "module": "../src/settings/select-setting/select-setting.ts",
-          "moduleName": "../src/settings/select-setting/select-setting.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-          "resolvedModule": "../src/settings/select-setting/select-setting.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "162:4-11",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-          "module": "../src/settings/select-setting/select-setting.ts",
-          "moduleName": "../src/settings/select-setting/select-setting.ts",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
-          "resolvedModule": "../src/settings/select-setting/select-setting.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
           "loc": "165:4-11",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+          "module": "../src/settings/select-setting/select-setting.ts",
+          "moduleName": "../src/settings/select-setting/select-setting.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+          "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
+          "loc": "168:4-11",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+          "module": "../src/settings/select-setting/select-setting.ts",
+          "moduleName": "../src/settings/select-setting/select-setting.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+          "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
+          "loc": "171:4-11",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+          "module": "../src/settings/select-setting/select-setting.ts",
+          "moduleName": "../src/settings/select-setting/select-setting.ts",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/src/settings/select-setting/select-setting.ts",
+          "resolvedModule": "../src/settings/select-setting/select-setting.ts",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
+          "loc": "174:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -59198,7 +59198,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "77:4-11",
+          "loc": "78:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -59212,7 +59212,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "80:4-11",
+          "loc": "81:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -59226,7 +59226,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "83:4-11",
+          "loc": "84:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -61301,9 +61301,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3067,
+      "size": 3107,
       "sizes": {
-        "javascript": 3067
+        "javascript": 3107
       },
       "built": true,
       "codeGenerated": false,
@@ -61370,7 +61370,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./root",
-          "loc": "18:31-41",
+          "loc": "17:31-41",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -61426,7 +61426,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../registration",
-          "loc": "171:61-71",
+          "loc": "180:61-71",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -61446,9 +61446,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2991,
+      "size": 3558,
       "sizes": {
-        "javascript": 2991
+        "javascript": 3558
       },
       "built": true,
       "codeGenerated": false,
@@ -61561,9 +61561,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1772,
+      "size": 1938,
       "sizes": {
-        "javascript": 1772
+        "javascript": 1938
       },
       "built": true,
       "codeGenerated": false,
@@ -61664,9 +61664,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2296,
+      "size": 2410,
       "sizes": {
-        "javascript": 2296
+        "javascript": 2410
       },
       "built": true,
       "codeGenerated": false,
@@ -61733,7 +61733,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../base/plugin",
-          "loc": "13:32-41",
+          "loc": "14:32-41",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -61803,7 +61803,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../core/base/plugin",
-          "loc": "15:31-40",
+          "loc": "16:31-40",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -61831,7 +61831,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../../core/base/plugin",
-          "loc": "14:32-41",
+          "loc": "15:32-41",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -61859,7 +61859,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../../core/base/plugin",
-          "loc": "14:33-42",
+          "loc": "15:33-42",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -61873,7 +61873,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../core/base/plugin",
-          "loc": "10:0-51",
+          "loc": "11:0-51",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -61887,7 +61887,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../core/base/plugin",
-          "loc": "17:33-42",
+          "loc": "18:33-42",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -61907,9 +61907,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2195,
+      "size": 2471,
       "sizes": {
-        "javascript": 2195
+        "javascript": 2471
       },
       "built": true,
       "codeGenerated": false,
@@ -62010,9 +62010,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 5913,
+      "size": 6734,
       "sizes": {
-        "javascript": 5913
+        "javascript": 6734
       },
       "built": true,
       "codeGenerated": false,
@@ -62065,7 +62065,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../registration",
-          "loc": "28:54-68",
+          "loc": "31:54-68",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -62127,9 +62127,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 4073,
+      "size": 4576,
       "sizes": {
-        "javascript": 4073
+        "javascript": 4576
       },
       "built": true,
       "codeGenerated": false,
@@ -62182,7 +62182,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../registration",
-          "loc": "33:49-62",
+          "loc": "37:49-62",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -62347,9 +62347,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 4868,
+      "size": 5024,
       "sizes": {
-        "javascript": 4868
+        "javascript": 5024
       },
       "built": true,
       "codeGenerated": false,
@@ -62464,9 +62464,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3543,
+      "size": 3742,
       "sizes": {
-        "javascript": 3543
+        "javascript": 3742
       },
       "built": true,
       "codeGenerated": false,
@@ -62519,7 +62519,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "./setting",
-          "loc": "11:0-39",
+          "loc": "12:0-39",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -62533,7 +62533,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./setting",
-          "loc": "48:54-67",
+          "loc": "55:54-67",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -62693,9 +62693,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3012,
+      "size": 3373,
       "sizes": {
-        "javascript": 3012
+        "javascript": 3373
       },
       "built": true,
       "codeGenerated": false,
@@ -62804,7 +62804,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./settings",
-          "loc": "28:28-42",
+          "loc": "30:28-42",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -62824,9 +62824,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2039,
+      "size": 2037,
       "sizes": {
-        "javascript": 2039
+        "javascript": 2037
       },
       "built": true,
       "codeGenerated": false,
@@ -62941,9 +62941,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 7302,
+      "size": 7638,
       "sizes": {
-        "javascript": 7302
+        "javascript": 7638
       },
       "built": true,
       "codeGenerated": false,
@@ -63058,9 +63058,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3175,
+      "size": 3290,
       "sizes": {
-        "javascript": 3175
+        "javascript": 3290
       },
       "built": true,
       "codeGenerated": false,
@@ -63876,7 +63876,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/abstract/observable",
-          "loc": "8:35-45",
+          "loc": "7:35-45",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -63894,9 +63894,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2147,
+      "size": 2419,
       "sizes": {
-        "javascript": 2147
+        "javascript": 2419
       },
       "built": true,
       "codeGenerated": false,
@@ -63968,7 +63968,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./option/option",
-          "loc": "45:73-91",
+          "loc": "51:76-94",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -63982,7 +63982,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./option/option",
-          "loc": "59:8-26",
+          "loc": "73:8-26",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -63996,7 +63996,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./option/option",
-          "loc": "60:8-33",
+          "loc": "74:8-33",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -64302,9 +64302,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 282,
+      "size": 281,
       "sizes": {
-        "javascript": 282
+        "javascript": 281
       },
       "built": true,
       "codeGenerated": false,
@@ -64376,7 +64376,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "52:76-95",
+          "loc": "58:76-95",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64390,7 +64390,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "63:34-54",
+          "loc": "69:34-54",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64404,7 +64404,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "66:34-54",
+          "loc": "72:34-54",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64418,7 +64418,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "83:27-51",
+          "loc": "89:27-51",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64446,7 +64446,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "62:41-61",
+          "loc": "65:41-61",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64460,7 +64460,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "69:41-61",
+          "loc": "72:41-61",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64474,7 +64474,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "80:37-57",
+          "loc": "83:37-57",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64488,7 +64488,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "97:27-51",
+          "loc": "100:27-51",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64516,7 +64516,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "75:41-61",
+          "loc": "78:41-61",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64530,7 +64530,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "82:41-61",
+          "loc": "85:41-61",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64544,7 +64544,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "87:73-92",
+          "loc": "90:73-92",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64558,7 +64558,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "102:12-31",
+          "loc": "105:12-31",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64572,7 +64572,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "102:34-54",
+          "loc": "105:34-54",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64586,7 +64586,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "112:27-51",
+          "loc": "115:27-51",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64614,7 +64614,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/warning-msg",
-          "loc": "54:27-51",
+          "loc": "55:27-51",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64662,9 +64662,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1201,
+      "size": 1347,
       "sizes": {
-        "javascript": 1201
+        "javascript": 1347
       },
       "built": true,
       "codeGenerated": false,
@@ -64736,7 +64736,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "53:27-48",
+          "loc": "56:27-48",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64750,7 +64750,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "53:49-69",
+          "loc": "56:49-69",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64764,7 +64764,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "55:15-34",
+          "loc": "58:15-34",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64778,7 +64778,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "68:13-43",
+          "loc": "71:13-43",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64792,7 +64792,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "75:42-65",
+          "loc": "78:42-65",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64806,7 +64806,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "75:66-86",
+          "loc": "78:66-86",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64834,7 +64834,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "66:74-95",
+          "loc": "69:74-95",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64848,7 +64848,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "66:113-133",
+          "loc": "69:113-133",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64862,7 +64862,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "68:15-34",
+          "loc": "71:15-34",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64876,7 +64876,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "81:13-43",
+          "loc": "84:13-43",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64890,7 +64890,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "84:12-35",
+          "loc": "87:12-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64904,7 +64904,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "84:57-77",
+          "loc": "87:57-77",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64918,7 +64918,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "92:52-79",
+          "loc": "95:52-79",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64932,7 +64932,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "92:101-121",
+          "loc": "95:101-121",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64946,7 +64946,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "98:30-57",
+          "loc": "101:30-57",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64960,7 +64960,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "100:33-52",
+          "loc": "103:33-52",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64974,7 +64974,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/token-list-utils",
-          "loc": "101:37-67",
+          "loc": "104:37-67",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -66509,19 +66509,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 107730
+          "size": 107681
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 107730,
+      "assetsSize": 107681,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 394901
+          "size": 399205
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 394901,
+      "auxiliaryAssetsSize": 399205,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -66536,19 +66536,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 107730
+          "size": 107681
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 107730,
+      "assetsSize": 107681,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 394901
+          "size": 399205
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 394901,
+      "auxiliaryAssetsSize": 399205,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
