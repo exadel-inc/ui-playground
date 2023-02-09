@@ -1,8 +1,8 @@
 {
-  "hash": "1a77cd1eae4e368c1976",
+  "hash": "7dabdbc8f78b849ed19f",
   "version": "5.75.0",
-  "time": 12677,
-  "builtAt": 1675931945986,
+  "time": 13060,
+  "builtAt": 1675932064224,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -92,7 +92,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 107317,
+      "size": 107404,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -102,7 +102,7 @@
         "related": {
           "sourceMap": "playground.js.map"
         },
-        "size": 107317
+        "size": 107404
       },
       "chunkNames": [
         "playground"
@@ -115,13 +115,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 398413,
+          "size": 398577,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 398413
+            "size": 398577
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -660,9 +660,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 262289,
+      "size": 262402,
       "sizes": {
-        "javascript": 254874,
+        "javascript": 254987,
         "runtime": 7415
       },
       "names": [
@@ -678,7 +678,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "8945ba99433a6100969c",
+      "hash": "bad7a4b6ae596dfb9596",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -1035,7 +1035,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-              "loc": "95:4-8",
+              "loc": "97:4-8",
               "moduleId": 761,
               "resolvedModuleId": null
             },
@@ -1133,7 +1133,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-              "loc": "95:4-8",
+              "loc": "97:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1844,7 +1844,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./ace/utils",
-              "loc": "78:22-36",
+              "loc": "77:73-87",
               "moduleId": 761,
               "resolvedModuleId": null
             },
@@ -1858,7 +1858,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./ace/utils",
-              "loc": "79:22-35",
+              "loc": "77:90-103",
               "moduleId": 761,
               "resolvedModuleId": null
             },
@@ -1914,7 +1914,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./ace/utils",
-              "loc": "78:22-36",
+              "loc": "77:73-87",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1928,7 +1928,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./ace/utils",
-              "loc": "79:22-35",
+              "loc": "77:90-103",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1948,9 +1948,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 250234,
+          "size": 250347,
           "sizes": {
-            "javascript": 250234
+            "javascript": 250347
           },
           "built": true,
           "codeGenerated": true,
@@ -7104,7 +7104,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-                  "loc": "91:4-10",
+                  "loc": "93:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7118,7 +7118,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-                  "loc": "101:4-10",
+                  "loc": "103:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -10294,7 +10294,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-base-element/core",
-                  "loc": "88:4-12",
+                  "loc": "90:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -13500,7 +13500,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-                  "loc": "98:4-11",
+                  "loc": "100:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -14222,7 +14222,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-                  "loc": "92:4-12",
+                  "loc": "94:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -16682,9 +16682,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 4106,
+              "size": 4219,
               "sizes": {
-                "javascript": 4106
+                "javascript": 4219
               },
               "built": true,
               "codeGenerated": false,
@@ -18232,7 +18232,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/async/debounce",
-                  "loc": "92:13-21",
+                  "loc": "94:13-21",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -20581,9 +20581,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 250234,
+      "size": 250347,
       "sizes": {
-        "javascript": 250234
+        "javascript": 250347
       },
       "built": true,
       "codeGenerated": true,
@@ -25716,7 +25716,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-              "loc": "91:4-10",
+              "loc": "93:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25730,7 +25730,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-              "loc": "101:4-10",
+              "loc": "103:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28897,7 +28897,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-base-element/core",
-              "loc": "88:4-12",
+              "loc": "90:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -32083,7 +32083,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-              "loc": "98:4-11",
+              "loc": "100:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -32802,7 +32802,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-              "loc": "92:4-12",
+              "loc": "94:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -35245,9 +35245,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 4106,
+          "size": 4219,
           "sizes": {
-            "javascript": 4106
+            "javascript": 4219
           },
           "built": true,
           "codeGenerated": false,
@@ -36783,7 +36783,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/async/debounce",
-              "loc": "92:13-21",
+              "loc": "94:13-21",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -43665,7 +43665,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "91:4-10",
+          "loc": "93:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43679,7 +43679,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "101:4-10",
+          "loc": "103:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -46846,7 +46846,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "88:4-12",
+          "loc": "90:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -47616,7 +47616,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "95:4-8",
+          "loc": "97:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -47714,7 +47714,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "95:4-8",
+          "loc": "97:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -49809,7 +49809,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "88:4-12",
+          "loc": "90:4-12",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -50327,7 +50327,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-base-element/core",
-          "loc": "88:4-12",
+          "loc": "90:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -55445,7 +55445,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "91:4-10",
+          "loc": "93:4-10",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -55459,7 +55459,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "92:4-12",
+          "loc": "94:4-12",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -55473,7 +55473,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "95:4-8",
+          "loc": "97:4-8",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -55487,7 +55487,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "98:4-11",
+          "loc": "100:4-11",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -55501,7 +55501,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "101:4-10",
+          "loc": "103:4-10",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -55529,7 +55529,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "91:4-10",
+          "loc": "93:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -55543,7 +55543,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "92:4-12",
+          "loc": "94:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -55557,7 +55557,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "95:4-8",
+          "loc": "97:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -55571,7 +55571,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "98:4-11",
+          "loc": "100:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -55585,7 +55585,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "101:4-10",
+          "loc": "103:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -58834,7 +58834,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "98:4-11",
+          "loc": "100:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -59553,7 +59553,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators",
-          "loc": "92:4-12",
+          "loc": "94:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -62202,9 +62202,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 4106,
+      "size": 4219,
       "sizes": {
-        "javascript": 4106
+        "javascript": 4219
       },
       "built": true,
       "codeGenerated": false,
@@ -64062,7 +64062,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/async/debounce",
-          "loc": "92:13-21",
+          "loc": "94:13-21",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -64156,7 +64156,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./ace/utils",
-          "loc": "78:22-36",
+          "loc": "77:73-87",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -64170,7 +64170,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./ace/utils",
-          "loc": "79:22-35",
+          "loc": "77:90-103",
           "moduleId": 761,
           "resolvedModuleId": null
         },
@@ -64226,7 +64226,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./ace/utils",
-          "loc": "78:22-36",
+          "loc": "77:73-87",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64240,7 +64240,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./ace/utils",
-          "loc": "79:22-35",
+          "loc": "77:90-103",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -66467,19 +66467,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 107317
+          "size": 107404
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 107317,
+      "assetsSize": 107404,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 398413
+          "size": 398577
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 398413,
+      "auxiliaryAssetsSize": 398577,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -66494,19 +66494,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 107317
+          "size": 107404
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 107317,
+      "assetsSize": 107404,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 398413
+          "size": 398577
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 398413,
+      "auxiliaryAssetsSize": 398577,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
