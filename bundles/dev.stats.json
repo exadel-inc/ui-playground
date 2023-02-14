@@ -1,8 +1,8 @@
 {
-  "hash": "3427e0652298ec01ed99",
+  "hash": "3911f68eab913df84a69",
   "version": "5.75.0",
-  "time": 14648,
-  "builtAt": 1676364715927,
+  "time": 12351,
+  "builtAt": 1676367173061,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -17,7 +17,7 @@
     {
       "type": "asset",
       "name": "863.js",
-      "size": 598025,
+      "size": 597637,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -28,7 +28,7 @@
           "license": "863.js.LICENSE.txt",
           "sourceMap": "863.js.map"
         },
-        "size": 598025
+        "size": 597637
       },
       "chunkNames": [],
       "chunkIdHints": [
@@ -41,13 +41,13 @@
         {
           "type": "sourceMap",
           "name": "863.js.map",
-          "size": 1892239,
+          "size": 1890887,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 1892239
+            "size": 1890887
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -1209,13 +1209,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
               "id": null
             },
             {
@@ -3368,13 +3368,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
                   "id": null
                 },
                 {
@@ -3652,13 +3652,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
                   "id": null
                 },
                 {
@@ -4586,8 +4586,8 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
-              "issuerName": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
+              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
               "issuerPath": [
                 {
                   "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -4595,13 +4595,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
                   "id": null
                 }
               ],
@@ -12015,13 +12015,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
                   "id": null
                 },
                 {
@@ -14078,13 +14078,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
                   "id": null
                 },
                 {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
                   "id": null
                 },
                 {
@@ -20409,9 +20409,9 @@
       "entry": false,
       "recorded": false,
       "reason": "split chunk (cache group: defaultVendors)",
-      "size": 1154506,
+      "size": 1153718,
       "sizes": {
-        "javascript": 1154506
+        "javascript": 1153718
       },
       "names": [],
       "idHints": [
@@ -20426,7 +20426,7 @@
       "auxiliaryFiles": [
         "863.js.map"
       ],
-      "hash": "3e3f351d0f7d228470bf",
+      "hash": "43bf96f0d3e1e7abf8d8",
       "childrenByOrder": {},
       "id": 863,
       "siblings": [
@@ -20783,9 +20783,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 771394,
+          "size": 770606,
           "sizes": {
-            "javascript": 771394
+            "javascript": 770606
           },
           "built": true,
           "codeGenerated": true,
@@ -20851,7 +20851,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "19679:83-89",
+              "loc": "19661:83-89",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -20865,7 +20865,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "19680:24-38",
+              "loc": "19662:24-38",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -20901,7 +20901,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 19680:24-38",
+            "CommonJS bailout: module.exports is used directly at 19662:24-38",
             "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
@@ -22930,13 +22930,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
               "id": null
             },
             {
@@ -23213,13 +23213,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
               "id": null
             },
             {
@@ -24144,8 +24144,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
-          "issuerName": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
+          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
           "issuerPath": [
             {
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -24153,13 +24153,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
               "id": null
             }
           ],
@@ -31545,13 +31545,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
               "id": null
             },
             {
@@ -33600,13 +33600,13 @@
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
               "id": null
             },
             {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
               "id": null
             },
             {
@@ -41436,13 +41436,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
           "id": null
         },
         {
@@ -41719,13 +41719,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
           "id": null
         },
         {
@@ -42650,8 +42650,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -42659,13 +42659,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
           "id": null
         }
       ],
@@ -52885,8 +52885,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -52894,13 +52894,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-trigger/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-trigger/core/esl-trigger.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
           "id": null
         }
       ],
@@ -57464,8 +57464,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
       "issuerPath": [
         {
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
@@ -57473,13 +57473,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
           "id": null
         }
       ],
@@ -59118,13 +59118,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
           "id": null
         },
         {
@@ -61173,13 +61173,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
           "id": null
         },
         {
@@ -61676,13 +61676,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
           "id": null
         },
         {
@@ -65238,13 +65238,13 @@
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core.js",
           "id": null
         },
         {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-toggleable/core/esl-toggleable-dispatcher.js",
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-scrollbar/core/esl-scrollbar.js",
           "id": null
         },
         {
@@ -68031,9 +68031,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 771394,
+      "size": 770606,
       "sizes": {
-        "javascript": 771394
+        "javascript": 770606
       },
       "built": true,
       "codeGenerated": true,
@@ -68098,7 +68098,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "19679:83-89",
+          "loc": "19661:83-89",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -68112,7 +68112,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "19680:24-38",
+          "loc": "19662:24-38",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -68148,7 +68148,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 19680:24-38",
+        "CommonJS bailout: module.exports is used directly at 19662:24-38",
         "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
@@ -69503,7 +69503,7 @@
       "assets": [
         {
           "name": "863.js",
-          "size": 598025
+          "size": 597637
         },
         {
           "name": "ace-editor.js",
@@ -69511,11 +69511,11 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 599380,
+      "assetsSize": 598992,
       "auxiliaryAssets": [
         {
           "name": "863.js.map",
-          "size": 1892239
+          "size": 1890887
         },
         {
           "name": "ace-editor.js.map",
@@ -69523,7 +69523,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 1895694,
+      "auxiliaryAssetsSize": 1894342,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
