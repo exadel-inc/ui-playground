@@ -1,8 +1,8 @@
 {
-  "hash": "3911f68eab913df84a69",
+  "hash": "0e8acd644abe336060b8",
   "version": "5.75.0",
-  "time": 12509,
-  "builtAt": 1677079105919,
+  "time": 13144,
+  "builtAt": 1677081943129,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -92,7 +92,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 110336,
+      "size": 110590,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -102,7 +102,7 @@
         "related": {
           "sourceMap": "playground.js.map"
         },
-        "size": 110336
+        "size": 110590
       },
       "chunkNames": [
         "playground"
@@ -115,13 +115,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 415657,
+          "size": 416337,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 415657
+            "size": 416337
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -146,12 +146,12 @@
     {
       "type": "asset",
       "name": "../../../esm/src/core/base/model.d.ts",
-      "size": 3133,
+      "size": 3182,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 3133
+        "size": 3182
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -660,9 +660,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 273878,
+      "size": 274223,
       "sizes": {
-        "javascript": 266463,
+        "javascript": 266808,
         "runtime": 7415
       },
       "names": [
@@ -678,7 +678,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "4f4ddcd0d30f88bc98bd",
+      "hash": "b744bb492d81a167f8fe",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -1919,9 +1919,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 261823,
+          "size": 262168,
           "sizes": {
-            "javascript": 261823
+            "javascript": 262168
           },
           "built": true,
           "codeGenerated": true,
@@ -7246,7 +7246,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "183:4-10",
+                  "loc": "179:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7260,7 +7260,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "186:4-10",
+                  "loc": "182:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7274,7 +7274,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "189:4-10",
+                  "loc": "185:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13680,7 +13680,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "162:4-11",
+                  "loc": "158:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13694,7 +13694,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "165:4-11",
+                  "loc": "161:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13708,7 +13708,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "168:4-11",
+                  "loc": "164:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13722,7 +13722,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "171:4-11",
+                  "loc": "167:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13736,7 +13736,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "174:4-11",
+                  "loc": "170:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13750,7 +13750,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "177:4-11",
+                  "loc": "173:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -13764,7 +13764,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-                  "loc": "180:4-11",
+                  "loc": "176:4-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16049,9 +16049,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 3107,
+              "size": 3109,
               "sizes": {
-                "javascript": 3107
+                "javascript": 3109
               },
               "built": true,
               "codeGenerated": false,
@@ -16195,9 +16195,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 3558,
+              "size": 3916,
               "sizes": {
-                "javascript": 3558
+                "javascript": 3916
               },
               "built": true,
               "codeGenerated": false,
@@ -16763,9 +16763,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 6734,
+              "size": 6719,
               "sizes": {
-                "javascript": 6734
+                "javascript": 6719
               },
               "built": true,
               "codeGenerated": false,
@@ -21493,9 +21493,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 261823,
+      "size": 262168,
       "sizes": {
-        "javascript": 261823
+        "javascript": 262168
       },
       "built": true,
       "codeGenerated": true,
@@ -26799,7 +26799,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "183:4-10",
+              "loc": "179:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26813,7 +26813,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "186:4-10",
+              "loc": "182:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26827,7 +26827,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "189:4-10",
+              "loc": "185:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -33203,7 +33203,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "162:4-11",
+              "loc": "158:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -33217,7 +33217,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "165:4-11",
+              "loc": "161:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -33231,7 +33231,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "168:4-11",
+              "loc": "164:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -33245,7 +33245,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "171:4-11",
+              "loc": "167:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -33259,7 +33259,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "174:4-11",
+              "loc": "170:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -33273,7 +33273,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "177:4-11",
+              "loc": "173:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -33287,7 +33287,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-              "loc": "180:4-11",
+              "loc": "176:4-11",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -35558,9 +35558,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3107,
+          "size": 3109,
           "sizes": {
-            "javascript": 3107
+            "javascript": 3109
           },
           "built": true,
           "codeGenerated": false,
@@ -35703,9 +35703,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3558,
+          "size": 3916,
           "sizes": {
-            "javascript": 3558
+            "javascript": 3916
           },
           "built": true,
           "codeGenerated": false,
@@ -36267,9 +36267,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 6734,
+          "size": 6719,
           "sizes": {
-            "javascript": 6734
+            "javascript": 6719
           },
           "built": true,
           "codeGenerated": false,
@@ -45654,7 +45654,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "183:4-10",
+          "loc": "179:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45668,7 +45668,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "186:4-10",
+          "loc": "182:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45682,7 +45682,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "189:4-10",
+          "loc": "185:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -60776,7 +60776,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "162:4-11",
+          "loc": "158:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -60790,7 +60790,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "165:4-11",
+          "loc": "161:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -60804,7 +60804,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "168:4-11",
+          "loc": "164:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -60818,7 +60818,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "171:4-11",
+          "loc": "167:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -60832,7 +60832,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "174:4-11",
+          "loc": "170:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -60846,7 +60846,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "177:4-11",
+          "loc": "173:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -60860,7 +60860,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/memoize",
-          "loc": "180:4-11",
+          "loc": "176:4-11",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -63337,9 +63337,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3107,
+      "size": 3109,
       "sizes": {
-        "javascript": 3107
+        "javascript": 3109
       },
       "built": true,
       "codeGenerated": false,
@@ -63482,9 +63482,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3558,
+      "size": 3916,
       "sizes": {
-        "javascript": 3558
+        "javascript": 3916
       },
       "built": true,
       "codeGenerated": false,
@@ -64046,9 +64046,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 6734,
+      "size": 6719,
       "sizes": {
-        "javascript": 6734
+        "javascript": 6719
       },
       "built": true,
       "codeGenerated": false,
@@ -69450,19 +69450,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 110336
+          "size": 110590
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 110336,
+      "assetsSize": 110590,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 415657
+          "size": 416337
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 415657,
+      "auxiliaryAssetsSize": 416337,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -69477,19 +69477,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 110336
+          "size": 110590
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 110336,
+      "assetsSize": 110590,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 415657
+          "size": 416337
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 415657,
+      "auxiliaryAssetsSize": 416337,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
