@@ -85,7 +85,7 @@ export class UIPStateModel extends Observable {
   public get activeSnippet(): SnippetTemplate {
     if (!this._activeSnippet) {
       this._activeSnippet = this.snippets
-        .find( (snippet: SnippetTemplate) => snippet.hasAttribute('active')) || this.snippets[0];
+        .find((snippet: SnippetTemplate) => snippet.hasAttribute('active')) || this.snippets[0];
     }
     return this._activeSnippet;
   }
