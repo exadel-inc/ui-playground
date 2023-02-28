@@ -51,12 +51,11 @@
         <div class="container">
           
 <p><a href="#uip-plugin" id="uip-plugin"></a></p>
-<h1>UIP Plugin</h1>
+<h1>UIPPlugin</h1>
 <p><strong>UIPPlugin</strong> - base class for all UIP elements. Extending it allows creating custom UIP components.</p>
 <h2>Description</h2>
 <p>All UIP elements are <strong>UIPPlugin</strong> instances. Plugin automatically sets <em>uip-plugin</em> class to its elements,
-provides access to <a href="https://exadel-inc.github.io/ui-playground/core/#uip-root">UIPRoot</a> and adds <em>_onRootStateChange()</em> method, which is a key part in components
-communication.</p>
+provides access to <a href="https://exadel-inc.github.io/ui-playground/core/#uip-root">UIPRoot</a> and adds <em>_onRootStateChange()</em> method, which is a key part in components communication.</p>
 <p>After initialization <strong>UIPPlugin</strong> subscribes to <a href="https://exadel-inc.github.io/ui-playground/core/#uip-state-model">UIPStateModel</a> changes and, after
 destroying, automatically unsubscribes. <em>_onRootStateChange()</em> is called every time markup changes are detected.
 As you can see, the flow is quite similar to what we usually do in
@@ -74,8 +73,6 @@ changes, you need to implement it. This callback has the following signature:</p
 
 </code></pre>
 <p>You can find a way of getting current markup in <a href="https://exadel-inc.github.io/ui-playground/core/#uip-state-model">UIPStateModel</a> section.</p>
-<p>To make the long story shorter: we implement &quot;reaction&quot; callback in <em>_onRootStateChange()</em> (using markup's getter
-mentioned earlier) and every time <strong>UIPStateModel</strong> produces markup updates, we &quot;react&quot; to them!</p>
 <h2>Example</h2>
 <pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>UIPPlugin<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"./plugin"</span><span class="token punctuation">;</span>
 
@@ -89,17 +86,18 @@ mentioned earlier) and every time <strong>UIPStateModel</strong> produces markup
 </code></pre>
 <hr>
 <p><a href="#uip-root" id="uip-root"></a></p>
-<h1>UIP Root</h1>
+<h1>UIPRoot</h1>
 <p><strong>UIPRoot</strong> - container for <strong>UIPPlugin</strong> components.</p>
 <h2>Description</h2>
 <p><strong>UIPRoot</strong> contains <a href="https://exadel-inc.github.io/ui-playground/core/#uip-state-model">UIPStateModel</a> getter. It also allows <strong>UIPPlugin</strong> elements
-subscribing to model changes (or unsubscribing from them). More details can be found in <a href="https://exadel-inc.github.io/ui-playground/core/#uip-plugin">UIPPlugin</a> section.</p>
+to subscribe to model changes (or unsubscribe from them). More details can be found in
+<a href="https://exadel-inc.github.io/ui-playground/core/#uip-plugin">UIPPlugin</a> section.</p>
 <h2>Example</h2>
 <pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-root</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-root</span><span class="token punctuation">></span></span>
 </code></pre>
 <hr>
 <p><a href="#uip-state-model" id="uip-state-model"></a></p>
-<h1>UIP State Model</h1>
+<h1>UIPStateModel</h1>
 <p><strong>UIPStateModel</strong> - state manager which contains current markup and provides methods for changing it.
 Implements <a href="https://en.wikipedia.org/wiki/Observer_pattern">Observable</a> pattern through extending
 ESL's <a href="https://github.com/exadel-inc/esl/blob/main/src/modules/esl-utils/abstract/observable.ts">Observable</a> class.</p>
@@ -117,9 +115,8 @@ changes. To trigger the observable you need to change model's markup:</p>
 <span class="token punctuation">}</span>
 
 </code></pre>
-<p>Markup's setter takes two arguments: <em>markup</em> and <em>modifier</em>. <em>Markup</em> stands for, surprisingly, new markup, and
-<em>modifier</em> is a <strong>UIPPlugin</strong> instance which triggers changes (it is needed to prevent extra triggers of
-<strong>UIPStateModel</strong>).</p>
+<p>Markup's setter takes two arguments: <em>markup</em> and <em>modifier</em>. <em>Markup</em> stands for the new markup, and
+<em>modifier</em> is a <strong>UIPPlugin</strong> instance which triggers changes.</p>
 <p><strong>UIPStateModel</strong> also has a getter for current markup:</p>
 <pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>UIPPlugin<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"./plugin"</span><span class="token punctuation">;</span>
 
@@ -134,8 +131,7 @@ changes. To trigger the observable you need to change model's markup:</p>
 </code></pre>
 <h2>Markup processing methods</h2>
 <p><strong>UIPStateModel</strong> has some methods to make markup processing easier. They are used inside
-<a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSettings</a> and <a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSetting</a> plugins. These methods have the
-following signatures:</p>
+<a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSettings</a> and <a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSetting</a> plugins. These methods have the following signatures:</p>
 <pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>Observable<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@exadel/esl"</span><span class="token punctuation">;</span>
 
 <span class="token keyword">class</span> <span class="token class-name">UIPStateModel</span> <span class="token keyword">extends</span> <span class="token class-name">Observable</span> <span class="token punctuation">{</span>

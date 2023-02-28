@@ -51,15 +51,14 @@
         <div class="container">
           
 <h1>UIP Select Setting</h1>
-<p><strong>UIPSelectSetting</strong> - custom setting for selecting attribute's value. Extends <a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSetting</a>.</p>
+<p><strong>UIPSelectSetting</strong> - custom setting to select attribute's value. Extends <a href="https://exadel-inc.github.io/ui-playground/plugins/settings/">UIPSetting</a>.</p>
 <h2>Description</h2>
-<p>We render <strong>UIPSelectSetting</strong> as <a href="https://github.com/exadel-inc/esl/tree/main/src/modules/esl-forms/esl-select">ESLSelect</a>
-element.</p>
+<p>We render <strong>UIPSelectSetting</strong> as <a href="https://github.com/exadel-inc/esl/tree/main/src/modules/esl-forms/esl-select">ESLSelect</a> element.</p>
 <p>Select setting has two modes: <strong>replace</strong> and <strong>append</strong>. The first one (is used by default) replaces the attribute
-<em>value</em> with selected, and the second one appends selected <em>value</em> to the attribute.</p>
+value with selected, and the second one appends selected value to the attribute.</p>
 <p><strong>UIPSelectSetting</strong> also supports <strong>multiple</strong> attribute to allow selecting multiple values.</p>
 <h2>Example</h2>
-<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-settings</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Settings<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-settings</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-select-setting</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Resolution<span class="token punctuation">"</span></span> <span class="token attr-name">attribute</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>class<span class="token punctuation">"</span></span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>append<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>img-64<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>64x64<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>img-128<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>128x128<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span>

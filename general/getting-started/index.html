@@ -79,22 +79,28 @@
 optional, you can add them on your own free will.</p>
 <p>To implement custom UIPPlayground components, see <a href="https://exadel-inc.github.io/ui-playground/core/#uip-plugin">UIPPlugin</a>.</p>
 <h1>Modules/components imports</h1>
-<p>Module's main parts lay inside modules folders. So importing the required
-module is really straightforward:</p>
-<pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>UIPRoot<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./root'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span>UIPEditor<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./editor'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span>UIPBoolSetting<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./bool-setting'</span><span class="token punctuation">;</span>
+<p>To register all components, you can use the next callback:</p>
+<pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>init<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@exadel/ui-playground/esm/registration'</span><span class="token punctuation">;</span>
+<span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>There is also an ability to register only Core/Plugins/Settings parts. To do this, call one of the functions below:</p>
+<pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>registerCore<span class="token punctuation">,</span> registerPlugins<span class="token punctuation">,</span> registerSettings<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@exadel/ui-playground/esm/registration'</span><span class="token punctuation">;</span>
+<span class="token function">registerCore</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">registerPlugins</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">registerSettings</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>The callbacks above register UIP components by themselves. But if you want to have a custom registration logic,
+there is a way to register components manually:</p>
+<pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>UIPRoot<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@exadel/ui-playground/esm/registration'</span><span class="token punctuation">;</span>
+UIPRoot<span class="token punctuation">.</span><span class="token function">register</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 <p>Every module has two versions of styles: <em>css</em> and <em>less</em>. If you want
 to import styles for all UIP component, you can import either
-<em>registration.less</em> or <em>registration.css</em> file.</p>
-<p>Before using UIP components, you also need to <em>register</em> them. For example,
-if you want to use <a href="https://exadel-inc.github.io/ui-playground/core/#uip-root">UIPRoot</a> component, register it like that:</p>
-<pre><code class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span>UIPRoot<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./root'</span><span class="token punctuation">;</span>
-UIPRoot<span class="token punctuation">.</span><span class="token function">reguster</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<em>registration.less</em> or <em>registration.css</em> file:</p>
+<pre><code class="language-less"><span class="token variable">@import</span> <span class="token string">'@exadel/ui-playground/esm/registration.css'</span><span class="token punctuation">;</span>
 </code></pre>
 <h1>Browser support</h1>
-<p>UIPPlayground supports all modern browsers.</p>
+<p>UIPlayground supports all modern browsers.</p>
 
 
         </div>
