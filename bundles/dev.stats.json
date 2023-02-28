@@ -1,8 +1,8 @@
 {
-  "hash": "0e8acd644abe336060b8",
+  "hash": "880acb5cbd3c76db12a8",
   "version": "5.75.0",
-  "time": 16369,
-  "builtAt": 1677570397823,
+  "time": 12490,
+  "builtAt": 1677571643170,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -17,7 +17,7 @@
     {
       "type": "asset",
       "name": "863.js",
-      "size": 597637,
+      "size": 597207,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -28,7 +28,7 @@
           "license": "863.js.LICENSE.txt",
           "sourceMap": "863.js.map"
         },
-        "size": 597637
+        "size": 597207
       },
       "chunkNames": [],
       "chunkIdHints": [
@@ -41,13 +41,13 @@
         {
           "type": "sourceMap",
           "name": "863.js.map",
-          "size": 1890887,
+          "size": 1890472,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 1890887
+            "size": 1890472
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -92,7 +92,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 110590,
+      "size": 110584,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -102,7 +102,7 @@
         "related": {
           "sourceMap": "playground.js.map"
         },
-        "size": 110590
+        "size": 110584
       },
       "chunkNames": [
         "playground"
@@ -115,13 +115,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 416337,
+          "size": 416091,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 416337
+            "size": 416091
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -660,9 +660,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 274223,
+      "size": 273959,
       "sizes": {
-        "javascript": 266808,
+        "javascript": 266544,
         "runtime": 7415
       },
       "names": [
@@ -678,7 +678,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "b744bb492d81a167f8fe",
+      "hash": "d9a159e2c1b667a940bf",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -797,7 +797,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "293:4-8",
+              "loc": "294:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -811,7 +811,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "296:4-8",
+              "loc": "297:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -825,7 +825,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "299:4-8",
+              "loc": "300:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -937,7 +937,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "293:4-8",
+              "loc": "294:4-8",
               "moduleId": 844,
               "resolvedModuleId": null
             },
@@ -951,7 +951,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "296:4-8",
+              "loc": "297:4-8",
               "moduleId": 844,
               "resolvedModuleId": null
             },
@@ -965,7 +965,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "299:4-8",
+              "loc": "300:4-8",
               "moduleId": 844,
               "resolvedModuleId": null
             },
@@ -1192,10 +1192,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/dom/events/target.js",
           "name": "../node_modules/@exadel/esl/modules/esl-utils/dom/events/target.js",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/dom/events/target.js",
-          "index": 52,
-          "preOrderIndex": 52,
-          "index2": 49,
-          "postOrderIndex": 49,
+          "index": 51,
+          "preOrderIndex": 51,
+          "index2": 48,
+          "postOrderIndex": 48,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1563,7 +1563,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../misc/object",
-              "loc": "60:17-38",
+              "loc": "54:17-38",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1577,7 +1577,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../misc/object",
-              "loc": "72:17-38",
+              "loc": "66:17-38",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1703,7 +1703,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../misc/object",
-              "loc": "60:17-38",
+              "loc": "54:17-38",
               "moduleId": 844,
               "resolvedModuleId": null
             },
@@ -1717,7 +1717,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../misc/object",
-              "loc": "72:17-38",
+              "loc": "66:17-38",
               "moduleId": 844,
               "resolvedModuleId": null
             }
@@ -1919,9 +1919,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 262168,
+          "size": 261904,
           "sizes": {
-            "javascript": 262168
+            "javascript": 261904
           },
           "built": true,
           "codeGenerated": true,
@@ -2454,9 +2454,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 10596,
+              "size": 10615,
               "sizes": {
-                "javascript": 10596
+                "javascript": 10615
               },
               "built": true,
               "codeGenerated": false,
@@ -4079,7 +4079,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-traversing-query/core/esl-traversing-query",
-                  "loc": "231:25-49",
+                  "loc": "232:25-49",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -5083,7 +5083,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/environment/export-ns",
-                  "loc": "302:4-12",
+                  "loc": "303:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -5650,7 +5650,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../esl-utils/dom/class",
-                  "loc": "232:20-40",
+                  "loc": "233:20-40",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6243,7 +6243,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "242:4-8",
+                  "loc": "243:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6257,7 +6257,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "245:4-8",
+                  "loc": "246:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -6271,7 +6271,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "248:4-8",
+                  "loc": "249:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -8920,7 +8920,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "251:4-8",
+                  "loc": "252:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -8934,7 +8934,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "254:4-8",
+                  "loc": "255:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -8948,7 +8948,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "257:4-8",
+                  "loc": "258:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -8962,7 +8962,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "260:4-8",
+                  "loc": "261:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -8976,7 +8976,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "263:4-8",
+                  "loc": "264:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -8990,7 +8990,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "272:4-8",
+                  "loc": "273:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9004,7 +9004,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "275:4-8",
+                  "loc": "276:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9018,7 +9018,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "278:4-8",
+                  "loc": "279:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9032,7 +9032,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "281:4-8",
+                  "loc": "282:4-8",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9783,7 +9783,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "266:4-12",
+                  "loc": "267:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9797,7 +9797,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "269:4-12",
+                  "loc": "270:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9811,7 +9811,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "284:4-12",
+                  "loc": "285:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9825,7 +9825,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "287:4-12",
+                  "loc": "288:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -9839,7 +9839,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-utils/decorators",
-                  "loc": "290:4-12",
+                  "loc": "291:4-12",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -10840,108 +10840,6 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 747,
-              "sizes": {
-                "javascript": 747
-              },
-              "built": true,
-              "codeGenerated": false,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
-              "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
-              "index": 50,
-              "preOrderIndex": 50,
-              "index2": 48,
-              "postOrderIndex": 48,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "issuerName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "issuerPath": [
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
-                  "name": "./src/playground.ts",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-image/core.js",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "id": null
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": null,
-              "issuerId": null,
-              "chunks": [],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "type": "harmony side effect evaluation",
-                  "active": false,
-                  "explanation": "",
-                  "userRequest": "./esl-image-iobserver",
-                  "loc": "14:0-53",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./esl-image-iobserver",
-                  "loc": "32:12-24",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./esl-image-iobserver",
-                  "loc": "34:16-28",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": [
-                "getIObserver"
-              ],
-              "providedExports": [
-                "getIObserver"
-              ],
-              "optimizationBailout": [],
-              "depth": 2
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "layer": null,
               "size": 5192,
               "sizes": {
                 "javascript": 5192
@@ -10953,10 +10851,10 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule-list.js",
               "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule-list.js",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule-list.js",
-              "index": 51,
-              "preOrderIndex": 51,
-              "index2": 60,
-              "postOrderIndex": 60,
+              "index": 50,
+              "preOrderIndex": 50,
+              "index2": 59,
+              "postOrderIndex": 59,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -11003,7 +10901,7 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-media-query/core",
-                  "loc": "59:32-54",
+                  "loc": "29:24-46",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11017,7 +10915,21 @@
                   "active": true,
                   "explanation": "(skipped side-effect-free modules)",
                   "userRequest": "../../esl-media-query/core",
-                  "loc": "75:28-50",
+                  "loc": "60:32-54",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "(skipped side-effect-free modules)",
+                  "userRequest": "../../esl-media-query/core",
+                  "loc": "76:28-50",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11077,10 +10989,10 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
               "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
-              "index": 54,
-              "preOrderIndex": 54,
-              "index2": 57,
-              "postOrderIndex": 57,
+              "index": 53,
+              "preOrderIndex": 53,
+              "index2": 56,
+              "postOrderIndex": 56,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -11217,6 +11129,108 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
+              "size": 747,
+              "sizes": {
+                "javascript": 747
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
+              "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
+              "index": 62,
+              "preOrderIndex": 62,
+              "index2": 60,
+              "postOrderIndex": 60,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "issuerName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
+                  "name": "./src/playground.ts",
+                  "id": null
+                },
+                {
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-image/core.js",
+                  "id": null
+                },
+                {
+                  "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./esl-image-iobserver",
+                  "loc": "14:0-53",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./esl-image-iobserver",
+                  "loc": "32:12-24",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./esl-image-iobserver",
+                  "loc": "34:16-28",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "getIObserver"
+              ],
+              "providedExports": [
+                "getIObserver"
+              ],
+              "optimizationBailout": [],
+              "depth": 2
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
               "size": 2142,
               "sizes": {
                 "javascript": 2142
@@ -11287,7 +11301,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./esl-image-strategies",
-                  "loc": "90:36-48",
+                  "loc": "91:36-48",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11301,7 +11315,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./esl-image-strategies",
-                  "loc": "112:13-23",
+                  "loc": "113:13-23",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11315,7 +11329,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./esl-image-strategies",
-                  "loc": "157:25-35",
+                  "loc": "158:25-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11329,7 +11343,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./esl-image-strategies",
-                  "loc": "239:22-32",
+                  "loc": "240:22-32",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -11343,7 +11357,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./esl-image-strategies",
-                  "loc": "240:23-34",
+                  "loc": "241:23-34",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -13353,9 +13367,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 3506,
+              "size": 3223,
               "sizes": {
-                "javascript": 3506
+                "javascript": 3223
               },
               "built": true,
               "codeGenerated": false,
@@ -14568,10 +14582,10 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule.js",
               "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule.js",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule.js",
-              "index": 53,
-              "preOrderIndex": 53,
-              "index2": 58,
-              "postOrderIndex": 58,
+              "index": 52,
+              "preOrderIndex": 52,
+              "index2": 57,
+              "postOrderIndex": 57,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -14703,10 +14717,10 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
               "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-              "index": 55,
-              "preOrderIndex": 55,
-              "index2": 52,
-              "postOrderIndex": 52,
+              "index": 54,
+              "preOrderIndex": 54,
+              "index2": 51,
+              "postOrderIndex": 51,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -14817,10 +14831,10 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
               "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
-              "index": 56,
-              "preOrderIndex": 56,
-              "index2": 50,
-              "postOrderIndex": 50,
+              "index": 55,
+              "preOrderIndex": 55,
+              "index2": 49,
+              "postOrderIndex": 49,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -14968,10 +14982,10 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-const.js",
               "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-const.js",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-const.js",
-              "index": 57,
-              "preOrderIndex": 57,
-              "index2": 51,
-              "postOrderIndex": 51,
+              "index": 56,
+              "preOrderIndex": 56,
+              "index2": 50,
+              "postOrderIndex": 50,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -15392,10 +15406,10 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
               "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-              "index": 58,
-              "preOrderIndex": 58,
-              "index2": 53,
-              "postOrderIndex": 53,
+              "index": 57,
+              "preOrderIndex": 57,
+              "index2": 52,
+              "postOrderIndex": 52,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -15490,10 +15504,10 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-dpr.js",
               "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-dpr.js",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-dpr.js",
-              "index": 59,
-              "preOrderIndex": 59,
-              "index2": 54,
-              "postOrderIndex": 54,
+              "index": 58,
+              "preOrderIndex": 58,
+              "index2": 53,
+              "postOrderIndex": 53,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -15613,10 +15627,10 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-breakpoint.js",
               "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-breakpoint.js",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-breakpoint.js",
-              "index": 60,
-              "preOrderIndex": 60,
-              "index2": 55,
-              "postOrderIndex": 55,
+              "index": 59,
+              "preOrderIndex": 59,
+              "index2": 54,
+              "postOrderIndex": 54,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -15737,10 +15751,10 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/env-shortcuts.js",
               "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/common/env-shortcuts.js",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/env-shortcuts.js",
-              "index": 61,
-              "preOrderIndex": 61,
-              "index2": 56,
-              "postOrderIndex": 56,
+              "index": 60,
+              "preOrderIndex": 60,
+              "index2": 55,
+              "postOrderIndex": 55,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -15860,10 +15874,10 @@
               "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/object/merge.js",
               "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/object/merge.js",
               "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/object/merge.js",
-              "index": 62,
-              "preOrderIndex": 62,
-              "index2": 59,
-              "postOrderIndex": 59,
+              "index": 61,
+              "preOrderIndex": 61,
+              "index2": 58,
+              "postOrderIndex": 58,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -20409,9 +20423,9 @@
       "entry": false,
       "recorded": false,
       "reason": "split chunk (cache group: defaultVendors)",
-      "size": 1153718,
+      "size": 1153439,
       "sizes": {
-        "javascript": 1153718
+        "javascript": 1153439
       },
       "names": [],
       "idHints": [
@@ -20426,7 +20440,7 @@
       "auxiliaryFiles": [
         "863.js.map"
       ],
-      "hash": "43bf96f0d3e1e7abf8d8",
+      "hash": "97b8e69e2ebfbf4a5e19",
       "childrenByOrder": {},
       "id": 863,
       "siblings": [
@@ -20783,9 +20797,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 770606,
+          "size": 770327,
           "sizes": {
-            "javascript": 770606
+            "javascript": 770327
           },
           "built": true,
           "codeGenerated": true,
@@ -20851,7 +20865,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "19661:83-89",
+              "loc": "19667:83-89",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -20865,7 +20879,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "19662:24-38",
+              "loc": "19668:24-38",
               "moduleId": 817,
               "resolvedModuleId": 817
             },
@@ -20901,7 +20915,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 19662:24-38",
+            "CommonJS bailout: module.exports is used directly at 19668:24-38",
             "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
@@ -21493,9 +21507,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 262168,
+      "size": 261904,
       "sizes": {
-        "javascript": 262168
+        "javascript": 261904
       },
       "built": true,
       "codeGenerated": true,
@@ -22023,9 +22037,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 10596,
+          "size": 10615,
           "sizes": {
-            "javascript": 10596
+            "javascript": 10615
           },
           "built": true,
           "codeGenerated": false,
@@ -23639,7 +23653,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-traversing-query/core/esl-traversing-query",
-              "loc": "231:25-49",
+              "loc": "232:25-49",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -24640,7 +24654,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/environment/export-ns",
-              "loc": "302:4-12",
+              "loc": "303:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25206,7 +25220,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../esl-utils/dom/class",
-              "loc": "232:20-40",
+              "loc": "233:20-40",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25797,7 +25811,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "242:4-8",
+              "loc": "243:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25811,7 +25825,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "245:4-8",
+              "loc": "246:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -25825,7 +25839,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "248:4-8",
+              "loc": "249:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28466,7 +28480,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "251:4-8",
+              "loc": "252:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28480,7 +28494,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "254:4-8",
+              "loc": "255:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28494,7 +28508,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "257:4-8",
+              "loc": "258:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28508,7 +28522,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "260:4-8",
+              "loc": "261:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28522,7 +28536,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "263:4-8",
+              "loc": "264:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28536,7 +28550,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "272:4-8",
+              "loc": "273:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28550,7 +28564,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "275:4-8",
+              "loc": "276:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28564,7 +28578,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "278:4-8",
+              "loc": "279:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -28578,7 +28592,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "281:4-8",
+              "loc": "282:4-8",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -29328,7 +29342,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "266:4-12",
+              "loc": "267:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -29342,7 +29356,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "269:4-12",
+              "loc": "270:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -29356,7 +29370,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "284:4-12",
+              "loc": "285:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -29370,7 +29384,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "287:4-12",
+              "loc": "288:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -29384,7 +29398,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-utils/decorators",
-              "loc": "290:4-12",
+              "loc": "291:4-12",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -30380,107 +30394,6 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 747,
-          "sizes": {
-            "javascript": 747
-          },
-          "built": true,
-          "codeGenerated": false,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
-          "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
-          "index": 50,
-          "preOrderIndex": 50,
-          "index2": 48,
-          "postOrderIndex": 48,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "issuerName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "issuerPath": [
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
-              "name": "./src/playground.ts",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-image/core.js",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "id": null
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": null,
-          "issuerId": null,
-          "chunks": [],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "type": "harmony side effect evaluation",
-              "active": false,
-              "explanation": "",
-              "userRequest": "./esl-image-iobserver",
-              "loc": "14:0-53",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./esl-image-iobserver",
-              "loc": "32:12-24",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./esl-image-iobserver",
-              "loc": "34:16-28",
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": [
-            "getIObserver"
-          ],
-          "providedExports": [
-            "getIObserver"
-          ],
-          "optimizationBailout": [],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
           "size": 5192,
           "sizes": {
             "javascript": 5192
@@ -30492,10 +30405,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule-list.js",
           "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule-list.js",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule-list.js",
-          "index": 51,
-          "preOrderIndex": 51,
-          "index2": 60,
-          "postOrderIndex": 60,
+          "index": 50,
+          "preOrderIndex": 50,
+          "index2": 59,
+          "postOrderIndex": 59,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -30541,7 +30454,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-media-query/core",
-              "loc": "59:32-54",
+              "loc": "29:24-46",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -30555,7 +30468,21 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "../../esl-media-query/core",
-              "loc": "75:28-50",
+              "loc": "60:32-54",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "(skipped side-effect-free modules)",
+              "userRequest": "../../esl-media-query/core",
+              "loc": "76:28-50",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -30615,10 +30542,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
           "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
-          "index": 54,
-          "preOrderIndex": 54,
-          "index2": 57,
-          "postOrderIndex": 57,
+          "index": 53,
+          "preOrderIndex": 53,
+          "index2": 56,
+          "postOrderIndex": 56,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -30754,6 +30681,107 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
+          "size": 747,
+          "sizes": {
+            "javascript": 747
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
+          "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
+          "index": 62,
+          "preOrderIndex": 62,
+          "index2": 60,
+          "postOrderIndex": 60,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "issuerName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
+              "name": "./src/playground.ts",
+              "id": null
+            },
+            {
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-image/core.js",
+              "id": null
+            },
+            {
+              "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./esl-image-iobserver",
+              "loc": "14:0-53",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./esl-image-iobserver",
+              "loc": "32:12-24",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./esl-image-iobserver",
+              "loc": "34:16-28",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "getIObserver"
+          ],
+          "providedExports": [
+            "getIObserver"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
           "size": 2142,
           "sizes": {
             "javascript": 2142
@@ -30823,7 +30851,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./esl-image-strategies",
-              "loc": "90:36-48",
+              "loc": "91:36-48",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -30837,7 +30865,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./esl-image-strategies",
-              "loc": "112:13-23",
+              "loc": "113:13-23",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -30851,7 +30879,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./esl-image-strategies",
-              "loc": "157:25-35",
+              "loc": "158:25-35",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -30865,7 +30893,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./esl-image-strategies",
-              "loc": "239:22-32",
+              "loc": "240:22-32",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -30879,7 +30907,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./esl-image-strategies",
-              "loc": "240:23-34",
+              "loc": "241:23-34",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -32877,9 +32905,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3506,
+          "size": 3223,
           "sizes": {
-            "javascript": 3506
+            "javascript": 3223
           },
           "built": true,
           "codeGenerated": false,
@@ -34087,10 +34115,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule.js",
           "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule.js",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule.js",
-          "index": 53,
-          "preOrderIndex": 53,
-          "index2": 58,
-          "postOrderIndex": 58,
+          "index": 52,
+          "preOrderIndex": 52,
+          "index2": 57,
+          "postOrderIndex": 57,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -34221,10 +34249,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
           "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-          "index": 55,
-          "preOrderIndex": 55,
-          "index2": 52,
-          "postOrderIndex": 52,
+          "index": 54,
+          "preOrderIndex": 54,
+          "index2": 51,
+          "postOrderIndex": 51,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -34334,10 +34362,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
           "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
-          "index": 56,
-          "preOrderIndex": 56,
-          "index2": 50,
-          "postOrderIndex": 50,
+          "index": 55,
+          "preOrderIndex": 55,
+          "index2": 49,
+          "postOrderIndex": 49,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -34484,10 +34512,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-const.js",
           "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-const.js",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-const.js",
-          "index": 57,
-          "preOrderIndex": 57,
-          "index2": 51,
-          "postOrderIndex": 51,
+          "index": 56,
+          "preOrderIndex": 56,
+          "index2": 50,
+          "postOrderIndex": 50,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -34907,10 +34935,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
           "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-          "index": 58,
-          "preOrderIndex": 58,
-          "index2": 53,
-          "postOrderIndex": 53,
+          "index": 57,
+          "preOrderIndex": 57,
+          "index2": 52,
+          "postOrderIndex": 52,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -35004,10 +35032,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-dpr.js",
           "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-dpr.js",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-dpr.js",
-          "index": 59,
-          "preOrderIndex": 59,
-          "index2": 54,
-          "postOrderIndex": 54,
+          "index": 58,
+          "preOrderIndex": 58,
+          "index2": 53,
+          "postOrderIndex": 53,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -35126,10 +35154,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-breakpoint.js",
           "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-breakpoint.js",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-breakpoint.js",
-          "index": 60,
-          "preOrderIndex": 60,
-          "index2": 55,
-          "postOrderIndex": 55,
+          "index": 59,
+          "preOrderIndex": 59,
+          "index2": 54,
+          "postOrderIndex": 54,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -35249,10 +35277,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/env-shortcuts.js",
           "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/common/env-shortcuts.js",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/env-shortcuts.js",
-          "index": 61,
-          "preOrderIndex": 61,
-          "index2": 56,
-          "postOrderIndex": 56,
+          "index": 60,
+          "preOrderIndex": 60,
+          "index2": 55,
+          "postOrderIndex": 55,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -35371,10 +35399,10 @@
           "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/object/merge.js",
           "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/object/merge.js",
           "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/object/merge.js",
-          "index": 62,
-          "preOrderIndex": 62,
-          "index2": 59,
-          "postOrderIndex": 59,
+          "index": 61,
+          "preOrderIndex": 61,
+          "index2": 58,
+          "postOrderIndex": 58,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -39881,9 +39909,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 10596,
+      "size": 10615,
       "sizes": {
-        "javascript": 10596
+        "javascript": 10615
       },
       "built": true,
       "codeGenerated": false,
@@ -42145,7 +42173,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-traversing-query/core/esl-traversing-query",
-          "loc": "231:25-49",
+          "loc": "232:25-49",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43146,7 +43174,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/environment/export-ns",
-          "loc": "302:4-12",
+          "loc": "303:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43677,7 +43705,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../misc/object",
-          "loc": "60:17-38",
+          "loc": "54:17-38",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43691,7 +43719,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../misc/object",
-          "loc": "72:17-38",
+          "loc": "66:17-38",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -43817,7 +43845,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../misc/object",
-          "loc": "60:17-38",
+          "loc": "54:17-38",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -43831,7 +43859,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../misc/object",
-          "loc": "72:17-38",
+          "loc": "66:17-38",
           "moduleId": 844,
           "resolvedModuleId": null
         }
@@ -44061,7 +44089,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../esl-utils/dom/class",
-          "loc": "232:20-40",
+          "loc": "233:20-40",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -44652,7 +44680,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "242:4-8",
+          "loc": "243:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -44666,7 +44694,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "245:4-8",
+          "loc": "246:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -44680,7 +44708,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "248:4-8",
+          "loc": "249:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47321,7 +47349,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "251:4-8",
+          "loc": "252:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47335,7 +47363,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "254:4-8",
+          "loc": "255:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47349,7 +47377,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "257:4-8",
+          "loc": "258:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47363,7 +47391,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "260:4-8",
+          "loc": "261:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47377,7 +47405,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "263:4-8",
+          "loc": "264:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47391,7 +47419,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "272:4-8",
+          "loc": "273:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47405,7 +47433,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "275:4-8",
+          "loc": "276:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47419,7 +47447,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "278:4-8",
+          "loc": "279:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -47433,7 +47461,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "281:4-8",
+          "loc": "282:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -48183,7 +48211,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "266:4-12",
+          "loc": "267:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -48197,7 +48225,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "269:4-12",
+          "loc": "270:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -48211,7 +48239,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "284:4-12",
+          "loc": "285:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -48225,7 +48253,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "287:4-12",
+          "loc": "288:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -48239,7 +48267,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "290:4-12",
+          "loc": "291:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -49213,7 +49241,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "293:4-8",
+          "loc": "294:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -49227,7 +49255,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "296:4-8",
+          "loc": "297:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -49241,7 +49269,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "299:4-8",
+          "loc": "300:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -49353,7 +49381,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "293:4-8",
+          "loc": "294:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -49367,7 +49395,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "296:4-8",
+          "loc": "297:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -49381,7 +49409,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "299:4-8",
+          "loc": "300:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -49723,107 +49751,6 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 747,
-      "sizes": {
-        "javascript": 747
-      },
-      "built": true,
-      "codeGenerated": false,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
-      "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
-      "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
-      "index": 50,
-      "preOrderIndex": 50,
-      "index2": 48,
-      "postOrderIndex": 48,
-      "cacheable": true,
-      "optional": false,
-      "orphan": true,
-      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-      "issuerName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
-          "name": "./src/playground.ts",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-image/core.js",
-          "id": null
-        },
-        {
-          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "id": null
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": null,
-      "issuerId": null,
-      "chunks": [],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "type": "harmony side effect evaluation",
-          "active": false,
-          "explanation": "",
-          "userRequest": "./esl-image-iobserver",
-          "loc": "14:0-53",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./esl-image-iobserver",
-          "loc": "32:12-24",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./esl-image-iobserver",
-          "loc": "34:16-28",
-          "moduleId": null,
-          "resolvedModuleId": null
-        }
-      ],
-      "usedExports": [
-        "getIObserver"
-      ],
-      "providedExports": [
-        "getIObserver"
-      ],
-      "optimizationBailout": [],
-      "depth": 2
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
       "size": 5192,
       "sizes": {
         "javascript": 5192
@@ -49835,10 +49762,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule-list.js",
       "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule-list.js",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule-list.js",
-      "index": 51,
-      "preOrderIndex": 51,
-      "index2": 60,
-      "postOrderIndex": 60,
+      "index": 50,
+      "preOrderIndex": 50,
+      "index2": 59,
+      "postOrderIndex": 59,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -49884,7 +49811,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-media-query/core",
-          "loc": "59:32-54",
+          "loc": "29:24-46",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -49898,7 +49825,21 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "../../esl-media-query/core",
-          "loc": "75:28-50",
+          "loc": "60:32-54",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "(skipped side-effect-free modules)",
+          "userRequest": "../../esl-media-query/core",
+          "loc": "76:28-50",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -49958,10 +49899,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
       "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-query.js",
-      "index": 54,
-      "preOrderIndex": 54,
-      "index2": 57,
-      "postOrderIndex": 57,
+      "index": 53,
+      "preOrderIndex": 53,
+      "index2": 56,
+      "postOrderIndex": 56,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -50097,6 +50038,107 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 747,
+      "sizes": {
+        "javascript": 747
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
+      "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
+      "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image-iobserver.js",
+      "index": 62,
+      "preOrderIndex": 62,
+      "index2": 60,
+      "postOrderIndex": 60,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+      "issuerName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts",
+          "name": "./src/playground.ts",
+          "id": null
+        },
+        {
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-image/core.js",
+          "id": null
+        },
+        {
+          "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "name": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./esl-image-iobserver",
+          "loc": "14:0-53",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./esl-image-iobserver",
+          "loc": "32:12-24",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./esl-image-iobserver",
+          "loc": "34:16-28",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "getIObserver"
+      ],
+      "providedExports": [
+        "getIObserver"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 2142,
       "sizes": {
         "javascript": 2142
@@ -50166,7 +50208,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./esl-image-strategies",
-          "loc": "90:36-48",
+          "loc": "91:36-48",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50180,7 +50222,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./esl-image-strategies",
-          "loc": "112:13-23",
+          "loc": "113:13-23",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50194,7 +50236,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./esl-image-strategies",
-          "loc": "157:25-35",
+          "loc": "158:25-35",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50208,7 +50250,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./esl-image-strategies",
-          "loc": "239:22-32",
+          "loc": "240:22-32",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -50222,7 +50264,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./esl-image-strategies",
-          "loc": "240:23-34",
+          "loc": "241:23-34",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -52618,7 +52660,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-media-query/core",
-          "loc": "59:32-54",
+          "loc": "29:24-46",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -52632,7 +52674,21 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-media-query/core",
-          "loc": "75:28-50",
+          "loc": "60:32-54",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "module": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "moduleName": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../../esl-media-query/core",
+          "loc": "76:28-50",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -52702,7 +52758,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-media-query/core",
-          "loc": "59:32-54",
+          "loc": "29:24-46",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -52716,7 +52772,21 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-media-query/core",
-          "loc": "75:28-50",
+          "loc": "60:32-54",
+          "moduleId": 844,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/home/runner/work/ui-playground/ui-playground/pages/src/playground.ts|cc1c2c0babe19f565bcecc1e1eb3f7f4",
+          "module": "./src/playground.ts + 89 modules",
+          "moduleName": "./src/playground.ts + 89 modules",
+          "resolvedModuleIdentifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "resolvedModule": "../node_modules/@exadel/esl/modules/esl-image/core/esl-image.js",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../../esl-media-query/core",
+          "loc": "76:28-50",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -53990,7 +54060,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "242:4-8",
+          "loc": "243:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54004,7 +54074,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "245:4-8",
+          "loc": "246:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54018,7 +54088,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "248:4-8",
+          "loc": "249:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54032,7 +54102,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "251:4-8",
+          "loc": "252:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54046,7 +54116,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "254:4-8",
+          "loc": "255:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54060,7 +54130,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "257:4-8",
+          "loc": "258:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54074,7 +54144,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "260:4-8",
+          "loc": "261:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54088,7 +54158,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "263:4-8",
+          "loc": "264:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54102,7 +54172,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "266:4-12",
+          "loc": "267:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54116,7 +54186,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "269:4-12",
+          "loc": "270:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54130,7 +54200,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "272:4-8",
+          "loc": "273:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54144,7 +54214,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "275:4-8",
+          "loc": "276:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54158,7 +54228,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "278:4-8",
+          "loc": "279:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54172,7 +54242,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "281:4-8",
+          "loc": "282:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54186,7 +54256,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "284:4-12",
+          "loc": "285:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54200,7 +54270,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "287:4-12",
+          "loc": "288:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54214,7 +54284,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "290:4-12",
+          "loc": "291:4-12",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54228,7 +54298,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "293:4-8",
+          "loc": "294:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54242,7 +54312,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "296:4-8",
+          "loc": "297:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -54256,7 +54326,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "299:4-8",
+          "loc": "300:4-8",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -55992,7 +56062,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "242:4-8",
+          "loc": "243:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56006,7 +56076,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "245:4-8",
+          "loc": "246:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56020,7 +56090,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "248:4-8",
+          "loc": "249:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56034,7 +56104,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "251:4-8",
+          "loc": "252:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56048,7 +56118,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "254:4-8",
+          "loc": "255:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56062,7 +56132,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "257:4-8",
+          "loc": "258:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56076,7 +56146,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "260:4-8",
+          "loc": "261:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56090,7 +56160,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "263:4-8",
+          "loc": "264:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56104,7 +56174,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "266:4-12",
+          "loc": "267:4-12",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56118,7 +56188,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "269:4-12",
+          "loc": "270:4-12",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56132,7 +56202,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "272:4-8",
+          "loc": "273:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56146,7 +56216,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "275:4-8",
+          "loc": "276:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56160,7 +56230,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "278:4-8",
+          "loc": "279:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56174,7 +56244,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "281:4-8",
+          "loc": "282:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56188,7 +56258,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "284:4-12",
+          "loc": "285:4-12",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56202,7 +56272,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "287:4-12",
+          "loc": "288:4-12",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56216,7 +56286,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "290:4-12",
+          "loc": "291:4-12",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56230,7 +56300,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "293:4-8",
+          "loc": "294:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56244,7 +56314,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "296:4-8",
+          "loc": "297:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -56258,7 +56328,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../../esl-utils/decorators",
-          "loc": "299:4-8",
+          "loc": "300:4-8",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -58746,7 +58816,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../misc/object",
-          "loc": "60:17-38",
+          "loc": "54:17-38",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58760,7 +58830,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../misc/object",
-          "loc": "72:17-38",
+          "loc": "66:17-38",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -58984,7 +59054,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../misc/object",
-          "loc": "60:17-38",
+          "loc": "54:17-38",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -58998,7 +59068,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "../misc/object",
-          "loc": "72:17-38",
+          "loc": "66:17-38",
           "moduleId": 844,
           "resolvedModuleId": null
         },
@@ -60450,9 +60520,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3506,
+      "size": 3223,
       "sizes": {
-        "javascript": 3506
+        "javascript": 3223
       },
       "built": true,
       "codeGenerated": false,
@@ -61660,10 +61730,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/dom/events/target.js",
       "name": "../node_modules/@exadel/esl/modules/esl-utils/dom/events/target.js",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/dom/events/target.js",
-      "index": 52,
-      "preOrderIndex": 52,
-      "index2": 49,
-      "postOrderIndex": 49,
+      "index": 51,
+      "preOrderIndex": 51,
+      "index2": 48,
+      "postOrderIndex": 48,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -61866,10 +61936,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule.js",
       "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule.js",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/esl-media-rule.js",
-      "index": 53,
-      "preOrderIndex": 53,
-      "index2": 58,
-      "postOrderIndex": 58,
+      "index": 52,
+      "preOrderIndex": 52,
+      "index2": 57,
+      "postOrderIndex": 57,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -62000,10 +62070,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
       "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-containers.js",
-      "index": 55,
-      "preOrderIndex": 55,
-      "index2": 52,
-      "postOrderIndex": 52,
+      "index": 54,
+      "preOrderIndex": 54,
+      "index2": 51,
+      "postOrderIndex": 51,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -62113,10 +62183,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
       "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-base.js",
-      "index": 56,
-      "preOrderIndex": 56,
-      "index2": 50,
-      "postOrderIndex": 50,
+      "index": 55,
+      "preOrderIndex": 55,
+      "index2": 49,
+      "postOrderIndex": 49,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -62263,10 +62333,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-const.js",
       "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-const.js",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-const.js",
-      "index": 57,
-      "preOrderIndex": 57,
-      "index2": 51,
-      "postOrderIndex": 51,
+      "index": 56,
+      "preOrderIndex": 56,
+      "index2": 50,
+      "postOrderIndex": 50,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -62686,10 +62756,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
       "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/conditions/media-query-condition.js",
-      "index": 58,
-      "preOrderIndex": 58,
-      "index2": 53,
-      "postOrderIndex": 53,
+      "index": 57,
+      "preOrderIndex": 57,
+      "index2": 52,
+      "postOrderIndex": 52,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -62783,10 +62853,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-dpr.js",
       "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-dpr.js",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-dpr.js",
-      "index": 59,
-      "preOrderIndex": 59,
-      "index2": 54,
-      "postOrderIndex": 54,
+      "index": 58,
+      "preOrderIndex": 58,
+      "index2": 53,
+      "postOrderIndex": 53,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -62905,10 +62975,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-breakpoint.js",
       "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-breakpoint.js",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/screen-breakpoint.js",
-      "index": 60,
-      "preOrderIndex": 60,
-      "index2": 55,
-      "postOrderIndex": 55,
+      "index": 59,
+      "preOrderIndex": 59,
+      "index2": 54,
+      "postOrderIndex": 54,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -63028,10 +63098,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/env-shortcuts.js",
       "name": "../node_modules/@exadel/esl/modules/esl-media-query/core/common/env-shortcuts.js",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-media-query/core/common/env-shortcuts.js",
-      "index": 61,
-      "preOrderIndex": 61,
-      "index2": 56,
-      "postOrderIndex": 56,
+      "index": 60,
+      "preOrderIndex": 60,
+      "index2": 55,
+      "postOrderIndex": 55,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -63150,10 +63220,10 @@
       "identifier": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/object/merge.js",
       "name": "../node_modules/@exadel/esl/modules/esl-utils/misc/object/merge.js",
       "nameForCondition": "/home/runner/work/ui-playground/ui-playground/node_modules/@exadel/esl/modules/esl-utils/misc/object/merge.js",
-      "index": 62,
-      "preOrderIndex": 62,
-      "index2": 59,
-      "postOrderIndex": 59,
+      "index": 61,
+      "preOrderIndex": 61,
+      "index2": 58,
+      "postOrderIndex": 58,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -68031,9 +68101,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 770606,
+      "size": 770327,
       "sizes": {
-        "javascript": 770606
+        "javascript": 770327
       },
       "built": true,
       "codeGenerated": true,
@@ -68098,7 +68168,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "19661:83-89",
+          "loc": "19667:83-89",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -68112,7 +68182,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "19662:24-38",
+          "loc": "19668:24-38",
           "moduleId": 817,
           "resolvedModuleId": 817
         },
@@ -68148,7 +68218,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 19662:24-38",
+        "CommonJS bailout: module.exports is used directly at 19668:24-38",
         "Statement (ExpressionStatement) with side effects in source code at 37:0-174:5",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
@@ -69450,19 +69520,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 110590
+          "size": 110584
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 110590,
+      "assetsSize": 110584,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 416337
+          "size": 416091
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 416337,
+      "auxiliaryAssetsSize": 416091,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -69477,19 +69547,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 110590
+          "size": 110584
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 110590,
+      "assetsSize": 110584,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 416337
+          "size": 416091
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 416337,
+      "auxiliaryAssetsSize": 416091,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -69503,7 +69573,7 @@
       "assets": [
         {
           "name": "863.js",
-          "size": 597637
+          "size": 597207
         },
         {
           "name": "ace-editor.js",
@@ -69511,11 +69581,11 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 598992,
+      "assetsSize": 598562,
       "auxiliaryAssets": [
         {
           "name": "863.js.map",
-          "size": 1890887
+          "size": 1890472
         },
         {
           "name": "ace-editor.js.map",
@@ -69523,7 +69593,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 1894342,
+      "auxiliaryAssetsSize": 1893927,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -69533,8 +69603,8 @@
   "errorsCount": 0,
   "warnings": [
     {
-      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  863.js (584 KiB)",
-      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  863.js (584 KiB)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:134:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
+      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  863.js (583 KiB)",
+      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  863.js (583 KiB)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:134:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/ui-playground/ui-playground/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/ui-playground/ui-playground/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/ui-playground/ui-playground/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/ui-playground/ui-playground/node_modules/graceful-fs/graceful-fs.js:61:14"
     }
   ],
   "warningsCount": 1,
