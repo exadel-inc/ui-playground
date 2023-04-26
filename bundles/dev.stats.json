@@ -1,8 +1,8 @@
 {
-  "hash": "85a83ded51ac75d14a3e",
+  "hash": "c411a20b8df051a972a1",
   "version": "5.75.0",
-  "time": 10664,
-  "builtAt": 1678108824813,
+  "time": 11827,
+  "builtAt": 1682537148238,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
@@ -92,7 +92,7 @@
     {
       "type": "asset",
       "name": "playground.js",
-      "size": 110587,
+      "size": 110598,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -102,7 +102,7 @@
         "related": {
           "sourceMap": "playground.js.map"
         },
-        "size": 110587
+        "size": 110598
       },
       "chunkNames": [
         "playground"
@@ -115,13 +115,13 @@
         {
           "type": "sourceMap",
           "name": "playground.js.map",
-          "size": 416146,
+          "size": 416165,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 416146
+            "size": 416165
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -660,9 +660,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 273929,
+      "size": 273936,
       "sizes": {
-        "javascript": 266514,
+        "javascript": 266521,
         "runtime": 7415
       },
       "names": [
@@ -678,7 +678,7 @@
       "auxiliaryFiles": [
         "playground.js.map"
       ],
-      "hash": "f18750560eef57d7ff63",
+      "hash": "2507ec6050fdb2a261aa",
       "childrenByOrder": {},
       "id": 271,
       "siblings": [],
@@ -1919,9 +1919,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 261874,
+          "size": 261881,
           "sizes": {
-            "javascript": 261874
+            "javascript": 261881
           },
           "built": true,
           "codeGenerated": true,
@@ -7190,7 +7190,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "111:4-10",
+                  "loc": "110:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -7204,7 +7204,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-                  "loc": "114:4-10",
+                  "loc": "113:4-10",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -16867,9 +16867,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 4576,
+              "size": 4583,
               "sizes": {
-                "javascript": 4576
+                "javascript": 4583
               },
               "built": true,
               "codeGenerated": false,
@@ -18840,7 +18840,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./option/option",
-                  "loc": "73:8-26",
+                  "loc": "72:8-26",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -18854,7 +18854,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./option/option",
-                  "loc": "74:8-33",
+                  "loc": "73:8-33",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -21479,9 +21479,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 261874,
+      "size": 261881,
       "sizes": {
-        "javascript": 261874
+        "javascript": 261881
       },
       "built": true,
       "codeGenerated": true,
@@ -26729,7 +26729,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "111:4-10",
+              "loc": "110:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -26743,7 +26743,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-              "loc": "114:4-10",
+              "loc": "113:4-10",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -36356,9 +36356,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 4576,
+          "size": 4583,
           "sizes": {
-            "javascript": 4576
+            "javascript": 4583
           },
           "built": true,
           "codeGenerated": false,
@@ -38314,7 +38314,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./option/option",
-              "loc": "73:8-26",
+              "loc": "72:8-26",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -38328,7 +38328,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./option/option",
-              "loc": "74:8-33",
+              "loc": "73:8-33",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -45570,7 +45570,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "111:4-10",
+          "loc": "110:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -45584,7 +45584,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@exadel/esl/modules/esl-utils/decorators/listen",
-          "loc": "114:4-10",
+          "loc": "113:4-10",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -64121,9 +64121,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 4576,
+      "size": 4583,
       "sizes": {
-        "javascript": 4576
+        "javascript": 4583
       },
       "built": true,
       "codeGenerated": false,
@@ -66373,7 +66373,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./option/option",
-          "loc": "73:8-26",
+          "loc": "72:8-26",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -66387,7 +66387,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./option/option",
-          "loc": "74:8-33",
+          "loc": "73:8-33",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -69408,19 +69408,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 110587
+          "size": 110598
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 110587,
+      "assetsSize": 110598,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 416146
+          "size": 416165
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 416146,
+      "auxiliaryAssetsSize": 416165,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -69435,19 +69435,19 @@
       "assets": [
         {
           "name": "playground.js",
-          "size": 110587
+          "size": 110598
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 110587,
+      "assetsSize": 110598,
       "auxiliaryAssets": [
         {
           "name": "playground.js.map",
-          "size": 416146
+          "size": 416165
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 416146,
+      "auxiliaryAssetsSize": 416165,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
