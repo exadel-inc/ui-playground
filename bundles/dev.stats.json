@@ -1,8 +1,8 @@
 {
   "hash": "c411a20b8df051a972a1",
   "version": "5.75.0",
-  "time": 11827,
-  "builtAt": 1682537148238,
+  "time": 15954,
+  "builtAt": 1682539329714,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/ui-playground/ui-playground/pages/dist/bundles",
   "assetsByChunkName": {
