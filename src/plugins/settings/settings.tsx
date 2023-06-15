@@ -6,6 +6,7 @@ import type {ESLScrollbar} from '@exadel/esl/modules/esl-scrollbar/core/esl-scro
 
 import {UIPPlugin} from '../../core/base/plugin';
 import {UIPSetting} from './setting';
+import * as React from 'jsx-dom';
 
 /**
  * Settings {@link UIPPlugin} custom element definition
