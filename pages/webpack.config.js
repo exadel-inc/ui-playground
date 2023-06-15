@@ -10,19 +10,20 @@ module.exports = {
   resolve: {
     modules: ['../node_modules'],
     roots: [],
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js', '.tsx']
   },
   module: {
     rules: [
     {
-      test: /\.ts$/,
-      loader: 'ts-loader',
-      options: {
-        compilerOptions: {
-          target: 'ES6',
-          declaration: true
-        },
-      }
+      test: /\.tsx?$/,
+      use: [
+        {
+          loader: 'ts-loader',
+          options: {
+            transpileOnly: true
+          }
+        }
+      ]
     },]
   },
   output: {

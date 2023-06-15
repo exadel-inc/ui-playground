@@ -24,10 +24,10 @@ export class UIPSettings extends UIPPlugin {
 
   /** {@link ESLScrollbar} scroll element */
   @memoize()
-  public get $scroll(): ESLScrollbar {
-    const $scroll = document.createElement('esl-scrollbar');
-    $scroll.setAttribute('target', '::prev(.settings-list)');
-    return $scroll;
+  public get $scroll() {
+    // const $scroll = document.createElement('esl-scrollbar');
+    // $scroll.setAttribute('target', '::prev(.settings-list)');
+    return <esl-scrollbar target='::prev(.settings-list)'></esl-scrollbar>;
   }
 
   protected connectedCallback() {

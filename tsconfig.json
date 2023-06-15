@@ -3,6 +3,7 @@
     "declaration": true,
     "skipLibCheck": true,
     "experimentalDecorators": true,
+    "jsx": "react",
     "allowJs": true,
     "alwaysStrict": true,
     "strictNullChecks": true,
@@ -21,11 +22,13 @@
     "outDir": "./esm"
   },
   "include": [
-    "src"
+    "src",
+    "src/global.d.ts"
   ],
   "exclude": [
     "*.test.ts",
     "**/test/*.ts",
     "node_modules"
-  ]
+  ],
+  "baseUrl": ".",
 }

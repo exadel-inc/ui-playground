@@ -30,7 +30,6 @@
     "@typescript-eslint/no-extra-semi": "error",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-misused-new": "warn",
-    "@typescript-eslint/no-namespace": "error",
     "@typescript-eslint/no-parameter-properties": "off",
     "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/no-use-before-define": "off",
@@ -43,6 +42,9 @@
     "@typescript-eslint/prefer-namespace-keyword": "warn",
     "@typescript-eslint/quotes": ["error", "single"],
     "@typescript-eslint/semi": ["error"],
+    "@typescript-eslint/no-namespace": ["warn", {
+      "allowDeclarations": true
+    }],
     "@typescript-eslint/triple-slash-reference": "warn",
     "@typescript-eslint/unified-signatures": "warn",
     "@typescript-eslint/explicit-module-boundary-types": "off",
