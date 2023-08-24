@@ -54,49 +54,17 @@
 <p><strong>UIPEditor</strong> - custom element, code editor for changing current markup. It allows user to manually configure
 the component inside <a href="https://exadel-inc.github.io/ui-playground/core/">UIPPreview</a>. Extends <a href="https://exadel-inc.github.io/ui-playground/core/#uip-plugin">UIPPlugin</a>.</p>
 <h2>Description</h2>
-<p><strong>UIPEditor</strong> is based on <a href="https://ace.c9.io/">ACE</a> editor. It supports Ace's basic features like shortcuts, syntax
-highlighting, etc.</p>
-<h3>Useful links</h3>
-<ol>
-<li><a href="https://ace.c9.io/build/kitchen-sink.html">Ace playgroung</a></li>
-<li><a href="https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts">Shortcuts</a></li>
-<li><a href="https://github.com/ajaxorg/ace/tree/master/src/theme">Themes</a></li>
-</ol>
-<h2>Customization</h2>
-<p>To make customization easier, we defined the following interface:</p>
+<p><strong>UIPEditor</strong> is based on <a href="https://medv.io/codejar/">Codejar</a> editor. We also use <a href="https://prismjs.com/">Prism.js</a> for highlighting.</p>
+<p>You can pass an optional <code>editor-config</code> attribute to configure editor's behaviour:</p>
 <pre><code class="language-typescript"><span class="token keyword">interface</span> <span class="token class-name">EditorConfig</span> <span class="token punctuation">{</span>
-  theme<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
-  printMarginColumn<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
-  wrap<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">number</span> <span class="token operator">|</span> <span class="token builtin">boolean</span><span class="token punctuation">;</span>
-  minLines<span class="token operator">?</span> <span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
-  maxLines<span class="token operator">?</span> <span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+  wrap<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-
 </code></pre>
 <ul>
-<li><strong>Theme</strong> allows you to change editor's appearance. You can play with themes <a href="https://exadel-inc.github.io/ui-playground(https://ace.c9.io/build/kitchen-sink.html)">here</a>.</li>
-<li><strong>PrintMarginColumn</strong> is used for setting the position of the vertical line for wrapping. Set the value to <strong>-1</strong> to
-remove the line.</li>
-<li><strong>Wrap</strong> number sets the limit of characters before wrapping. Set to <strong>0</strong> to remove wrapping or <strong>true</strong> for wrapping
-on the container's width.</li>
-<li><strong>MinLines</strong> is a minimum number of lines to be displayed.</li>
-<li><strong>MaxLines</strong> is a maximum number of lines to be displayed. If the number of lines exceeds this limit, vertical scroll will appear.</li>
+<li><strong>wrap</strong> option specifies characters limit by line. If the number of characters is greater than <strong>wrap</strong>, then the line is splitted into multiple ones, each shorter than <strong>wrap</strong> characters. By default there is no limit. We apply this transformation only on markup changes from snippets/settings. Default value: 60.</li>
 </ul>
-<p>We think that these options are the most common, so we made their configuration easier. All you need is to pass an object
-to the editor's attribute <em>editor-config</em>, like in the example below:</p>
-<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-editor</span> <span class="token attr-name">editor-config</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{wrap: 70}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-editor</span><span class="token punctuation">></span></span>
-</code></pre>
-<p>If you don't specify it, the default one will be used:</p>
-<pre><code class="language-typescript">defaultConfig<span class="token operator">:</span> EditorConfig <span class="token operator">=</span> <span class="token punctuation">{</span>
-    theme<span class="token operator">:</span> <span class="token string">'ace/theme/chrome'</span><span class="token punctuation">,</span>
-    printMarginColumn<span class="token operator">:</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span>
-    wrap<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-    minLines<span class="token operator">:</span> <span class="token number">8</span><span class="token punctuation">,</span>
-    maxLines<span class="token operator">:</span> <span class="token number">22</span><span class="token punctuation">,</span>
-  <span class="token punctuation">}</span><span class="token punctuation">;</span>
-</code></pre>
 <h2>Example</h2>
-<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-editor</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-editor</span><span class="token punctuation">></span></span>
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uip-editor</span> <span class="token attr-name">editor-config</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{wrap: 60}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>uip-editor</span><span class="token punctuation">></span></span>
 </code></pre>
 
 
