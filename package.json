@@ -67,7 +67,7 @@
   "dependencies": {
     "@exadel/esl": "^4.11.0",
     "codejar": "^4.2.0",
-    "jsx-dom": "6.4.23",
+    "jsx-dom": "7.0.4",
     "prismjs": "^1.29.0"
   },
   "devDependencies": {
