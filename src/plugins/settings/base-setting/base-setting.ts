@@ -1,9 +1,8 @@
-import {attr, prop, listen, bind} from '@exadel/esl/modules/esl-utils/decorators';
+import {attr, prop, listen} from '@exadel/esl/modules/esl-utils/decorators';
 import {getAttr, setAttr} from '@exadel/esl/modules/esl-utils/dom/attr';
 
 import {UIPPlugin} from '../../../core/base/plugin';
 
-import type {UIPSettings} from '../settings';
 import type {UIPStateModel} from '../../../core/base/model';
 
 /**
@@ -79,7 +78,7 @@ export abstract class UIPSetting extends UIPPlugin {
    */
   public updateFrom(model: UIPStateModel): void {
     this.disabled = false;
-    const values = model.getAttribute(this.target, this.attribute);
+    const values = model.getMarkupAttribute(this.target, this.attribute);
 
     if (!values.length) {
       this.disabled = true;
@@ -92,7 +91,7 @@ export abstract class UIPSetting extends UIPPlugin {
   }
 
   /** Updates {@link UIPSetting} values */
-  @bind
+  @listen({event: 'uip:modelchange', target: (that: UIPSetting)=> that.model})
   protected override _onRootStateChange(): void {
     this.updateFrom(this.model!);
   }

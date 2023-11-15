@@ -1,6 +1,6 @@
 import {ESLBaseElement} from '@exadel/esl/modules/esl-base-element/core';
-import {ESLTraversingQuery} from "@exadel/esl/modules/esl-traversing-query/core";
-import {attr, memoize} from '@exadel/esl/modules/esl-utils/decorators';
+import {ESLTraversingQuery} from '@exadel/esl/modules/esl-traversing-query/core';
+import {attr, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
 
 import {UIPRoot} from './root';
 
@@ -32,11 +32,9 @@ export abstract class UIPPlugin extends ESLBaseElement {
   protected connectedCallback(): void {
     super.connectedCallback();
     this.classList.add('uip-plugin');
-    this.root?.addStateListener(this._onRootStateChange);
   }
 
   protected disconnectedCallback(): void {
-    this.root?.removeStateListener(this._onRootStateChange);
     super.disconnectedCallback();
     memoize.clear(this, 'root');
   }
@@ -46,5 +44,6 @@ export abstract class UIPPlugin extends ESLBaseElement {
   }
 
   /** Handles {@link UIPRoot} state changes */
+  @listen({event: 'uip:modelchange', target: (that: UIPPlugin)=> that.model})
   protected _onRootStateChange(): void {}
 }

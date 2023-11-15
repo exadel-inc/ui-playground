@@ -1,4 +1,4 @@
-import {Observable} from '@exadel/esl/modules/esl-utils/abstract/observable';
+import {ESLBaseElement} from '@exadel/esl/modules/esl-base-element/core';
 import {decorate} from '@exadel/esl/modules/esl-utils/decorators';
 import {microtask} from '@exadel/esl/modules/esl-utils/async';
 
@@ -37,7 +37,7 @@ export type SnippetTemplate = HTMLTemplateElement | HTMLScriptElement;
  * State holder class to store current UIP markup state
  * Provides methods to modify the state
  */
-export class UIPStateModel extends Observable {
+export class UIPStateModel extends ESLBaseElement {
   /** Current markup state */
   private _html = new DOMParser().parseFromString('', 'text/html').body;
   /** Last {@link UIPPlugin} element which changed markup */
@@ -111,7 +111,7 @@ export class UIPStateModel extends Observable {
    * @param attr - attribute name
    * @returns array of matched elements attribute value (uses the element placement order)
    */
-  public getAttribute(target: string, attr: string): (string | null)[] {
+  public getMarkupAttribute(target: string, attr: string): (string | null)[] {
     return Array.from(this._html.querySelectorAll(target)).map((el) => el.getAttribute(attr));
   }
 
@@ -129,7 +129,7 @@ export class UIPStateModel extends Observable {
   /** Plans microtask to dispatch model change event */
   @decorate(microtask)
   protected dispatchChange(): void {
-    this.fire();
+    this.$$fire('uip:modelchange');
   }
 
   /**
@@ -149,3 +149,6 @@ export class UIPStateModel extends Observable {
     });
   }
 }
+
+UIPStateModel.register('uip-state');
+

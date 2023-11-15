@@ -8,7 +8,7 @@ import Prism from 'prismjs';
 import {CodeJar} from 'codejar';
 
 import {debounce} from '@exadel/esl/modules/esl-utils/async/debounce';
-import {bind, boolAttr, decorate, memoize} from '@exadel/esl/modules/esl-utils/decorators';
+import {boolAttr, decorate, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
 
 import {UIPPluginPanel} from '../../core/panel/plugin-panel';
 import {CopyIcon} from '../copy/uip-copy.icon';
@@ -115,7 +115,7 @@ export class UIPEditor extends UIPPluginPanel {
   }
 
   /** Change editor's markup from markup state changes */
-  @bind
+  @listen({event: 'uip:modelchange', target: (that: UIPEditor)=> that.model})
   protected override _onRootStateChange(): void {
     if (this.model!.lastModifier === this) return;
     this.value = this.model!.html;

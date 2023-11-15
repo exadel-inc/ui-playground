@@ -4,7 +4,6 @@ import {memoize, boolAttr} from '@exadel/esl/modules/esl-utils/decorators';
 import {UIPStateModel} from './model';
 
 import type {SnippetTemplate} from './model';
-import type {AnyToVoidFnSignature} from '@exadel/esl/modules/esl-utils/misc/functions';
 
 /**
  * UI Playground root custom element definition
@@ -37,16 +36,6 @@ export class UIPRoot extends ESLBaseElement {
   protected override connectedCallback(): void {
     super.connectedCallback();
     this.initSnippets();
-  }
-
-  /** Alias for {@link this.model.addListener} */
-  public addStateListener(listener: AnyToVoidFnSignature): void {
-    this.model.addListener(listener);
-  }
-
-  /** Alias for {@link this.model.removeListener} */
-  public removeStateListener(listener: AnyToVoidFnSignature): void {
-    this.model.removeListener(listener);
   }
 
   /** Initial initialization of snippets */

@@ -1,6 +1,6 @@
 import React from 'jsx-dom';
 
-import {bind, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
+import {listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
 import {afterNextRender, skipOneRender} from '@exadel/esl/modules/esl-utils/async';
 
 import {UIPPlugin} from '../base/plugin';
@@ -34,7 +34,7 @@ export class UIPPreview extends UIPPlugin {
   }
 
   /** Changes preview markup from state changes */
-  @bind
+  @listen({event: 'uip:modelchange', target: (that: UIPPreview)=> that.model})
   protected _onRootStateChange(): void {
     this.$container.style.minHeight = `${this.$inner.offsetHeight}px`;
     this.$inner.innerHTML = this.model!.html;
