@@ -53,7 +53,7 @@ title: Example with list of cards
     </div>
   </script>
   <uip-preview></uip-preview>
-  <uip-settings target=".card-list">
+  <uip-settings target=".card-list" vertical>
     <uip-select-setting label="Card color:" target=".card-item" attribute="class" mode="append">
       <option value="red">Red</option>
       <option value="aqua">Aqua</option>
@@ -61,5 +61,5 @@ title: Example with list of cards
     </uip-select-setting>
     <uip-bool-setting label="Wrap items" attribute="wrap-items"></uip-bool-setting>
   </uip-settings>
-  <uip-editor></uip-editor>
+  <uip-editor collapsible></uip-editor>
 </uip-root>

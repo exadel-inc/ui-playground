@@ -18,14 +18,14 @@ title: Example with multiple playgrounds
         <div class="card-item card-circle aqua">Single card</div>
       </script>
       <uip-preview></uip-preview>
-      <uip-settings target=".card-item">
+      <uip-settings target=".card-item" vertical>
         <uip-select-setting label="Card color:" attribute="class" mode="append">
           <option value="red">Red</option>
           <option value="aqua">Aqua</option>
           <option value="green">Green</option>
         </uip-select-setting>
       </uip-settings>
-      <uip-editor></uip-editor>
+      <uip-editor collapsible></uip-editor>
     </uip-root>
   </section>
 
@@ -57,7 +57,7 @@ title: Example with multiple playgrounds
         </div>
       </script>
       <uip-preview></uip-preview>
-      <uip-settings target=".card-list">
+      <uip-settings target=".card-list" vertical>
         <uip-select-setting label="Card color:" target=".card-item" attribute="class" mode="append">
           <option value="red">Red</option>
           <option value="aqua">Aqua</option>
@@ -65,7 +65,7 @@ title: Example with multiple playgrounds
         </uip-select-setting>
         <uip-bool-setting label="Wrap items" attribute="wrap-items"></uip-bool-setting>
       </uip-settings>
-      <uip-editor></uip-editor>
+      <uip-editor collapsible></uip-editor>
     </uip-root>
   </section>
 </div>
