@@ -1,5 +1,5 @@
 import {ESLBaseElement} from '@exadel/esl/modules/esl-base-element/core';
-import {memoize, boolAttr} from '@exadel/esl/modules/esl-utils/decorators';
+import {memoize, boolAttr, listen} from '@exadel/esl/modules/esl-utils/decorators';
 
 import {UIPStateModel} from './model';
 
@@ -42,5 +42,10 @@ export class UIPRoot extends ESLBaseElement {
   protected initSnippets(): void {
     this.model.snippets = this.$snippets;
     this.model.applySnippet(this.model.activeSnippet, this);
+  }
+
+  @listen({event: 'uip:model:change', target: ($this: UIPRoot) => $this.model})
+  protected onModelChange({detail}: CustomEvent): void {
+    this.dispatchEvent(new CustomEvent('uip:change', {detail}));
   }
 }

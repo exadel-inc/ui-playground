@@ -78,7 +78,7 @@ export abstract class UIPSetting extends UIPPlugin {
    */
   public updateFrom(model: UIPStateModel): void {
     this.disabled = false;
-    const values = model.getMarkupAttribute(this.target, this.attribute);
+    const values = model.getAttribute(this.target, this.attribute);
 
     if (!values.length) {
       this.disabled = true;
@@ -91,8 +91,8 @@ export abstract class UIPSetting extends UIPPlugin {
   }
 
   /** Updates {@link UIPSetting} values */
-  @listen({event: 'uip:modelchange', target: (that: UIPSetting)=> that.model})
-  protected override _onRootStateChange(): void {
+  @listen({event: 'uip:model:change', target: ($this: UIPSetting)=> $this.model})
+  protected _onRootStateChange(): void {
     this.updateFrom(this.model!);
   }
 

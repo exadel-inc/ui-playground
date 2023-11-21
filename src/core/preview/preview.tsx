@@ -34,7 +34,7 @@ export class UIPPreview extends UIPPlugin {
   }
 
   /** Changes preview markup from state changes */
-  @listen({event: 'uip:modelchange', target: (that: UIPPreview)=> that.model})
+  @listen({event: 'uip:model:change', target: ($this: UIPPreview)=> $this.model})
   protected _onRootStateChange(): void {
     this.$container.style.minHeight = `${this.$inner.offsetHeight}px`;
     this.$inner.innerHTML = this.model!.html;

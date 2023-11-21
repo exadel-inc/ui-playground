@@ -10,11 +10,11 @@ export class UIPDirSwitcher extends UIPPluginButton {
 
   @memoize()
   get $preview(): UIPPreview {
-    return this.root!.querySelector('uip-preview')!;
+    return this.$root!.querySelector('uip-preview')!;
   }
 
   protected override connectedCallback(): void {
-    if (!this.root || !this.$preview) return;
+    if (!this.$root || !this.$preview) return;
     super.connectedCallback();
     this.onDirChange();
   }

@@ -1,11 +1,11 @@
-import {ESLBaseElement} from '@exadel/esl/modules/esl-base-element/core';
+import {SyntheticEventTarget} from '@exadel/esl/modules/esl-utils/dom';
 import {decorate} from '@exadel/esl/modules/esl-utils/decorators';
 import {microtask} from '@exadel/esl/modules/esl-utils/async';
 
 import {UIPHtmlNormalizationService} from '../utils/normalization';
 
-import type {UIPPlugin} from './plugin';
 import type {UIPRoot} from './root';
+import type {UIPPlugin} from './plugin';
 
 /** Type for function to change attribute's current value */
 export type TransformSignature = (current: string | null) => string | boolean | null;
@@ -37,7 +37,7 @@ export type SnippetTemplate = HTMLTemplateElement | HTMLScriptElement;
  * State holder class to store current UIP markup state
  * Provides methods to modify the state
  */
-export class UIPStateModel extends ESLBaseElement {
+export class UIPStateModel extends SyntheticEventTarget {
   /** Current markup state */
   private _html = new DOMParser().parseFromString('', 'text/html').body;
   /** Last {@link UIPPlugin} element which changed markup */
@@ -111,7 +111,7 @@ export class UIPStateModel extends ESLBaseElement {
    * @param attr - attribute name
    * @returns array of matched elements attribute value (uses the element placement order)
    */
-  public getMarkupAttribute(target: string, attr: string): (string | null)[] {
+  public getAttribute(target: string, attr: string): (string | null)[] {
     return Array.from(this._html.querySelectorAll(target)).map((el) => el.getAttribute(attr));
   }
 
@@ -129,7 +129,7 @@ export class UIPStateModel extends ESLBaseElement {
   /** Plans microtask to dispatch model change event */
   @decorate(microtask)
   protected dispatchChange(): void {
-    this.$$fire('uip:modelchange');
+    this.dispatchEvent(new CustomEvent('uip:model:change', {bubbles: true, detail: this}));
   }
 
   /**
@@ -149,6 +149,3 @@ export class UIPStateModel extends ESLBaseElement {
     });
   }
 }
-
-UIPStateModel.register('uip-state');
-

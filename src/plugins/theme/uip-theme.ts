@@ -7,6 +7,6 @@ export class UIPThemeSwitcher extends UIPPluginButton {
   public static override defaultTitle = 'Switch theme';
 
   protected override onAction(): void {
-    this.root?.toggleAttribute('dark-theme');
+    this.$root?.toggleAttribute('dark-theme');
   }
 }

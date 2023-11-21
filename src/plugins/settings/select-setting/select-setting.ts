@@ -99,7 +99,7 @@ export class UIPSelectSetting extends UIPSetting {
 
   updateFrom(model: UIPStateModel): void {
     this.reset();
-    const attrValues = model.getMarkupAttribute(this.target, this.attribute);
+    const attrValues = model.getAttribute(this.target, this.attribute);
 
     if (!attrValues.length) {
       this.disabled = true;
