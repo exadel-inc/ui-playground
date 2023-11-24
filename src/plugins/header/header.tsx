@@ -1,7 +1,7 @@
 import React from 'jsx-dom';
 
 import {UIPPlugin} from '../../core/base/plugin';
-import {UIPThemeIcon} from '../theme/uip-theme.icon';
+import {ThemeToggleIcon} from '../theme/theme-toggle.icon';
 
 import {UIPSnippets} from './snippets/snippets';
 
@@ -33,6 +33,6 @@ export class UIPHeader extends UIPPlugin {
 
   /** Renders {@link UIPThemeSwitch} element */
   protected renderThemeSwitch(): Element {
-    return (<uip-toggle-theme><UIPThemeIcon/></uip-toggle-theme>) as Element;
+    return (<uip-theme-toggle><ThemeToggleIcon/></uip-theme-toggle>) as Element;
   }
 }

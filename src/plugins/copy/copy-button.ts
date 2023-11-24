@@ -1,4 +1,4 @@
-import './uip-copy.shape';
+import './copy-button.shape';
 
 import {UIPPluginButton} from '../../core/button/plugin-button';
 
