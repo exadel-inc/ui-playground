@@ -38,11 +38,17 @@ export class UIPEditor extends UIPPluginPanel {
     return <EditorIcon/>;
   }
 
+  protected override get $label(): JSX.Element {
+    return <span className='uip-plugin-header-title'>
+      {this.label}{this.isJsReadonly && <span className='readonly-label'> (readonly)</span>}
+    </span>;
+  }
+
   @memoize()
   protected override get $toolbar(): HTMLElement {
     const type = this.constructor as typeof UIPEditor;
     return (
-      <div class={type.is + '-toolbar uip-plugin-header-toolbar'}>
+      <div className={type.is + '-toolbar uip-plugin-header-toolbar'}>
         {this.showCopy ? <uip-copy class={type.is + '-header-copy'} source={this.source}><CopyIcon/></uip-copy> : ''}
       </div>
     ) as HTMLElement;
@@ -55,7 +61,7 @@ export class UIPEditor extends UIPPluginPanel {
     return (
       <div className={`${type.is}-inner uip-plugin-inner uip-plugin-inner-bg`}>
         <esl-scrollbar class={type.is + '-scrollbar'} target="::next"/>
-        <div class={type.is + '-container esl-scrollable-content'}>
+        <div className={type.is + '-container esl-scrollable-content'}>
           {this.$code}
         </div>
       </div>
@@ -76,6 +82,10 @@ export class UIPEditor extends UIPPluginPanel {
     return CodeJar(this.$code, UIPEditor.highlight, {tab: '\t'});
   }
 
+  public get isJsReadonly(): boolean {
+    return !this.model?.activeSnippet?.isolated && this.source !== 'html';
+  }
+
   /** @returns editor's content */
   public get value(): string {
     return this.editor.toString();
@@ -83,7 +93,10 @@ export class UIPEditor extends UIPPluginPanel {
 
   /** Preformat and set editor's content */
   public set value(value: string) {
-    this.editor.updateCode(value);
+    if (this.isJsReadonly) {
+      this.$code.textContent = value.trim();
+      UIPEditor.highlight(this.$code);
+    } else this.editor.updateCode(value);
   }
 
   protected override connectedCallback(): void {
@@ -98,7 +111,9 @@ export class UIPEditor extends UIPPluginPanel {
     // Initial update
     this._onRootStateChange();
     // Postpone subscription
-    Promise.resolve().then(() => this.editor?.onUpdate(this._onChange));
+    if (!this.isJsReadonly) {
+      Promise.resolve().then(() => this.editor?.onUpdate(this._onChange));
+    }
   }
 
   protected override disconnectedCallback(): void {
