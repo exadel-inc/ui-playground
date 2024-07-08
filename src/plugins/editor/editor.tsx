@@ -8,7 +8,8 @@ import Prism from 'prismjs';
 import {CodeJar} from 'codejar';
 
 import {debounce} from '@exadel/esl/modules/esl-utils/async/debounce';
-import {attr, boolAttr, decorate, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
+import {attr, decorate, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
+import {parseBoolean, toBooleanAttribute} from '@exadel/esl/modules/esl-utils/misc/format';
 
 import {UIPPluginPanel} from '../../core/panel/plugin-panel';
 import {CopyIcon} from '../copy/copy-button.icon';
@@ -33,7 +34,8 @@ export class UIPEditor extends UIPPluginPanel {
   @attr({defaultValue: 'html'}) public source: 'js' | 'javascript' | 'html';
 
   /** Marker to display copy widget */
-  @boolAttr({name: 'copy'}) public showCopy: boolean;
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, name: 'copy'})
+  public showCopy: boolean;
 
   protected override get $icon(): JSX.Element {
     return <EditorIcon/>;

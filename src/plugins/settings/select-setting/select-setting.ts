@@ -1,5 +1,6 @@
 import {randUID} from '@exadel/esl/modules/esl-utils/misc/uid';
-import {attr, boolAttr, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
+import {attr, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
+import {parseBoolean, toBooleanAttribute} from '@exadel/esl/modules/esl-utils/misc/format';
 
 import {TokenListUtils} from '../../../core/utils/token-list';
 import {UIPSetting} from '../base-setting/base-setting';
@@ -27,7 +28,8 @@ export class UIPSelectSetting extends UIPSetting {
    */
   @attr({defaultValue: 'replace'}) public mode: 'replace' | 'append';
   /** Indicates whether setting supports multiple values selected or not */
-  @boolAttr() public multiple: boolean;
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute})
+  public multiple: boolean;
   /** Select field to change setting's value */
   @memoize()
   protected get $field(): ESLSelect {

@@ -1,9 +1,11 @@
 import {ESLBaseElement} from '@exadel/esl/modules/esl-base-element/core';
+import {parseBoolean, toBooleanAttribute} from '@exadel/esl/modules/esl-utils/misc/format';
 import {
   memoize,
   boolAttr,
   listen,
-  prop
+  prop,
+  attr
 } from '@exadel/esl/modules/esl-utils/decorators';
 
 import {UIPStateModel} from './model';
@@ -34,7 +36,8 @@ export class UIPRoot extends ESLBaseElement {
   public static SNIPPET_SEL = '[uip-snippet]';
 
   /** Indicates that the UIP components' theme is dark */
-  @boolAttr() public darkTheme: boolean;
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute})
+  public darkTheme: boolean;
 
   /** Indicates ready state of the uip-root */
   @boolAttr({readonly: true}) public ready: boolean;

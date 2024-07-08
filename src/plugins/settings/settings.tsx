@@ -2,6 +2,7 @@ import React from 'jsx-dom';
 
 import {debounce} from '@exadel/esl/modules/esl-utils/async/debounce';
 import {attr, boolAttr, decorate, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
+import {parseBoolean, toBooleanAttribute} from '@exadel/esl/modules/esl-utils/misc/format';
 
 import {UIPPluginPanel} from '../../core/panel/plugin-panel';
 import {ThemeToggleIcon} from '../theme/theme-toggle.icon';
@@ -21,8 +22,10 @@ export class UIPSettings extends UIPPluginPanel {
   /** Attribute to set all inner {@link UIPSetting} settings' {@link UIPSetting#target} targets */
   @attr() public target: string;
 
-  @boolAttr() public dirToggle: boolean;
-  @boolAttr() public themeToggle: boolean;
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute})
+  public dirToggle: boolean;
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute})
+  public themeToggle: boolean;
 
   /** @readonly internal settings items state marker */
   @boolAttr({readonly: true}) public inactive: boolean;
