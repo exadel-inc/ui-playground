@@ -1,7 +1,7 @@
 import React from 'jsx-dom';
 
 import {debounce} from '@exadel/esl/modules/esl-utils/async/debounce';
-import {attr, boolAttr, decorate, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
+import {attr, boolAttr, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
 
 import {UIPPluginPanel} from '../../core/panel/plugin-panel';
 import {ThemeToggleIcon} from '../theme/theme-toggle.icon';
@@ -71,7 +71,7 @@ export class UIPSettings extends UIPPluginPanel {
     this.appendChild(this.$header);
     this.appendChild(this.$inner);
     this.appendChild(this.$resize);
-    this.invalidate();
+    debounce(this.invalidate, 100);
   }
 
   protected override disconnectedCallback(): void {
@@ -91,7 +91,6 @@ export class UIPSettings extends UIPPluginPanel {
     }
   }
 
-  @decorate(debounce, 100)
   protected invalidate(): void {
     memoize.clear(this, '$items');
     const outside = this.$items.filter((el) => el.parentElement !== this.$container);
