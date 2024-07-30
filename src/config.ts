@@ -1,8 +1,4 @@
 export interface UIPDefaultConfigs {
-  root: {
-    darkTheme?: boolean;
-  };
-
   editor: {
     label?: string;
     copy?: boolean;
