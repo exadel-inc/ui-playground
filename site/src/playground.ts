@@ -26,8 +26,5 @@ init({
     collapsible: true,
     hideable: true,
     resizable: true
-  },
-  preview: {
-    resizable: true
   }
 });

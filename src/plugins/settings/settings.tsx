@@ -31,10 +31,10 @@ export class UIPSettings extends UIPPluginPanel {
   @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('settings').hideable})
   public hideable: boolean;
 
-  @attr({inherit: true, defaultValue: () => UIPDefaults.for('settings').collapsible})
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('settings').collapsible})
   public collapsible: boolean;
 
-  @attr({inherit: true, defaultValue: () => UIPDefaults.for('settings').resizable})
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('settings').resizable})
   public resizable: boolean;
 
   /** @readonly internal settings items state marker */
@@ -80,6 +80,7 @@ export class UIPSettings extends UIPPluginPanel {
   }
 
   protected override connectedCallback(): void {
+    console.log(this.resizable, this.collapsible, this.hideable);
     super.connectedCallback();
     this.appendChild(this.$header);
     this.appendChild(this.$inner);

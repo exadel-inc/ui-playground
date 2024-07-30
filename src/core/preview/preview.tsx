@@ -30,8 +30,6 @@ export class UIPPreview extends UIPPlugin {
   /** Delay to show new content after isolated full refresh */
   @attr({defaultValue: 150, parser: parseInt}) public refreshDelay: number;
 
-  @attr({inherit: true, defaultValue: () => UIPDefaults.for('preview').resizable}) public resizable: boolean;
-
   protected _iframeResizeRAF: number = 0;
 
   /** {@link UIPPlugin} section wrapper */

@@ -17,10 +17,6 @@ export interface UIPDefaultConfigs {
     resizable?: boolean;
     hideable?: boolean;
   };
-
-  preview: {
-    resizable?: boolean;
-  };
 }
 
 export class UIPDefaults {

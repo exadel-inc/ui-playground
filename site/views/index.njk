@@ -25,7 +25,7 @@ isLandingPage: true
     </script>
     <uip-preview class="fill center-alignment"></uip-preview>
 
-    <uip-settings vertical="@+sm" target=".logo-content">
+    <uip-settings resizable collapsible vertical="@+sm" target=".logo-content" theme-toggle dir-toggle>
       <uip-slider-setting label="Width:" target=".logo-content svg" attribute="width" min="50" max="150"></uip-slider-setting>
       <uip-select-setting label="Color:" attribute="class" mode="append">
         <option value="gray-clr">Dark gray</option>
@@ -34,7 +34,6 @@ isLandingPage: true
       </uip-select-setting>
     </uip-settings>
 
-    <uip-editor></uip-editor>
+    <uip-editor collapsible copy></uip-editor>
   </uip-root>
 </section>
-

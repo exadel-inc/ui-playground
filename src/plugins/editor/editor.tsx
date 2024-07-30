@@ -38,13 +38,13 @@ export class UIPEditor extends UIPPluginPanel {
   @attr({parser: parseBoolean, serializer: toBooleanAttribute, name: 'copy', defaultValue: () => UIPDefaults.for('editor').copy})
   public showCopy: boolean;
 
-  @attr({inherit: true, defaultValue: () => UIPDefaults.for('editor').collapsible})
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('editor').collapsible})
   public collapsible: boolean;
 
-  @attr({inherit: true, defaultValue: () => UIPDefaults.for('editor').resizable})
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('editor').resizable})
   public resizable: boolean;
 
-  @attr({inherit: true, defaultValue: () => UIPDefaults.for('editor').label})
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('editor').label})
   public label: string;
 
   protected override get $icon(): JSX.Element {
