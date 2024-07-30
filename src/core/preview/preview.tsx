@@ -6,7 +6,6 @@ import {parseBoolean, toBooleanAttribute} from '@exadel/esl/modules/esl-utils/mi
 import {promisifyEvent, promisifyNextRender, promisifyTimeout} from '@exadel/esl/modules/esl-utils/async';
 
 import {UIPPlugin} from '../base/plugin';
-import {UIPDefaults} from '../../config';
 import {UIPRenderingTemplatesService} from '../processors/templates';
 import {UIPJSRenderingPreprocessors, UIPHTMLRenderingPreprocessors} from '../processors/rendering';
 
