@@ -34,6 +34,8 @@ export class UIPEditor extends UIPPluginPanel {
   /** Source for Editor plugin (default: 'html') */
   @attr({defaultValue: 'html'}) public source: 'js' | 'javascript' | 'html';
 
+  @attr({defaultValue: () => UIPDefaults.for('editor').label}) public label: string;
+
   /** Marker to display copy widget */
   @attr({parser: parseBoolean, serializer: toBooleanAttribute, name: 'copy', defaultValue: () => UIPDefaults.for('editor').copy})
   public showCopy: boolean;
@@ -43,9 +45,6 @@ export class UIPEditor extends UIPPluginPanel {
 
   @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('editor').resizable})
   public resizable: boolean;
-
-  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('editor').label})
-  public label: string;
 
   protected override get $icon(): JSX.Element {
     return <EditorIcon/>;
