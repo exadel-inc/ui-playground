@@ -6,6 +6,7 @@ import {parseBoolean, toBooleanAttribute} from '@exadel/esl/modules/esl-utils/mi
 import {promisifyEvent, promisifyNextRender, promisifyTimeout} from '@exadel/esl/modules/esl-utils/async';
 
 import {UIPPlugin} from '../base/plugin';
+import {UIPDefaults} from '../../config';
 import {UIPRenderingTemplatesService} from '../processors/templates';
 import {UIPJSRenderingPreprocessors, UIPHTMLRenderingPreprocessors} from '../processors/rendering';
 
@@ -28,6 +29,8 @@ export class UIPPreview extends UIPPlugin {
 
   /** Delay to show new content after isolated full refresh */
   @attr({defaultValue: 150, parser: parseInt}) public refreshDelay: number;
+
+  @attr({inherit: true, defaultValue: () => UIPDefaults.for('preview').resizable}) public resizable: boolean;
 
   protected _iframeResizeRAF: number = 0;
 

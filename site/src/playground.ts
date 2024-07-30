@@ -14,4 +14,20 @@ ESLAlert.register();
 ESLAlert.init();
 
 import {init} from '@exadel/ui-playground/esm/registration.js';
-init();
+init({
+  editor: {
+    label: 'Source code',
+    copy: true,
+    collapsible: true,
+  },
+  settings: {
+    dirToggle: true,
+    themeToggle: true,
+    collapsible: true,
+    hideable: true,
+    resizable: true
+  },
+  preview: {
+    resizable: true
+  }
+});

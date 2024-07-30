@@ -8,6 +8,7 @@ import {
   attr
 } from '@exadel/esl/modules/esl-utils/decorators';
 
+import {UIPDefaults} from '../../config';
 import {UIPStateModel} from './model';
 
 import type {UIPSnippetTemplate} from './snippet';
@@ -36,7 +37,7 @@ export class UIPRoot extends ESLBaseElement {
   public static SNIPPET_SEL = '[uip-snippet]';
 
   /** Indicates that the UIP components' theme is dark */
-  @attr({parser: parseBoolean, serializer: toBooleanAttribute})
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('root').darkTheme})
   public darkTheme: boolean;
 
   /** Indicates ready state of the uip-root */

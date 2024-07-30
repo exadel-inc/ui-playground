@@ -12,7 +12,7 @@ export abstract class UIPPluginPanel extends UIPPlugin {
   public static readonly observedAttributes: string[] = ['vertical', 'collapsible', ...UIPPlugin.observedAttributes];
 
   /** Marker to collapse editor area */
-  @attr({parser: parseBoolean}) public collapsed: boolean;
+  @boolAttr() public collapsed: boolean;
 
   /** Marker to make enable toggle collapse action for section header */
   @attr({parser: parseBoolean, serializer: toBooleanAttribute})
@@ -23,7 +23,7 @@ export abstract class UIPPluginPanel extends UIPPlugin {
   public resizable: boolean;
 
   /** Marker that indicates resizing state of the panel */
-  @attr({parser: parseBoolean}) public resizing: boolean;
+  @boolAttr() public resizing: boolean;
 
   /** Marker to make plugin panel vertical */
   @attr({defaultValue: 'not all'}) public vertical: string;
