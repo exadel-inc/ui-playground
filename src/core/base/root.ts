@@ -9,8 +9,8 @@ import {
 import {UIPStateModel} from './model';
 import {UIPChangeEvent} from './model.change';
 
-import type {UIPSnippetTemplate} from './snippet';
 import type {UIPChangeInfo} from './model.change';
+import type {UIPSnippetTemplate} from './snippet';
 
 /**
  * UI Playground root custom element definition
@@ -51,7 +51,7 @@ export class UIPRoot extends ESLBaseElement {
     return Array.from(this.querySelectorAll(UIPRoot.SNIPPET_SEL));
   }
 
-  protected delyedScrollIntoView(): void {
+  protected delayedScrollIntoView(): void {
     setTimeout(() => {
       this.scrollIntoView({behavior: 'smooth', block: 'start'});
     }, 100);
@@ -65,7 +65,7 @@ export class UIPRoot extends ESLBaseElement {
     this.$$fire(this.READY_EVENT, {bubbles: false});
 
     if (this.model.anchorSnippet) {
-      this.delyedScrollIntoView();
+      this.delayedScrollIntoView();
     }
   }
 
