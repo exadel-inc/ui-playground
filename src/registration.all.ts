@@ -13,5 +13,15 @@ export function initWithESL(): void {
   ESLToggleable.register();
   ESLScrollbar.register();
 
-  init();
+  init({
+    editor: {
+      label: 'Source code',
+      copy: true,
+      collapsible: true
+    },
+    settings: {
+      resizable: true,
+      hideable: true
+    }
+  });
 }

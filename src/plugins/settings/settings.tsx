@@ -2,8 +2,10 @@ import React from 'jsx-dom';
 
 import {debounce} from '@exadel/esl/modules/esl-utils/async/debounce';
 import {attr, boolAttr, decorate, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
+import {parseBoolean, toBooleanAttribute} from '@exadel/esl/modules/esl-utils/misc/format';
 
 import {UIPPluginPanel} from '../../core/panel/plugin-panel';
+import {UIPDefaults} from '../../config';
 import {ThemeToggleIcon} from '../theme/theme-toggle.icon';
 
 import {SettingsIcon} from './settings.icon';
@@ -21,8 +23,19 @@ export class UIPSettings extends UIPPluginPanel {
   /** Attribute to set all inner {@link UIPSetting} settings' {@link UIPSetting#target} targets */
   @attr() public target: string;
 
-  @boolAttr() public dirToggle: boolean;
-  @boolAttr() public themeToggle: boolean;
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('settings').dirToggle})
+  public dirToggle: boolean;
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('settings').themeToggle})
+  public themeToggle: boolean;
+
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('settings').hideable})
+  public hideable: boolean;
+
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('settings').collapsible})
+  public collapsible: boolean;
+
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('settings').resizable})
+  public resizable: boolean;
 
   /** @readonly internal settings items state marker */
   @boolAttr({readonly: true}) public inactive: boolean;
