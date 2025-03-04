@@ -72,8 +72,8 @@
     "prismjs": "^1.29.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
     "@exadel/eslint-config-esl": "^5.0.0",
     "@exadel/eslint-plugin-esl": "^5.0.0",
     "@semantic-release/changelog": "^6.0.3",
