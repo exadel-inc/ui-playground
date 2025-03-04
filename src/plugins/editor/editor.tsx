@@ -8,8 +8,10 @@ import Prism from 'prismjs';
 import {CodeJar} from 'codejar';
 
 import {debounce} from '@exadel/esl/modules/esl-utils/async/debounce';
-import {attr, boolAttr, decorate, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
+import {attr, decorate, listen, memoize} from '@exadel/esl/modules/esl-utils/decorators';
+import {parseBoolean, toBooleanAttribute} from '@exadel/esl/modules/esl-utils/misc/format';
 
+import {UIPDefaults} from '../../config';
 import {UIPPluginPanel} from '../../core/panel/plugin-panel';
 import {CopyIcon} from '../copy/copy-button.icon';
 import {ResetIcon} from '../reset/reset-button.icon';
@@ -33,8 +35,17 @@ export class UIPEditor extends UIPPluginPanel {
   /** Source for Editor plugin (default: 'html') */
   @attr({defaultValue: 'html'}) public source: UIPEditableSource;
 
+  @attr({defaultValue: () => UIPDefaults.for('editor').label}) public label: string;
+
   /** Marker to display copy widget */
-  @boolAttr({name: 'copy'}) public showCopy: boolean;
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, name: 'copy', defaultValue: () => UIPDefaults.for('editor').copy})
+  public showCopy: boolean;
+
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('editor').collapsible})
+  public collapsible: boolean;
+
+  @attr({parser: parseBoolean, serializer: toBooleanAttribute, defaultValue: () => UIPDefaults.for('editor').resizable})
+  public resizable: boolean;
 
   protected override get $icon(): JSX.Element {
     return <EditorIcon/>;
