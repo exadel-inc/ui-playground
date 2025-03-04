@@ -66,7 +66,7 @@
     "site"
   ],
   "dependencies": {
-    "@exadel/esl": "^5.0.0",
+    "@exadel/esl": "^5.0.1",
     "codejar": "^4.2.0",
     "jsx-dom": "6.4.23",
     "prismjs": "^1.29.0"
@@ -74,8 +74,8 @@
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",
     "@commitlint/config-conventional": "^19.7.1",
-    "@exadel/eslint-config-esl": "^5.0.0",
-    "@exadel/eslint-plugin-esl": "^5.0.0",
+    "@exadel/eslint-config-esl": "^5.0.1",
+    "@exadel/eslint-plugin-esl": "^5.0.1",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/git": "^10.0.1",
