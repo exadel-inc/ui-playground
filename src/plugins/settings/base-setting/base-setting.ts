@@ -114,9 +114,7 @@ export abstract class UIPSetting extends UIPPlugin {
    * Indicates setting's incorrect state
    * (e.g. multiple attribute values or no target provided)
    */
-  protected setInconsistency(msg: string = this.INCONSISTENT_VALUE_MSG): void {
-    return;
-  }
+  protected setInconsistency(msg: string = this.INCONSISTENT_VALUE_MSG): void {}
 
   /**
    * Disable setting

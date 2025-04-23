@@ -44,7 +44,7 @@ export class UIPStateStorage {
   protected get _lsState(): Record<string, any> {
     return JSON.parse(localStorage.getItem(UIPStateStorage.STORAGE_KEY) || '{}');
   }
-  
+
   protected set _lsState(value: Record<string, any>) {
     localStorage.setItem(UIPStateStorage.STORAGE_KEY, JSON.stringify(value));
   }
@@ -58,8 +58,8 @@ export class UIPStateStorage {
   public loadState(): void {
     const stateKey = this.getStateKey();
     const state = stateKey && this.loadEntry(stateKey);
-    if (!state) return; 
-    
+    if (!state) return;
+
     const stateobj = JSON.parse(state) as UIPStateModelSnippets;
     this.model.setHtml(stateobj.html, this, true);
     this.model.setJS(stateobj.js, this);
@@ -81,11 +81,11 @@ export class UIPStateStorage {
 
   @listen({event: 'uip:model:change', target: ($this: UIPStateStorage) => $this.model})
   protected _onModelChange(): void {
-    this.saveState()
+    this.saveState();
   }
 
   @listen({event: 'uip:model:snippet:change', target: ($this: UIPStateStorage) => $this.model})
   protected _onSnippetChange(): void {
-    this.loadState()
+    this.loadState();
   }
 }

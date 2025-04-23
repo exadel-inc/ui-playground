@@ -3,8 +3,8 @@ import './reset-button.shape';
 import {listen, attr, boolAttr} from '@exadel/esl/modules/esl-utils/decorators';
 
 import {UIPPluginButton} from '../../core/button/plugin-button';
-import {UIPRoot} from '../../core/base/root';
 
+import type {UIPRoot} from '../../core/base/root';
 import type {UIPEditableSource} from '../../core/base/source';
 
 /** Button-plugin to reset snippet to default settings */
