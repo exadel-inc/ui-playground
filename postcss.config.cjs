@@ -1,5 +1,5 @@
 module.exports = {
   plugins: [
-    ['postcss-preset-env', {autoprefixer: { grid: true }}]
+    ['postcss-preset-env', {autoprefixer: {grid: true}}]
   ]
-}
+};
