@@ -1,15 +1,8 @@
 # UIPlayground
 
-<p align="center">
-  <img width="150" height="150" src="https://github.com/exadel-inc/ui-playground/blob/main/docs/images/uip-logo.png?raw=true">
-</p>
-
-<br/>
-
-[![npm](https://img.shields.io/npm/v/@exadel/ui-playground?style=for-the-badge)](https://www.npmjs.com/package/@exadel/ui-playground)
-[![version](https://img.shields.io/github/package-json/v/exadel-inc/ui-playground?style=for-the-badge)](https://github.com/exadel-inc/ui-playground/releases/latest)
-[![build](https://img.shields.io/github/actions/workflow/status/exadel-inc/ui-playground/lint.yml?style=for-the-badge)](https://github.com/exadel-inc/ui-playground/actions/workflows/lint.yml)
-[![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)](./README.md)
+> :warning: **Notice: This repository has moved**
+> Active development, issues, and pull requests are now handled in :point_right: [exadel-inc/esl](https://github.com/exadel-inc/esl).
+> This repository is archived and no longer maintained.
 
 **UIPlayground** is a solution for presenting your custom components.
 
